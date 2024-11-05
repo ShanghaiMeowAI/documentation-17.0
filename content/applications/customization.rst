@@ -8,3 +8,4 @@ Customization
 
     customization/APQP
     customization/helpdesk
+    customization/EDI
