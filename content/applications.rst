@@ -21,3 +21,4 @@ Discover our user guides and configuration tutorials per application.
     applications/hr
     applications/studio
     applications/APQP
+    applications/helpdesk
