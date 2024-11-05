@@ -488,6 +488,8 @@ def _generate_alternate_urls(app, pagename, templatename, context, doctree):
                         _build_url(_lang=_alternate_lang),
                     )
                 )
+                print("=======================")
+                print(context['alternate_languages'])
 
         # Dynamic generation of localized legal doc links
         context['legal_translations'] = legal_translations
