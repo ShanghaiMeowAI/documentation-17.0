@@ -24,7 +24,7 @@ Odoo 17 服务台模块的主要功能包括：
 
 在 **服务台** 模块 > **概述** 页面，展示我的工单、绩效队以及帮助中心团队的工单处理情况：
 
-.. image:: APQP/img_1.png
+.. image:: helpdesk/img_1.png
   :align: center
 
 工单
@@ -35,23 +35,23 @@ Odoo 17 服务台模块的主要功能包括：
 
 在 **服务台** 模块 > **工单 > 我的工单 > 新建** 页面，填写相关信息以及批次后保存，弹出“分派处理”按钮，点击此按钮后，在弹窗中选择分派给指定的人员处理以及填写处理意见，处理确认日期将自动带出：
 
-.. image:: APQP/img_2.png
+.. image:: helpdesk/img_2.png
   :align: center
 
 被分派人确认处理：
 
-.. image:: APQP/img_3.png
+.. image:: helpdesk/img_3.png
   :align: center
 
 当产品批次栏有信息且保存后，生成“创建质量警报”按钮，点击后在顶部生成“质量警报”按钮，点击跳转到质量模块，生成质量警报单据，写入工单内的相关信息。注意：同一工单不会重复触发，若产品批次号复数，则生成对应批次号的复数质量警报单：
 
-.. image:: APQP/img_4.png
+.. image:: helpdesk/img_4.png
   :align: center
 
-.. image:: APQP/img_5.png
+.. image:: helpdesk/img_5.png
   :align: center
 
-.. image:: APQP/img_6.png
+.. image:: helpdesk/img_6.png
   :align: center
 
 全部工单
@@ -69,7 +69,7 @@ Odoo 17 服务台模块的主要功能包括：
 
 可选择的度量来跟踪工作流中不同点花费最多时间的位置。要更改当前显示的报告使用的度量或添加更多度量，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。
 
-.. image:: APQP/img_7.png
+.. image:: helpdesk/img_7.png
   :align: center
 
 SLA状态分析
@@ -77,7 +77,7 @@ SLA状态分析
 
 在 **服务台** 模块 > **报告 > SLA状态分析** 页面，SLA状态分析报告分析单个SLA（服务水平协议）的性能。默认情况下，该报告被筛选以显示失败的SLA数量、正在进行的SLA数量和已经成功的数量。结果按更改当前显示的用于报告的度量进行分组，或者要添加更多，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。
 
-.. image:: APQP/img_8.png
+.. image:: helpdesk/img_8.png
   :align: center
 
 配置
@@ -88,7 +88,7 @@ SLA状态分析
 
 在 **服务台** 模块 > **配置 > 帮助中心团队 > 新建** 页面，配置帮助中心团队信息：
 
-.. image:: APQP/img_9.png
+.. image:: helpdesk/img_9.png
   :align: center
 
 SLA策略
@@ -96,7 +96,7 @@ SLA策略
 
 在 **服务台** 模块 > **配置 > SLA策略 > 新建** 页面，配置SLA策略信息：
 
-.. image:: APQP/img_10.png
+.. image:: helpdesk/img_10.png
   :align: center
 
 类型
@@ -104,5 +104,5 @@ SLA策略
 
 在 **服务台** 模块 > **配置 > 类型 > 新建** 页面，配置类型信息：
 
-.. image:: APQP/img_11.png
+.. image:: helpdesk/img_11.png
   :align: center
