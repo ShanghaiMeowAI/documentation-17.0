@@ -20,5 +20,4 @@ Discover our user guides and configuration tutorials per application.
     applications/inventory_and_mrp
     applications/hr
     applications/studio
-    applications/APQP
-    applications/helpdesk
+    applications/customization
