@@ -1,0 +1,1541 @@
+
+<!DOCTYPE html>
+
+<html lang="ZH (CN)">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>供应商 &#8212; Odoo 17.0 文档</title>
+    
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css" />
+    
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/js/utils.js"></script>
+    <script src="../../../_static/js/layout.js"></script>
+    <script src="../../../_static/js/menu.js"></script>
+    <script src="../../../_static/js/page_toc.js"></script>
+    <script src="../../../_static/js/switchers.js"></script>
+    <script src="../../../_static/translations.js"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
+        <link rel="alternate" hreflang="x-default" href="/applications/hr/lunch/vendors.html" />
+        <link rel="alternate" hreflang="th" href="/th/applications/hr/lunch/vendors.html" />
+    <link rel="canonical" href="/applications/hr/lunch/vendors.html" />
+    
+    <link rel="index" title="索引" href="../../../genindex.html" />
+    <link rel="search" title="搜索" href="../../../search.html" />
+    <link rel="next" title="产品" href="products.html" />
+    <link rel="prev" title="午餐" href="../lunch.html" /> 
+  </head><body>
+    <noscript>
+        <nav class="o_side_nav border-end">
+
+
+<ul class="current">
+<li class="toctree-l1 current o_menu_applications"><a class="reference internal" href="../../../applications.html">用户文档</a><ul class="current">
+<li class="toctree-l2 o_menu_applications_essentials"><a class="reference internal" href="#">Odoo 要点</a><ul>
+<li class="toctree-l3 o_menu_applications_essentials_activities"><a class="reference internal" href="../../essentials/activities.html">活动</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_reporting"><a class="reference internal" href="../../essentials/reporting.html">报告</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_search"><a class="reference internal" href="../../essentials/search.html">搜索、筛选和分组记录</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_contacts"><a class="reference internal" href="../../essentials/contacts.html">联系人</a><ul>
+<li class="toctree-l4 o_menu_applications_essentials_contacts_merge"><a class="reference internal" href="../../essentials/contacts/merge.html">合并联系人</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_essentials_export_import_data"><a class="reference internal" href="../../essentials/export_import_data.html">导出和导入数据</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_in_app_purchase"><a class="reference internal" href="../../essentials/in_app_purchase.html">应用内购买（IAP）</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_keyboard_shortcuts"><a class="reference internal" href="../../essentials/keyboard_shortcuts.html">Keyboard shortcuts</a></li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_finance"><a class="reference internal" href="#">财务</a><ul>
+<li class="toctree-l3 o_menu_applications_finance_accounting"><a class="reference internal" href="../../finance/accounting.html">会计和开票</a><ul>
+<li class="toctree-l4 o_menu_applications_finance_accounting_get_started"><a class="reference internal" href="../../finance/accounting/get_started.html">开始</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_cheat_sheet"><a class="reference internal" href="../../finance/accounting/get_started/cheat_sheet.html">会计备忘单</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_chart_of_accounts"><a class="reference internal" href="../../finance/accounting/get_started/chart_of_accounts.html">科目表</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_multi_currency"><a class="reference internal" href="../../finance/accounting/get_started/multi_currency.html">多币种系统</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_avg_price_valuation"><a class="reference internal" href="../../finance/accounting/get_started/avg_price_valuation.html">退货商品的平均价格</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_tax_units"><a class="reference internal" href="../../finance/accounting/get_started/tax_units.html">Tax units</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_taxes"><a class="reference internal" href="../../finance/accounting/taxes.html">税</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_cash_basis"><a class="reference internal" href="../../finance/accounting/taxes/cash_basis.html">现金收付税费</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_retention"><a class="reference internal" href="../../finance/accounting/taxes/retention.html">预扣税</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_vat_verification"><a class="reference internal" href="../../finance/accounting/taxes/vat_verification.html">VAT numbers verification (VIES)</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_fiscal_positions"><a class="reference internal" href="../../finance/accounting/taxes/fiscal_positions.html">财政状况（税项和科目映射）</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_avatax"><a class="reference internal" href="../../finance/accounting/taxes/avatax.html">AvaTax 整合功能</a><ul>
+<li class="toctree-l6 o_menu_applications_finance_accounting_taxes_avatax_avatax_use"><a class="reference internal" href="../../finance/accounting/taxes/avatax/avatax_use.html">使用 AvaTax</a></li>
+<li class="toctree-l6 o_menu_applications_finance_accounting_taxes_avatax_avalara_portal"><a class="reference internal" href="../../finance/accounting/taxes/avatax/avalara_portal.html">Avalara (Avatax) 门户网站</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_taxcloud"><a class="reference internal" href="../../finance/accounting/taxes/taxcloud.html">TaxCloud集成</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_eu_distance_selling"><a class="reference internal" href="../../finance/accounting/taxes/eu_distance_selling.html">欧盟境内远程销售</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_B2B_B2C"><a class="reference internal" href="../../finance/accounting/taxes/B2B_B2C.html">B2B（不含税）和 B2C（含税）定价</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_customer_invoices"><a class="reference internal" href="../../finance/accounting/customer_invoices.html">客户开票</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_overview"><a class="reference internal" href="../../finance/accounting/customer_invoices/overview.html">开票流程</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_customer_addresses"><a class="reference internal" href="../../finance/accounting/customer_invoices/customer_addresses.html">送货地址和发票地址</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_payment_terms"><a class="reference internal" href="../../finance/accounting/customer_invoices/payment_terms.html">付款条件和分期付款计划</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_terms_conditions"><a class="reference internal" href="../../finance/accounting/customer_invoices/terms_conditions.html">默认条款和条件</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_cash_discounts"><a class="reference internal" href="../../finance/accounting/customer_invoices/cash_discounts.html">现金折扣及减税</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_credit_notes"><a class="reference internal" href="../../finance/accounting/customer_invoices/credit_notes.html">信用票据和退款</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_cash_rounding"><a class="reference internal" href="../../finance/accounting/customer_invoices/cash_rounding.html">现金舍入</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_deferred_revenues"><a class="reference internal" href="../../finance/accounting/customer_invoices/deferred_revenues.html">递延收入</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_electronic_invoicing"><a class="reference internal" href="../../finance/accounting/customer_invoices/electronic_invoicing.html">电子开票（<abbr title="electronic data interchange">EDI</abbr>）</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_snailmail"><a class="reference internal" href="../../finance/accounting/customer_invoices/snailmail.html">传统信件</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_epc_qr_code"><a class="reference internal" href="../../finance/accounting/customer_invoices/epc_qr_code.html">EPC 二维码</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_incoterms"><a class="reference internal" href="../../finance/accounting/customer_invoices/incoterms.html">国际贸易术语</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_vendor_bills"><a class="reference internal" href="../../finance/accounting/vendor_bills.html">供应商账单</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_vendor_bills_invoice_digitization"><a class="reference internal" href="../../finance/accounting/vendor_bills/invoice_digitization.html">人工智能赋能的文件数字化</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_vendor_bills_assets"><a class="reference internal" href="../../finance/accounting/vendor_bills/assets.html">非流动资产和固定资产</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_vendor_bills_deferred_expenses"><a class="reference internal" href="../../finance/accounting/vendor_bills/deferred_expenses.html">递延费用</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_payments"><a class="reference internal" href="../../finance/accounting/payments.html">支付</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_online"><a class="reference internal" href="../../finance/accounting/payments/online.html">在线支付</a><ul>
+<li class="toctree-l6 o_menu_applications_finance_accounting_payments_online_install_portal_patch"><a class="reference internal" href="../../finance/accounting/payments/online/install_portal_patch.html">安装补丁以禁用在线发票付款</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_checks"><a class="reference internal" href="../../finance/accounting/payments/checks.html">支票</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_batch"><a class="reference internal" href="../../finance/accounting/payments/batch.html">通过银行存款批量付款</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_batch_sdd"><a class="reference internal" href="../../finance/accounting/payments/batch_sdd.html">批量付款：SEPA直接付款（SDD）</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_follow_up"><a class="reference internal" href="../../finance/accounting/payments/follow_up.html">开票跟进</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_internal_transfers"><a class="reference internal" href="../../finance/accounting/payments/internal_transfers.html">内部转账</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_pay_sepa"><a class="reference internal" href="../../finance/accounting/payments/pay_sepa.html">使用SEPA</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_pay_checks"><a class="reference internal" href="../../finance/accounting/payments/pay_checks.html">支票付款</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_forecast"><a class="reference internal" href="../../finance/accounting/payments/forecast.html">预测将来要支付的账单</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_trusted_accounts"><a class="reference internal" href="../../finance/accounting/payments/trusted_accounts.html">受信任账户（汇款）</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_bank"><a class="reference internal" href="../../finance/accounting/bank.html">银行和现金账户</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_bank_synchronization"><a class="reference internal" href="../../finance/accounting/bank/bank_synchronization.html">银行同步</a><ul>
+<li class="toctree-l6 o_menu_applications_finance_accounting_bank_bank_synchronization_saltedge"><a class="reference internal" href="../../finance/accounting/bank/bank_synchronization/saltedge.html">Salt Edge</a></li>
+<li class="toctree-l6 o_menu_applications_finance_accounting_bank_bank_synchronization_ponto"><a class="reference internal" href="../../finance/accounting/bank/bank_synchronization/ponto.html">Ponto（网络银行工具）</a></li>
+<li class="toctree-l6 o_menu_applications_finance_accounting_bank_bank_synchronization_enablebanking"><a class="reference internal" href="../../finance/accounting/bank/bank_synchronization/enablebanking.html">Enable Banking</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_transactions"><a class="reference internal" href="../../finance/accounting/bank/transactions.html">交易</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_reconciliation"><a class="reference internal" href="../../finance/accounting/bank/reconciliation.html">银行对账</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_reconciliation_models"><a class="reference internal" href="../../finance/accounting/bank/reconciliation_models.html">对账模型</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_foreign_currency"><a class="reference internal" href="../../finance/accounting/bank/foreign_currency.html">以外币管理银行账户</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_reporting"><a class="reference internal" href="../../finance/accounting/reporting.html">报表</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_tax_returns"><a class="reference internal" href="../../finance/accounting/reporting/tax_returns.html">退税（增值税申报）</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_tax_carryover"><a class="reference internal" href="../../finance/accounting/reporting/tax_carryover.html">税项结转</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_analytic_accounting"><a class="reference internal" href="../../finance/accounting/reporting/analytic_accounting.html">分析会计</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_budget"><a class="reference internal" href="../../finance/accounting/reporting/budget.html">Analytic budgets</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_intrastat"><a class="reference internal" href="../../finance/accounting/reporting/intrastat.html">国际联盟</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_data_inalterability"><a class="reference internal" href="../../finance/accounting/reporting/data_inalterability.html">数据不变性检查报告</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_silverfin"><a class="reference internal" href="../../finance/accounting/reporting/silverfin.html">Silverfin 整合</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_customize"><a class="reference internal" href="../../finance/accounting/reporting/customize.html">自定义报告</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_year_end"><a class="reference internal" href="../../finance/accounting/reporting/year_end.html">年终结算</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_finance_expenses"><a class="reference internal" href="../../finance/expenses.html">费用</a><ul>
+<li class="toctree-l4 o_menu_applications_finance_expenses_approve_expenses"><a class="reference internal" href="../../finance/expenses/approve_expenses.html">批准报销</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_log_expenses"><a class="reference internal" href="../../finance/expenses/log_expenses.html">Log expenses</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_expense_reports"><a class="reference internal" href="../../finance/expenses/expense_reports.html">费用报告</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_post_expenses"><a class="reference internal" href="../../finance/expenses/post_expenses.html">Post expenses</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_reimburse"><a class="reference internal" href="../../finance/expenses/reimburse.html">向员工发还款项</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_reinvoice_expenses"><a class="reference internal" href="../../finance/expenses/reinvoice_expenses.html">Re-invoice expenses</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_finance_payment_providers"><a class="reference internal" href="../../finance/payment_providers.html">在线支付</a><ul>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_wire_transfer"><a class="reference internal" href="../../finance/payment_providers/wire_transfer.html">Wire transfers</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_adyen"><a class="reference internal" href="../../finance/payment_providers/adyen.html">Adyen</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_alipay"><a class="reference internal" href="../../finance/payment_providers/alipay.html">支付宝</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_amazon_payment_services"><a class="reference internal" href="../../finance/payment_providers/amazon_payment_services.html">Amazon支付服务</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_asiapay"><a class="reference internal" href="../../finance/payment_providers/asiapay.html">AsiaPay</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_authorize"><a class="reference internal" href="../../finance/payment_providers/authorize.html">Authorize.Net</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_buckaroo"><a class="reference internal" href="../../finance/payment_providers/buckaroo.html">Buckaroo</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_demo"><a class="reference internal" href="../../finance/payment_providers/demo.html">演示</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_flutterwave"><a class="reference internal" href="../../finance/payment_providers/flutterwave.html">Flutterwave</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_mercado_pago"><a class="reference internal" href="../../finance/payment_providers/mercado_pago.html">Mercado Pago</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_mollie"><a class="reference internal" href="../../finance/payment_providers/mollie.html">Mollie</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_ogone"><a class="reference internal" href="../../finance/payment_providers/ogone.html">Ogone</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_paypal"><a class="reference internal" href="../../finance/payment_providers/paypal.html">PayPal</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_razorpay"><a class="reference internal" href="../../finance/payment_providers/razorpay.html">Razorpay</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_sips"><a class="reference internal" href="../../finance/payment_providers/sips.html">SIPS</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_stripe"><a class="reference internal" href="../../finance/payment_providers/stripe.html">Stripe</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_xendit"><a class="reference internal" href="../../finance/payment_providers/xendit.html">Xendit</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_finance_fiscal_localizations"><a class="reference internal" href="../../finance/fiscal_localizations.html">财务本地化</a><ul>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_argentina"><a class="reference internal" href="../../finance/fiscal_localizations/argentina.html">阿根廷</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_australia"><a class="reference internal" href="../../finance/fiscal_localizations/australia.html">澳大利亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_austria"><a class="reference internal" href="../../finance/fiscal_localizations/austria.html">奥地利</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_belgium"><a class="reference internal" href="../../finance/fiscal_localizations/belgium.html">比利时</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_brazil"><a class="reference internal" href="../../finance/fiscal_localizations/brazil.html">巴西</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_canada"><a class="reference internal" href="../../finance/fiscal_localizations/canada.html">加拿大</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_chile"><a class="reference internal" href="../../finance/fiscal_localizations/chile.html">智利</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_colombia"><a class="reference internal" href="../../finance/fiscal_localizations/colombia.html">哥伦比亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_ecuador"><a class="reference internal" href="../../finance/fiscal_localizations/ecuador.html">厄瓜多尔</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_egypt"><a class="reference internal" href="../../finance/fiscal_localizations/egypt.html">埃及</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_france"><a class="reference internal" href="../../finance/fiscal_localizations/france.html">法国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_germany"><a class="reference internal" href="../../finance/fiscal_localizations/germany.html">德国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_hong_kong"><a class="reference internal" href="../../finance/fiscal_localizations/hong_kong.html">香港</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_india"><a class="reference internal" href="../../finance/fiscal_localizations/india.html">印度</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_indonesia"><a class="reference internal" href="../../finance/fiscal_localizations/indonesia.html">印度尼西亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_italy"><a class="reference internal" href="../../finance/fiscal_localizations/italy.html">意大利</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_kenya"><a class="reference internal" href="../../finance/fiscal_localizations/kenya.html">肯尼亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_luxembourg"><a class="reference internal" href="../../finance/fiscal_localizations/luxembourg.html">卢森堡</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_mexico"><a class="reference internal" href="../../finance/fiscal_localizations/mexico.html">墨西哥</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_netherlands"><a class="reference internal" href="../../finance/fiscal_localizations/netherlands.html">荷兰</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_romania"><a class="reference internal" href="../../finance/fiscal_localizations/romania.html">罗马尼亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_peru"><a class="reference internal" href="../../finance/fiscal_localizations/peru.html">秘鲁</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_philippines"><a class="reference internal" href="../../finance/fiscal_localizations/philippines.html">菲律宾</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_saudi_arabia"><a class="reference internal" href="../../finance/fiscal_localizations/saudi_arabia.html">沙特阿拉伯</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_singapore"><a class="reference internal" href="../../finance/fiscal_localizations/singapore.html">新加坡</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_spain"><a class="reference internal" href="../../finance/fiscal_localizations/spain.html">西班牙</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_switzerland"><a class="reference internal" href="../../finance/fiscal_localizations/switzerland.html">瑞士</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_thailand"><a class="reference internal" href="../../finance/fiscal_localizations/thailand.html">泰国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_vietnam"><a class="reference internal" href="../../finance/fiscal_localizations/vietnam.html">越南</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_united_arab_emirates"><a class="reference internal" href="../../finance/fiscal_localizations/united_arab_emirates.html">阿拉伯联合酋长国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_united_kingdom"><a class="reference internal" href="../../finance/fiscal_localizations/united_kingdom.html">英国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_united_states"><a class="reference internal" href="../../finance/fiscal_localizations/united_states.html">美国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_uruguay"><a class="reference internal" href="../../finance/fiscal_localizations/uruguay.html">乌拉圭</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_sales"><a class="reference internal" href="#">销售</a><ul>
+<li class="toctree-l3 o_menu_applications_sales_crm"><a class="reference internal" href="../../sales/crm.html">客户关系管理系统</a><ul>
+<li class="toctree-l4 o_menu_applications_sales_crm_pipeline"><a class="reference internal" href="#">组织管道</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_pipeline_lost_opportunities"><a class="reference internal" href="../../sales/crm/pipeline/lost_opportunities.html">管理失去的机会</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_pipeline_merge_similar"><a class="reference internal" href="../../sales/crm/pipeline/merge_similar.html">合并类似客户和机会</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_pipeline_manage_sales_teams"><a class="reference internal" href="../../sales/crm/pipeline/manage_sales_teams.html">管理销售团队</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_crm_acquire_leads"><a class="reference internal" href="#">获取销售线索</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_convert"><a class="reference internal" href="../../sales/crm/acquire_leads/convert.html">销售线索转换商机</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_opportunities_form"><a class="reference internal" href="../../sales/crm/acquire_leads/opportunities_form.html">通过网络联系表单创造商机</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_email_manual"><a class="reference internal" href="../../sales/crm/acquire_leads/email_manual.html">创建销售线索（通过电子邮件或手动操作）</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_send_quotes"><a class="reference internal" href="../../sales/crm/acquire_leads/send_quotes.html">创建并发送报价单</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_lead_mining"><a class="reference internal" href="../../sales/crm/acquire_leads/lead_mining.html">线索挖掘</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_crm_track_leads"><a class="reference internal" href="#">分配和跟踪销售线索</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_lead_scoring"><a class="reference internal" href="../../sales/crm/track_leads/lead_scoring.html">使用预测潜在客户评分，分配潜在客户。</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_unattended_leads_report"><a class="reference internal" href="../../sales/crm/track_leads/unattended_leads_report.html">Unattended leads report</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_quality_leads_report"><a class="reference internal" href="../../sales/crm/track_leads/quality_leads_report.html">优质潜在客户报告</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_resellers"><a class="reference internal" href="../../sales/crm/track_leads/resellers.html">经销商</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_marketing_attribution"><a class="reference internal" href="../../sales/crm/track_leads/marketing_attribution.html">Marketing attribution reports</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_lead_distribution_report"><a class="reference internal" href="../../sales/crm/track_leads/lead_distribution_report.html">销售线索分配报告</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_crm_performance"><a class="reference internal" href="#">分析性能</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_performance_win_loss"><a class="reference internal" href="../../sales/crm/performance/win_loss.html">流水线分析</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_performance_expected_revenue_report"><a class="reference internal" href="../../sales/crm/performance/expected_revenue_report.html">Expected revenue report</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_performance_forecast_report"><a class="reference internal" href="../../sales/crm/performance/forecast_report.html">Forecast report</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_crm_optimize"><a class="reference internal" href="#">优化您的日常工作</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_optimize_partner_autocomplete"><a class="reference internal" href="../../sales/crm/optimize/partner_autocomplete.html">Enrich contacts with partner autocomplete</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_optimize_gamification"><a class="reference internal" href="../../sales/crm/optimize/gamification.html">游戏化 CRM</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_optimize_utilize_activities"><a class="reference internal" href="../../sales/crm/optimize/utilize_activities.html">Utilize activities for sales teams</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_optimize_lead_enrichment"><a class="reference internal" href="../../sales/crm/optimize/lead_enrichment.html">Lead enrichment</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_sales_sales"><a class="reference internal" href="../../sales/sales.html">销售</a><ul>
+<li class="toctree-l4 o_menu_applications_sales_sales_send_quotations"><a class="reference internal" href="#">发送报价</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_create_quotations"><a class="reference internal" href="../../sales/sales/send_quotations/create_quotations.html">Create quotations</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_quote_template"><a class="reference internal" href="../../sales/sales/send_quotations/quote_template.html">报价模板</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_optional_products"><a class="reference internal" href="../../sales/sales/send_quotations/optional_products.html">可选产品</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_get_signature_to_validate"><a class="reference internal" href="../../sales/sales/send_quotations/get_signature_to_validate.html">Online signatures for order confirmations</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_get_paid_to_validate"><a class="reference internal" href="../../sales/sales/send_quotations/get_paid_to_validate.html">Online payment order confirmation</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_deadline"><a class="reference internal" href="../../sales/sales/send_quotations/deadline.html">Quotation deadlines</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_different_addresses"><a class="reference internal" href="../../sales/sales/send_quotations/different_addresses.html">Deliveries and invoices to different addresses</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_orders_and_variants"><a class="reference internal" href="../../sales/sales/send_quotations/orders_and_variants.html">Product variants on quotations and sales orders</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_pdf_quote_builder"><a class="reference internal" href="../../sales/sales/send_quotations/pdf_quote_builder.html">PDF quote builder</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_sales_invoicing"><a class="reference internal" href="#">开票方式</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_invoicing_policy"><a class="reference internal" href="../../sales/sales/invoicing/invoicing_policy.html">基于已交付或订购数量的开票</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_down_payment"><a class="reference internal" href="../../sales/sales/invoicing/down_payment.html">Down payments</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_proforma"><a class="reference internal" href="../../sales/sales/invoicing/proforma.html">Pro-forma invoices</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_time_materials"><a class="reference internal" href="../../sales/sales/invoicing/time_materials.html">根据工时和材料开具发票</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_milestone"><a class="reference internal" href="../../sales/sales/invoicing/milestone.html">开票项目流程</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_expense"><a class="reference internal" href="../../sales/sales/invoicing/expense.html">Reinvoice expenses to customers</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_sales_products_prices"><a class="reference internal" href="#">产品和价格</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_products"><a class="reference internal" href="#">管理您的产品</a><ul>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_products_import"><a class="reference internal" href="../../sales/sales/products_prices/products/import.html">导入产品</a></li>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_products_variants"><a class="reference internal" href="../../sales/sales/products_prices/products/variants.html">产品变体</a></li>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_products_product_images"><a class="reference internal" href="../../sales/sales/products_prices/products/product_images.html">Product images with Google Images</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_prices"><a class="reference internal" href="#">管理定价</a><ul>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_prices_pricing"><a class="reference internal" href="../../sales/sales/products_prices/prices/pricing.html">Pricelists, discounts, and formulas</a></li>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_prices_currencies"><a class="reference internal" href="../../sales/sales/products_prices/prices/currencies.html">Foreign currencies</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_returns"><a class="reference internal" href="../../sales/sales/products_prices/returns.html">退货和退款</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_ewallets_giftcards"><a class="reference internal" href="../../sales/sales/products_prices/ewallets_giftcards.html">使用电子钱包和礼品卡</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_loyalty_discount"><a class="reference internal" href="../../sales/sales/products_prices/loyalty_discount.html">折扣和忠诚度计划</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_sales_amazon_connector"><a class="reference internal" href="#">亚马逊连接器</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_amazon_connector_features"><a class="reference internal" href="../../sales/sales/amazon_connector/features.html">亚马逊连接器特点</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_amazon_connector_setup"><a class="reference internal" href="../../sales/sales/amazon_connector/setup.html">亚马逊连接器配置</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_amazon_connector_manage"><a class="reference internal" href="../../sales/sales/amazon_connector/manage.html">亚马逊订单管理</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_sales_ebay_connector"><a class="reference internal" href="#">eBay 连接器</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_ebay_connector_setup"><a class="reference internal" href="../../sales/sales/ebay_connector/setup.html">eBay 连接器设置</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_ebay_connector_manage"><a class="reference internal" href="../../sales/sales/ebay_connector/manage.html">如何上架一个产品</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_ebay_connector_troubleshooting"><a class="reference internal" href="../../sales/sales/ebay_connector/troubleshooting.html">eBay 连接器故障排除</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_ebay_connector_linking_listings"><a class="reference internal" href="../../sales/sales/ebay_connector/linking_listings.html">Linking existing listings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_inventory_and_mrp"><a class="reference internal" href="#">供应链</a><ul>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_inventory"><a class="reference internal" href="../../inventory_and_mrp/inventory.html">库存</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_inventory_product_management"><a class="reference internal" href="#">产品管理</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_product_management_configure"><a class="reference internal" href="#">配置产品</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_configure_type"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/configure/type.html">产品类型</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_configure_uom"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/configure/uom.html">计量单位</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_configure_package"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/configure/package.html">包裹</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_configure_packaging"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/configure/packaging.html">包装</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking.html">产品追踪</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_serial_numbers"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.html">Use serial numbers to track products</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_create_sn"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/create_sn.html">分配序列号</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_lots"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/lots.html">批次号码</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_reassign"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/reassign.html">重新分配批次/序列号</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_expiration_dates"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.html">到期日期</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_product_management_inventory_valuation"><a class="reference internal" href="#">库存计价</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_inventory_valuation_inventory_valuation_config"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.html">Automatic inventory valuation</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_inventory_valuation_using_inventory_valuation"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.html">Using inventory valuation</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_inventory_valuation_integrating_landed_costs"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/inventory_valuation/integrating_landed_costs.html">落地成本</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage"><a class="reference internal" href="#">仓库和储存</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management.html">库存管理</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_warehouses"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.html">仓库</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_use_locations"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.html">地点</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_count_products"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.html">库存调整</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_cycle_counts"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.html">Cycle counts</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_scrap_inventory"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory.html">Scrap inventory</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment.html">补货</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment_mto"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.html">按订单补货（MTO）</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment_reordering_rules"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.html">重新排序规则</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment_lead_times"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.html">Lead times</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment_resupply_warehouses"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.html">Inter-warehouse replenishment</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting"><a class="reference internal" href="#">报告</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting_stock"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/reporting/stock.html">Stock report</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting_locations"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/reporting/locations.html">位置仪表板</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting_moves_history"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/reporting/moves_history.html">移动历史仪表板</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting_aging"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/reporting/aging.html">库存账龄报告</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving"><a class="reference internal" href="#">发货和收货</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations.html">入库和出库流量</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_use_routes"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.html">Routes and push/pull rules</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_receipts_delivery_one_step"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.html">One-step receipt and delivery</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_receipts_delivery_two_steps"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.html">Two-step receipt and delivery</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_receipts_three_steps"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_three_steps.html">Three-step receipt</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_delivery_three_steps"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.html">三步交付</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_putaway"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.html">Putaway rules</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_storage_category"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.html">存储类别</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_cross_dock"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/cross_dock.html">在仓库中组织交叉转运</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_stock_warehouses"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses.html">利用虚拟地点从多个仓库销售库存产品</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_owned_stock"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock.html">Consignment: buy and sell stock without owning it</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_dropshipping"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/dropshipping.html">代发货</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.html">Delivery methods</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_third_party_shipper"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.html">Third-party shipping carriers</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_labels"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.html">打印运输标签</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_bpost"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost.html">Bpost 整合</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_dhl_credentials"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.html">DHL 整合</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_fedex"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/fedex.html">FedEx integration</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_sendcloud_shipping"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.html">Sendcloud integration</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_starshipit_shipping"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/starshipit_shipping.html">Starshipit 货运</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_ups_credentials"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.html">UPS 整合</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_zebra"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/zebra.html">Zebra label configuration</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_cancel"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel.html">如何取消发给货代的发货请求？</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_invoicing"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.html">运费发票</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_label_type"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/label_type.html">更改运输标签尺寸</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_multipack"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.html">Multi-package shipments</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_print_on_validation"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.html">Printable delivery PDFs</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_reservation_methods"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/reservation_methods.html">保留方式</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_reservation_methods_at_confirmation"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.html">At confirmation reservation</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_reservation_methods_manually"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.html">手动预约</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_reservation_methods_before_scheduled_date"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.html">Before scheduled date reservation</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_picking_methods"><a class="reference internal" href="#">Picking methods</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_picking_methods_batch"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.html">批量拣货</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_picking_methods_cluster"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster.html">Cluster picking</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_picking_methods_wave"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/picking_methods/wave.html">处理波次转移</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies.html">移除策略</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_fifo"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.html">先进先出移除</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_lifo"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.html">后进先出移除</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_fefo"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.html">FEFO removal</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_closest_location"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.html">Closest location removal</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_least_packages"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.html">Least packages removal</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing.html">生产</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup"><a class="reference internal" href="#">基本设置</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_configure_manufacturing_product"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.html">制造产品配置</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_bill_configuration"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/bill_configuration.html">物料清单</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_one_step_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/one_step_manufacturing.html">One-step manufacturing</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_two_step_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/two_step_manufacturing.html">两步制造</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_three_step_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing.html">三步制造</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_mo_costs"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/mo_costs.html">Manufacturing order costs</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration"><a class="reference internal" href="#">高级配置</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_product_variants"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/product_variants.html">管理产品变型Bom表</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_kit_shipping"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping.html">使用套装</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_sub_assemblies"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.html">管理半成品</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_using_work_centers"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.html">使用工作中心管理工作订单</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_work_order_dependencies"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/work_order_dependencies.html">工单依赖</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_workflows"><a class="reference internal" href="#">工作流</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_use_mps"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/use_mps.html">Master production schedule</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_work_center_time_off"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/work_center_time_off.html">Work center time off</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_scrap_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/scrap_manufacturing.html">制造过程中的废料</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_manufacturing_backorders"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/manufacturing_backorders.html">Manufacturing backorders</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_split_merge"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/split_merge.html">拆分和合并制造订单</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_unbuild_orders"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/unbuild_orders.html">Unbuild orders</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_byproducts"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/byproducts.html">副产品</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_continuous_improvement"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/continuous_improvement.html">持续改进产品</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_shop_floor"><a class="reference internal" href="#">车间现场</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_shop_floor_shop_floor_overview"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/shop_floor/shop_floor_overview.html">Shop Floor overview</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_shop_floor_shop_floor_tracking"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/shop_floor/shop_floor_tracking.html">Shop Floor time tracking</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting.html">分包</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_subcontracting_basic"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.html">Basic subcontracting</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_basic_subcontracting_lead_times"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/basic_subcontracting_lead_times.html">基本分包周转时间</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_subcontracting_resupply"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply.html">分包商重新供应</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_resupply_subcontracting_lead_times"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/resupply_subcontracting_lead_times.html">Resupply subcontracting lead times</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_subcontracting_dropship"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.html">Dropship to subcontractor</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_dropship_subcontracting_lead_times"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/dropship_subcontracting_lead_times.html">代发货分包所需时间</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_reporting"><a class="reference internal" href="#">报告</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_reporting_allocation"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/reporting/allocation.html">分配报告</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_reporting_oee"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/reporting/oee.html">Overall equipment effectiveness</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_reporting_production_analysis"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/reporting/production_analysis.html">Production analysis</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_purchase"><a class="reference internal" href="../../inventory_and_mrp/purchase.html">购买</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_purchase_products"><a class="reference internal" href="#">产品</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_products_pricelist"><a class="reference internal" href="../../inventory_and_mrp/purchase/products/pricelist.html">Import vendor pricelist</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_products_reordering"><a class="reference internal" href="../../inventory_and_mrp/purchase/products/reordering.html">配置重新订购规则</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_products_temporary_reordering"><a class="reference internal" href="../../inventory_and_mrp/purchase/products/temporary_reordering.html">Temporary reordering rules</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_products_uom"><a class="reference internal" href="../../inventory_and_mrp/purchase/products/uom.html">Purchase units of measure</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_purchase_manage_deals"><a class="reference internal" href="#">管理交易</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_rfq"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/rfq.html">采购在途</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_blanket_orders"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/blanket_orders.html">一揽子订单</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_calls_for_tenders"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/calls_for_tenders.html">Call for tenders</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_control_bills"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/control_bills.html">账单控制政策</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_manage"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/manage.html">管理供应商账单</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_purchase_advanced"><a class="reference internal" href="#">高级</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_advanced_analyze"><a class="reference internal" href="../../inventory_and_mrp/purchase/advanced/analyze.html">Purchase Analysis report</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_advanced_vendor_costs_report"><a class="reference internal" href="../../inventory_and_mrp/purchase/advanced/vendor_costs_report.html">供应商成本报告</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_advanced_procurement_expenses_report"><a class="reference internal" href="../../inventory_and_mrp/purchase/advanced/procurement_expenses_report.html">采购费用报告</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_barcode"><a class="reference internal" href="../../inventory_and_mrp/barcode.html">条形码</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_barcode_setup"><a class="reference internal" href="#">设置</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_setup_device_troubleshooting"><a class="reference internal" href="../../inventory_and_mrp/barcode/setup/device_troubleshooting.html">Barcode device troubleshooting</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_setup_hardware"><a class="reference internal" href="../../inventory_and_mrp/barcode/setup/hardware.html">条形码扫描仪设置</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_setup_software"><a class="reference internal" href="../../inventory_and_mrp/barcode/setup/software.html">在 Odoo 中启用条码</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_barcode_operations"><a class="reference internal" href="#">日常作业</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_adjustments"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/adjustments.html">使用条码来做库存调整</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_receipts_deliveries"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/receipts_deliveries.html">使用条形码处理收据和交付货物</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_transfers_scratch"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/transfers_scratch.html">创建和处理带条形码的转账</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_barcode_nomenclature"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/barcode_nomenclature.html">默认条形码命名法</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_gs1_nomenclature"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/gs1_nomenclature.html">GS1 条形码命名法</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_gs1_usage"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/gs1_usage.html">GS1 条形码使用</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_quality"><a class="reference internal" href="../../inventory_and_mrp/quality.html">质量</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_quality_quality_management"><a class="reference internal" href="#">Quality control basics</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_management_quality_control_points"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_management/quality_control_points.html">质量控制点</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_management_quality_alerts"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_management/quality_alerts.html">质量警报</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_management_quality_checks"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_management/quality_checks.html">质量检查</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_management_failure_locations"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_management/failure_locations.html">Failure locations</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_quality_quality_check_types"><a class="reference internal" href="#">质量检查类型</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_check_types_instructions_check"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_check_types/instructions_check.html">指令质量检查</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_check_types_pass_fail_check"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_check_types/pass_fail_check.html">Pass - Fail quality check</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_check_types_measure_check"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_check_types/measure_check.html">测量质量检查</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_check_types_picture_check"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_check_types/picture_check.html">Take a Picture quality check</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_maintenance"><a class="reference internal" href="../../inventory_and_mrp/maintenance.html">维护</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_maintenance_add_new_equipment"><a class="reference internal" href="../../inventory_and_mrp/maintenance/add_new_equipment.html">添加新设备</a></li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_maintenance_maintenance_calendar"><a class="reference internal" href="../../inventory_and_mrp/maintenance/maintenance_calendar.html">维护日历</a></li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_maintenance_maintenance_requests"><a class="reference internal" href="../../inventory_and_mrp/maintenance/maintenance_requests.html">维护请求</a></li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_maintenance_maintenance_setup"><a class="reference internal" href="../../inventory_and_mrp/maintenance/maintenance_setup.html">维修设置</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_plm"><a class="reference internal" href="../../inventory_and_mrp/plm.html">产品生命周期管理</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_plm_manage_changes"><a class="reference internal" href="#">变更管理</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_plm_manage_changes_engineering_change_orders"><a class="reference internal" href="../../inventory_and_mrp/plm/manage_changes/engineering_change_orders.html">工程变更指令</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_plm_manage_changes_eco_type"><a class="reference internal" href="../../inventory_and_mrp/plm/manage_changes/eco_type.html">工程变更指令（ECO）类型</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_plm_manage_changes_version_control"><a class="reference internal" href="../../inventory_and_mrp/plm/manage_changes/version_control.html">版本控制</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_plm_management"><a class="reference internal" href="#">项目管理</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_plm_management_approvals"><a class="reference internal" href="../../inventory_and_mrp/plm/management/approvals.html">审批</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_repairs"><a class="reference internal" href="../../inventory_and_mrp/repairs.html">维修</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_repairs_repair_orders"><a class="reference internal" href="../../inventory_and_mrp/repairs/repair_orders.html">Process repair orders</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current o_menu_applications_hr"><a class="reference internal" href="#">人力资源</a><ul class="current">
+<li class="toctree-l3 o_menu_applications_hr_attendances"><a class="reference internal" href="../attendances.html">出勤</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_attendances_check_in_check_out"><a class="reference internal" href="../attendances/check_in_check_out.html">签到和签退</a></li>
+<li class="toctree-l4 o_menu_applications_hr_attendances_kiosks"><a class="reference internal" href="../attendances/kiosks.html">Kiosks</a></li>
+<li class="toctree-l4 o_menu_applications_hr_attendances_hardware"><a class="reference internal" href="../attendances/hardware.html">硬件</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_employees"><a class="reference internal" href="../employees.html">员工</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_employees_new_employee"><a class="reference internal" href="../employees/new_employee.html">新员工</a></li>
+<li class="toctree-l4 o_menu_applications_hr_employees_departments"><a class="reference internal" href="../employees/departments.html">部门</a></li>
+<li class="toctree-l4 o_menu_applications_hr_employees_certifications"><a class="reference internal" href="../employees/certifications.html">认证</a></li>
+<li class="toctree-l4 o_menu_applications_hr_employees_offboarding"><a class="reference internal" href="../employees/offboarding.html">离职流程</a></li>
+<li class="toctree-l4 o_menu_applications_hr_employees_retention_report"><a class="reference internal" href="../employees/retention_report.html">Employee retention report</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_appraisals"><a class="reference internal" href="../appraisals.html">评估</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_appraisals_new_appraisals"><a class="reference internal" href="../appraisals/new_appraisals.html">New appraisals</a></li>
+<li class="toctree-l4 o_menu_applications_hr_appraisals_goals"><a class="reference internal" href="../appraisals/goals.html">目标</a></li>
+<li class="toctree-l4 o_menu_applications_hr_appraisals_appraisal_analysis"><a class="reference internal" href="../appraisals/appraisal_analysis.html">考评分析</a></li>
+<li class="toctree-l4 o_menu_applications_hr_appraisals_skills_evolution"><a class="reference internal" href="../appraisals/skills_evolution.html">技能进化</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_frontdesk"><a class="reference internal" href="../frontdesk.html">前台</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_frontdesk_visitors"><a class="reference internal" href="../frontdesk/visitors.html">访问者</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_fleet"><a class="reference internal" href="../fleet.html">车辆</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_fleet_models"><a class="reference internal" href="../fleet/models.html">Vehicle models</a></li>
+<li class="toctree-l4 o_menu_applications_hr_fleet_new_vehicle"><a class="reference internal" href="../fleet/new_vehicle.html">新车辆</a></li>
+<li class="toctree-l4 o_menu_applications_hr_fleet_service"><a class="reference internal" href="../fleet/service.html">服务</a></li>
+<li class="toctree-l4 o_menu_applications_hr_fleet_accidents"><a class="reference internal" href="../fleet/accidents.html">Accidents</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_payroll"><a class="reference internal" href="../payroll.html">工资</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_payroll_contracts"><a class="reference internal" href="../payroll/contracts.html">合同</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_work_entries"><a class="reference internal" href="../payroll/work_entries.html">工作条目</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_payslips"><a class="reference internal" href="../payroll/payslips.html">工资单</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_reporting"><a class="reference internal" href="../payroll/reporting.html">报告</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_work_entry_analysis"><a class="reference internal" href="../payroll/work_entry_analysis.html">Work entry analysis</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_salary_attachment"><a class="reference internal" href="../payroll/salary_attachment.html">Salary attachment report</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_time_off"><a class="reference internal" href="../time_off.html">休息时间</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_time_off_allocations"><a class="reference internal" href="../time_off/allocations.html">分配</a></li>
+<li class="toctree-l4 o_menu_applications_hr_time_off_request_time_off"><a class="reference internal" href="../time_off/request_time_off.html">Request time off</a></li>
+<li class="toctree-l4 o_menu_applications_hr_time_off_my_time"><a class="reference internal" href="../time_off/my_time.html">我的时间</a></li>
+<li class="toctree-l4 o_menu_applications_hr_time_off_management"><a class="reference internal" href="../time_off/management.html">管理</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_recruitment"><a class="reference internal" href="../recruitment.html">招聘</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_new_job"><a class="reference internal" href="../recruitment/new_job.html">Job positions</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_recruitment-flow"><a class="reference internal" href="../recruitment/recruitment-flow.html">Recruitment flow</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_add-new-applicants"><a class="reference internal" href="../recruitment/add-new-applicants.html">Add new applicants</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_schedule_interviews"><a class="reference internal" href="../recruitment/schedule_interviews.html">Schedule interviews</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_offer_job_positions"><a class="reference internal" href="../recruitment/offer_job_positions.html">Offer job positions</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_refuse_applicant"><a class="reference internal" href="../recruitment/refuse_applicant.html">Refuse applicants</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_source_analysis"><a class="reference internal" href="../recruitment/source_analysis.html">Source analysis reporting</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_recruitment_analysis"><a class="reference internal" href="../recruitment/recruitment_analysis.html">Recruitment analysis</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_time_in_stage"><a class="reference internal" href="../recruitment/time_in_stage.html">Time in stage analysis</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_team_performance"><a class="reference internal" href="../recruitment/team_performance.html">Team performance reporting</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_referrals"><a class="reference internal" href="../referrals.html">介绍人</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_referrals_share_jobs"><a class="reference internal" href="../referrals/share_jobs.html">Share job positions</a></li>
+<li class="toctree-l4 o_menu_applications_hr_referrals_points"><a class="reference internal" href="../referrals/points.html">Referral points</a></li>
+<li class="toctree-l4 o_menu_applications_hr_referrals_rewards"><a class="reference internal" href="../referrals/rewards.html">优惠及返利</a></li>
+<li class="toctree-l4 o_menu_applications_hr_referrals_alerts"><a class="reference internal" href="../referrals/alerts.html">警告</a></li>
+<li class="toctree-l4 o_menu_applications_hr_referrals_reporting"><a class="reference internal" href="../referrals/reporting.html">报告</a></li>
+</ul>
+</li>
+<li class="toctree-l3 current o_menu_applications_hr_lunch"><a class="reference internal" href="../lunch.html">午餐</a><ul class="current">
+<li class="toctree-l4 current o_menu_applications_hr_lunch_"><a class="current reference internal" href="#">供应商</a></li>
+<li class="toctree-l4 o_menu_applications_hr_lunch_products"><a class="reference internal" href="products.html">产品</a></li>
+<li class="toctree-l4 o_menu_applications_hr_lunch_orders"><a class="reference internal" href="orders.html">订单</a></li>
+<li class="toctree-l4 o_menu_applications_hr_lunch_user-accounts"><a class="reference internal" href="user-accounts.html">管理用户账户</a></li>
+<li class="toctree-l4 o_menu_applications_hr_lunch_management"><a class="reference internal" href="management.html">午餐管理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_studio"><a class="reference internal" href="../../studio.html">在线开发工具</a><ul>
+<li class="toctree-l3 o_menu_applications_studio_fields"><a class="reference internal" href="../../studio/fields.html">字段和小组件</a></li>
+<li class="toctree-l3 o_menu_applications_studio_views"><a class="reference internal" href="../../studio/views.html">查看</a></li>
+<li class="toctree-l3 o_menu_applications_studio_models_modules_apps"><a class="reference internal" href="../../studio/models_modules_apps.html">模型、模组和应用程序</a></li>
+<li class="toctree-l3 o_menu_applications_studio_automated_actions"><a class="reference internal" href="../../studio/automated_actions.html">Automation rules</a></li>
+<li class="toctree-l3 o_menu_applications_studio_pdf_reports"><a class="reference internal" href="../../studio/pdf_reports.html">PDF报告</a></li>
+<li class="toctree-l3 o_menu_applications_studio_approval_rules"><a class="reference internal" href="../../studio/approval_rules.html">审批规则</a></li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_customization"><a class="reference internal" href="#">Customization</a><ul>
+<li class="toctree-l3 o_menu_applications_customization_APQP"><a class="reference internal" href="../../customization/APQP.html">APQP模块</a></li>
+<li class="toctree-l3 o_menu_applications_customization_helpdesk"><a class="reference internal" href="../../customization/helpdesk.html">服务台</a></li>
+<li class="toctree-l3 o_menu_applications_customization_EDI"><a class="reference internal" href="../../customization/EDI.html">EDI</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </nav>
+    </noscript>
+    
+    <nav id="o_menu" class="o_side_nav">
+        <div class="o_mobile-overlay" data-bs-toggle="collapse" data-bs-target="#o_menu"></div>
+        <div class="o_side_nav-inner border-end">
+                
+                <aside id="o_page_toc_in_nav" class="o_page_toc o_in_nav_toc border-bottom pt-3 pb-3" hidden><div class="o_page_toc_nav mt-1">
+    <h5>On this page</h5>
+    <ul>
+<li><a class="reference internal" href="#">供应商</a><ul>
+<li><a class="reference internal" href="#vendor-information">Vendor information</a></li>
+<li><a class="reference internal" href="#availability">可用性</a></li>
+<li><a class="reference internal" href="#orders">订单</a></li>
+<li><a class="reference internal" href="#extras">额外的</a><ul>
+<li><a class="reference internal" href="#configure-extras">Configure extras</a></li>
+<li><a class="reference internal" href="#add-extras">Add extras</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+ 
+</div>
+                </aside>
+            <div id="o_main_toctree" class="o_main_toc mt-3" hidden>
+
+
+<ul class="current">
+<li class="toctree-l1 current o_menu_applications"><a class="reference internal" href="../../../applications.html">用户文档</a><ul class="current">
+<li class="toctree-l2 o_menu_applications_essentials"><a class="reference internal" href="#">Odoo 要点</a><ul>
+<li class="toctree-l3 o_menu_applications_essentials_activities"><a class="reference internal" href="../../essentials/activities.html">活动</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_reporting"><a class="reference internal" href="../../essentials/reporting.html">报告</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_search"><a class="reference internal" href="../../essentials/search.html">搜索、筛选和分组记录</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_contacts"><a class="reference internal" href="../../essentials/contacts.html">联系人</a><ul>
+<li class="toctree-l4 o_menu_applications_essentials_contacts_merge"><a class="reference internal" href="../../essentials/contacts/merge.html">合并联系人</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_essentials_export_import_data"><a class="reference internal" href="../../essentials/export_import_data.html">导出和导入数据</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_in_app_purchase"><a class="reference internal" href="../../essentials/in_app_purchase.html">应用内购买（IAP）</a></li>
+<li class="toctree-l3 o_menu_applications_essentials_keyboard_shortcuts"><a class="reference internal" href="../../essentials/keyboard_shortcuts.html">Keyboard shortcuts</a></li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_finance"><a class="reference internal" href="#">财务</a><ul>
+<li class="toctree-l3 o_menu_applications_finance_accounting"><a class="reference internal" href="../../finance/accounting.html">会计和开票</a><ul>
+<li class="toctree-l4 o_menu_applications_finance_accounting_get_started"><a class="reference internal" href="../../finance/accounting/get_started.html">开始</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_cheat_sheet"><a class="reference internal" href="../../finance/accounting/get_started/cheat_sheet.html">会计备忘单</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_chart_of_accounts"><a class="reference internal" href="../../finance/accounting/get_started/chart_of_accounts.html">科目表</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_multi_currency"><a class="reference internal" href="../../finance/accounting/get_started/multi_currency.html">多币种系统</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_avg_price_valuation"><a class="reference internal" href="../../finance/accounting/get_started/avg_price_valuation.html">退货商品的平均价格</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_get_started_tax_units"><a class="reference internal" href="../../finance/accounting/get_started/tax_units.html">Tax units</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_taxes"><a class="reference internal" href="../../finance/accounting/taxes.html">税</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_cash_basis"><a class="reference internal" href="../../finance/accounting/taxes/cash_basis.html">现金收付税费</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_retention"><a class="reference internal" href="../../finance/accounting/taxes/retention.html">预扣税</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_vat_verification"><a class="reference internal" href="../../finance/accounting/taxes/vat_verification.html">VAT numbers verification (VIES)</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_fiscal_positions"><a class="reference internal" href="../../finance/accounting/taxes/fiscal_positions.html">财政状况（税项和科目映射）</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_avatax"><a class="reference internal" href="../../finance/accounting/taxes/avatax.html">AvaTax 整合功能</a><ul>
+<li class="toctree-l6 o_menu_applications_finance_accounting_taxes_avatax_avatax_use"><a class="reference internal" href="../../finance/accounting/taxes/avatax/avatax_use.html">使用 AvaTax</a></li>
+<li class="toctree-l6 o_menu_applications_finance_accounting_taxes_avatax_avalara_portal"><a class="reference internal" href="../../finance/accounting/taxes/avatax/avalara_portal.html">Avalara (Avatax) 门户网站</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_taxcloud"><a class="reference internal" href="../../finance/accounting/taxes/taxcloud.html">TaxCloud集成</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_eu_distance_selling"><a class="reference internal" href="../../finance/accounting/taxes/eu_distance_selling.html">欧盟境内远程销售</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_taxes_B2B_B2C"><a class="reference internal" href="../../finance/accounting/taxes/B2B_B2C.html">B2B（不含税）和 B2C（含税）定价</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_customer_invoices"><a class="reference internal" href="../../finance/accounting/customer_invoices.html">客户开票</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_overview"><a class="reference internal" href="../../finance/accounting/customer_invoices/overview.html">开票流程</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_customer_addresses"><a class="reference internal" href="../../finance/accounting/customer_invoices/customer_addresses.html">送货地址和发票地址</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_payment_terms"><a class="reference internal" href="../../finance/accounting/customer_invoices/payment_terms.html">付款条件和分期付款计划</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_terms_conditions"><a class="reference internal" href="../../finance/accounting/customer_invoices/terms_conditions.html">默认条款和条件</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_cash_discounts"><a class="reference internal" href="../../finance/accounting/customer_invoices/cash_discounts.html">现金折扣及减税</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_credit_notes"><a class="reference internal" href="../../finance/accounting/customer_invoices/credit_notes.html">信用票据和退款</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_cash_rounding"><a class="reference internal" href="../../finance/accounting/customer_invoices/cash_rounding.html">现金舍入</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_deferred_revenues"><a class="reference internal" href="../../finance/accounting/customer_invoices/deferred_revenues.html">递延收入</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_electronic_invoicing"><a class="reference internal" href="../../finance/accounting/customer_invoices/electronic_invoicing.html">电子开票（<abbr title="electronic data interchange">EDI</abbr>）</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_snailmail"><a class="reference internal" href="../../finance/accounting/customer_invoices/snailmail.html">传统信件</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_epc_qr_code"><a class="reference internal" href="../../finance/accounting/customer_invoices/epc_qr_code.html">EPC 二维码</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_customer_invoices_incoterms"><a class="reference internal" href="../../finance/accounting/customer_invoices/incoterms.html">国际贸易术语</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_vendor_bills"><a class="reference internal" href="../../finance/accounting/vendor_bills.html">供应商账单</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_vendor_bills_invoice_digitization"><a class="reference internal" href="../../finance/accounting/vendor_bills/invoice_digitization.html">人工智能赋能的文件数字化</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_vendor_bills_assets"><a class="reference internal" href="../../finance/accounting/vendor_bills/assets.html">非流动资产和固定资产</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_vendor_bills_deferred_expenses"><a class="reference internal" href="../../finance/accounting/vendor_bills/deferred_expenses.html">递延费用</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_payments"><a class="reference internal" href="../../finance/accounting/payments.html">支付</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_online"><a class="reference internal" href="../../finance/accounting/payments/online.html">在线支付</a><ul>
+<li class="toctree-l6 o_menu_applications_finance_accounting_payments_online_install_portal_patch"><a class="reference internal" href="../../finance/accounting/payments/online/install_portal_patch.html">安装补丁以禁用在线发票付款</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_checks"><a class="reference internal" href="../../finance/accounting/payments/checks.html">支票</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_batch"><a class="reference internal" href="../../finance/accounting/payments/batch.html">通过银行存款批量付款</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_batch_sdd"><a class="reference internal" href="../../finance/accounting/payments/batch_sdd.html">批量付款：SEPA直接付款（SDD）</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_follow_up"><a class="reference internal" href="../../finance/accounting/payments/follow_up.html">开票跟进</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_internal_transfers"><a class="reference internal" href="../../finance/accounting/payments/internal_transfers.html">内部转账</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_pay_sepa"><a class="reference internal" href="../../finance/accounting/payments/pay_sepa.html">使用SEPA</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_pay_checks"><a class="reference internal" href="../../finance/accounting/payments/pay_checks.html">支票付款</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_forecast"><a class="reference internal" href="../../finance/accounting/payments/forecast.html">预测将来要支付的账单</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_payments_trusted_accounts"><a class="reference internal" href="../../finance/accounting/payments/trusted_accounts.html">受信任账户（汇款）</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_bank"><a class="reference internal" href="../../finance/accounting/bank.html">银行和现金账户</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_bank_synchronization"><a class="reference internal" href="../../finance/accounting/bank/bank_synchronization.html">银行同步</a><ul>
+<li class="toctree-l6 o_menu_applications_finance_accounting_bank_bank_synchronization_saltedge"><a class="reference internal" href="../../finance/accounting/bank/bank_synchronization/saltedge.html">Salt Edge</a></li>
+<li class="toctree-l6 o_menu_applications_finance_accounting_bank_bank_synchronization_ponto"><a class="reference internal" href="../../finance/accounting/bank/bank_synchronization/ponto.html">Ponto（网络银行工具）</a></li>
+<li class="toctree-l6 o_menu_applications_finance_accounting_bank_bank_synchronization_enablebanking"><a class="reference internal" href="../../finance/accounting/bank/bank_synchronization/enablebanking.html">Enable Banking</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_transactions"><a class="reference internal" href="../../finance/accounting/bank/transactions.html">交易</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_reconciliation"><a class="reference internal" href="../../finance/accounting/bank/reconciliation.html">银行对账</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_reconciliation_models"><a class="reference internal" href="../../finance/accounting/bank/reconciliation_models.html">对账模型</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_bank_foreign_currency"><a class="reference internal" href="../../finance/accounting/bank/foreign_currency.html">以外币管理银行账户</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_finance_accounting_reporting"><a class="reference internal" href="../../finance/accounting/reporting.html">报表</a><ul>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_tax_returns"><a class="reference internal" href="../../finance/accounting/reporting/tax_returns.html">退税（增值税申报）</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_tax_carryover"><a class="reference internal" href="../../finance/accounting/reporting/tax_carryover.html">税项结转</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_analytic_accounting"><a class="reference internal" href="../../finance/accounting/reporting/analytic_accounting.html">分析会计</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_budget"><a class="reference internal" href="../../finance/accounting/reporting/budget.html">Analytic budgets</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_intrastat"><a class="reference internal" href="../../finance/accounting/reporting/intrastat.html">国际联盟</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_data_inalterability"><a class="reference internal" href="../../finance/accounting/reporting/data_inalterability.html">数据不变性检查报告</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_silverfin"><a class="reference internal" href="../../finance/accounting/reporting/silverfin.html">Silverfin 整合</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_customize"><a class="reference internal" href="../../finance/accounting/reporting/customize.html">自定义报告</a></li>
+<li class="toctree-l5 o_menu_applications_finance_accounting_reporting_year_end"><a class="reference internal" href="../../finance/accounting/reporting/year_end.html">年终结算</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_finance_expenses"><a class="reference internal" href="../../finance/expenses.html">费用</a><ul>
+<li class="toctree-l4 o_menu_applications_finance_expenses_approve_expenses"><a class="reference internal" href="../../finance/expenses/approve_expenses.html">批准报销</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_log_expenses"><a class="reference internal" href="../../finance/expenses/log_expenses.html">Log expenses</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_expense_reports"><a class="reference internal" href="../../finance/expenses/expense_reports.html">费用报告</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_post_expenses"><a class="reference internal" href="../../finance/expenses/post_expenses.html">Post expenses</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_reimburse"><a class="reference internal" href="../../finance/expenses/reimburse.html">向员工发还款项</a></li>
+<li class="toctree-l4 o_menu_applications_finance_expenses_reinvoice_expenses"><a class="reference internal" href="../../finance/expenses/reinvoice_expenses.html">Re-invoice expenses</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_finance_payment_providers"><a class="reference internal" href="../../finance/payment_providers.html">在线支付</a><ul>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_wire_transfer"><a class="reference internal" href="../../finance/payment_providers/wire_transfer.html">Wire transfers</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_adyen"><a class="reference internal" href="../../finance/payment_providers/adyen.html">Adyen</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_alipay"><a class="reference internal" href="../../finance/payment_providers/alipay.html">支付宝</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_amazon_payment_services"><a class="reference internal" href="../../finance/payment_providers/amazon_payment_services.html">Amazon支付服务</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_asiapay"><a class="reference internal" href="../../finance/payment_providers/asiapay.html">AsiaPay</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_authorize"><a class="reference internal" href="../../finance/payment_providers/authorize.html">Authorize.Net</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_buckaroo"><a class="reference internal" href="../../finance/payment_providers/buckaroo.html">Buckaroo</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_demo"><a class="reference internal" href="../../finance/payment_providers/demo.html">演示</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_flutterwave"><a class="reference internal" href="../../finance/payment_providers/flutterwave.html">Flutterwave</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_mercado_pago"><a class="reference internal" href="../../finance/payment_providers/mercado_pago.html">Mercado Pago</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_mollie"><a class="reference internal" href="../../finance/payment_providers/mollie.html">Mollie</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_ogone"><a class="reference internal" href="../../finance/payment_providers/ogone.html">Ogone</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_paypal"><a class="reference internal" href="../../finance/payment_providers/paypal.html">PayPal</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_razorpay"><a class="reference internal" href="../../finance/payment_providers/razorpay.html">Razorpay</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_sips"><a class="reference internal" href="../../finance/payment_providers/sips.html">SIPS</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_stripe"><a class="reference internal" href="../../finance/payment_providers/stripe.html">Stripe</a></li>
+<li class="toctree-l4 o_menu_applications_finance_payment_providers_xendit"><a class="reference internal" href="../../finance/payment_providers/xendit.html">Xendit</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_finance_fiscal_localizations"><a class="reference internal" href="../../finance/fiscal_localizations.html">财务本地化</a><ul>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_argentina"><a class="reference internal" href="../../finance/fiscal_localizations/argentina.html">阿根廷</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_australia"><a class="reference internal" href="../../finance/fiscal_localizations/australia.html">澳大利亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_austria"><a class="reference internal" href="../../finance/fiscal_localizations/austria.html">奥地利</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_belgium"><a class="reference internal" href="../../finance/fiscal_localizations/belgium.html">比利时</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_brazil"><a class="reference internal" href="../../finance/fiscal_localizations/brazil.html">巴西</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_canada"><a class="reference internal" href="../../finance/fiscal_localizations/canada.html">加拿大</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_chile"><a class="reference internal" href="../../finance/fiscal_localizations/chile.html">智利</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_colombia"><a class="reference internal" href="../../finance/fiscal_localizations/colombia.html">哥伦比亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_ecuador"><a class="reference internal" href="../../finance/fiscal_localizations/ecuador.html">厄瓜多尔</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_egypt"><a class="reference internal" href="../../finance/fiscal_localizations/egypt.html">埃及</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_france"><a class="reference internal" href="../../finance/fiscal_localizations/france.html">法国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_germany"><a class="reference internal" href="../../finance/fiscal_localizations/germany.html">德国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_hong_kong"><a class="reference internal" href="../../finance/fiscal_localizations/hong_kong.html">香港</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_india"><a class="reference internal" href="../../finance/fiscal_localizations/india.html">印度</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_indonesia"><a class="reference internal" href="../../finance/fiscal_localizations/indonesia.html">印度尼西亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_italy"><a class="reference internal" href="../../finance/fiscal_localizations/italy.html">意大利</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_kenya"><a class="reference internal" href="../../finance/fiscal_localizations/kenya.html">肯尼亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_luxembourg"><a class="reference internal" href="../../finance/fiscal_localizations/luxembourg.html">卢森堡</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_mexico"><a class="reference internal" href="../../finance/fiscal_localizations/mexico.html">墨西哥</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_netherlands"><a class="reference internal" href="../../finance/fiscal_localizations/netherlands.html">荷兰</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_romania"><a class="reference internal" href="../../finance/fiscal_localizations/romania.html">罗马尼亚</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_peru"><a class="reference internal" href="../../finance/fiscal_localizations/peru.html">秘鲁</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_philippines"><a class="reference internal" href="../../finance/fiscal_localizations/philippines.html">菲律宾</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_saudi_arabia"><a class="reference internal" href="../../finance/fiscal_localizations/saudi_arabia.html">沙特阿拉伯</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_singapore"><a class="reference internal" href="../../finance/fiscal_localizations/singapore.html">新加坡</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_spain"><a class="reference internal" href="../../finance/fiscal_localizations/spain.html">西班牙</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_switzerland"><a class="reference internal" href="../../finance/fiscal_localizations/switzerland.html">瑞士</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_thailand"><a class="reference internal" href="../../finance/fiscal_localizations/thailand.html">泰国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_vietnam"><a class="reference internal" href="../../finance/fiscal_localizations/vietnam.html">越南</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_united_arab_emirates"><a class="reference internal" href="../../finance/fiscal_localizations/united_arab_emirates.html">阿拉伯联合酋长国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_united_kingdom"><a class="reference internal" href="../../finance/fiscal_localizations/united_kingdom.html">英国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_united_states"><a class="reference internal" href="../../finance/fiscal_localizations/united_states.html">美国</a></li>
+<li class="toctree-l4 o_menu_applications_finance_fiscal_localizations_uruguay"><a class="reference internal" href="../../finance/fiscal_localizations/uruguay.html">乌拉圭</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_sales"><a class="reference internal" href="#">销售</a><ul>
+<li class="toctree-l3 o_menu_applications_sales_crm"><a class="reference internal" href="../../sales/crm.html">客户关系管理系统</a><ul>
+<li class="toctree-l4 o_menu_applications_sales_crm_pipeline"><a class="reference internal" href="#">组织管道</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_pipeline_lost_opportunities"><a class="reference internal" href="../../sales/crm/pipeline/lost_opportunities.html">管理失去的机会</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_pipeline_merge_similar"><a class="reference internal" href="../../sales/crm/pipeline/merge_similar.html">合并类似客户和机会</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_pipeline_manage_sales_teams"><a class="reference internal" href="../../sales/crm/pipeline/manage_sales_teams.html">管理销售团队</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_crm_acquire_leads"><a class="reference internal" href="#">获取销售线索</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_convert"><a class="reference internal" href="../../sales/crm/acquire_leads/convert.html">销售线索转换商机</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_opportunities_form"><a class="reference internal" href="../../sales/crm/acquire_leads/opportunities_form.html">通过网络联系表单创造商机</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_email_manual"><a class="reference internal" href="../../sales/crm/acquire_leads/email_manual.html">创建销售线索（通过电子邮件或手动操作）</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_send_quotes"><a class="reference internal" href="../../sales/crm/acquire_leads/send_quotes.html">创建并发送报价单</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_acquire_leads_lead_mining"><a class="reference internal" href="../../sales/crm/acquire_leads/lead_mining.html">线索挖掘</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_crm_track_leads"><a class="reference internal" href="#">分配和跟踪销售线索</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_lead_scoring"><a class="reference internal" href="../../sales/crm/track_leads/lead_scoring.html">使用预测潜在客户评分，分配潜在客户。</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_unattended_leads_report"><a class="reference internal" href="../../sales/crm/track_leads/unattended_leads_report.html">Unattended leads report</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_quality_leads_report"><a class="reference internal" href="../../sales/crm/track_leads/quality_leads_report.html">优质潜在客户报告</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_resellers"><a class="reference internal" href="../../sales/crm/track_leads/resellers.html">经销商</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_marketing_attribution"><a class="reference internal" href="../../sales/crm/track_leads/marketing_attribution.html">Marketing attribution reports</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_track_leads_lead_distribution_report"><a class="reference internal" href="../../sales/crm/track_leads/lead_distribution_report.html">销售线索分配报告</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_crm_performance"><a class="reference internal" href="#">分析性能</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_performance_win_loss"><a class="reference internal" href="../../sales/crm/performance/win_loss.html">流水线分析</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_performance_expected_revenue_report"><a class="reference internal" href="../../sales/crm/performance/expected_revenue_report.html">Expected revenue report</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_performance_forecast_report"><a class="reference internal" href="../../sales/crm/performance/forecast_report.html">Forecast report</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_crm_optimize"><a class="reference internal" href="#">优化您的日常工作</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_crm_optimize_partner_autocomplete"><a class="reference internal" href="../../sales/crm/optimize/partner_autocomplete.html">Enrich contacts with partner autocomplete</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_optimize_gamification"><a class="reference internal" href="../../sales/crm/optimize/gamification.html">游戏化 CRM</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_optimize_utilize_activities"><a class="reference internal" href="../../sales/crm/optimize/utilize_activities.html">Utilize activities for sales teams</a></li>
+<li class="toctree-l5 o_menu_applications_sales_crm_optimize_lead_enrichment"><a class="reference internal" href="../../sales/crm/optimize/lead_enrichment.html">Lead enrichment</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_sales_sales"><a class="reference internal" href="../../sales/sales.html">销售</a><ul>
+<li class="toctree-l4 o_menu_applications_sales_sales_send_quotations"><a class="reference internal" href="#">发送报价</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_create_quotations"><a class="reference internal" href="../../sales/sales/send_quotations/create_quotations.html">Create quotations</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_quote_template"><a class="reference internal" href="../../sales/sales/send_quotations/quote_template.html">报价模板</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_optional_products"><a class="reference internal" href="../../sales/sales/send_quotations/optional_products.html">可选产品</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_get_signature_to_validate"><a class="reference internal" href="../../sales/sales/send_quotations/get_signature_to_validate.html">Online signatures for order confirmations</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_get_paid_to_validate"><a class="reference internal" href="../../sales/sales/send_quotations/get_paid_to_validate.html">Online payment order confirmation</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_deadline"><a class="reference internal" href="../../sales/sales/send_quotations/deadline.html">Quotation deadlines</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_different_addresses"><a class="reference internal" href="../../sales/sales/send_quotations/different_addresses.html">Deliveries and invoices to different addresses</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_orders_and_variants"><a class="reference internal" href="../../sales/sales/send_quotations/orders_and_variants.html">Product variants on quotations and sales orders</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_send_quotations_pdf_quote_builder"><a class="reference internal" href="../../sales/sales/send_quotations/pdf_quote_builder.html">PDF quote builder</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_sales_invoicing"><a class="reference internal" href="#">开票方式</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_invoicing_policy"><a class="reference internal" href="../../sales/sales/invoicing/invoicing_policy.html">基于已交付或订购数量的开票</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_down_payment"><a class="reference internal" href="../../sales/sales/invoicing/down_payment.html">Down payments</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_proforma"><a class="reference internal" href="../../sales/sales/invoicing/proforma.html">Pro-forma invoices</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_time_materials"><a class="reference internal" href="../../sales/sales/invoicing/time_materials.html">根据工时和材料开具发票</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_milestone"><a class="reference internal" href="../../sales/sales/invoicing/milestone.html">开票项目流程</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_invoicing_expense"><a class="reference internal" href="../../sales/sales/invoicing/expense.html">Reinvoice expenses to customers</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_sales_products_prices"><a class="reference internal" href="#">产品和价格</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_products"><a class="reference internal" href="#">管理您的产品</a><ul>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_products_import"><a class="reference internal" href="../../sales/sales/products_prices/products/import.html">导入产品</a></li>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_products_variants"><a class="reference internal" href="../../sales/sales/products_prices/products/variants.html">产品变体</a></li>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_products_product_images"><a class="reference internal" href="../../sales/sales/products_prices/products/product_images.html">Product images with Google Images</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_prices"><a class="reference internal" href="#">管理定价</a><ul>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_prices_pricing"><a class="reference internal" href="../../sales/sales/products_prices/prices/pricing.html">Pricelists, discounts, and formulas</a></li>
+<li class="toctree-l6 o_menu_applications_sales_sales_products_prices_prices_currencies"><a class="reference internal" href="../../sales/sales/products_prices/prices/currencies.html">Foreign currencies</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_returns"><a class="reference internal" href="../../sales/sales/products_prices/returns.html">退货和退款</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_ewallets_giftcards"><a class="reference internal" href="../../sales/sales/products_prices/ewallets_giftcards.html">使用电子钱包和礼品卡</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_products_prices_loyalty_discount"><a class="reference internal" href="../../sales/sales/products_prices/loyalty_discount.html">折扣和忠诚度计划</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_sales_amazon_connector"><a class="reference internal" href="#">亚马逊连接器</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_amazon_connector_features"><a class="reference internal" href="../../sales/sales/amazon_connector/features.html">亚马逊连接器特点</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_amazon_connector_setup"><a class="reference internal" href="../../sales/sales/amazon_connector/setup.html">亚马逊连接器配置</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_amazon_connector_manage"><a class="reference internal" href="../../sales/sales/amazon_connector/manage.html">亚马逊订单管理</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_sales_sales_ebay_connector"><a class="reference internal" href="#">eBay 连接器</a><ul>
+<li class="toctree-l5 o_menu_applications_sales_sales_ebay_connector_setup"><a class="reference internal" href="../../sales/sales/ebay_connector/setup.html">eBay 连接器设置</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_ebay_connector_manage"><a class="reference internal" href="../../sales/sales/ebay_connector/manage.html">如何上架一个产品</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_ebay_connector_troubleshooting"><a class="reference internal" href="../../sales/sales/ebay_connector/troubleshooting.html">eBay 连接器故障排除</a></li>
+<li class="toctree-l5 o_menu_applications_sales_sales_ebay_connector_linking_listings"><a class="reference internal" href="../../sales/sales/ebay_connector/linking_listings.html">Linking existing listings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_inventory_and_mrp"><a class="reference internal" href="#">供应链</a><ul>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_inventory"><a class="reference internal" href="../../inventory_and_mrp/inventory.html">库存</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_inventory_product_management"><a class="reference internal" href="#">产品管理</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_product_management_configure"><a class="reference internal" href="#">配置产品</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_configure_type"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/configure/type.html">产品类型</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_configure_uom"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/configure/uom.html">计量单位</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_configure_package"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/configure/package.html">包裹</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_configure_packaging"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/configure/packaging.html">包装</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking.html">产品追踪</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_serial_numbers"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/serial_numbers.html">Use serial numbers to track products</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_create_sn"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/create_sn.html">分配序列号</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_lots"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/lots.html">批次号码</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_reassign"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/reassign.html">重新分配批次/序列号</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_product_tracking_expiration_dates"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/product_tracking/expiration_dates.html">到期日期</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_product_management_inventory_valuation"><a class="reference internal" href="#">库存计价</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_inventory_valuation_inventory_valuation_config"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/inventory_valuation/inventory_valuation_config.html">Automatic inventory valuation</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_inventory_valuation_using_inventory_valuation"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/inventory_valuation/using_inventory_valuation.html">Using inventory valuation</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_product_management_inventory_valuation_integrating_landed_costs"><a class="reference internal" href="../../inventory_and_mrp/inventory/product_management/inventory_valuation/integrating_landed_costs.html">落地成本</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage"><a class="reference internal" href="#">仓库和储存</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management.html">库存管理</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_warehouses"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/warehouses.html">仓库</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_use_locations"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/use_locations.html">地点</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_count_products"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/count_products.html">库存调整</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_cycle_counts"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/cycle_counts.html">Cycle counts</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_inventory_management_scrap_inventory"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/inventory_management/scrap_inventory.html">Scrap inventory</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment.html">补货</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment_mto"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment/mto.html">按订单补货（MTO）</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment_reordering_rules"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.html">重新排序规则</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment_lead_times"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment/lead_times.html">Lead times</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_replenishment_resupply_warehouses"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/replenishment/resupply_warehouses.html">Inter-warehouse replenishment</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting"><a class="reference internal" href="#">报告</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting_stock"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/reporting/stock.html">Stock report</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting_locations"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/reporting/locations.html">位置仪表板</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting_moves_history"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/reporting/moves_history.html">移动历史仪表板</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_warehouses_storage_reporting_aging"><a class="reference internal" href="../../inventory_and_mrp/inventory/warehouses_storage/reporting/aging.html">库存账龄报告</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving"><a class="reference internal" href="#">发货和收货</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations.html">入库和出库流量</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_use_routes"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/use_routes.html">Routes and push/pull rules</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_receipts_delivery_one_step"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_one_step.html">One-step receipt and delivery</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_receipts_delivery_two_steps"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_delivery_two_steps.html">Two-step receipt and delivery</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_receipts_three_steps"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/receipts_three_steps.html">Three-step receipt</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_delivery_three_steps"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/delivery_three_steps.html">三步交付</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_putaway"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/putaway.html">Putaway rules</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_storage_category"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/storage_category.html">存储类别</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_cross_dock"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/cross_dock.html">在仓库中组织交叉转运</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_stock_warehouses"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/stock_warehouses.html">利用虚拟地点从多个仓库销售库存产品</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_owned_stock"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/owned_stock.html">Consignment: buy and sell stock without owning it</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_daily_operations_dropshipping"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/daily_operations/dropshipping.html">代发货</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration.html">Delivery methods</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_third_party_shipper"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/third_party_shipper.html">Third-party shipping carriers</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_labels"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/labels.html">打印运输标签</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_bpost"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/bpost.html">Bpost 整合</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_dhl_credentials"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/dhl_credentials.html">DHL 整合</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_fedex"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/fedex.html">FedEx integration</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_sendcloud_shipping"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/sendcloud_shipping.html">Sendcloud integration</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_starshipit_shipping"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/starshipit_shipping.html">Starshipit 货运</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_ups_credentials"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/ups_credentials.html">UPS 整合</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_zebra"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/zebra.html">Zebra label configuration</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_cancel"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/cancel.html">如何取消发给货代的发货请求？</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_invoicing"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/invoicing.html">运费发票</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_label_type"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/label_type.html">更改运输标签尺寸</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_multipack"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/multipack.html">Multi-package shipments</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_setup_configuration_print_on_validation"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/setup_configuration/print_on_validation.html">Printable delivery PDFs</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_reservation_methods"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/reservation_methods.html">保留方式</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_reservation_methods_at_confirmation"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/reservation_methods/at_confirmation.html">At confirmation reservation</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_reservation_methods_manually"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/reservation_methods/manually.html">手动预约</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_reservation_methods_before_scheduled_date"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/reservation_methods/before_scheduled_date.html">Before scheduled date reservation</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_picking_methods"><a class="reference internal" href="#">Picking methods</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_picking_methods_batch"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/picking_methods/batch.html">批量拣货</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_picking_methods_cluster"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/picking_methods/cluster.html">Cluster picking</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_picking_methods_wave"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/picking_methods/wave.html">处理波次转移</a></li>
+</ul>
+</li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies.html">移除策略</a><ul>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_fifo"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fifo.html">先进先出移除</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_lifo"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/lifo.html">后进先出移除</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_fefo"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/fefo.html">FEFO removal</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_closest_location"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/closest_location.html">Closest location removal</a></li>
+<li class="toctree-l6 o_menu_applications_inventory_and_mrp_inventory_shipping_receiving_removal_strategies_least_packages"><a class="reference internal" href="../../inventory_and_mrp/inventory/shipping_receiving/removal_strategies/least_packages.html">Least packages removal</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing.html">生产</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup"><a class="reference internal" href="#">基本设置</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_configure_manufacturing_product"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/configure_manufacturing_product.html">制造产品配置</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_bill_configuration"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/bill_configuration.html">物料清单</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_one_step_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/one_step_manufacturing.html">One-step manufacturing</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_two_step_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/two_step_manufacturing.html">两步制造</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_three_step_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/three_step_manufacturing.html">三步制造</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_basic_setup_mo_costs"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/basic_setup/mo_costs.html">Manufacturing order costs</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration"><a class="reference internal" href="#">高级配置</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_product_variants"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/product_variants.html">管理产品变型Bom表</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_kit_shipping"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/kit_shipping.html">使用套装</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_sub_assemblies"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/sub_assemblies.html">管理半成品</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_using_work_centers"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/using_work_centers.html">使用工作中心管理工作订单</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_advanced_configuration_work_order_dependencies"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/advanced_configuration/work_order_dependencies.html">工单依赖</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_workflows"><a class="reference internal" href="#">工作流</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_use_mps"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/use_mps.html">Master production schedule</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_work_center_time_off"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/work_center_time_off.html">Work center time off</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_scrap_manufacturing"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/scrap_manufacturing.html">制造过程中的废料</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_manufacturing_backorders"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/manufacturing_backorders.html">Manufacturing backorders</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_split_merge"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/split_merge.html">拆分和合并制造订单</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_unbuild_orders"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/unbuild_orders.html">Unbuild orders</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_byproducts"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/byproducts.html">副产品</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_workflows_continuous_improvement"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/workflows/continuous_improvement.html">持续改进产品</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_shop_floor"><a class="reference internal" href="#">车间现场</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_shop_floor_shop_floor_overview"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/shop_floor/shop_floor_overview.html">Shop Floor overview</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_shop_floor_shop_floor_tracking"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/shop_floor/shop_floor_tracking.html">Shop Floor time tracking</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting.html">分包</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_subcontracting_basic"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/subcontracting_basic.html">Basic subcontracting</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_basic_subcontracting_lead_times"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/basic_subcontracting_lead_times.html">基本分包周转时间</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_subcontracting_resupply"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/subcontracting_resupply.html">分包商重新供应</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_resupply_subcontracting_lead_times"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/resupply_subcontracting_lead_times.html">Resupply subcontracting lead times</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_subcontracting_dropship"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/subcontracting_dropship.html">Dropship to subcontractor</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_subcontracting_dropship_subcontracting_lead_times"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/subcontracting/dropship_subcontracting_lead_times.html">代发货分包所需时间</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_manufacturing_reporting"><a class="reference internal" href="#">报告</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_reporting_allocation"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/reporting/allocation.html">分配报告</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_reporting_oee"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/reporting/oee.html">Overall equipment effectiveness</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_manufacturing_reporting_production_analysis"><a class="reference internal" href="../../inventory_and_mrp/manufacturing/reporting/production_analysis.html">Production analysis</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_purchase"><a class="reference internal" href="../../inventory_and_mrp/purchase.html">购买</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_purchase_products"><a class="reference internal" href="#">产品</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_products_pricelist"><a class="reference internal" href="../../inventory_and_mrp/purchase/products/pricelist.html">Import vendor pricelist</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_products_reordering"><a class="reference internal" href="../../inventory_and_mrp/purchase/products/reordering.html">配置重新订购规则</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_products_temporary_reordering"><a class="reference internal" href="../../inventory_and_mrp/purchase/products/temporary_reordering.html">Temporary reordering rules</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_products_uom"><a class="reference internal" href="../../inventory_and_mrp/purchase/products/uom.html">Purchase units of measure</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_purchase_manage_deals"><a class="reference internal" href="#">管理交易</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_rfq"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/rfq.html">采购在途</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_blanket_orders"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/blanket_orders.html">一揽子订单</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_calls_for_tenders"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/calls_for_tenders.html">Call for tenders</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_control_bills"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/control_bills.html">账单控制政策</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_manage_deals_manage"><a class="reference internal" href="../../inventory_and_mrp/purchase/manage_deals/manage.html">管理供应商账单</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_purchase_advanced"><a class="reference internal" href="#">高级</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_advanced_analyze"><a class="reference internal" href="../../inventory_and_mrp/purchase/advanced/analyze.html">Purchase Analysis report</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_advanced_vendor_costs_report"><a class="reference internal" href="../../inventory_and_mrp/purchase/advanced/vendor_costs_report.html">供应商成本报告</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_purchase_advanced_procurement_expenses_report"><a class="reference internal" href="../../inventory_and_mrp/purchase/advanced/procurement_expenses_report.html">采购费用报告</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_barcode"><a class="reference internal" href="../../inventory_and_mrp/barcode.html">条形码</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_barcode_setup"><a class="reference internal" href="#">设置</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_setup_device_troubleshooting"><a class="reference internal" href="../../inventory_and_mrp/barcode/setup/device_troubleshooting.html">Barcode device troubleshooting</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_setup_hardware"><a class="reference internal" href="../../inventory_and_mrp/barcode/setup/hardware.html">条形码扫描仪设置</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_setup_software"><a class="reference internal" href="../../inventory_and_mrp/barcode/setup/software.html">在 Odoo 中启用条码</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_barcode_operations"><a class="reference internal" href="#">日常作业</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_adjustments"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/adjustments.html">使用条码来做库存调整</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_receipts_deliveries"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/receipts_deliveries.html">使用条形码处理收据和交付货物</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_transfers_scratch"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/transfers_scratch.html">创建和处理带条形码的转账</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_barcode_nomenclature"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/barcode_nomenclature.html">默认条形码命名法</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_gs1_nomenclature"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/gs1_nomenclature.html">GS1 条形码命名法</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_barcode_operations_gs1_usage"><a class="reference internal" href="../../inventory_and_mrp/barcode/operations/gs1_usage.html">GS1 条形码使用</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_quality"><a class="reference internal" href="../../inventory_and_mrp/quality.html">质量</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_quality_quality_management"><a class="reference internal" href="#">Quality control basics</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_management_quality_control_points"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_management/quality_control_points.html">质量控制点</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_management_quality_alerts"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_management/quality_alerts.html">质量警报</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_management_quality_checks"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_management/quality_checks.html">质量检查</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_management_failure_locations"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_management/failure_locations.html">Failure locations</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_quality_quality_check_types"><a class="reference internal" href="#">质量检查类型</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_check_types_instructions_check"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_check_types/instructions_check.html">指令质量检查</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_check_types_pass_fail_check"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_check_types/pass_fail_check.html">Pass - Fail quality check</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_check_types_measure_check"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_check_types/measure_check.html">测量质量检查</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_quality_quality_check_types_picture_check"><a class="reference internal" href="../../inventory_and_mrp/quality/quality_check_types/picture_check.html">Take a Picture quality check</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_maintenance"><a class="reference internal" href="../../inventory_and_mrp/maintenance.html">维护</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_maintenance_add_new_equipment"><a class="reference internal" href="../../inventory_and_mrp/maintenance/add_new_equipment.html">添加新设备</a></li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_maintenance_maintenance_calendar"><a class="reference internal" href="../../inventory_and_mrp/maintenance/maintenance_calendar.html">维护日历</a></li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_maintenance_maintenance_requests"><a class="reference internal" href="../../inventory_and_mrp/maintenance/maintenance_requests.html">维护请求</a></li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_maintenance_maintenance_setup"><a class="reference internal" href="../../inventory_and_mrp/maintenance/maintenance_setup.html">维修设置</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_plm"><a class="reference internal" href="../../inventory_and_mrp/plm.html">产品生命周期管理</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_plm_manage_changes"><a class="reference internal" href="#">变更管理</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_plm_manage_changes_engineering_change_orders"><a class="reference internal" href="../../inventory_and_mrp/plm/manage_changes/engineering_change_orders.html">工程变更指令</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_plm_manage_changes_eco_type"><a class="reference internal" href="../../inventory_and_mrp/plm/manage_changes/eco_type.html">工程变更指令（ECO）类型</a></li>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_plm_manage_changes_version_control"><a class="reference internal" href="../../inventory_and_mrp/plm/manage_changes/version_control.html">版本控制</a></li>
+</ul>
+</li>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_plm_management"><a class="reference internal" href="#">项目管理</a><ul>
+<li class="toctree-l5 o_menu_applications_inventory_and_mrp_plm_management_approvals"><a class="reference internal" href="../../inventory_and_mrp/plm/management/approvals.html">审批</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_inventory_and_mrp_repairs"><a class="reference internal" href="../../inventory_and_mrp/repairs.html">维修</a><ul>
+<li class="toctree-l4 o_menu_applications_inventory_and_mrp_repairs_repair_orders"><a class="reference internal" href="../../inventory_and_mrp/repairs/repair_orders.html">Process repair orders</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 current o_menu_applications_hr"><a class="reference internal" href="#">人力资源</a><ul class="current">
+<li class="toctree-l3 o_menu_applications_hr_attendances"><a class="reference internal" href="../attendances.html">出勤</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_attendances_check_in_check_out"><a class="reference internal" href="../attendances/check_in_check_out.html">签到和签退</a></li>
+<li class="toctree-l4 o_menu_applications_hr_attendances_kiosks"><a class="reference internal" href="../attendances/kiosks.html">Kiosks</a></li>
+<li class="toctree-l4 o_menu_applications_hr_attendances_hardware"><a class="reference internal" href="../attendances/hardware.html">硬件</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_employees"><a class="reference internal" href="../employees.html">员工</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_employees_new_employee"><a class="reference internal" href="../employees/new_employee.html">新员工</a></li>
+<li class="toctree-l4 o_menu_applications_hr_employees_departments"><a class="reference internal" href="../employees/departments.html">部门</a></li>
+<li class="toctree-l4 o_menu_applications_hr_employees_certifications"><a class="reference internal" href="../employees/certifications.html">认证</a></li>
+<li class="toctree-l4 o_menu_applications_hr_employees_offboarding"><a class="reference internal" href="../employees/offboarding.html">离职流程</a></li>
+<li class="toctree-l4 o_menu_applications_hr_employees_retention_report"><a class="reference internal" href="../employees/retention_report.html">Employee retention report</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_appraisals"><a class="reference internal" href="../appraisals.html">评估</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_appraisals_new_appraisals"><a class="reference internal" href="../appraisals/new_appraisals.html">New appraisals</a></li>
+<li class="toctree-l4 o_menu_applications_hr_appraisals_goals"><a class="reference internal" href="../appraisals/goals.html">目标</a></li>
+<li class="toctree-l4 o_menu_applications_hr_appraisals_appraisal_analysis"><a class="reference internal" href="../appraisals/appraisal_analysis.html">考评分析</a></li>
+<li class="toctree-l4 o_menu_applications_hr_appraisals_skills_evolution"><a class="reference internal" href="../appraisals/skills_evolution.html">技能进化</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_frontdesk"><a class="reference internal" href="../frontdesk.html">前台</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_frontdesk_visitors"><a class="reference internal" href="../frontdesk/visitors.html">访问者</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_fleet"><a class="reference internal" href="../fleet.html">车辆</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_fleet_models"><a class="reference internal" href="../fleet/models.html">Vehicle models</a></li>
+<li class="toctree-l4 o_menu_applications_hr_fleet_new_vehicle"><a class="reference internal" href="../fleet/new_vehicle.html">新车辆</a></li>
+<li class="toctree-l4 o_menu_applications_hr_fleet_service"><a class="reference internal" href="../fleet/service.html">服务</a></li>
+<li class="toctree-l4 o_menu_applications_hr_fleet_accidents"><a class="reference internal" href="../fleet/accidents.html">Accidents</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_payroll"><a class="reference internal" href="../payroll.html">工资</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_payroll_contracts"><a class="reference internal" href="../payroll/contracts.html">合同</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_work_entries"><a class="reference internal" href="../payroll/work_entries.html">工作条目</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_payslips"><a class="reference internal" href="../payroll/payslips.html">工资单</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_reporting"><a class="reference internal" href="../payroll/reporting.html">报告</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_work_entry_analysis"><a class="reference internal" href="../payroll/work_entry_analysis.html">Work entry analysis</a></li>
+<li class="toctree-l4 o_menu_applications_hr_payroll_salary_attachment"><a class="reference internal" href="../payroll/salary_attachment.html">Salary attachment report</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_time_off"><a class="reference internal" href="../time_off.html">休息时间</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_time_off_allocations"><a class="reference internal" href="../time_off/allocations.html">分配</a></li>
+<li class="toctree-l4 o_menu_applications_hr_time_off_request_time_off"><a class="reference internal" href="../time_off/request_time_off.html">Request time off</a></li>
+<li class="toctree-l4 o_menu_applications_hr_time_off_my_time"><a class="reference internal" href="../time_off/my_time.html">我的时间</a></li>
+<li class="toctree-l4 o_menu_applications_hr_time_off_management"><a class="reference internal" href="../time_off/management.html">管理</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_recruitment"><a class="reference internal" href="../recruitment.html">招聘</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_new_job"><a class="reference internal" href="../recruitment/new_job.html">Job positions</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_recruitment-flow"><a class="reference internal" href="../recruitment/recruitment-flow.html">Recruitment flow</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_add-new-applicants"><a class="reference internal" href="../recruitment/add-new-applicants.html">Add new applicants</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_schedule_interviews"><a class="reference internal" href="../recruitment/schedule_interviews.html">Schedule interviews</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_offer_job_positions"><a class="reference internal" href="../recruitment/offer_job_positions.html">Offer job positions</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_refuse_applicant"><a class="reference internal" href="../recruitment/refuse_applicant.html">Refuse applicants</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_source_analysis"><a class="reference internal" href="../recruitment/source_analysis.html">Source analysis reporting</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_recruitment_analysis"><a class="reference internal" href="../recruitment/recruitment_analysis.html">Recruitment analysis</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_time_in_stage"><a class="reference internal" href="../recruitment/time_in_stage.html">Time in stage analysis</a></li>
+<li class="toctree-l4 o_menu_applications_hr_recruitment_team_performance"><a class="reference internal" href="../recruitment/team_performance.html">Team performance reporting</a></li>
+</ul>
+</li>
+<li class="toctree-l3 o_menu_applications_hr_referrals"><a class="reference internal" href="../referrals.html">介绍人</a><ul>
+<li class="toctree-l4 o_menu_applications_hr_referrals_share_jobs"><a class="reference internal" href="../referrals/share_jobs.html">Share job positions</a></li>
+<li class="toctree-l4 o_menu_applications_hr_referrals_points"><a class="reference internal" href="../referrals/points.html">Referral points</a></li>
+<li class="toctree-l4 o_menu_applications_hr_referrals_rewards"><a class="reference internal" href="../referrals/rewards.html">优惠及返利</a></li>
+<li class="toctree-l4 o_menu_applications_hr_referrals_alerts"><a class="reference internal" href="../referrals/alerts.html">警告</a></li>
+<li class="toctree-l4 o_menu_applications_hr_referrals_reporting"><a class="reference internal" href="../referrals/reporting.html">报告</a></li>
+</ul>
+</li>
+<li class="toctree-l3 current o_menu_applications_hr_lunch"><a class="reference internal" href="../lunch.html">午餐</a><ul class="current">
+<li class="toctree-l4 current o_menu_applications_hr_lunch_"><a class="current reference internal" href="#">供应商</a></li>
+<li class="toctree-l4 o_menu_applications_hr_lunch_products"><a class="reference internal" href="products.html">产品</a></li>
+<li class="toctree-l4 o_menu_applications_hr_lunch_orders"><a class="reference internal" href="orders.html">订单</a></li>
+<li class="toctree-l4 o_menu_applications_hr_lunch_user-accounts"><a class="reference internal" href="user-accounts.html">管理用户账户</a></li>
+<li class="toctree-l4 o_menu_applications_hr_lunch_management"><a class="reference internal" href="management.html">午餐管理</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_studio"><a class="reference internal" href="../../studio.html">在线开发工具</a><ul>
+<li class="toctree-l3 o_menu_applications_studio_fields"><a class="reference internal" href="../../studio/fields.html">字段和小组件</a></li>
+<li class="toctree-l3 o_menu_applications_studio_views"><a class="reference internal" href="../../studio/views.html">查看</a></li>
+<li class="toctree-l3 o_menu_applications_studio_models_modules_apps"><a class="reference internal" href="../../studio/models_modules_apps.html">模型、模组和应用程序</a></li>
+<li class="toctree-l3 o_menu_applications_studio_automated_actions"><a class="reference internal" href="../../studio/automated_actions.html">Automation rules</a></li>
+<li class="toctree-l3 o_menu_applications_studio_pdf_reports"><a class="reference internal" href="../../studio/pdf_reports.html">PDF报告</a></li>
+<li class="toctree-l3 o_menu_applications_studio_approval_rules"><a class="reference internal" href="../../studio/approval_rules.html">审批规则</a></li>
+</ul>
+</li>
+<li class="toctree-l2 o_menu_applications_customization"><a class="reference internal" href="#">Customization</a><ul>
+<li class="toctree-l3 o_menu_applications_customization_APQP"><a class="reference internal" href="../../customization/APQP.html">APQP模块</a></li>
+<li class="toctree-l3 o_menu_applications_customization_helpdesk"><a class="reference internal" href="../../customization/helpdesk.html">服务台</a></li>
+<li class="toctree-l3 o_menu_applications_customization_EDI"><a class="reference internal" href="../../customization/EDI.html">EDI</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    </nav>
+    <header class="o_headers"><div class="o_main_header border-bottom d-flex align-items-center">
+    <div class="o_logo_wrapper">
+      <a href="../../../index.html" class="o_logo">
+          <img src="../../../_static/img/logos/odoo_logo.svg" height="20" alt="Odoo"/>
+          <span>docs</span>
+      </a>
+    </div>
+    <div class="d-flex flex-grow-1">
+<div id="searchbox" class="o_search_wrapper d-flex flex-grow-1" role="search">
+    <form class="o_search" action="../../../search.html" method="get">
+        <input type="text" name="q" id="q" class="form-control rounded-pill" placeholder="What are you looking for?">
+        <input type="hidden" name="area" value="default">
+        <input type="hidden" name="check_keywords" value="yes">
+        <button type="submit" class="btn"><i class="i-search"></i></button>
+    </form>
+</div>
+<script type="text/javascript">$('.o_search_wrapper').show(0);</script>
+        <a class="btn btn-primary fw_bold ms-auto d-none d-lg-inline-block" href="https://odoo.com/trial">Try Odoo for FREE</a>
+    </div>
+</div>
+<div class="o_subheader border-bottom d-flex">
+    <div class="o_side_nav_toggler_wrapper border-end d-flex d-lg-none">
+        <button class="h-100 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#o_menu" aria-label="Toggle navigation">
+            <i class="i-sidepanel"></i>
+        </button>
+    </div>
+    <div class="d-flex justify-content-end ms-auto"><div class="o_languages">
+	<div class="dropdown">
+            <button class="btn btn-sm dropdown-toggle"
+                    id="languages"
+                    data-bs-toggle="dropdown">
+                ZH (CN) 
+            </button>
+        <ul class="dropdown-menu" aria-labelledby="languages">
+                <li><a class="o_switcher_item dropdown-item" href="/applications/hr/lunch/vendors.html">EN</a></li>
+                <li><a class="o_switcher_item dropdown-item" href="/th/applications/hr/lunch/vendors.html">TH</a></li>
+        </ul>
+	</div>
+</div><div class="o_versions row">
+    <div class="dropdown">
+            <button class="btn btn-sm dropdown-toggle"
+                    id="versions"
+                    disabled="">
+                Odoo 17 
+            </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="versions">
+        </ul>
+    </div>
+</div>
+    </div>
+</div>
+    </header>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="总目录"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="products.html" title="产品"
+             accesskey="N">下一页</a> |</li>
+        <li class="right" >
+          <a href="../lunch.html" title="午餐"
+             accesskey="P">上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">Odoo 17.0 文档</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../../applications.html" >用户文档</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../hr.html" >人力资源</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="../lunch.html" accesskey="U">午餐</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">供应商</a></li> 
+      </ul>
+    </div>
+    <div id="wrap">
+
+        <main class="container-fluid ">
+                <article id="o_content" class="doc-body">
+                    <div role="main"> 
+  <section id="vendors">
+<h1>供应商<a class="headerlink" href="#vendors" title="永久链接至标题">¶</a></h1>
+<p>Before <a class="reference internal" href="products.html"><span class="doc">products can be added</span></a> to the <em>Lunch</em> app, the restaurants that provide the
+food <strong>must</strong> be configured.</p>
+<p>To add a new vendor, first navigate to <span class="menuselection">Lunch app ‣ Configuration ‣ Vendors</span>.
+Here, all currently configured vendors for the <em>Lunch</em> app appear in a default Kanban view. To
+change to a list view, click the <i class="oi oi-view-list"></i> <span class="guilabel">(list)</span> icon in the top-right
+corner.</p>
+<div class="alert alert-primary">
+<p class="alert-title">
+注解</p><p>No vendors are preconfigured in the <em>Lunch</em> app, so all vendors <strong>must</strong> be added to the
+database.</p>
+</div>
+<p>To add a new vendor, click the <span class="guilabel">New</span> button in the top-left corner, and a new lunch
+supplier form loads.</p>
+<p>Fill out the following fields on the vendor form:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#lunch-vendor-info"><span class="std std-ref">Vendor information</span></a></p></li>
+<li><p><a class="reference internal" href="#lunch-availability"><span class="std std-ref">Availability</span></a></p></li>
+<li><p><a class="reference internal" href="#lunch-orders"><span class="std std-ref">Orders</span></a></p></li>
+<li><p><a class="reference internal" href="#lunch-extras"><span class="std std-ref">Extras</span></a></p></li>
+</ul>
+</section><section id="vendor-information">
+<span id="lunch-vendor-info"></span><h2>Vendor information<a class="headerlink" href="#vendor-information" title="永久链接至标题">¶</a></h2>
+<ul>
+<li><p><span class="guilabel">Vendor</span>: enter a name for the vendor.</p></li>
+<li><p><span class="guilabel">Vendor</span> (beneath the line for vendor name): select the vendor from the drop-down menu.
+If the vendor has not already been entered in the system, type in the vendor name, and click
+either <span class="guilabel">Create “new vendor name”</span> to add them. Alternatively, click <span class="guilabel">Create
+and edit…</span> to create the vendor, and edit the vendor form. The vendor form allows for more
+detail, aside from the name, to be entered, such as contact information.</p>
+<div class="alert alert-primary">
+<p class="alert-title">
+注解</p><p>If a selection is made to the drop-down <span class="guilabel">Vendor</span> field, the <span class="guilabel">Vendor</span> text
+field (above, for the vendor’s name) updates with the name of the vendor chosen from the
+drop-down menu.</p>
+<p>The list of vendors that is presented in the drop-down menu is pulled from the <em>Contacts</em>
+application.</p>
+</div>
+</li>
+<li><p><span class="guilabel">Address</span>: enter the vendor’s address in the various fields.</p></li>
+<li><p><span class="guilabel">Email</span>: enter the vendor’s email.</p></li>
+<li><p><span class="guilabel">Phone</span>: enter the vendor’s phone number.</p></li>
+<li><p><span class="guilabel">公司</span>：如果该供应商只对特定公司开放，请从下拉菜单中选择该公司。如果此字段留空，则供应商的项目可供**所有**公司使用。</p></li>
+</ul>
+<img alt="填写供应商表格的上半部分。" class="align-center" src="../../../_images/vendor-info.png" />
+</section><section id="availability">
+<span id="lunch-availability"></span><h2>可用性<a class="headerlink" href="#availability" title="永久链接至标题">¶</a></h2>
+<p>The <span class="guilabel">AVAILABILITY</span> section presents a table with two rows. The days of the week populate
+the top row, and the bottom row has checkboxes. Tick the corresponding checkbox for each day of the
+week the vendor is available.</p>
+<p>By default, Monday through Friday are ticked.</p>
+<img alt="The default view of the availability section, with Mon-Fri enabled." class="align-center" src="../../../_images/availability.png" />
+</section><section id="orders">
+<span id="lunch-orders"></span><h2>订单<a class="headerlink" href="#orders" title="永久链接至标题">¶</a></h2>
+<p>The <span class="guilabel">ORDERS</span> section of the vendor form details which locations the vendor is available
+for, in addition to how and when orders are placed and received.</p>
+<ul>
+<li><p><span class="guilabel">Delivery</span>: using the drop-down menu, select <span class="guilabel">Delivery</span> if the vendor
+delivers to the office, or select <span class="guilabel">No Delivery</span> if orders must be picked up.</p></li>
+<li><p><span class="guilabel">Location</span>: select which locations are able to order from this vendor. Multiple
+locations can be selected. If this field is left blank, <strong>all</strong> locations can order from the
+vendor.</p>
+<div class="alert alert-primary">
+<p class="alert-title">
+注解</p><p>An <code class="o_code docutils literal notranslate"><span class="pre">HQ</span> <span class="pre">Office</span></code> location is created by default when creating a database, and is
+available to select from the list.</p>
+</div>
+</li>
+<li><p><span class="guilabel">Send Order By</span>: click the radio button to select how orders are sent to the vendor. The
+available options are <span class="guilabel">Phone</span> or <span class="guilabel">Email</span>.</p></li>
+<li><p><span class="guilabel">Order Time</span>: this field <strong>only</strong> appears if <span class="guilabel">Email</span> is selected in the
+<span class="guilabel">Send Order By</span> field. Enter the time that an order must be emailed for it to be
+accepted. Enter the time in the following format: <code class="o_code docutils literal notranslate"><span class="pre">HH:MM</span></code>. Then select either <span class="guilabel">AM</span> or
+<span class="guilabel">PM</span> from the drop-down menu, next to the time field.</p></li>
+</ul>
+<img alt="The orders section of a vendor form, with all fields filled out." class="align-center" src="../../../_images/orders.png" />
+</section><section id="extras">
+<span id="lunch-extras"></span><h2>额外的<a class="headerlink" href="#extras" title="永久链接至标题">¶</a></h2>
+<p>When ordering an item in the <em>Lunch</em> app, optional extra items, sometimes referred to as <em>add-ons</em>,
+can be shown. These can be configured in any manner that suits the products being offered.</p>
+<p>By default, Odoo allows for three types of extra items, which can be thought of as <em>categories</em>. By
+default, the first type (or <em>category</em>) of add-ons is labeled <code class="o_code docutils literal notranslate"><span class="pre">Extras</span></code>, the second is labeled
+<code class="o_code docutils literal notranslate"><span class="pre">Beverages</span></code>, and the third is labeled <code class="o_code docutils literal notranslate"><span class="pre">Extra</span> <span class="pre">Label</span> <span class="pre">3</span></code>.</p>
+<div class="alert alert-warning">
+<p class="alert-title">
+重要</p><p>When configuring the extras, it is important to keep in mind that all the extras configured
+appear for <strong>every item</strong> offered by the vendor. That means that only items which apply to
+<strong>all</strong> products from the vendor should be added.</p>
+</div>
+</section><section id="configure-extras">
+<span id="lunch-configure-extras"></span><h3>Configure extras<a class="headerlink" href="#configure-extras" title="永久链接至标题">¶</a></h3>
+<p>Enter the following information for each of the three available extra sections:</p>
+<ul class="simple">
+<li><p><span class="guilabel">Extra (#) Label</span>: enter a name for the type of extra, such as <code class="o_code docutils literal notranslate"><span class="pre">Toppings</span></code>. This can be
+thought of as a <em>category</em>.</p></li>
+<li><p><span class="guilabel">Extra (#) Quantity</span>: select how the extras are selected. The options are:</p>
+<ul>
+<li><p><span class="guilabel">None or More</span>: select this if the user is not required to make a selection.</p></li>
+<li><p><span class="guilabel">One or More</span>: select this to <strong>require</strong> the user to make <strong>at least one</strong> selection.</p></li>
+<li><p><span class="guilabel">Only One</span>: select this to <strong>require</strong> the user to <strong>make only one</strong> selection.</p></li>
+</ul>
+</li>
+</ul>
+</section><section id="add-extras">
+<h3>Add extras<a class="headerlink" href="#add-extras" title="永久链接至标题">¶</a></h3>
+<p>为额外类别配置标签和数量后，必须为每个类别添加单个额外项目。</p>
+<p>点击额外类别右侧列表底部的 <span class="guilabel">添加行</span>。为添加的每个项目输入 <span class="guilabel">名称</span> 和 <span class="guilabel">价格</span> 。如果没有成本，价格可以保持为 <code class="o_code docutils literal notranslate"><span class="pre">$0.00</span></code>。这种情况常见于一次性银器或调味品等物品。</p>
+<div class="alert alert-success">
+<p class="alert-title">
+Example</p><p>For a pizzeria that only offers personal pizzas, see their extras configured as follows:</p>
+<p>第一个额外配置是针对他们提供的各种馅料。 <span class="guilabel">Extra 1 标签</span> 被设置为 <code class="o_code docutils literal notranslate"><span class="pre">Toppings</span></code>，而 <span class="guilabel">Extra 1 数量</span> 被设置为 <span class="guilabel">不限或更多</span>。 然后添加了各种馅料，并标注了相应的价格。</p>
+<img alt="第一个额外配置是披萨配料。" class="align-center" src="../../../_images/extras.png" />
+<p>任意消费即可获得比萨店免费饮料。设置时，将 <span class="guilabel">Extra 2 标签</span> 设为 <code class="o_code docutils literal notranslate"><span class="pre">饮料</span></code>，将 <span class="guilabel">Extra 1 数量</span> 设为 <span class="guilabel">唯一</span>。添加各种饮料选择，每种饮料的成本仍为零。</p>
+<img alt="第二项额外配置是购买即可免费获得一杯饮料。" class="align-center" src="../../../_images/beverages.png" />
+</div>
+</section>
+
+                    </div>
+                </article>
+        </main>
+            
+            <aside id="o_page_toc" class="o_page_toc" hidden><div class="o_page_toc_nav mt-1">
+    <h5>On this page</h5>
+    <ul>
+<li><a class="reference internal" href="#">供应商</a><ul>
+<li><a class="reference internal" href="#vendor-information">Vendor information</a></li>
+<li><a class="reference internal" href="#availability">可用性</a></li>
+<li><a class="reference internal" href="#orders">订单</a></li>
+<li><a class="reference internal" href="#extras">额外的</a><ul>
+<li><a class="reference internal" href="#configure-extras">Configure extras</a></li>
+<li><a class="reference internal" href="#add-extras">Add extras</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+ 
+</div>
+            </aside>
+    </div>
+    <footer><div class="o_get_help container-fluid d-lg-flex">
+    <div class="col-12 col-lg-10">
+        <h4><i class="i-o-help me-2"></i>Get Help</h4>
+        <div>
+            <a href="https://odoo.com/help" target="_blank" class="btn btn-outline-secondary mb-2">Contact Support</a>
+            <a href="https://www.odoo.com/forum/help-1" target="_blank" class="btn btn-outline-secondary mb-2">Ask the Odoo Community</a>
+        </div>
+    </div>
+    <div class="col-12 col-lg-2 mt-5 mt-lg-0 text-center">
+        <a class="o_logo" href="https://www.odoo.com">
+            <img src="../../../_static/img/logos/odoo_logo.svg" height="20" alt="Odoo"/>
+        </a>
+    </div>
+</div>
+    </footer>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>导航</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="总目录"
+             >索引</a></li>
+        <li class="right" >
+          <a href="products.html" title="产品"
+             >下一页</a> |</li>
+        <li class="right" >
+          <a href="../lunch.html" title="午餐"
+             >上一页</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../index.html">Odoo 17.0 文档</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../../applications.html" >用户文档</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../hr.html" >人力资源</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="../lunch.html" >午餐</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">供应商</a></li> 
+      </ul>
+    </div>
+  </body>
+</html>
