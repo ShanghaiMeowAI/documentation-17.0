@@ -1,0 +1,184 @@
+#: ../../content/applications/customization/helpdesk.rst:1
+msgid ""
+"服务台"
+"======"
+msgstr ""
+"Reception"
+"======"
+
+#: ../../content/applications/customization/helpdesk.rst:4
+msgid ""
+"简介"
+"------"
+msgstr ""
+"brief introduction"
+"------"
+
+#: ../../content/applications/customization/helpdesk.rst:7
+msgid "Odoo 服务台模块是一个基于工单的客户支持应用程序。可以在一个仪表板中配置和管理多个团队，每个团队都有自己的客户提交工单的管道。管道按可定制的阶段组织，使团队能够快速高效地跟踪、优先处理和解决客户问题。"
+msgstr "The Odoo Service Desk module is a ticket based customer support application. Multiple teams can be configured and managed in one dashboard, with each team having their own pipeline for customers to submit work orders. The pipeline is organized in customizable stages, allowing the team to quickly and efficiently track, prioritize, and resolve customer issues."
+
+#: ../../content/applications/customization/helpdesk.rst:9
+msgid ""
+"功能模块概述"
+"-------------"
+msgstr ""
+"Overview of functional modules"
+"-------------"
+
+#: ../../content/applications/customization/helpdesk.rst:12
+msgid "Odoo 17 服务台模块的主要功能包括："
+msgstr "The main functions of the Odoo 17 service desk module include:"
+
+#: ../../content/applications/customization/helpdesk.rst:14
+msgid ""
+"1. **概述**：对我的工单、绩效队以及帮助中心团队的工单处理情况的总览。"
+"2. **工单**：对我的工单以及全部工单的概览以及新建。"
+"3. **报告**：工单分析以及SLA状态分析。"
+"4. **配置**：对帮助中心团队、SLA策略以及类型的创建。"
+msgstr ""
+"1. ** Overview **: An overview of my work order, performance team, and help center team's work order processing status."
+"2. ** Work Order **: Overview and creation of my work order and all work orders."
+"3. ** Report **: Work order analysis and SLA status analysis."
+"4. ** Configuration **: Create help center teams, SLA policies, and types."
+
+#: ../../content/applications/customization/helpdesk.rst:19
+msgid ""
+"功能详细描述"
+"--------------"
+msgstr ""
+"Detailed functional description"
+"--------------"
+
+#: ../../content/applications/customization/helpdesk.rst:22
+msgid ""
+"概述"
+"~~~~~"
+msgstr ""
+"summary"
+"~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:25
+msgid "在 **服务台** 模块 > **概述** 页面，展示我的工单、绩效队以及帮助中心团队的工单处理情况："
+msgstr "On the ** Service Desk ** module>** Overview ** page, display the processing status of my work orders, performance teams, and help center teams:"
+
+#: ../../content/applications/customization/helpdesk.rst:30
+msgid ""
+"工单"
+"~~~~"
+msgstr ""
+"Work Order"
+"~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:33
+msgid ""
+"我的工单"
+"~~~~~~~~"
+msgstr ""
+"My work order"
+"~~~~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:36
+msgid "在 **服务台** 模块 > **工单 > 我的工单 > 新建** 页面，填写相关信息以及批次后保存，弹出“分派处理”按钮，点击此按钮后，在弹窗中选择分派给指定的人员处理以及填写处理意见，处理确认日期将自动带出："
+msgstr "On the ** Service Desk ** module>** Work Order>My Work Order>New ** page, fill in the relevant information and batch, and save it. The "Assign Processing" button will pop up. After clicking this button, select the assigned personnel to handle and fill in the processing suggestion in the pop-up window. The processing confirmation date will be automatically brought out:"
+
+#: ../../content/applications/customization/helpdesk.rst:41
+msgid "被分派人确认处理："
+msgstr "Confirmed and processed by the assigned person:"
+
+#: ../../content/applications/customization/helpdesk.rst:46
+msgid "当产品批次栏有信息且保存后，生成“创建质量警报”按钮，点击后在顶部生成“质量警报”按钮，点击跳转到质量模块，生成质量警报单据，写入工单内的相关信息。注意：同一工单不会重复触发，若产品批次号复数，则生成对应批次号的复数质量警报单："
+msgstr "When there is information in the product batch column and it is saved, a "Create Quality Alert" button is generated. Click on it to generate a "Quality Alert" button at the top. Click to jump to the quality module, generate a quality alert document, and write the relevant information in the work order. Attention: The same work order will not be triggered repeatedly. If the product batch number is multiple, a multiple quality alert will be generated for the corresponding batch number"
+
+#: ../../content/applications/customization/helpdesk.rst:57
+msgid ""
+"全部工单"
+"~~~~~~~~"
+msgstr ""
+"All work orders"
+"~~~~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:60
+msgid "在 **服务台** 模块 > **工单 > 全部工单** 页面，查看全部工单，其余功能与**我的工单**相同。"
+msgstr "On the ** Service Desk ** module>** Work Orders>All Work Orders ** page, view all work orders, and the rest of the functions are the same as ** My Work Orders **."
+
+#: ../../content/applications/customization/helpdesk.rst:62
+msgid ""
+"报告"
+"~~~~~"
+msgstr ""
+"report"
+"~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:65
+msgid ""
+"工单分析"
+"~~~~~~~~"
+msgstr ""
+"Work order analysis"
+"~~~~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:68
+msgid "在 **服务台** 模块 > **报告 > 工单分析** 页面，工单分析报告提供了数据库中每个客户支持工单的概述。此报告可用于确定团队花费最多时间的地方，并有助于确定支持人员之间是否存在不均匀的工作量分配。默认报告计算每个团队的工单数量并按阶段对其进行分组。"
+msgstr "On the Service Desk module>Reports>Work Order Analysis page, the Work Order Analysis report provides an overview of each customer support work order in the database. This report can be used to identify where the team spends the most time and help determine if there is uneven workload distribution among support personnel. The default report calculates the number of work orders for each team and groups them by stage."
+
+#: ../../content/applications/customization/helpdesk.rst:70
+msgid "可选择的度量来跟踪工作流中不同点花费最多时间的位置。要更改当前显示的报告使用的度量或添加更多度量，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。"
+msgstr "Optional metrics to track the locations in the workflow where different points spend the most time. To change the metrics used in the currently displayed report or add more metrics, click the metrics button and select one or more options from the drop-down menu."
+
+#: ../../content/applications/customization/helpdesk.rst:75
+msgid ""
+"SLA状态分析"
+"~~~~~~~~~~~"
+msgstr ""
+"SLA status analysis"
+"~~~~~~~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:78
+msgid "在 **服务台** 模块 > **报告 > SLA状态分析** 页面，SLA状态分析报告分析单个SLA（服务水平协议）的性能。默认情况下，该报告被筛选以显示失败的SLA数量、正在进行的SLA数量和已经成功的数量。结果按更改当前显示的用于报告的度量进行分组，或者要添加更多，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。"
+msgstr "On the Service Desk module>Reports>SLA Status Analysis page, the SLA Status Analysis report analyzes the performance of a single SLA (Service Level Agreement). By default, the report is filtered to display the number of failed SLAs, ongoing SLAs, and successful SLAs. The results are grouped by changing the metrics currently displayed for reporting, or to add more, click the metrics button and select one or more options from the drop-down menu."
+
+#: ../../content/applications/customization/helpdesk.rst:83
+msgid ""
+"配置"
+"~~~~~"
+msgstr ""
+"to configure"
+"~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:86
+msgid ""
+"帮助中心团队"
+"~~~~~~~~~~~~"
+msgstr ""
+"Help Center Team"
+"~~~~~~~~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:89
+msgid "在 **服务台** 模块 > **配置 > 帮助中心团队 > 新建** 页面，配置帮助中心团队信息："
+msgstr "On the ** Service Desk ** module>** Configuration>Help Center Team>New ** page, configure the Help Center team information:"
+
+#: ../../content/applications/customization/helpdesk.rst:94
+msgid ""
+"SLA策略"
+"~~~~~~~~"
+msgstr ""
+"SLA strategy"
+"~~~~~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:97
+msgid "在 **服务台** 模块 > **配置 > SLA策略 > 新建** 页面，配置SLA策略信息："
+msgstr "On the ** Service Desk ** module>** Configuration>SLA Policy>New ** page, configure SLA policy information:"
+
+#: ../../content/applications/customization/helpdesk.rst:102
+msgid ""
+"类型"
+"~~~~"
+msgstr ""
+"type"
+"~~~~"
+
+#: ../../content/applications/customization/helpdesk.rst:105
+msgid "在 **服务台** 模块 > **配置 > 类型 > 新建** 页面，配置类型信息："
+msgstr "On the ** Service Desk ** Module>** Configuration>Type>New ** page, configure the type information:"
+

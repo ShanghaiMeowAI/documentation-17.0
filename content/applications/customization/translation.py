@@ -119,14 +119,15 @@ def replace_msgstr_content(file_path, output_file_path,units,to_lang):
             parts = line.split(' ', 1)  # 将msgstr和后面的内容分开
             if len(parts) > 1:
                 # 如果有内容在msgstr后面，替换掉
-                new_line = parts[0] + ' ' + '"' + units[i][0] + '"'
                 for idx, unit_strings in enumerate(units[i]):
                     if idx == 0:
                         translation = translate_api(units[i][0],to_lang)
-                        new_line = parts[0] + ' ' + '"' + translation + '"'
+                        result = re.sub(r'\* \*', '**', translation)
+                        new_line = parts[0] + ' ' + '"' + result + '"'
                     else:
                         translation = translate_api(unit_strings,to_lang)
-                        new_line = new_line + "\n"+ '"' +translation+ '"'
+                        result = re.sub(r'\* \*', '**', translation)
+                        new_line = new_line + "\n"+ '"' + result + '"'
             modified_lines.append(new_line)
             i+=1
         else:
@@ -139,24 +140,26 @@ def replace_msgstr_content(file_path, output_file_path,units,to_lang):
 
     print(f"文件已保存为 {output_file_path}")
 
+dic = ['helpdesk.po','EDI.po','APQP.po']
 # 使用方法
-file_path = 'helpdesk.po'  # 替换为你的文件路径
-msgid_msgstr_units = extract_msgid_msgstr(file_path)
+for file in dic :
+    file_path = file  # 替换为你的文件路径
+    msgid_msgstr_units = extract_msgid_msgstr(file_path)
 
-# 提取每个单元中的双引号内容
-extracted_strings = extract_strings_from_lines(msgid_msgstr_units)
+    # 提取每个单元中的双引号内容
+    extracted_strings = extract_strings_from_lines(msgid_msgstr_units)
 
-# 打印提取到的双引号中的内容
-for i, unit_strings in enumerate(extracted_strings):
-    print(f"Unit {i + 1}:")
-    for string in unit_strings:
-        print(f"{string}")
-    print('-' * 50)
+    # 打印提取到的双引号中的内容
+    for i, unit_strings in enumerate(extracted_strings):
+        print(f"Unit {i + 1}:")
+        for string in unit_strings:
+            print(f"{string}")
+        print('-' * 50)
 
-to_lang = "th"
-replace_msgstr_content(file_path,"_trans_"+file_path+"_"+to_lang,extracted_strings,to_lang)
-to_lang = "en"
-replace_msgstr_content(file_path,"_trans_"+file_path+"_"+to_lang,extracted_strings,to_lang)
+    to_lang = "th"
+    replace_msgstr_content(file_path,"_trans_"+file_path+"_"+to_lang,extracted_strings,to_lang)
+    to_lang = "en"
+    replace_msgstr_content(file_path,"_trans_"+file_path+"_"+to_lang,extracted_strings,to_lang)
 
 
 
