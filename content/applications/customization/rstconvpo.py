@@ -21,13 +21,16 @@ def process_file(input_path, output_path):
                         start_line = line_number - len(current_msgid) + 1
                         outfile.write(f'#: ../../content/applications/customization/{input_path.split("/")[-1]}:{start_line}\n')
                         if len(current_msgid) == 1:
-                            outfile.write(f'msgid "{current_msgid[0]}"\n')
+                            content = current_msgid[0]
+                            content = re.sub(r'^\d+\.\s*', '', content)
+                            outfile.write(f'msgid "{content}"\n')
                         else:
                             outfile.write('msgid ""\n')
                             for content in current_msgid:
                                 content = content.strip()  # 去除行首和行尾的空白字符
                                 if pattern.match(content):
                                     continue
+                                content = re.sub(r'^\d+\.\s*', '', content)
                                 outfile.write(f'"{content}"\n')
                         outfile.write('msgstr ""\n\n')
                     current_msgid = []
@@ -46,6 +49,6 @@ def process_file(input_path, output_path):
             outfile.write('msgstr ""\n')
 
 # 使用脚本
-input_file_path = 'helpdesk.rst'
-output_file_path = 'helpdesk.po'
+input_file_path = 'EDI.rst'
+output_file_path = 'EDI.po'
 process_file(input_file_path, output_file_path)
