@@ -42,6 +42,6 @@ def process_file(input_path, output_path):
             outfile.write('msgstr ""\n')
 
 # 使用脚本
-input_file_path = 'helpdesk.rst'
-output_file_path = 'helpdesk.po'
+input_file_path = 'EDI.rst'
+output_file_path = 'EDI.po'
 process_file(input_file_path, output_file_path)

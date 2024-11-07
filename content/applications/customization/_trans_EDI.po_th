@@ -6,19 +6,19 @@ msgstr "EDI เป็นระบบในการรับเอกสาร e
 msgid ""
 "配置"
 "-----"
-"1. 配置EDI的连接信息"
+"配置EDI的连接信息"
 msgstr ""
 "การกำหนดค่า"
 "-----"
-"1. กำหนดค่าข้อมูลการเชื่อมต่อสำหรับ EDI"
+"กำหนดค่าข้อมูลการเชื่อมต่อสำหรับ EDI"
 
 #: ../../content/applications/customization/EDI.rst:14
-msgid "2. 配置EDI的数据的启动时间"
-msgstr "2. กำหนดเวลาเริ่มต้นของข้อมูลของ EDI"
+msgid "配置EDI的数据的启动时间"
+msgstr "กำหนดค่าเวลาเริ่มต้นของข้อมูลของ EDI"
 
 #: ../../content/applications/customization/EDI.rst:20
-msgid "3. 手动运行"
-msgstr "3. ดำเนินการด้วยตนเอง"
+msgid "手动运行"
+msgstr "ดำเนินการด้วยตนเอง"
 
 #: ../../content/applications/customization/EDI.rst:26
 msgid ""
@@ -29,74 +29,74 @@ msgstr ""
 "-----"
 
 #: ../../content/applications/customization/EDI.rst:29
-msgid "1. 销售订单明细"
-msgstr "1. รายละเอียดการสั่งซื้อขาย"
+msgid "销售订单明细"
+msgstr "รายละเอียดใบสั่งขาย"
 
 #: ../../content/applications/customization/EDI.rst:34
-msgid "2. 点击要操作的销售订单明细行"
-msgstr "2. คลิกที่รายละเอียดใบสั่งขายที่ต้องการดำเนินการ"
+msgid "点击要操作的销售订单明细行"
+msgstr "คลิกที่บรรทัดรายละเอียดใบสั่งขายที่คุณต้องการดำเนินการ"
 
 #: ../../content/applications/customization/EDI.rst:39
-msgid "3. 点击订单参考号跳转到报价单"
-msgstr "3. คลิกที่หมายเลขอ้างอิงการสั่งซื้อเพื่อข้ามไปยังใบเสนอราคา"
+msgid "点击订单参考号跳转到报价单"
+msgstr "คลิกที่หมายเลขอ้างอิงการสั่งซื้อเพื่อข้ามไปยังใบเสนอราคา"
 
 #: ../../content/applications/customization/EDI.rst:44
-msgid "4. 点击确认生成销售订单"
-msgstr "4. คลิกเพื่อยืนยันการสั่งซื้อ"
+msgid "点击确认生成销售订单"
+msgstr "คลิกเพื่อยืนยันการสั่งซื้อ"
 
 #: ../../content/applications/customization/EDI.rst:49
-msgid "5. 点击采购跳转询价单"
-msgstr "5. คลิกสั่งซื้อเพื่อข้ามแบบฟอร์มสอบถาม"
+msgid "点击采购跳转询价单"
+msgstr "คลิกสั่งซื้อเพื่อข้ามแบบฟอร์มสอบถาม"
 
 #: ../../content/applications/customization/EDI.rst:54
-msgid "6. 点击确认订单生成采购订单,代发货"
-msgstr "6. คลิกเพื่อยืนยันการสั่งซื้อเพื่อสร้างใบสั่งซื้อและส่งแทน"
+msgid "点击确认订单生成采购订单,代发货"
+msgstr "คลิกเพื่อยืนยันการสั่งซื้อเพื่อสร้างใบสั่งซื้อการจัดส่งแทน"
 
 #: ../../content/applications/customization/EDI.rst:59
-msgid "7. 点击代发货,跳转到调拨单"
-msgstr "7. คลิกที่การจัดส่งแทน, ข้ามไปยังใบโอนเงิน"
+msgid "点击代发货,跳转到调拨单"
+msgstr "ส่งแทนโดยคลิก ข้ามไปยังใบโอนเงิน"
 
 #: ../../content/applications/customization/EDI.rst:64
-msgid "8. 调拨单"
-msgstr "8. แบบฟอร์มการโอนเงิน"
+msgid "调拨单"
+msgstr "แบบฟอร์มการโอนเงิน"
 
 #: ../../content/applications/customization/EDI.rst:69
-msgid "9. 点击代发货"
-msgstr "9. การจัดส่งแบบ Click-Plack"
+msgid "点击代发货"
+msgstr "การจัดส่งแบบ Click-Day"
 
 #: ../../content/applications/customization/EDI.rst:74
-msgid "10. 按发货逻辑选中相应的订单，点击拆分"
-msgstr "10. เลือกคำสั่งซื้อที่สอดคล้องกันตามตรรกะการจัดส่งคลิกแยก"
+msgid "按发货逻辑选中相应的订单，点击拆分"
+msgstr "เลือกคำสั่งซื้อที่สอดคล้องกันตามตรรกะการจัดส่งคลิกแยก"
 
 #: ../../content/applications/customization/EDI.rst:79
-msgid "11. 填写相应数据，点击保存"
-msgstr "11. กรอกข้อมูลที่เกี่ยวข้อง คลิก บันทึก"
+msgid "填写相应数据，点击保存"
+msgstr "กรอกข้อมูลที่เกี่ยวข้อง คลิก บันทึก"
 
 #: ../../content/applications/customization/EDI.rst:84
-msgid "12. 在搜索中筛选'代发货'，选择刚刚拆分生成的订单"
-msgstr "12. กรอง 'Generation Shipping' ในการค้นหาและเลือกคำสั่งซื้อที่เพิ่งแยกสร้าง"
+msgid "在搜索中筛选'代发货'，选择刚刚拆分生成的订单"
+msgstr "กรอง 'Generation Shipping' ในการค้นหาและเลือกคำสั่งซื้อที่เพิ่งแยกสร้าง"
 
 #: ../../content/applications/customization/EDI.rst:89
-msgid "13. 筛选要发货的数据"
-msgstr "13. คัดกรองข้อมูลที่ต้องการจัดส่ง"
+msgid "筛选要发货的数据"
+msgstr "คัดกรองข้อมูลที่ต้องการจัดส่ง"
 
 #: ../../content/applications/customization/EDI.rst:94
-msgid "14. 填写主标签号和箱标签号"
-msgstr "14. กรอกหมายเลขฉลากหลักและหมายเลขฉลากกล่อง"
+msgid "填写主标签号和箱标签号"
+msgstr "กรอกหมายเลขฉลากหลักและหมายเลขฉลากกล่อง"
 
 #: ../../content/applications/customization/EDI.rst:99
-msgid "15. 填写格外的信息和ASN"
-msgstr "15. กรอกข้อมูลพิเศษและ ASN"
+msgid "填写格外的信息和ASN"
+msgstr "กรอกข้อมูลพิเศษและ ASN"
 
 #: ../../content/applications/customization/EDI.rst:104
-msgid "16. 点击验证,验证数据的完整性"
-msgstr "16. คลิกยืนยันความถูกต้องของข้อมูล"
+msgid "点击验证,验证数据的完整性"
+msgstr "คลิกเพื่อยืนยันความถูกต้องของข้อมูล"
 
 #: ../../content/applications/customization/EDI.rst:109
-msgid "17. 点击创建EDI文档"
-msgstr "17. คลิกเพื่อสร้างเอกสาร EDI"
+msgid "点击创建EDI文档"
+msgstr "คลิกเพื่อสร้างเอกสาร EDI"
 
 #: ../../content/applications/customization/EDI.rst:114
-msgid "18. 点击发送EDI文档"
-msgstr "18. คลิกเพื่อส่งเอกสาร EDI"
+msgid "点击发送EDI文档"
+msgstr "คลิกเพื่อส่งเอกสาร EDI"
 
