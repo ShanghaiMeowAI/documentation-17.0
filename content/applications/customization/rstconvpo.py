@@ -11,10 +11,6 @@ def process_file(input_path, output_path):
     pattern = re.compile(r'^[!@#$%^&*\'\-_=+{};:,<.>/?\\|`~.@]+$')
     with open(input_path, 'r', encoding='utf-8') as infile, open(output_path, 'w', encoding='utf-8') as outfile:
         for line in infile:
-            stripped_line = line.strip()  # 去除行首和行尾的空白字符
-            if pattern.match(stripped_line):
-                line_number += 1
-                continue
             stripped_line = line.strip()
             if stripped_line:  # Not an empty line
                 current_msgid.append(stripped_line)
@@ -29,6 +25,9 @@ def process_file(input_path, output_path):
                         else:
                             outfile.write('msgid ""\n')
                             for content in current_msgid:
+                                content = content.strip()  # 去除行首和行尾的空白字符
+                                if pattern.match(content):
+                                    continue
                                 outfile.write(f'"{content}"\n')
                         outfile.write('msgstr ""\n\n')
                     current_msgid = []

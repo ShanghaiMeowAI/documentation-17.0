@@ -1,18 +1,24 @@
-#: ../../content/applications/customization/APQP.rst:2
-msgid "APQP模块"
-msgstr "โมดูล APQP"
+#: ../../content/applications/customization/APQP.rst:1
+msgid ""
+"APQP模块"
+msgstr ""
+"โมดูล APQP"
 
-#: ../../content/applications/customization/APQP.rst:5
-msgid "简介"
-msgstr "บทนำ"
+#: ../../content/applications/customization/APQP.rst:4
+msgid ""
+"简介"
+msgstr ""
+"บทนำ"
 
 #: ../../content/applications/customization/APQP.rst:7
 msgid "APQP全称Advanced Product Quality Planning，产品质量先期策划。是一种结构化方法，用于定义和建立必要的步骤，以确保产品满足客户设定的所有性能和质量要求。它旨在通过精心策划产品开发和生产的每个阶段，确保产品满足客户的期望。"
 msgstr "APQP ชื่อเต็ม Advanced Product Quality Planning การวางแผนล่วงหน้าคุณภาพของผลิตภัณฑ์ เป็นวิธีการที่มีโครงสร้างในการกำหนดและสร้างขั้นตอนที่จำเป็นเพื่อให้แน่ใจว่าผลิตภัณฑ์ตรงตามข้อกำหนดด้านประสิทธิภาพและคุณภาพที่ลูกค้ากำหนด เรามุ่งมั่นที่จะสร้างความมั่นใจว่าผลิตภัณฑ์ตรงตามความคาดหวังของลูกค้าโดยการวางแผนอย่างรอบคอบในทุกขั้นตอนของการพัฒนาผลิตภัณฑ์และการผลิต"
 
-#: ../../content/applications/customization/APQP.rst:10
-msgid "功能模块概述"
-msgstr "ภาพรวมโมดูลการทำงาน"
+#: ../../content/applications/customization/APQP.rst:9
+msgid ""
+"功能模块概述"
+msgstr ""
+"ภาพรวมโมดูลการทำงาน"
 
 #: ../../content/applications/customization/APQP.rst:12
 msgid "Odoo 17 APQP模块的主要功能包括："
@@ -30,13 +36,17 @@ msgstr ""
 "**ผลิตภัณฑ์ **: การจัดการและเพิ่มข้อมูลผลิตภัณฑ์ทั้งหมด"
 "** ลูกค้า **: การจัดการและเพิ่มข้อมูลลูกค้าทั้งหมด"
 
-#: ../../content/applications/customization/APQP.rst:20
-msgid "功能详细描述"
-msgstr "คำอธิบายรายละเอียดฟังก์ชัน"
+#: ../../content/applications/customization/APQP.rst:19
+msgid ""
+"功能详细描述"
+msgstr ""
+"คำอธิบายรายละเอียดฟังก์ชัน"
 
-#: ../../content/applications/customization/APQP.rst:23
-msgid "项目"
-msgstr "โครงการ"
+#: ../../content/applications/customization/APQP.rst:22
+msgid ""
+"项目"
+msgstr ""
+"โครงการ"
 
 #: ../../content/applications/customization/APQP.rst:25
 msgid "在 **APQP模块 > 项目** 页面可以对项目总览，点击“新建”可以新增项目："
@@ -80,13 +90,17 @@ msgstr ""
 msgid "填写完所有信息后点击Document处的Submit后再将这个项目Submit："
 msgstr "หลังจากกรอกข้อมูลทั้งหมดแล้วคลิก Submit ที่ Document ก่อนที่จะส่งรายการนี้:"
 
-#: ../../content/applications/customization/APQP.rst:50
-msgid "任务"
-msgstr "ภารกิจ"
+#: ../../content/applications/customization/APQP.rst:49
+msgid ""
+"任务"
+msgstr ""
+"ภารกิจ"
 
-#: ../../content/applications/customization/APQP.rst:53
-msgid "由我发起"
-msgstr "เริ่มต้นโดย ฉัน"
+#: ../../content/applications/customization/APQP.rst:52
+msgid ""
+"由我发起"
+msgstr ""
+"เริ่มต้นโดย ฉัน"
 
 #: ../../content/applications/customization/APQP.rst:55
 msgid "在 **APQP模块 > 任务 > 由我发起** 页面可以看到由我创建的项目，点击一条进入："
@@ -96,9 +110,11 @@ msgstr "ใน ** โมดูล APQP> งาน> เริ่มต้นโ�
 msgid "此处点击“Send Email”，可以通知审批人，在弹窗中还可以增添留言和附件："
 msgstr "คลิกที่นี่ "ส่งอีเมล" สามารถแจ้งให้ผู้อนุมัติทราบและเพิ่มข้อความและสิ่งที่แนบมาในหน้าต่างบานเกล็ด:"
 
-#: ../../content/applications/customization/APQP.rst:69
-msgid "由我审批"
-msgstr "ได้รับการอนุมัติจากฉัน"
+#: ../../content/applications/customization/APQP.rst:68
+msgid ""
+"由我审批"
+msgstr ""
+"ได้รับการอนุมัติจากฉัน"
 
 #: ../../content/applications/customization/APQP.rst:71
 msgid "在 **APQP模块 > 任务 > 待我审批** 页面可以看到自己被任务发起人指派审批的任务，点击进入："
@@ -120,17 +136,21 @@ msgstr "เมื่อการอนุมัติงานไม่ผ่า
 msgid "修改完成之后，点击文档明细处的Submit，返回上一级，可以重新发送邮件通知，之后在 **APQP模块 > 任务 > 待我审批** 页面，审批人可以重新对该任务发起审批。"
 msgstr "เมื่อการแก้ไขเสร็จสิ้นให้แตะที่ Submit ในรายละเอียดของเอกสารเพื่อกลับไปยังระดับก่อนหน้าคุณสามารถส่งการแจ้งเตือนทางอีเมลได้อีกครั้งและหลังจากนั้นในหน้า ** โมดูล APQP > งาน > รอให้ฉันอนุมัติ ** ผู้อนุมัติสามารถเริ่มการอนุมัติงานได้อีกครั้ง"
 
-#: ../../content/applications/customization/APQP.rst:103
-msgid "产品"
-msgstr "ผลิตภัณฑ์"
+#: ../../content/applications/customization/APQP.rst:102
+msgid ""
+"产品"
+msgstr ""
+"ผลิตภัณฑ์"
 
 #: ../../content/applications/customization/APQP.rst:105
 msgid "在 **APQP模块 > 产品 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 产品** 页面上："
 msgstr "ในหน้า ** โมดูล APQP > ผลิตภัณฑ์ > ใหม่ ** กรอกข้อมูลผลิตภัณฑ์ที่จะเพิ่มและแสดงใน ** โมดูล APQP > ผลิตภัณฑ์ ** หลังจากบันทึก:"
 
-#: ../../content/applications/customization/APQP.rst:114
-msgid "客户"
-msgstr "ลูกค้า"
+#: ../../content/applications/customization/APQP.rst:113
+msgid ""
+"客户"
+msgstr ""
+"ลูกค้า"
 
 #: ../../content/applications/customization/APQP.rst:116
 msgid "在 **APQP模块 > 客户 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 客户** 页面上："
@@ -140,7 +160,7 @@ msgstr "ในหน้า ** APQP Module> Customer> New ** กรอกข้�
 msgid "EDI 是接收甲方公司的edi文档和回传edi文档的系统"
 msgstr "EDI เป็นระบบในการรับเอกสาร edi จาก บริษัท พรรค A และส่งกลับเอกสาร edi"
 
-#: ../../content/applications/customization/EDI.rst:7
+#: ../../content/applications/customization/EDI.rst:6
 msgid ""
 "配置"
 "配置EDI的连接信息"
@@ -156,9 +176,11 @@ msgstr "กำหนดค่าเวลาเริ่มต้นของข
 msgid "手动运行"
 msgstr "ดำเนินการด้วยตนเอง"
 
-#: ../../content/applications/customization/EDI.rst:27
-msgid "操作"
-msgstr "การดำเนินงาน"
+#: ../../content/applications/customization/EDI.rst:26
+msgid ""
+"操作"
+msgstr ""
+"การดำเนินงาน"
 
 #: ../../content/applications/customization/EDI.rst:29
 msgid "销售订单明细"
@@ -232,21 +254,27 @@ msgstr "คลิกเพื่อสร้างเอกสาร EDI"
 msgid "点击发送EDI文档"
 msgstr "คลิกเพื่อส่งเอกสาร EDI"
 
-#: ../../content/applications/customization/helpdesk.rst:2
-msgid "服务台"
-msgstr "โต๊ะช่วยเหลือ"
+#: ../../content/applications/customization/helpdesk.rst:1
+msgid ""
+"服务台"
+msgstr ""
+"โต๊ะช่วยเหลือ"
 
-#: ../../content/applications/customization/helpdesk.rst:5
-msgid "简介"
-msgstr "บทนำ"
+#: ../../content/applications/customization/helpdesk.rst:4
+msgid ""
+"简介"
+msgstr ""
+"บทนำ"
 
 #: ../../content/applications/customization/helpdesk.rst:7
 msgid "Odoo 服务台模块是一个基于工单的客户支持应用程序。可以在一个仪表板中配置和管理多个团队，每个团队都有自己的客户提交工单的管道。管道按可定制的阶段组织，使团队能够快速高效地跟踪、优先处理和解决客户问题。"
 msgstr "Odoo Helpdesk Module เป็นแอพพลิเคชั่นการสนับสนุนลูกค้าตามใบสั่งงาน หลายทีมสามารถกำหนดค่าและจัดการได้ในแดชบอร์ดเดียวและแต่ละทีมมีท่อส่งงานของลูกค้าเอง การจัดระเบียบท่อตามขั้นตอนที่ปรับแต่งได้เพื่อให้ทีมงานสามารถติดตามจัดลำดับความสำคัญและแก้ไขปัญหาของลูกค้าได้อย่างรวดเร็วและมีประสิทธิภาพ"
 
-#: ../../content/applications/customization/helpdesk.rst:10
-msgid "功能模块概述"
-msgstr "ภาพรวมโมดูลการทำงาน"
+#: ../../content/applications/customization/helpdesk.rst:9
+msgid ""
+"功能模块概述"
+msgstr ""
+"ภาพรวมโมดูลการทำงาน"
 
 #: ../../content/applications/customization/helpdesk.rst:12
 msgid "Odoo 17 服务台模块的主要功能包括："
@@ -264,25 +292,33 @@ msgstr ""
 "** รายงาน **: การวิเคราะห์คำสั่งงานและการวิเคราะห์สถานะ SLA"
 "** การกำหนดค่า **: การสร้างทีมศูนย์ช่วยเหลือกลยุทธ์ SLA และประเภท"
 
-#: ../../content/applications/customization/helpdesk.rst:20
-msgid "功能详细描述"
-msgstr "คำอธิบายรายละเอียดฟังก์ชัน"
+#: ../../content/applications/customization/helpdesk.rst:19
+msgid ""
+"功能详细描述"
+msgstr ""
+"คำอธิบายรายละเอียดฟังก์ชัน"
 
-#: ../../content/applications/customization/helpdesk.rst:23
-msgid "概述"
-msgstr "ภาพรวม"
+#: ../../content/applications/customization/helpdesk.rst:22
+msgid ""
+"概述"
+msgstr ""
+"ภาพรวม"
 
 #: ../../content/applications/customization/helpdesk.rst:25
 msgid "在 **服务台** 模块 > **概述** 页面，展示我的工单、绩效队以及帮助中心团队的工单处理情况："
 msgstr "ในหน้า **Helpdesk **Module > ** ภาพรวม ** แสดงใบสั่งงานของฉัน ทีมปฏิบัติงาน และทีมงานศูนย์ช่วยเหลือ:"
 
-#: ../../content/applications/customization/helpdesk.rst:31
-msgid "工单"
-msgstr "ใบสั่งงาน"
+#: ../../content/applications/customization/helpdesk.rst:30
+msgid ""
+"工单"
+msgstr ""
+"ใบสั่งงาน"
 
-#: ../../content/applications/customization/helpdesk.rst:34
-msgid "我的工单"
-msgstr "คำสั่งงานของฉัน"
+#: ../../content/applications/customization/helpdesk.rst:33
+msgid ""
+"我的工单"
+msgstr ""
+"คำสั่งงานของฉัน"
 
 #: ../../content/applications/customization/helpdesk.rst:36
 msgid "在 **服务台** 模块 > **工单 > 我的工单 > 新建** 页面，填写相关信息以及批次后保存，弹出“分派处理”按钮，点击此按钮后，在弹窗中选择分派给指定的人员处理以及填写处理意见，处理确认日期将自动带出："
@@ -296,21 +332,27 @@ msgstr "ได้รับการยืนยันจากผู้รับ
 msgid "当产品批次栏有信息且保存后，生成“创建质量警报”按钮，点击后在顶部生成“质量警报”按钮，点击跳转到质量模块，生成质量警报单据，写入工单内的相关信息。注意：同一工单不会重复触发，若产品批次号复数，则生成对应批次号的复数质量警报单："
 msgstr "เมื่อแถบชุดผลิตภัณฑ์มีข้อมูลและบันทึกแล้วให้สร้างปุ่ม "สร้างการแจ้งเตือนคุณภาพ" ปุ่มสร้างการแจ้งเตือนคุณภาพที่ด้านบนหลังจากคลิกคลิกข้ามไปยังโมดูลคุณภาพสร้างเอกสารการแจ้งเตือนคุณภาพเขียนข้อมูลที่เกี่ยวข้องภายในใบสั่งงาน หมายเหตุ: คำสั่งงานเดียวกันจะไม่ทริกเกอร์ซ้ำ ๆ หากหมายเลขชุดผลิตภัณฑ์เป็นพหูพจน์จะมีการสร้างแผ่นแจ้งเตือนคุณภาพแบบพหูพจน์สำหรับหมายเลขชุดที่สอดคล้องกัน:"
 
-#: ../../content/applications/customization/helpdesk.rst:58
-msgid "全部工单"
-msgstr "คำสั่งงานทั้งหมด"
+#: ../../content/applications/customization/helpdesk.rst:57
+msgid ""
+"全部工单"
+msgstr ""
+"คำสั่งงานทั้งหมด"
 
 #: ../../content/applications/customization/helpdesk.rst:60
 msgid "在 **服务台** 模块 > **工单 > 全部工单** 页面，查看全部工单，其余功能与**我的工单**相同。"
 msgstr "ในหน้า ** Helpdesk ** Module > ** ใบสั่งงาน > ใบสั่งงานทั้งหมด ** ฟังก์ชั่นที่เหลือจะเหมือนกับ ** ใบสั่งงานของฉัน **"
 
-#: ../../content/applications/customization/helpdesk.rst:63
-msgid "报告"
-msgstr "รายงาน"
+#: ../../content/applications/customization/helpdesk.rst:62
+msgid ""
+"报告"
+msgstr ""
+"รายงาน"
 
-#: ../../content/applications/customization/helpdesk.rst:66
-msgid "工单分析"
-msgstr "การวิเคราะห์คำสั่งงาน"
+#: ../../content/applications/customization/helpdesk.rst:65
+msgid ""
+"工单分析"
+msgstr ""
+"การวิเคราะห์คำสั่งงาน"
 
 #: ../../content/applications/customization/helpdesk.rst:68
 msgid "在 **服务台** 模块 > **报告 > 工单分析** 页面，工单分析报告提供了数据库中每个客户支持工单的概述。此报告可用于确定团队花费最多时间的地方，并有助于确定支持人员之间是否存在不均匀的工作量分配。默认报告计算每个团队的工单数量并按阶段对其进行分组。"
@@ -320,37 +362,47 @@ msgstr "ในหน้า ** Helpdesk ** โมดูล > ** รายงา�
 msgid "可选择的度量来跟踪工作流中不同点花费最多时间的位置。要更改当前显示的报告使用的度量或添加更多度量，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。"
 msgstr "ตัวชี้วัดที่เลือกได้เพื่อติดตามตำแหน่งที่ใช้เวลามากที่สุดในจุดต่าง ๆ ในเวิร์กโฟลว์ หากต้องการเปลี่ยนตัวชี้วัดที่ใช้ในรายงานที่แสดงในปัจจุบันหรือเพิ่มตัวชี้วัดเพิ่มเติมคลิกที่ปุ่มตัวชี้วัดและเลือกตัวเลือกอย่างน้อยหนึ่งตัวเลือกจากเมนูแบบเลื่อนลง"
 
-#: ../../content/applications/customization/helpdesk.rst:76
-msgid "SLA状态分析"
-msgstr "การวิเคราะห์สถานะ SLA"
+#: ../../content/applications/customization/helpdesk.rst:75
+msgid ""
+"SLA状态分析"
+msgstr ""
+"การวิเคราะห์สถานะ SLA"
 
 #: ../../content/applications/customization/helpdesk.rst:78
 msgid "在 **服务台** 模块 > **报告 > SLA状态分析** 页面，SLA状态分析报告分析单个SLA（服务水平协议）的性能。默认情况下，该报告被筛选以显示失败的SLA数量、正在进行的SLA数量和已经成功的数量。结果按更改当前显示的用于报告的度量进行分组，或者要添加更多，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。"
 msgstr "ในหน้า ** Helpdesk ** โมดูล > ** รายงาน > การวิเคราะห์สถานะ SLA ** รายงานการวิเคราะห์สถานะ SLA วิเคราะห์ประสิทธิภาพของ SLA แต่ละตัว (ข้อตกลงระดับการให้บริการ) โดยปริยายรายงานนี้จะถูกคัดกรองเพื่อแสดงจำนวน SLA ที่ล้มเหลว จำนวน SLA ที่กำลังดำเนินการและจำนวนที่ประสบความสำเร็จแล้ว ผลลัพธ์จะถูกจัดกลุ่มโดยการเปลี่ยนแปลงตัวชี้วัดที่แสดงในปัจจุบันสำหรับการรายงานหรือต้องการเพิ่มเพิ่มเติมคลิกที่ปุ่มตัวชี้วัดและเลือกตัวเลือกอย่างน้อยหนึ่งตัวเลือกจากเมนูแบบเลื่อนลง"
 
-#: ../../content/applications/customization/helpdesk.rst:84
-msgid "配置"
-msgstr "การกำหนดค่า"
+#: ../../content/applications/customization/helpdesk.rst:83
+msgid ""
+"配置"
+msgstr ""
+"การกำหนดค่า"
 
-#: ../../content/applications/customization/helpdesk.rst:87
-msgid "帮助中心团队"
-msgstr "ทีมศูนย์ช่วยเหลือ"
+#: ../../content/applications/customization/helpdesk.rst:86
+msgid ""
+"帮助中心团队"
+msgstr ""
+"ทีมศูนย์ช่วยเหลือ"
 
 #: ../../content/applications/customization/helpdesk.rst:89
 msgid "在 **服务台** 模块 > **配置 > 帮助中心团队 > 新建** 页面，配置帮助中心团队信息："
 msgstr "กำหนดค่าข้อมูลทีมศูนย์ช่วยเหลือได้ที่ ** Helpdesk ** โมดูล > ** การกำหนดค่า > ทีมศูนย์ช่วยเหลือ > ใหม่ ** หน้า:"
 
-#: ../../content/applications/customization/helpdesk.rst:95
-msgid "SLA策略"
-msgstr "นโยบาย SLA"
+#: ../../content/applications/customization/helpdesk.rst:94
+msgid ""
+"SLA策略"
+msgstr ""
+"นโยบาย SLA"
 
 #: ../../content/applications/customization/helpdesk.rst:97
 msgid "在 **服务台** 模块 > **配置 > SLA策略 > 新建** 页面，配置SLA策略信息："
 msgstr "กำหนดค่าข้อมูลนโยบาย SLA ที่ ** Helpdesk ** โมดูล > ** การกำหนดค่า> นโยบาย SLA> ใหม่ ** หน้า:"
 
-#: ../../content/applications/customization/helpdesk.rst:103
-msgid "类型"
-msgstr "ประเภท"
+#: ../../content/applications/customization/helpdesk.rst:102
+msgid ""
+"类型"
+msgstr ""
+"ประเภท"
 
 #: ../../content/applications/customization/helpdesk.rst:105
 msgid "在 **服务台** 模块 > **配置 > 类型 > 新建** 页面，配置类型信息："

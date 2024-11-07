@@ -2,7 +2,7 @@
 msgid "EDI 是接收甲方公司的edi文档和回传edi文档的系统"
 msgstr "EDI is a system for receiving EDI documents from Party A's company and returning EDI documents"
 
-#: ../../content/applications/customization/EDI.rst:7
+#: ../../content/applications/customization/EDI.rst:6
 msgid ""
 "配置"
 "配置EDI的连接信息"
@@ -18,9 +18,11 @@ msgstr "Configure the start time of EDI data"
 msgid "手动运行"
 msgstr "Manual operation"
 
-#: ../../content/applications/customization/EDI.rst:27
-msgid "操作"
-msgstr "operation"
+#: ../../content/applications/customization/EDI.rst:26
+msgid ""
+"操作"
+msgstr ""
+"operation"
 
 #: ../../content/applications/customization/EDI.rst:29
 msgid "销售订单明细"

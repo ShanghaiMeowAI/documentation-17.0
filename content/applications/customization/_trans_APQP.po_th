@@ -1,18 +1,24 @@
-#: ../../content/applications/customization/APQP.rst:2
-msgid "APQP模块"
-msgstr "โมดูล APQP"
+#: ../../content/applications/customization/APQP.rst:1
+msgid ""
+"APQP模块"
+msgstr ""
+"โมดูล APQP"
 
-#: ../../content/applications/customization/APQP.rst:5
-msgid "简介"
-msgstr "บทนำ"
+#: ../../content/applications/customization/APQP.rst:4
+msgid ""
+"简介"
+msgstr ""
+"บทนำ"
 
 #: ../../content/applications/customization/APQP.rst:7
 msgid "APQP全称Advanced Product Quality Planning，产品质量先期策划。是一种结构化方法，用于定义和建立必要的步骤，以确保产品满足客户设定的所有性能和质量要求。它旨在通过精心策划产品开发和生产的每个阶段，确保产品满足客户的期望。"
 msgstr "APQP ชื่อเต็ม Advanced Product Quality Planning การวางแผนล่วงหน้าคุณภาพของผลิตภัณฑ์ เป็นวิธีการที่มีโครงสร้างในการกำหนดและสร้างขั้นตอนที่จำเป็นเพื่อให้แน่ใจว่าผลิตภัณฑ์ตรงตามข้อกำหนดด้านประสิทธิภาพและคุณภาพที่ลูกค้ากำหนด เรามุ่งมั่นที่จะสร้างความมั่นใจว่าผลิตภัณฑ์ตรงตามความคาดหวังของลูกค้าโดยการวางแผนอย่างรอบคอบในทุกขั้นตอนของการพัฒนาผลิตภัณฑ์และการผลิต"
 
-#: ../../content/applications/customization/APQP.rst:10
-msgid "功能模块概述"
-msgstr "ภาพรวมโมดูลการทำงาน"
+#: ../../content/applications/customization/APQP.rst:9
+msgid ""
+"功能模块概述"
+msgstr ""
+"ภาพรวมโมดูลการทำงาน"
 
 #: ../../content/applications/customization/APQP.rst:12
 msgid "Odoo 17 APQP模块的主要功能包括："
@@ -30,13 +36,17 @@ msgstr ""
 "**ผลิตภัณฑ์ **: การจัดการและเพิ่มข้อมูลผลิตภัณฑ์ทั้งหมด"
 "** ลูกค้า **: การจัดการและเพิ่มข้อมูลลูกค้าทั้งหมด"
 
-#: ../../content/applications/customization/APQP.rst:20
-msgid "功能详细描述"
-msgstr "คำอธิบายรายละเอียดฟังก์ชัน"
+#: ../../content/applications/customization/APQP.rst:19
+msgid ""
+"功能详细描述"
+msgstr ""
+"คำอธิบายรายละเอียดฟังก์ชัน"
 
-#: ../../content/applications/customization/APQP.rst:23
-msgid "项目"
-msgstr "โครงการ"
+#: ../../content/applications/customization/APQP.rst:22
+msgid ""
+"项目"
+msgstr ""
+"โครงการ"
 
 #: ../../content/applications/customization/APQP.rst:25
 msgid "在 **APQP模块 > 项目** 页面可以对项目总览，点击“新建”可以新增项目："
@@ -80,13 +90,17 @@ msgstr ""
 msgid "填写完所有信息后点击Document处的Submit后再将这个项目Submit："
 msgstr "หลังจากกรอกข้อมูลทั้งหมดแล้วคลิก Submit ที่ Document ก่อนที่จะส่งรายการนี้:"
 
-#: ../../content/applications/customization/APQP.rst:50
-msgid "任务"
-msgstr "ภารกิจ"
+#: ../../content/applications/customization/APQP.rst:49
+msgid ""
+"任务"
+msgstr ""
+"ภารกิจ"
 
-#: ../../content/applications/customization/APQP.rst:53
-msgid "由我发起"
-msgstr "เริ่มต้นโดย ฉัน"
+#: ../../content/applications/customization/APQP.rst:52
+msgid ""
+"由我发起"
+msgstr ""
+"เริ่มต้นโดย ฉัน"
 
 #: ../../content/applications/customization/APQP.rst:55
 msgid "在 **APQP模块 > 任务 > 由我发起** 页面可以看到由我创建的项目，点击一条进入："
@@ -96,9 +110,11 @@ msgstr "ใน ** โมดูล APQP> งาน> เริ่มต้นโ�
 msgid "此处点击“Send Email”，可以通知审批人，在弹窗中还可以增添留言和附件："
 msgstr "คลิกที่นี่ "ส่งอีเมล" สามารถแจ้งให้ผู้อนุมัติทราบและเพิ่มข้อความและสิ่งที่แนบมาในหน้าต่างบานเกล็ด:"
 
-#: ../../content/applications/customization/APQP.rst:69
-msgid "由我审批"
-msgstr "ได้รับการอนุมัติจากฉัน"
+#: ../../content/applications/customization/APQP.rst:68
+msgid ""
+"由我审批"
+msgstr ""
+"ได้รับการอนุมัติจากฉัน"
 
 #: ../../content/applications/customization/APQP.rst:71
 msgid "在 **APQP模块 > 任务 > 待我审批** 页面可以看到自己被任务发起人指派审批的任务，点击进入："
@@ -120,17 +136,21 @@ msgstr "เมื่อการอนุมัติงานไม่ผ่า
 msgid "修改完成之后，点击文档明细处的Submit，返回上一级，可以重新发送邮件通知，之后在 **APQP模块 > 任务 > 待我审批** 页面，审批人可以重新对该任务发起审批。"
 msgstr "เมื่อการแก้ไขเสร็จสิ้นให้แตะที่ Submit ในรายละเอียดของเอกสารเพื่อกลับไปยังระดับก่อนหน้าคุณสามารถส่งการแจ้งเตือนทางอีเมลได้อีกครั้งและหลังจากนั้นในหน้า ** โมดูล APQP > งาน > รอให้ฉันอนุมัติ ** ผู้อนุมัติสามารถเริ่มการอนุมัติงานได้อีกครั้ง"
 
-#: ../../content/applications/customization/APQP.rst:103
-msgid "产品"
-msgstr "ผลิตภัณฑ์"
+#: ../../content/applications/customization/APQP.rst:102
+msgid ""
+"产品"
+msgstr ""
+"ผลิตภัณฑ์"
 
 #: ../../content/applications/customization/APQP.rst:105
 msgid "在 **APQP模块 > 产品 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 产品** 页面上："
 msgstr "ในหน้า ** โมดูล APQP > ผลิตภัณฑ์ > ใหม่ ** กรอกข้อมูลผลิตภัณฑ์ที่จะเพิ่มและแสดงใน ** โมดูล APQP > ผลิตภัณฑ์ ** หลังจากบันทึก:"
 
-#: ../../content/applications/customization/APQP.rst:114
-msgid "客户"
-msgstr "ลูกค้า"
+#: ../../content/applications/customization/APQP.rst:113
+msgid ""
+"客户"
+msgstr ""
+"ลูกค้า"
 
 #: ../../content/applications/customization/APQP.rst:116
 msgid "在 **APQP模块 > 客户 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 客户** 页面上："
