@@ -25,16 +25,21 @@ msgid "Odoo 17 服务台模块的主要功能包括："
 msgstr "The main functions of the Odoo 17 service desk module include:"
 
 #: ../../content/applications/customization/helpdesk.rst:14
-msgid ""
-"**概述**：对我的工单、绩效队以及帮助中心团队的工单处理情况的总览。"
-"**工单**：对我的工单以及全部工单的概览以及新建。"
-"**报告**：工单分析以及SLA状态分析。"
-"**配置**：对帮助中心团队、SLA策略以及类型的创建。"
-msgstr ""
-"**Overview: An overview of the processing status of my work orders, performance teams, and help center teams."
-"**Work Order **: Overview and creation of my work order and all work orders."
-"**Report **: Work Order Analysis and SLA Status Analysis."
-"**Configuration: Creation of Help Center teams, SLA policies, and types."
+msgid "**概述**：对我的工单、绩效队以及帮助中心团队的工单处理情况的总览。"
+msgstr "**Overview: An overview of the processing status of my work orders, performance teams, and help center teams."
+
+#: ../../content/applications/customization/helpdesk.rst:14
+msgid "**工单**：对我的工单以及全部工单的概览以及新建。"
+msgstr "**Work Order **: Overview and creation of my work order and all work orders."
+
+#: ../../content/applications/customization/helpdesk.rst:14
+msgid "**报告**：工单分析以及SLA状态分析。"
+msgstr "**Report **: Work Order Analysis and SLA Status Analysis."
+
+#: ../../content/applications/customization/helpdesk.rst:14
+msgid "**配置**：对帮助中心团队、SLA策略以及类型的创建。"
+msgstr "**Configuration: Creation of Help Center teams, SLA policies, and types."
+
 
 #: ../../content/applications/customization/helpdesk.rst:19
 msgid ""
