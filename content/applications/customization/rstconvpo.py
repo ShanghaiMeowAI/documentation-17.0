@@ -8,8 +8,12 @@ def contains_chinese(text):
 def process_file(input_path, output_path):
     line_number = 0
     current_msgid = []
+    pattern = re.compile(r'^[!@#$%^&*\'\-_=+{};:,<.>/?\\|`~.@]+$')
     with open(input_path, 'r', encoding='utf-8') as infile, open(output_path, 'w', encoding='utf-8') as outfile:
         for line in infile:
+            stripped_line = line.strip()  # 去除行首和行尾的空白字符
+            if pattern.match(stripped_line):
+                continue
             stripped_line = line.strip()
             if stripped_line:  # Not an empty line
                 current_msgid.append(stripped_line)
@@ -42,6 +46,6 @@ def process_file(input_path, output_path):
             outfile.write('msgstr ""\n')
 
 # 使用脚本
-input_file_path = 'EDI.rst'
-output_file_path = 'EDI.po'
+input_file_path = 'APQP.rst'
+output_file_path = 'APQP.po'
 process_file(input_file_path, output_file_path)

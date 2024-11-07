@@ -1,97 +1,94 @@
-#: ../../content/applications/customization/EDI.rst:4
+#: ../../content/applications/customization/EDI.rst:3
 msgid "EDI 是接收甲方公司的edi文档和回传edi文档的系统"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:6
+#: ../../content/applications/customization/EDI.rst:5
 msgid ""
 "配置"
-"-----"
 "配置EDI的连接信息"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:14
+#: ../../content/applications/customization/EDI.rst:12
 msgid "配置EDI的数据的启动时间"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:20
+#: ../../content/applications/customization/EDI.rst:18
 msgid "手动运行"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:26
-msgid ""
-"操作"
-"-----"
+#: ../../content/applications/customization/EDI.rst:24
+msgid "操作"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:29
+#: ../../content/applications/customization/EDI.rst:26
 msgid "销售订单明细"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:34
+#: ../../content/applications/customization/EDI.rst:31
 msgid "点击要操作的销售订单明细行"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:39
+#: ../../content/applications/customization/EDI.rst:36
 msgid "点击订单参考号跳转到报价单"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:44
+#: ../../content/applications/customization/EDI.rst:41
 msgid "点击确认生成销售订单"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:49
+#: ../../content/applications/customization/EDI.rst:46
 msgid "点击采购跳转询价单"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:54
+#: ../../content/applications/customization/EDI.rst:51
 msgid "点击确认订单生成采购订单,代发货"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:59
+#: ../../content/applications/customization/EDI.rst:56
 msgid "点击代发货,跳转到调拨单"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:64
+#: ../../content/applications/customization/EDI.rst:61
 msgid "调拨单"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:69
+#: ../../content/applications/customization/EDI.rst:66
 msgid "点击代发货"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:74
+#: ../../content/applications/customization/EDI.rst:71
 msgid "按发货逻辑选中相应的订单，点击拆分"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:79
+#: ../../content/applications/customization/EDI.rst:76
 msgid "填写相应数据，点击保存"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:84
+#: ../../content/applications/customization/EDI.rst:81
 msgid "在搜索中筛选'代发货'，选择刚刚拆分生成的订单"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:89
+#: ../../content/applications/customization/EDI.rst:86
 msgid "筛选要发货的数据"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:94
+#: ../../content/applications/customization/EDI.rst:91
 msgid "填写主标签号和箱标签号"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:99
+#: ../../content/applications/customization/EDI.rst:96
 msgid "填写格外的信息和ASN"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:104
+#: ../../content/applications/customization/EDI.rst:101
 msgid "点击验证,验证数据的完整性"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:109
+#: ../../content/applications/customization/EDI.rst:106
 msgid "点击创建EDI文档"
 msgstr ""
 
-#: ../../content/applications/customization/EDI.rst:114
+#: ../../content/applications/customization/EDI.rst:111
 msgid "点击发送EDI文档"
 msgstr ""
 
