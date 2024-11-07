@@ -1,24 +1,24 @@
-#: ../../content/applications/customization/APQP.rst:1
+#: ../../content/applications/customization/APQP.rst:2
 msgid "APQP模块"
 msgstr "APQP module"
 
-#: ../../content/applications/customization/APQP.rst:3
+#: ../../content/applications/customization/APQP.rst:5
 msgid "简介"
 msgstr "brief introduction"
 
-#: ../../content/applications/customization/APQP.rst:5
+#: ../../content/applications/customization/APQP.rst:7
 msgid "APQP全称Advanced Product Quality Planning，产品质量先期策划。是一种结构化方法，用于定义和建立必要的步骤，以确保产品满足客户设定的所有性能和质量要求。它旨在通过精心策划产品开发和生产的每个阶段，确保产品满足客户的期望。"
 msgstr "APQP stands for Advanced Product Quality Planning, which stands for Advanced Product Quality Planning. It is a structured approach used to define and establish the necessary steps to ensure that the product meets all performance and quality requirements set by the customer. It aims to ensure that products meet customer expectations by carefully planning every stage of product development and production."
 
-#: ../../content/applications/customization/APQP.rst:7
+#: ../../content/applications/customization/APQP.rst:10
 msgid "功能模块概述"
 msgstr "Overview of functional modules"
 
-#: ../../content/applications/customization/APQP.rst:9
+#: ../../content/applications/customization/APQP.rst:12
 msgid "Odoo 17 APQP模块的主要功能包括："
 msgstr "The main functions of the Odoo 17 APQP module include:"
 
-#: ../../content/applications/customization/APQP.rst:11
+#: ../../content/applications/customization/APQP.rst:14
 msgid ""
 "**项目**：创建项目任务，设置任务前提。"
 "**任务**：管理由我发起和由我审批任务。"
@@ -30,19 +30,19 @@ msgstr ""
 "**Product **: Manage and add all product information."
 "**Customer **: Manage and add all customer information."
 
-#: ../../content/applications/customization/APQP.rst:16
+#: ../../content/applications/customization/APQP.rst:20
 msgid "功能详细描述"
 msgstr "Detailed functional description"
 
-#: ../../content/applications/customization/APQP.rst:18
+#: ../../content/applications/customization/APQP.rst:23
 msgid "项目"
 msgstr "project"
 
-#: ../../content/applications/customization/APQP.rst:20
+#: ../../content/applications/customization/APQP.rst:25
 msgid "在 **APQP模块 > 项目** 页面可以对项目总览，点击“新建”可以新增项目："
 msgstr "On the ** APQP module>Project ** page, you can have an overview of the project and click "New" to add a new project:"
 
-#: ../../content/applications/customization/APQP.rst:22
+#: ../../content/applications/customization/APQP.rst:27
 msgid ""
 ".. image:: APQP/img.png"
 ":align: center"
@@ -52,11 +52,11 @@ msgstr ""
 ":align: center"
 ": alt: Project"
 
-#: ../../content/applications/customization/APQP.rst:26
+#: ../../content/applications/customization/APQP.rst:31
 msgid "填写完下图信息后，点击“添加行”，在弹窗中选择审批人，确认无误后点击“Save&Close”："
 msgstr "After filling in the information in the following picture, click "Add Row", select the approver in the pop-up window, confirm that there are no errors, and click "Save&Loss":"
 
-#: ../../content/applications/customization/APQP.rst:28
+#: ../../content/applications/customization/APQP.rst:33
 msgid ""
 ".. image:: APQP/img_1.png"
 ":align: center"
@@ -66,7 +66,7 @@ msgstr ""
 ":align: center"
 ": alt: Edit"
 
-#: ../../content/applications/customization/APQP.rst:32
+#: ../../content/applications/customization/APQP.rst:37
 msgid ""
 ".. image:: APQP/img_2.png"
 ":align: center"
@@ -76,63 +76,63 @@ msgstr ""
 ":align: center"
 "Alt: Select approver"
 
-#: ../../content/applications/customization/APQP.rst:36
+#: ../../content/applications/customization/APQP.rst:41
 msgid "填写完所有信息后点击Document处的Submit后再将这个项目Submit："
 msgstr "After filling in all the information, click Submit at the Document section and then submit this project:"
 
-#: ../../content/applications/customization/APQP.rst:44
+#: ../../content/applications/customization/APQP.rst:50
 msgid "任务"
 msgstr "task"
 
-#: ../../content/applications/customization/APQP.rst:46
+#: ../../content/applications/customization/APQP.rst:53
 msgid "由我发起"
 msgstr "Initiated by me"
 
-#: ../../content/applications/customization/APQP.rst:48
+#: ../../content/applications/customization/APQP.rst:55
 msgid "在 **APQP模块 > 任务 > 由我发起** 页面可以看到由我创建的项目，点击一条进入："
 msgstr "On the ** APQP module>Tasks>Initiated by Me ** page, you can see the projects created by me. Click on one to enter:"
 
-#: ../../content/applications/customization/APQP.rst:53
+#: ../../content/applications/customization/APQP.rst:60
 msgid "此处点击“Send Email”，可以通知审批人，在弹窗中还可以增添留言和附件："
 msgstr "Click 'Send Email' here to notify the approver, and add messages and attachments in the pop-up window:"
 
-#: ../../content/applications/customization/APQP.rst:61
+#: ../../content/applications/customization/APQP.rst:69
 msgid "由我审批"
 msgstr "Approved by me"
 
-#: ../../content/applications/customization/APQP.rst:63
+#: ../../content/applications/customization/APQP.rst:71
 msgid "在 **APQP模块 > 任务 > 待我审批** 页面可以看到自己被任务发起人指派审批的任务，点击进入："
 msgstr "On the ** APQP module>Tasks>Pending My Approval ** page, you can see the tasks assigned for approval by the task initiator. Click to enter:"
 
-#: ../../content/applications/customization/APQP.rst:68
+#: ../../content/applications/customization/APQP.rst:76
 msgid "在右侧聊天框中可以收到发起人的邮件通知，在顶部点击“Approve”或“Reject”来处理此任务，处理完后点击“Send Email”可以邮件通知任务发起人任务审核进度："
 msgstr "You can receive an email notification from the initiator in the chat box on the right. Click "Approve" or "Reject" at the top to process this task. After processing, click "Send Email" to notify the initiator of the task review progress via email"
 
-#: ../../content/applications/customization/APQP.rst:73
+#: ../../content/applications/customization/APQP.rst:81
 msgid "当任务通过审批，在 **APQP模块 > 任务 > 由我审批** 页面找到已经审批通过的任务，点击箭头处进入，点击“Done”完成任务："
 msgstr "When the task is approved, find the approved task on the ** APQP module>Task>My Approval ** page, click the arrow to enter, and click "Done" to complete the task:"
 
-#: ../../content/applications/customization/APQP.rst:81
+#: ../../content/applications/customization/APQP.rst:89
 msgid "当任务审批不通过，在 **APQP模块 > 任务 > 由我审批** 页面找到被拒绝的任务，点击此处进入需要修改的文档或信息，点击箭头处进入APQP Project修改信息或直接进入Documents修改文档："
 msgstr "When the task approval does not pass, find the rejected task on the ** APQP module>Tasks>My Approval ** page, click here to enter the document or information that needs to be modified, click the arrow to enter APQP Project to modify information, or directly enter Documents to modify the document:"
 
-#: ../../content/applications/customization/APQP.rst:92
+#: ../../content/applications/customization/APQP.rst:100
 msgid "修改完成之后，点击文档明细处的Submit，返回上一级，可以重新发送邮件通知，之后在 **APQP模块 > 任务 > 待我审批** 页面，审批人可以重新对该任务发起审批。"
 msgstr "After the modification is completed, click Submit in the document details to return to the previous level. You can resend the email notification, and then on the ** APQP module>Task>Pending My Approval ** page, the approver can initiate approval for the task again."
 
-#: ../../content/applications/customization/APQP.rst:94
+#: ../../content/applications/customization/APQP.rst:103
 msgid "产品"
 msgstr "product"
 
-#: ../../content/applications/customization/APQP.rst:96
+#: ../../content/applications/customization/APQP.rst:105
 msgid "在 **APQP模块 > 产品 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 产品** 页面上："
 msgstr "On the ** APQP module>Product>New ** page, fill in the product information to be added, save it, and display it on the ** APQP module>Product ** page:"
 
-#: ../../content/applications/customization/APQP.rst:104
+#: ../../content/applications/customization/APQP.rst:114
 msgid "客户"
 msgstr "customer"
 
-#: ../../content/applications/customization/APQP.rst:106
+#: ../../content/applications/customization/APQP.rst:116
 msgid "在 **APQP模块 > 客户 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 客户** 页面上："
 msgstr "On the ** APQP module>Customer>New ** page, fill in the product information to be added, save it, and display it on the ** APQP module>Customer ** page:"
 
