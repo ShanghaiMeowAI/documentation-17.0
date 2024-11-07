@@ -1,68 +1,48 @@
 #: ../../content/applications/customization/APQP.rst:1
-msgid ""
-"APQP模块"
-"========"
-msgstr ""
-"APQP module"
-"========"
+msgid "APQP模块"
+msgstr "APQP module"
 
-#: ../../content/applications/customization/APQP.rst:4
-msgid ""
-"简介"
-"----"
-msgstr ""
-"brief introduction"
-"----"
+#: ../../content/applications/customization/APQP.rst:3
+msgid "简介"
+msgstr "brief introduction"
 
-#: ../../content/applications/customization/APQP.rst:7
+#: ../../content/applications/customization/APQP.rst:5
 msgid "APQP全称Advanced Product Quality Planning，产品质量先期策划。是一种结构化方法，用于定义和建立必要的步骤，以确保产品满足客户设定的所有性能和质量要求。它旨在通过精心策划产品开发和生产的每个阶段，确保产品满足客户的期望。"
 msgstr "APQP stands for Advanced Product Quality Planning, which stands for Advanced Product Quality Planning. It is a structured approach used to define and establish the necessary steps to ensure that the product meets all performance and quality requirements set by the customer. It aims to ensure that products meet customer expectations by carefully planning every stage of product development and production."
 
-#: ../../content/applications/customization/APQP.rst:9
-msgid ""
-"功能模块概述"
-"------------"
-msgstr ""
-"Overview of functional modules"
-"------------"
+#: ../../content/applications/customization/APQP.rst:7
+msgid "功能模块概述"
+msgstr "Overview of functional modules"
 
-#: ../../content/applications/customization/APQP.rst:12
+#: ../../content/applications/customization/APQP.rst:9
 msgid "Odoo 17 APQP模块的主要功能包括："
 msgstr "The main functions of the Odoo 17 APQP module include:"
 
-#: ../../content/applications/customization/APQP.rst:14
+#: ../../content/applications/customization/APQP.rst:11
 msgid ""
-"1. **项目**：创建项目任务，设置任务前提。"
-"2. **任务**：管理由我发起和由我审批任务。"
-"3. **产品**：管理与新增所有产品信息。"
-"4. **客户**：管理与新增所有客户信息。"
+"**项目**：创建项目任务，设置任务前提。"
+"**任务**：管理由我发起和由我审批任务。"
+"**产品**：管理与新增所有产品信息。"
+"**客户**：管理与新增所有客户信息。"
 msgstr ""
-"1. ** Project **: Create project tasks and set task prerequisites."
-"2. ** Task **: Manage tasks initiated and approved by me."
-"3. ** Product **: Manage and add all product information."
-"4. ** Customer **: Manage and add all customer information."
+"**Project **: Create project tasks and set task prerequisites."
+"**Task **: Manage tasks initiated and approved by me."
+"**Product **: Manage and add all product information."
+"**Customer **: Manage and add all customer information."
 
-#: ../../content/applications/customization/APQP.rst:19
-msgid ""
-"功能详细描述"
-"------------"
-msgstr ""
-"Detailed functional description"
-"------------"
+#: ../../content/applications/customization/APQP.rst:16
+msgid "功能详细描述"
+msgstr "Detailed functional description"
 
-#: ../../content/applications/customization/APQP.rst:22
-msgid ""
-"项目"
-"----"
-msgstr ""
-"project"
-"----"
+#: ../../content/applications/customization/APQP.rst:18
+msgid "项目"
+msgstr "project"
 
-#: ../../content/applications/customization/APQP.rst:25
+#: ../../content/applications/customization/APQP.rst:20
 msgid "在 **APQP模块 > 项目** 页面可以对项目总览，点击“新建”可以新增项目："
 msgstr "On the ** APQP module>Project ** page, you can have an overview of the project and click "New" to add a new project:"
 
-#: ../../content/applications/customization/APQP.rst:27
+#: ../../content/applications/customization/APQP.rst:22
 msgid ""
 ".. image:: APQP/img.png"
 ":align: center"
@@ -72,11 +52,11 @@ msgstr ""
 ":align: center"
 ": alt: Project"
 
-#: ../../content/applications/customization/APQP.rst:31
+#: ../../content/applications/customization/APQP.rst:26
 msgid "填写完下图信息后，点击“添加行”，在弹窗中选择审批人，确认无误后点击“Save&Close”："
 msgstr "After filling in the information in the following picture, click "Add Row", select the approver in the pop-up window, confirm that there are no errors, and click "Save&Loss":"
 
-#: ../../content/applications/customization/APQP.rst:33
+#: ../../content/applications/customization/APQP.rst:28
 msgid ""
 ".. image:: APQP/img_1.png"
 ":align: center"
@@ -86,7 +66,7 @@ msgstr ""
 ":align: center"
 ": alt: Edit"
 
-#: ../../content/applications/customization/APQP.rst:37
+#: ../../content/applications/customization/APQP.rst:32
 msgid ""
 ".. image:: APQP/img_2.png"
 ":align: center"
@@ -96,369 +76,283 @@ msgstr ""
 ":align: center"
 "Alt: Select approver"
 
-#: ../../content/applications/customization/APQP.rst:41
+#: ../../content/applications/customization/APQP.rst:36
 msgid "填写完所有信息后点击Document处的Submit后再将这个项目Submit："
 msgstr "After filling in all the information, click Submit at the Document section and then submit this project:"
 
-#: ../../content/applications/customization/APQP.rst:49
-msgid ""
-"任务"
-"----"
-msgstr ""
-"task"
-"----"
+#: ../../content/applications/customization/APQP.rst:44
+msgid "任务"
+msgstr "task"
 
-#: ../../content/applications/customization/APQP.rst:52
-msgid ""
-"由我发起"
-"~~~~~~~~"
-msgstr ""
-"Initiated by me"
-"~~~~~~~~"
+#: ../../content/applications/customization/APQP.rst:46
+msgid "由我发起"
+msgstr "Initiated by me"
 
-#: ../../content/applications/customization/APQP.rst:55
+#: ../../content/applications/customization/APQP.rst:48
 msgid "在 **APQP模块 > 任务 > 由我发起** 页面可以看到由我创建的项目，点击一条进入："
 msgstr "On the ** APQP module>Tasks>Initiated by Me ** page, you can see the projects created by me. Click on one to enter:"
 
-#: ../../content/applications/customization/APQP.rst:60
+#: ../../content/applications/customization/APQP.rst:53
 msgid "此处点击“Send Email”，可以通知审批人，在弹窗中还可以增添留言和附件："
 msgstr "Click 'Send Email' here to notify the approver, and add messages and attachments in the pop-up window:"
 
-#: ../../content/applications/customization/APQP.rst:68
-msgid ""
-"由我审批"
-"~~~~~~~~"
-msgstr ""
-"Approved by me"
-"~~~~~~~~"
+#: ../../content/applications/customization/APQP.rst:61
+msgid "由我审批"
+msgstr "Approved by me"
 
-#: ../../content/applications/customization/APQP.rst:71
+#: ../../content/applications/customization/APQP.rst:63
 msgid "在 **APQP模块 > 任务 > 待我审批** 页面可以看到自己被任务发起人指派审批的任务，点击进入："
 msgstr "On the ** APQP module>Tasks>Pending My Approval ** page, you can see the tasks assigned for approval by the task initiator. Click to enter:"
 
-#: ../../content/applications/customization/APQP.rst:76
+#: ../../content/applications/customization/APQP.rst:68
 msgid "在右侧聊天框中可以收到发起人的邮件通知，在顶部点击“Approve”或“Reject”来处理此任务，处理完后点击“Send Email”可以邮件通知任务发起人任务审核进度："
 msgstr "You can receive an email notification from the initiator in the chat box on the right. Click "Approve" or "Reject" at the top to process this task. After processing, click "Send Email" to notify the initiator of the task review progress via email"
 
-#: ../../content/applications/customization/APQP.rst:81
+#: ../../content/applications/customization/APQP.rst:73
 msgid "当任务通过审批，在 **APQP模块 > 任务 > 由我审批** 页面找到已经审批通过的任务，点击箭头处进入，点击“Done”完成任务："
 msgstr "When the task is approved, find the approved task on the ** APQP module>Task>My Approval ** page, click the arrow to enter, and click "Done" to complete the task:"
 
-#: ../../content/applications/customization/APQP.rst:89
+#: ../../content/applications/customization/APQP.rst:81
 msgid "当任务审批不通过，在 **APQP模块 > 任务 > 由我审批** 页面找到被拒绝的任务，点击此处进入需要修改的文档或信息，点击箭头处进入APQP Project修改信息或直接进入Documents修改文档："
 msgstr "When the task approval does not pass, find the rejected task on the ** APQP module>Tasks>My Approval ** page, click here to enter the document or information that needs to be modified, click the arrow to enter APQP Project to modify information, or directly enter Documents to modify the document:"
 
-#: ../../content/applications/customization/APQP.rst:100
+#: ../../content/applications/customization/APQP.rst:92
 msgid "修改完成之后，点击文档明细处的Submit，返回上一级，可以重新发送邮件通知，之后在 **APQP模块 > 任务 > 待我审批** 页面，审批人可以重新对该任务发起审批。"
 msgstr "After the modification is completed, click Submit in the document details to return to the previous level. You can resend the email notification, and then on the ** APQP module>Task>Pending My Approval ** page, the approver can initiate approval for the task again."
 
-#: ../../content/applications/customization/APQP.rst:102
-msgid ""
-"产品"
-"----"
-msgstr ""
-"product"
-"----"
+#: ../../content/applications/customization/APQP.rst:94
+msgid "产品"
+msgstr "product"
 
-#: ../../content/applications/customization/APQP.rst:105
+#: ../../content/applications/customization/APQP.rst:96
 msgid "在 **APQP模块 > 产品 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 产品** 页面上："
 msgstr "On the ** APQP module>Product>New ** page, fill in the product information to be added, save it, and display it on the ** APQP module>Product ** page:"
 
-#: ../../content/applications/customization/APQP.rst:113
-msgid ""
-"客户"
-"----"
-msgstr ""
-"customer"
-"----"
+#: ../../content/applications/customization/APQP.rst:104
+msgid "客户"
+msgstr "customer"
 
-#: ../../content/applications/customization/APQP.rst:116
+#: ../../content/applications/customization/APQP.rst:106
 msgid "在 **APQP模块 > 客户 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 客户** 页面上："
 msgstr "On the ** APQP module>Customer>New ** page, fill in the product information to be added, save it, and display it on the ** APQP module>Customer ** page:"
 
-#: ../../content/applications/customization/EDI.rst:4
+#: ../../content/applications/customization/EDI.rst:3
 msgid "EDI 是接收甲方公司的edi文档和回传edi文档的系统"
 msgstr "EDI is a system for receiving EDI documents from Party A's company and returning EDI documents"
 
-#: ../../content/applications/customization/EDI.rst:6
+#: ../../content/applications/customization/EDI.rst:5
 msgid ""
 "配置"
-"-----"
-"1. 配置EDI的连接信息"
+"配置EDI的连接信息"
 msgstr ""
 "to configure"
-"-----"
-"1. Configure EDI connection information"
+"Configure EDI connection information"
 
-#: ../../content/applications/customization/EDI.rst:14
-msgid "2. 配置EDI的数据的启动时间"
-msgstr "2. Configure the start time of EDI data"
+#: ../../content/applications/customization/EDI.rst:12
+msgid "配置EDI的数据的启动时间"
+msgstr "Configure the start time of EDI data"
 
-#: ../../content/applications/customization/EDI.rst:20
-msgid "3. 手动运行"
-msgstr "3. Manual operation"
+#: ../../content/applications/customization/EDI.rst:18
+msgid "手动运行"
+msgstr "Manual operation"
+
+#: ../../content/applications/customization/EDI.rst:24
+msgid "操作"
+msgstr "operation"
 
 #: ../../content/applications/customization/EDI.rst:26
-msgid ""
-"操作"
-"-----"
-msgstr ""
-"operation"
-"-----"
+msgid "销售订单明细"
+msgstr "Sales Order Details"
 
-#: ../../content/applications/customization/EDI.rst:29
-msgid "1. 销售订单明细"
-msgstr "1. Sales order details"
+#: ../../content/applications/customization/EDI.rst:31
+msgid "点击要操作的销售订单明细行"
+msgstr "Click on the sales order detail line to be operated on"
 
-#: ../../content/applications/customization/EDI.rst:34
-msgid "2. 点击要操作的销售订单明细行"
-msgstr "2. Click on the sales order detail line to be operated on"
+#: ../../content/applications/customization/EDI.rst:36
+msgid "点击订单参考号跳转到报价单"
+msgstr "Click on the order reference number to jump to the quotation"
 
-#: ../../content/applications/customization/EDI.rst:39
-msgid "3. 点击订单参考号跳转到报价单"
-msgstr "3. Click on the order reference number to jump to the quotation"
+#: ../../content/applications/customization/EDI.rst:41
+msgid "点击确认生成销售订单"
+msgstr "Click confirm to generate sales order"
 
-#: ../../content/applications/customization/EDI.rst:44
-msgid "4. 点击确认生成销售订单"
-msgstr "4. Click confirm to generate sales order"
+#: ../../content/applications/customization/EDI.rst:46
+msgid "点击采购跳转询价单"
+msgstr "Click on purchase to jump to inquiry form"
 
-#: ../../content/applications/customization/EDI.rst:49
-msgid "5. 点击采购跳转询价单"
-msgstr "5. Click on the purchase to jump to the inquiry form"
+#: ../../content/applications/customization/EDI.rst:51
+msgid "点击确认订单生成采购订单,代发货"
+msgstr "Click to confirm the order to generate a purchase order and ship it on behalf of others"
 
-#: ../../content/applications/customization/EDI.rst:54
-msgid "6. 点击确认订单生成采购订单,代发货"
-msgstr "6. Click to confirm the order to generate a purchase order and ship it on behalf of others"
+#: ../../content/applications/customization/EDI.rst:56
+msgid "点击代发货,跳转到调拨单"
+msgstr "Click on dropshipping to jump to the transfer order"
 
-#: ../../content/applications/customization/EDI.rst:59
-msgid "7. 点击代发货,跳转到调拨单"
-msgstr "7. Click on dropshipping to jump to the transfer order"
+#: ../../content/applications/customization/EDI.rst:61
+msgid "调拨单"
+msgstr "Transfer Order"
 
-#: ../../content/applications/customization/EDI.rst:64
-msgid "8. 调拨单"
-msgstr "8. Transfer Order"
+#: ../../content/applications/customization/EDI.rst:66
+msgid "点击代发货"
+msgstr "Click on dropshipping"
 
-#: ../../content/applications/customization/EDI.rst:69
-msgid "9. 点击代发货"
-msgstr "9. Click on dropshipping"
+#: ../../content/applications/customization/EDI.rst:71
+msgid "按发货逻辑选中相应的订单，点击拆分"
+msgstr "Select the corresponding order according to the shipping logic and click on split"
 
-#: ../../content/applications/customization/EDI.rst:74
-msgid "10. 按发货逻辑选中相应的订单，点击拆分"
-msgstr "10. Select the corresponding order according to the shipping logic and click on split"
+#: ../../content/applications/customization/EDI.rst:76
+msgid "填写相应数据，点击保存"
+msgstr "Fill in the corresponding data and click save"
 
-#: ../../content/applications/customization/EDI.rst:79
-msgid "11. 填写相应数据，点击保存"
-msgstr "11. Fill in the corresponding data and click save"
+#: ../../content/applications/customization/EDI.rst:81
+msgid "在搜索中筛选'代发货'，选择刚刚拆分生成的订单"
+msgstr "Filter for 'dropshipping' in the search and select the order that was just split and generated"
 
-#: ../../content/applications/customization/EDI.rst:84
-msgid "12. 在搜索中筛选'代发货'，选择刚刚拆分生成的订单"
-msgstr "12. Filter for 'dropshipping' in the search and select the order that was just split and generated"
+#: ../../content/applications/customization/EDI.rst:86
+msgid "筛选要发货的数据"
+msgstr "Filter the data to be shipped"
 
-#: ../../content/applications/customization/EDI.rst:89
-msgid "13. 筛选要发货的数据"
-msgstr "13. Filter the data to be shipped"
+#: ../../content/applications/customization/EDI.rst:91
+msgid "填写主标签号和箱标签号"
+msgstr "Fill in the main tag number and box tag number"
 
-#: ../../content/applications/customization/EDI.rst:94
-msgid "14. 填写主标签号和箱标签号"
-msgstr "14. Fill in the main tag number and box tag number"
+#: ../../content/applications/customization/EDI.rst:96
+msgid "填写格外的信息和ASN"
+msgstr "Fill in additional information and ASN"
 
-#: ../../content/applications/customization/EDI.rst:99
-msgid "15. 填写格外的信息和ASN"
-msgstr "15. Fill in additional information and ASN"
+#: ../../content/applications/customization/EDI.rst:101
+msgid "点击验证,验证数据的完整性"
+msgstr "Click on verification to verify the integrity of the data"
 
-#: ../../content/applications/customization/EDI.rst:104
-msgid "16. 点击验证,验证数据的完整性"
-msgstr "16. Click on verification to verify the integrity of the data"
+#: ../../content/applications/customization/EDI.rst:106
+msgid "点击创建EDI文档"
+msgstr "Click to create EDI document"
 
-#: ../../content/applications/customization/EDI.rst:109
-msgid "17. 点击创建EDI文档"
-msgstr "17. Click to create EDI document"
-
-#: ../../content/applications/customization/EDI.rst:114
-msgid "18. 点击发送EDI文档"
-msgstr "18. Click to send EDI document"
+#: ../../content/applications/customization/EDI.rst:111
+msgid "点击发送EDI文档"
+msgstr "Click to send EDI document"
 
 #: ../../content/applications/customization/helpdesk.rst:1
-msgid ""
-"服务台"
-"======"
-msgstr ""
-"Reception"
-"======"
+msgid "服务台"
+msgstr "Reception"
 
-#: ../../content/applications/customization/helpdesk.rst:4
-msgid ""
-"简介"
-"------"
-msgstr ""
-"brief introduction"
-"------"
+#: ../../content/applications/customization/helpdesk.rst:3
+msgid "简介"
+msgstr "brief introduction"
 
-#: ../../content/applications/customization/helpdesk.rst:7
+#: ../../content/applications/customization/helpdesk.rst:5
 msgid "Odoo 服务台模块是一个基于工单的客户支持应用程序。可以在一个仪表板中配置和管理多个团队，每个团队都有自己的客户提交工单的管道。管道按可定制的阶段组织，使团队能够快速高效地跟踪、优先处理和解决客户问题。"
 msgstr "The Odoo Service Desk module is a ticket based customer support application. Multiple teams can be configured and managed in one dashboard, with each team having their own pipeline for customers to submit work orders. The pipeline is organized in customizable stages, allowing the team to quickly and efficiently track, prioritize, and resolve customer issues."
 
-#: ../../content/applications/customization/helpdesk.rst:9
-msgid ""
-"功能模块概述"
-"-------------"
-msgstr ""
-"Overview of functional modules"
-"-------------"
+#: ../../content/applications/customization/helpdesk.rst:7
+msgid "功能模块概述"
+msgstr "Overview of functional modules"
 
-#: ../../content/applications/customization/helpdesk.rst:12
+#: ../../content/applications/customization/helpdesk.rst:9
 msgid "Odoo 17 服务台模块的主要功能包括："
 msgstr "The main functions of the Odoo 17 service desk module include:"
 
-#: ../../content/applications/customization/helpdesk.rst:14
+#: ../../content/applications/customization/helpdesk.rst:11
 msgid ""
-"1. **概述**：对我的工单、绩效队以及帮助中心团队的工单处理情况的总览。"
-"2. **工单**：对我的工单以及全部工单的概览以及新建。"
-"3. **报告**：工单分析以及SLA状态分析。"
-"4. **配置**：对帮助中心团队、SLA策略以及类型的创建。"
+"**概述**：对我的工单、绩效队以及帮助中心团队的工单处理情况的总览。"
+"**工单**：对我的工单以及全部工单的概览以及新建。"
+"**报告**：工单分析以及SLA状态分析。"
+"**配置**：对帮助中心团队、SLA策略以及类型的创建。"
 msgstr ""
-"1. ** Overview **: An overview of my work order, performance team, and help center team's work order processing status."
-"2. ** Work Order **: Overview and creation of my work order and all work orders."
-"3. ** Report **: Work order analysis and SLA status analysis."
-"4. ** Configuration **: Create help center teams, SLA policies, and types."
+"**Overview: An overview of the processing status of my work orders, performance teams, and help center teams."
+"**Work Order **: Overview and creation of my work order and all work orders."
+"**Report **: Work Order Analysis and SLA Status Analysis."
+"**Configuration: Creation of Help Center teams, SLA policies, and types."
 
-#: ../../content/applications/customization/helpdesk.rst:19
-msgid ""
-"功能详细描述"
-"--------------"
-msgstr ""
-"Detailed functional description"
-"--------------"
+#: ../../content/applications/customization/helpdesk.rst:16
+msgid "功能详细描述"
+msgstr "Detailed functional description"
 
-#: ../../content/applications/customization/helpdesk.rst:22
-msgid ""
-"概述"
-"~~~~~"
-msgstr ""
-"summary"
-"~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:18
+msgid "概述"
+msgstr "summary"
 
-#: ../../content/applications/customization/helpdesk.rst:25
+#: ../../content/applications/customization/helpdesk.rst:20
 msgid "在 **服务台** 模块 > **概述** 页面，展示我的工单、绩效队以及帮助中心团队的工单处理情况："
 msgstr "On the ** Service Desk ** module>** Overview ** page, display the processing status of my work orders, performance teams, and help center teams:"
 
-#: ../../content/applications/customization/helpdesk.rst:30
-msgid ""
-"工单"
-"~~~~"
-msgstr ""
-"Work Order"
-"~~~~"
+#: ../../content/applications/customization/helpdesk.rst:25
+msgid "工单"
+msgstr "Work Order"
 
-#: ../../content/applications/customization/helpdesk.rst:33
-msgid ""
-"我的工单"
-"~~~~~~~~"
-msgstr ""
-"My work order"
-"~~~~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:27
+msgid "我的工单"
+msgstr "My work order"
 
-#: ../../content/applications/customization/helpdesk.rst:36
+#: ../../content/applications/customization/helpdesk.rst:29
 msgid "在 **服务台** 模块 > **工单 > 我的工单 > 新建** 页面，填写相关信息以及批次后保存，弹出“分派处理”按钮，点击此按钮后，在弹窗中选择分派给指定的人员处理以及填写处理意见，处理确认日期将自动带出："
 msgstr "On the ** Service Desk ** module>** Work Order>My Work Order>New ** page, fill in the relevant information and batch, and save it. The "Assign Processing" button will pop up. After clicking this button, select the assigned personnel to handle and fill in the processing suggestion in the pop-up window. The processing confirmation date will be automatically brought out:"
 
-#: ../../content/applications/customization/helpdesk.rst:41
+#: ../../content/applications/customization/helpdesk.rst:34
 msgid "被分派人确认处理："
 msgstr "Confirmed and processed by the assigned person:"
 
-#: ../../content/applications/customization/helpdesk.rst:46
+#: ../../content/applications/customization/helpdesk.rst:39
 msgid "当产品批次栏有信息且保存后，生成“创建质量警报”按钮，点击后在顶部生成“质量警报”按钮，点击跳转到质量模块，生成质量警报单据，写入工单内的相关信息。注意：同一工单不会重复触发，若产品批次号复数，则生成对应批次号的复数质量警报单："
 msgstr "When there is information in the product batch column and it is saved, a "Create Quality Alert" button is generated. Click on it to generate a "Quality Alert" button at the top. Click to jump to the quality module, generate a quality alert document, and write the relevant information in the work order. Attention: The same work order will not be triggered repeatedly. If the product batch number is multiple, a multiple quality alert will be generated for the corresponding batch number"
 
-#: ../../content/applications/customization/helpdesk.rst:57
-msgid ""
-"全部工单"
-"~~~~~~~~"
-msgstr ""
-"All work orders"
-"~~~~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:50
+msgid "全部工单"
+msgstr "All work orders"
 
-#: ../../content/applications/customization/helpdesk.rst:60
+#: ../../content/applications/customization/helpdesk.rst:52
 msgid "在 **服务台** 模块 > **工单 > 全部工单** 页面，查看全部工单，其余功能与**我的工单**相同。"
 msgstr "On the ** Service Desk ** module>** Work Orders>All Work Orders ** page, view all work orders, and the rest of the functions are the same as ** My Work Orders **."
 
-#: ../../content/applications/customization/helpdesk.rst:62
-msgid ""
-"报告"
-"~~~~~"
-msgstr ""
-"report"
-"~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:54
+msgid "报告"
+msgstr "report"
 
-#: ../../content/applications/customization/helpdesk.rst:65
-msgid ""
-"工单分析"
-"~~~~~~~~"
-msgstr ""
-"Work order analysis"
-"~~~~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:56
+msgid "工单分析"
+msgstr "Work order analysis"
 
-#: ../../content/applications/customization/helpdesk.rst:68
+#: ../../content/applications/customization/helpdesk.rst:58
 msgid "在 **服务台** 模块 > **报告 > 工单分析** 页面，工单分析报告提供了数据库中每个客户支持工单的概述。此报告可用于确定团队花费最多时间的地方，并有助于确定支持人员之间是否存在不均匀的工作量分配。默认报告计算每个团队的工单数量并按阶段对其进行分组。"
 msgstr "On the Service Desk module>Reports>Work Order Analysis page, the Work Order Analysis report provides an overview of each customer support work order in the database. This report can be used to identify where the team spends the most time and help determine if there is uneven workload distribution among support personnel. The default report calculates the number of work orders for each team and groups them by stage."
 
-#: ../../content/applications/customization/helpdesk.rst:70
+#: ../../content/applications/customization/helpdesk.rst:60
 msgid "可选择的度量来跟踪工作流中不同点花费最多时间的位置。要更改当前显示的报告使用的度量或添加更多度量，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。"
 msgstr "Optional metrics to track the locations in the workflow where different points spend the most time. To change the metrics used in the currently displayed report or add more metrics, click the metrics button and select one or more options from the drop-down menu."
 
-#: ../../content/applications/customization/helpdesk.rst:75
-msgid ""
-"SLA状态分析"
-"~~~~~~~~~~~"
-msgstr ""
-"SLA status analysis"
-"~~~~~~~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:65
+msgid "SLA状态分析"
+msgstr "SLA status analysis"
 
-#: ../../content/applications/customization/helpdesk.rst:78
+#: ../../content/applications/customization/helpdesk.rst:67
 msgid "在 **服务台** 模块 > **报告 > SLA状态分析** 页面，SLA状态分析报告分析单个SLA（服务水平协议）的性能。默认情况下，该报告被筛选以显示失败的SLA数量、正在进行的SLA数量和已经成功的数量。结果按更改当前显示的用于报告的度量进行分组，或者要添加更多，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。"
 msgstr "On the Service Desk module>Reports>SLA Status Analysis page, the SLA Status Analysis report analyzes the performance of a single SLA (Service Level Agreement). By default, the report is filtered to display the number of failed SLAs, ongoing SLAs, and successful SLAs. The results are grouped by changing the metrics currently displayed for reporting, or to add more, click the metrics button and select one or more options from the drop-down menu."
 
-#: ../../content/applications/customization/helpdesk.rst:83
-msgid ""
-"配置"
-"~~~~~"
-msgstr ""
-"to configure"
-"~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:72
+msgid "配置"
+msgstr "to configure"
 
-#: ../../content/applications/customization/helpdesk.rst:86
-msgid ""
-"帮助中心团队"
-"~~~~~~~~~~~~"
-msgstr ""
-"Help Center Team"
-"~~~~~~~~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:74
+msgid "帮助中心团队"
+msgstr "Help Center Team"
 
-#: ../../content/applications/customization/helpdesk.rst:89
+#: ../../content/applications/customization/helpdesk.rst:76
 msgid "在 **服务台** 模块 > **配置 > 帮助中心团队 > 新建** 页面，配置帮助中心团队信息："
 msgstr "On the ** Service Desk ** module>** Configuration>Help Center Team>New ** page, configure the Help Center team information:"
 
-#: ../../content/applications/customization/helpdesk.rst:94
-msgid ""
-"SLA策略"
-"~~~~~~~~"
-msgstr ""
-"SLA strategy"
-"~~~~~~~~"
+#: ../../content/applications/customization/helpdesk.rst:81
+msgid "SLA策略"
+msgstr "SLA strategy"
 
-#: ../../content/applications/customization/helpdesk.rst:97
+#: ../../content/applications/customization/helpdesk.rst:83
 msgid "在 **服务台** 模块 > **配置 > SLA策略 > 新建** 页面，配置SLA策略信息："
 msgstr "On the ** Service Desk ** module>** Configuration>SLA Policy>New ** page, configure SLA policy information:"
 
-#: ../../content/applications/customization/helpdesk.rst:102
-msgid ""
-"类型"
-"~~~~"
-msgstr ""
-"type"
-"~~~~"
+#: ../../content/applications/customization/helpdesk.rst:88
+msgid "类型"
+msgstr "type"
 
-#: ../../content/applications/customization/helpdesk.rst:105
+#: ../../content/applications/customization/helpdesk.rst:90
 msgid "在 **服务台** 模块 > **配置 > 类型 > 新建** 页面，配置类型信息："
 msgstr "On the ** Service Desk ** Module>** Configuration>Type>New ** page, configure the type information:"
 
