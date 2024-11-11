@@ -1,3 +1,7 @@
+#: ../../content/applications/customization.rst:4
+msgid "自定义模块"
+msgstr "Customization"
+
 #: ../../content/applications/customization/APQP.rst:1
 msgid ""
 "APQP模块"
