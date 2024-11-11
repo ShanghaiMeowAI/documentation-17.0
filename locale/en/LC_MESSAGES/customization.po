@@ -268,7 +268,7 @@ msgstr "Click to send EDI document"
 msgid ""
 "服务台"
 msgstr ""
-"Reception"
+"HelpDesk"
 
 #: ../../content/applications/customization/helpdesk.rst:4
 msgid ""
