@@ -414,7 +414,7 @@ msgstr ""
 "คำสั่งงานทั้งหมด"
 
 #: ../../content/applications/customization/helpdesk.rst:60
-msgid "在 **服务台** 模块 > **工单 > 全部工单** 页面，查看全部工单，其余功能与**我的工单**相同。"
+msgid "在 **服务台** 模块 > **工单 > 全部工单** 页面，查看全部工单，其余功能与 **我的工单** 相同。"
 msgstr "ในหน้า **Helpdesk**"
 " Module > "
 "**ใบสั่งงาน**"
