@@ -164,7 +164,7 @@ msgstr ""
 msgid ""
 "在 **APQP模块 > 产品 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 产品** 页面上："
 msgstr "On the **APQP module > Product > New**"
-" page, fill in the product information to be added, save it, and display it on the **APQP module>Product**"
+" page, fill in the product information to be added, save it, and display it on the **APQP module > Product**"
 " page:"
 
 #: ../../content/applications/customization/APQP.rst:113
