@@ -343,7 +343,8 @@ msgid ""
 "在 **服务台** 模块 > **概述** 页面，展示我的工单、绩效队以及帮助中心团队的工单处理情况："
 msgstr ""
 "On the **Service Desk**"
-" module>**Overview**"
+" module> "
+"**Overview**"
 " page, display the processing status of my work orders, performance teams, and help center teams:"
 
 #: ../../content/applications/customization/helpdesk.rst:30
