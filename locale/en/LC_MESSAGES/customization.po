@@ -62,7 +62,7 @@ msgstr ""
 
 #: ../../content/applications/customization/APQP.rst:25
 msgid "在 **APQP模块 > 项目** 页面可以对项目总览，点击“新建”可以新增项目："
-msgstr "On the **APQP module>Project**"
+msgstr "On the **APQP module > Project**"
 " page, you can have an overview of the project and click "New" to add a new project:"
 
 #: ../../content/applications/customization/APQP.rst:27
@@ -117,7 +117,7 @@ msgstr ""
 
 #: ../../content/applications/customization/APQP.rst:55
 msgid "在 **APQP模块 > 任务 > 由我发起** 页面可以看到由我创建的项目，点击一条进入："
-msgstr "On the **APQP module>Tasks>Initiated by Me**"
+msgstr "On the **APQP module > Tasks > Initiated by Me**"
 " page, you can see the projects created by me. Click on one to enter:"
 
 #: ../../content/applications/customization/APQP.rst:60
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../content/applications/customization/APQP.rst:71
 msgid "在 **APQP模块 > 任务 > 待我审批** 页面可以看到自己被任务发起人指派审批的任务，点击进入："
-msgstr "On the **APQP module>Tasks>Pending My Approval**"
+msgstr "On the **APQP module > Tasks > Pending My Approval**"
 " page, you can see the tasks assigned for approval by the task initiator. Click to enter:"
 
 #: ../../content/applications/customization/APQP.rst:76
@@ -141,17 +141,17 @@ msgstr "You can receive an email notification from the initiator in the chat box
 
 #: ../../content/applications/customization/APQP.rst:81
 msgid "当任务通过审批，在 **APQP模块 > 任务 > 由我审批** 页面找到已经审批通过的任务，点击箭头处进入，点击“Done”完成任务："
-msgstr "When the task is approved, find the approved task on the **APQP module>Task>My Approval**"
+msgstr "When the task is approved, find the approved task on the **APQP module > Task > My Approval**"
 " page, click the arrow to enter, and click "Done" to complete the task:"
 
 #: ../../content/applications/customization/APQP.rst:89
 msgid "当任务审批不通过，在 **APQP模块 > 任务 > 由我审批** 页面找到被拒绝的任务，点击此处进入需要修改的文档或信息，点击箭头处进入APQP Project修改信息或直接进入Documents修改文档："
-msgstr "When the task approval does not pass, find the rejected task on the **APQP module>Tasks>My Approval**"
+msgstr "When the task approval does not pass, find the rejected task on the **APQP module > Tasks > My Approval**"
 " page, click here to enter the document or information that needs to be modified, click the arrow to enter APQP Project to modify information, or directly enter Documents to modify the document:"
 
 #: ../../content/applications/customization/APQP.rst:100
 msgid "修改完成之后，点击文档明细处的Submit，返回上一级，可以重新发送邮件通知，之后在 **APQP模块 > 任务 > 待我审批** 页面，审批人可以重新对该任务发起审批。"
-msgstr "After the modification is completed, click Submit in the document details to return to the previous level. You can resend the email notification, and then on the **APQP module>Task>Pending My Approval**"
+msgstr "After the modification is completed, click Submit in the document details to return to the previous level. You can resend the email notification, and then on the **APQP module > Task > Pending My Approval**"
 " page, the approver can initiate approval for the task again."
 
 #: ../../content/applications/customization/APQP.rst:102
@@ -163,7 +163,7 @@ msgstr ""
 #: ../../content/applications/customization/APQP.rst:105
 msgid ""
 "在 **APQP模块 > 产品 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 产品** 页面上："
-msgstr "On the **APQP module>Product>New**"
+msgstr "On the **APQP module > Product > New**"
 " page, fill in the product information to be added, save it, and display it on the **APQP module>Product**"
 " page:"
 
@@ -176,8 +176,8 @@ msgstr ""
 #: ../../content/applications/customization/APQP.rst:116
 msgid ""
 "在 **APQP模块 > 客户 > 新建** 页面，填写要新增的产品信息，保存后展示在 **APQP模块 > 客户** 页面上："
-msgstr "On the **APQP module>Customer>New**"
-" page, fill in the product information to be added, save it, and display it on the **APQP module>Customer**"
+msgstr "On the **APQP module > Customer > New**"
+" page, fill in the product information to be added, save it, and display it on the **APQP module > Customer**"
 " page:"
 
 #: ../../content/applications/customization/EDI.rst:4
@@ -343,7 +343,7 @@ msgid ""
 "在 **服务台** 模块 > **概述** 页面，展示我的工单、绩效队以及帮助中心团队的工单处理情况："
 msgstr ""
 "On the **Service Desk**"
-" module> "
+" module > "
 "**Overview**"
 " page, display the processing status of my work orders, performance teams, and help center teams:"
 
@@ -364,11 +364,11 @@ msgid ""
 "在 **服务台** 模块 > **工单 > 我的工单 > 新建** 页面，填写相关信息以及批次后保存，弹出“分派处理”按钮，点击此按钮后，在弹窗中选择分派给指定的人员处理以及填写处理意见，处理确认日期将自动带出："
 msgstr ""
 "On the **Service Desk**"
-" module> "
+" module > "
 "**Work Order**"
-"> "
+" > "
 "**My Work Order**"
-"> "
+" > "
 "**New**"
 " page, fill in the relevant information and batch, and save it. The "Assign Processing" button will pop up. After clicking this button, select the assigned personnel to handle and fill in the processing suggestion in the pop-up window. The processing confirmation date will be automatically brought out:"
 
@@ -391,8 +391,8 @@ msgid ""
 "在 **服务台** 模块 > **工单 > 全部工单** 页面，查看全部工单，其余功能与**我的工单**相同。"
 msgstr ""
 "On the **Service Desk**"
-" module> "
-"**Work Orders>All Work Orders**"
+" module > "
+"**Work Orders > All Work Orders**"
 " page, view all work orders, and the rest of the functions are the same as **My Work Orders**"
 "."
 
@@ -413,8 +413,8 @@ msgid ""
 "在 **服务台** 模块 > **报告 > 工单分析** 页面，工单分析报告提供了数据库中每个客户支持工单的概述。此报告可用于确定团队花费最多时间的地方，并有助于确定支持人员之间是否存在不均匀的工作量分配。默认报告计算每个团队的工单数量并按阶段对其进行分组。"
 msgstr ""
 "On the **Service Desk**"
-" module> "
-"**Reports>Work Order Analysis**"
+" module > "
+"**Reports > Work Order Analysis**"
 " page, the Work Order Analysis report provides an overview of each customer support work order in the database. This report can be used to identify where the team spends the most time and help determine if there is uneven workload distribution among support personnel. The default report calculates the number of work orders for each team and groups them by stage."
 
 #: ../../content/applications/customization/helpdesk.rst:70
@@ -432,9 +432,9 @@ msgid ""
 "在 **服务台** 模块 > **报告 > SLA状态分析** 页面，SLA状态分析报告分析单个SLA（服务水平协议）的性能。默认情况下，该报告被筛选以显示失败的SLA数量、正在进行的SLA数量和已经成功的数量。结果按更改当前显示的用于报告的度量进行分组，或者要添加更多，请单击度量按钮，然后从下拉菜单中选择一个或多个选项。"
 msgstr ""
 "On the **Service Desk**"
-" module> "
+" module > "
 "**Reports**"
-"> "
+" > "
 "**SLA Status Analysis**"
 " page, the SLA Status Analysis report analyzes the performance of a single SLA (Service Level Agreement). By default, the report is filtered to display the number of failed SLAs, ongoing SLAs, and successful SLAs. The results are grouped by changing the metrics currently displayed for reporting, or to add more, click the metrics button and select one or more options from the drop-down menu."
 
@@ -455,11 +455,11 @@ msgid ""
 "在 **服务台** 模块 > **配置 > 帮助中心团队 > 新建** 页面，配置帮助中心团队信息："
 msgstr ""
 "On the **Service Desk**"
-" module> "
+" module > "
 "**Configuration**"
-"> "
+" > "
 "**Help Center Team**"
-"> "
+" > "
 "**New**"
 " page, configure the Help Center team information:"
 
@@ -474,10 +474,10 @@ msgid ""
 "在 **服务台** 模块 > **配置 > SLA策略 > 新建** 页面，配置SLA策略信息："
 msgstr ""
 "On the **Service Desk**"
-" module> "
+" module > "
 "**Configuration**"
-"> "
-"**SLA Policy>New**"
+" > "
+"**SLA Policy > New**"
 " page, configure SLA policy information:"
 
 #: ../../content/applications/customization/helpdesk.rst:102
@@ -491,9 +491,9 @@ msgid ""
 "在 **服务台** 模块 > **配置 > 类型 > 新建** 页面，配置类型信息："
 msgstr ""
 "On the **Service Desk**"
-" Module> "
+" Module > "
 "**Configuration**"
-"> "
-"**Type>New**"
+" > "
+"**Type > New**"
 " page, configure the type information:"
 
