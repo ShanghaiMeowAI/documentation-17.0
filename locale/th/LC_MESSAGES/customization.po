@@ -204,7 +204,8 @@ msgstr "ในหน้า **APQP Module**"
 "**APQP Module**"
 "> "
 "**Customer**"
-"หลังจากบันทึก:"
+"หลังจากบันทึก"
+":"
 
 #: ../../content/applications/customization/EDI.rst:4
 msgid "EDI 是接收甲方公司的edi文档和回传edi文档的系统"
