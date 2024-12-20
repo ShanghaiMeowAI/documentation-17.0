@@ -62,7 +62,7 @@ msgid ""
 "installations."
 msgstr ""
 "คุณสามารถค้นหาคำแนะนำเกี่ยวกับวิธีการทำซ้ำฐานข้อมูลของคุณทั้งสำหรับ: ref: `ออนไลน์"
-"\u003cDuplice_online\u003e `และ: ref:` ในสถานที่ \u003cduplicate_premise\u003e `"
+"<Duplice_online> `และ: ref:` ในสถานที่ <duplicate_premise> `"
 "การติดตั้ง"
 
 #: ../../content/applications/settings/users_and_features.rst:27
@@ -73,7 +73,7 @@ msgid ""
 msgstr ""
 "หากคุณมีคำถามเกี่ยวกับเนื้อหาของหน้านี้หรือหากคุณพบไฟล์"
 "ปัญหาในขณะที่ดำเนินการตามขั้นตอนเหล่านี้โปรดติดต่อเราผ่านของเรา"
-"`แบบฟอร์มสนับสนุน \u003chttps://www.odoo.com/help\u003e` __"
+"`แบบฟอร์มสนับสนุน <https://www.odoo.com/help>` __"
 
 #: ../../content/applications/settings/users_and_features.rst:33
 msgid "Deactivating Users"
@@ -147,7 +147,7 @@ msgid ""
 " installing/uninstalling apps)."
 msgstr ""
 "ตรวจสอบให้แน่ใจก่อนว่าคุณจะทดสอบสิ่งที่คุณกำลังจะทำบน: ref: `ซ้ำกัน"
-"\u003cduplicate_online\u003e `ของฐานข้อมูลของคุณก่อนทำการเปลี่ยนแปลงใด ๆ (*โดยเฉพาะ*"
+"<duplicate_online> `ของฐานข้อมูลของคุณก่อนทำการเปลี่ยนแปลงใด ๆ (*โดยเฉพาะ*"
 "การติดตั้ง/ถอนการติดตั้งแอพ)"
 
 #: ../../content/applications/settings/users_and_features.rst:74

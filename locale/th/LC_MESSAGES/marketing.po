@@ -37,8 +37,8 @@ msgid ""
 "`Odoo Tutorial: Email Marketing <https://www.odoo.com/slides/slide/email-"
 "marketing-essentials-989?fullscreen=1>`_"
 msgstr ""
-"`การสอน Odoo: การตลาดผ่านอีเมล \u003chttps://www.odoo.com/slides/slide/email-"
-"การตลาด -sentials-989? fullscreen \u003d 1\u003e `_"
+"`การสอน Odoo: การตลาดผ่านอีเมล <https://www.odoo.com/slides/slide/email-"
+"การตลาด -sentials-989? fullscreen = 1> `_"
 
 #: ../../content/applications/marketing/email_marketing.rst:38
 msgid "Email marketing dashboard"
@@ -84,19 +84,19 @@ msgstr "ตัวเลือกมุมมองจากซ้ายไปข
 
 #: ../../content/applications/marketing/email_marketing.rst:56
 msgid ":ref:`List <email_marketing/list-view>` (default view)"
-msgstr ": REF: `list \u003ceapine_marketing/list-view\u003e` (มุมมองเริ่มต้น)"
+msgstr ": REF: `list <eapine_marketing/list-view>` (มุมมองเริ่มต้น)"
 
 #: ../../content/applications/marketing/email_marketing.rst:57
 msgid ":ref:`Kanban <email_marketing/kanban-view>`"
-msgstr ": REF: `Kanban \u003cEMAME_MARKETING/KANBAN-VIEW\u003e`"
+msgstr ": REF: `Kanban <EMAME_MARKETING/KANBAN-VIEW>`"
 
 #: ../../content/applications/marketing/email_marketing.rst:58
 msgid ":ref:`Calendar <email_marketing/calendar-view>`"
-msgstr ": REF: `ปฏิทิน \u003cEMALE_MARKETING/CALENDAR-VIEW\u003e`"
+msgstr ": REF: `ปฏิทิน <EMALE_MARKETING/CALENDAR-VIEW>`"
 
 #: ../../content/applications/marketing/email_marketing.rst:59
 msgid ":ref:`Graph <email_marketing/graph-view>`"
-msgstr ": REF: `graph \u003cemail_marketing/graph-view\u003e`"
+msgstr ": REF: `graph <email_marketing/graph-view>`"
 
 #: ../../content/applications/marketing/email_marketing.rst:64
 #: ../../content/applications/marketing/email_marketing.rst:736
@@ -667,7 +667,7 @@ msgid ""
 ":menuselection:`Email Marketing app --> Configuration --> Settings`."
 msgstr ""
 "หากต้องการดูและแก้ไขการตั้งค่า * การตลาดผ่านอีเมล * ให้ไปที่"
-": MenusElection: `แอพการตลาดผ่านอีเมล -\u003e การกำหนดค่า -\u003e การตั้งค่า '"
+": MenusElection: `แอพการตลาดผ่านอีเมล -> การกำหนดค่า -> การตั้งค่า '"
 
 #: ../../content/applications/marketing/email_marketing.rst-1
 msgid ""
@@ -754,8 +754,8 @@ msgid ""
 "<email_marketing/recipients>` of the email."
 msgstr ""
 "ในแบบฟอร์มอีเมลมีฟิลด์สำหรับ: ref: `หัวเรื่อง"
-"\u003cEaMET_MARKETING/SUBUT DUENT\u003e `และ: REF:` ผู้รับ"
-"\u003cemail_marketing/ผู้รับ\u003e `อีเมล"
+"<EaMET_MARKETING/SUBUT DUENT> `และ: REF:` ผู้รับ"
+"<email_marketing/ผู้รับ> `อีเมล"
 
 #: ../../content/applications/marketing/email_marketing.rst:317
 msgid ""
@@ -764,8 +764,8 @@ msgid ""
 "and :ref:`Settings <email_marketing/settings_tab>`."
 msgstr ""
 "ภายใต้นั้นมีสามแท็บ:: ref: `mail body"
-"\u003cEMALY_MARKETING/MAIL_BODY\u003e `,: REF:` A/B ทดสอบ \u003ceMail_marketing/AB_Tests\u003e `,,,,"
-"และ: Ref: `การตั้งค่า \u003ceapify_marketing/settings_tab\u003e`"
+"<EMALY_MARKETING/MAIL_BODY> `,: REF:` A/B ทดสอบ <eMail_marketing/AB_Tests> `,,,,"
+"และ: Ref: `การตั้งค่า <eapify_marketing/settings_tab>`"
 
 #: ../../content/applications/marketing/email_marketing.rst:323
 msgid "Subject"
@@ -939,7 +939,7 @@ msgstr ""
 "แอปพลิเคชันเฉพาะและเกี่ยวข้องกับรายชื่อผู้รับจดหมายเฉพาะ "
 "ผู้ติดต่อยังไม่ซ้ำกันเพราะพวกเขาทำ * ไม่มีบัตรติดต่อของตัวเอง"
 "ในแอปพลิเคชัน * ผู้ติดต่อ * "
-": MenusElection: `แอพการตลาดผ่านอีเมล -\u003e รายชื่อผู้รับจดหมาย -\u003e รายชื่อผู้รับจดหมาย"
+": MenusElection: `แอพการตลาดผ่านอีเมล -> รายชื่อผู้รับจดหมาย -> รายชื่อผู้รับจดหมาย"
 "ผู้ติดต่อ"
 
 #: ../../content/applications/marketing/email_marketing.rst:387
@@ -1307,7 +1307,7 @@ msgid ""
 "used to know *when* Odoo should determine the \"winning\" email, and "
 "subsequently, send that version of the email to the remaining recipients."
 msgstr ""
-": Guilabel: `ส่งฟิลด์ Final On` \u200b\u200bช่วยให้ผู้ใช้สามารถเลือกวันที่ที่เป็นได้"
+": Guilabel: `ส่งฟิลด์ Final On` ช่วยให้ผู้ใช้สามารถเลือกวันที่ที่เป็นได้"
 "ใช้เพื่อรู้ * เมื่อ * Odoo ควรกำหนด \\"
 "อีเมลและ"
 "ต่อจากนั้นส่งอีเมลเวอร์ชันนั้นไปยังผู้รับที่เหลือ"
@@ -1349,7 +1349,7 @@ msgid ""
 msgstr ""
 "ตัวเลือกที่มีอยู่ใน: แท็บ guilabel: `การตั้งค่า 'แตกต่างกันไปขึ้นอยู่กับว่า"
 "ฟีเจอร์ * การส่งจดหมาย * เปิดใช้งานใน: MenusElection: `อีเมล"
-"การตลาด -\u003e การกำหนดค่า -\u003e การตั้งค่า ' "
+"การตลาด -> การกำหนดค่า -> การตั้งค่า ' "
 ": Ref: `email_marketing/campaigns 'สำหรับข้อมูลเพิ่มเติม"
 
 #: ../../content/applications/marketing/email_marketing.rst:549
@@ -1487,8 +1487,8 @@ msgid ""
 msgstr ""
 "เมื่อการส่งจดหมายเสร็จสิ้นแล้วตัวเลือกต่อไปนี้สามารถใช้งานได้ผ่านทาง"
 "ปุ่มที่อยู่ที่มุมบนซ้ายของแบบฟอร์มอีเมล :: ref: `ส่ง"
-"\u003cEaMET_MARKETING/SEND\u003e `,: REF:` SCHETEM \u003cEMAIL_MARKETING/SCHEDEMES\u003e `และ"
-": REF: `Test \u003cemail_marketing/test\u003e`"
+"<EaMET_MARKETING/SEND> `,: REF:` SCHETEM <EMAIL_MARKETING/SCHEDEMES> `และ"
+": REF: `Test <email_marketing/test>`"
 
 #: ../../content/applications/marketing/email_marketing.rst:604
 msgid "Send"
@@ -1636,7 +1636,7 @@ msgstr ""
 "เพื่อสร้างและปรับแต่งแคมเปญการส่งจดหมาย *แคมเปญการส่งจดหมาย *"
 "คุณสมบัติ ** ต้องเปิดใช้งานในหน้า*การตั้งค่า*ของอีเมล*"
 "การตลาด* แอปพลิเคชัน "
-"แอพการตลาด -\u003e การกำหนดค่า -\u003e การตั้งค่า 'ทำเครื่องหมายที่กล่องข้างๆ"
+"แอพการตลาด -> การกำหนดค่า -> การตั้งค่า 'ทำเครื่องหมายที่กล่องข้างๆ"
 ": Guilabel: `แคมเปญการส่งจดหมาย 'และคลิกปุ่ม: Guilabel:` Save`"
 
 #: ../../content/applications/marketing/email_marketing.rst-1
@@ -1690,8 +1690,8 @@ msgid ""
 msgstr ""
 "มีสองวิธีที่แตกต่างกันในการสร้างและปรับแต่งแคมเปญในอีเมล *"
 "การตลาด* แอปพลิเคชันโดยตรงจากหน้า: ref: `หน้าแคมเปญ"
-"\u003cEaMET_MARKETING/CAMPAACING-PAGE\u003e `หรือผ่าน: REF:` แท็บการตั้งค่า"
-"\u003cemail_marketing/การตั้งค่าแคมเปญ\u003e `ในแบบฟอร์มอีเมล"
+"<EaMET_MARKETING/CAMPAACING-PAGE> `หรือผ่าน: REF:` แท็บการตั้งค่า"
+"<email_marketing/การตั้งค่าแคมเปญ> `ในแบบฟอร์มอีเมล"
 
 #: ../../content/applications/marketing/email_marketing.rst:700
 msgid "Create mailing campaign (from campaigns page)"
@@ -1712,8 +1712,8 @@ msgid ""
 "To do that, navigate to :menuselection:`Email Marketing app --> Campaigns "
 "--> New`."
 msgstr ""
-"ในการทำเช่นนั้นนำทางไปที่: เมนูการเลือก: `แอพการตลาดผ่านอีเมล -\u003e แคมเปญ"
-"-\u003e new`."
+"ในการทำเช่นนั้นนำทางไปที่: เมนูการเลือก: `แอพการตลาดผ่านอีเมล -> แคมเปญ"
+"-> new`."
 
 #: ../../content/applications/marketing/email_marketing.rst:711
 msgid ""
@@ -1971,7 +1971,7 @@ msgid ""
 "When all modifications are ready to be finalized, click :guilabel:`Save & "
 "Close`. To delete the entire campaign, click :guilabel:`Discard`."
 msgstr ""
-"เมื่อการดัดแปลงทั้งหมดพร้อมที่จะสรุปให้คลิก: Guilabel: `บันทึก \u0026"
+"เมื่อการดัดแปลงทั้งหมดพร้อมที่จะสรุปให้คลิก: Guilabel: `บันทึก &"
 "ปิด '. "
 
 #: ../../content/applications/marketing/email_marketing.rst:826
@@ -2003,7 +2003,7 @@ msgstr ""
 "แคมเปญจำเป็นต้องตรวจสอบตัวชี้วัดสำคัญหลายตัว "
 "ที่ได้รับจากการวัดเหล่านี้สามารถใช้เพื่อเพิ่มประสิทธิภาพแคมเปญในอนาคต"
 "Odoo's * การตลาดผ่านอีเมล * แอปพลิเคชันติดตามหลาย: Ref: `Metrics สำคัญ"
-"\u003cการตลาดอีเมล/คีย์-เมทริกส์\u003e `ที่สามารถตีความได้เพื่อปรับปรุงอนาคต"
+"<การตลาดอีเมล/คีย์-เมทริกส์> `ที่สามารถตีความได้เพื่อปรับปรุงอนาคต"
 "แคมเปญ"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:13
@@ -2028,7 +2028,7 @@ msgid ""
 "buttons."
 msgstr ""
 "ในการเข้าถึงตัวชี้วัดสำหรับการส่งจดหมายแต่ละครั้งนำทางไปที่"
-": เมนูการเลือก: `แอพการตลาดผ่านอีเมล -\u003e การส่งจดหมาย ' "
+": เมนูการเลือก: `แอพการตลาดผ่านอีเมล -> การส่งจดหมาย ' "
 "การส่งจดหมายในมุมมองรายการและใช้ส่วนหัวคอลัมน์เพื่อดูผลลัพธ์"
 "สำหรับการส่งจดหมายนั้น "
 "บันทึก. "
@@ -2078,7 +2078,7 @@ msgstr ""
 "ความสนใจของผู้รับ "
 "โฟลเดอร์ขยะเนื่องจากมีชื่อเสียงของผู้ส่งที่ไม่ดีหรือไม่สามารถทำได้"
 ": doc: `กำหนดค่าบันทึก DNS ที่เหมาะสม"
-"\u003c../../ ทั่วไป/email_communication/email_domain\u003e `"
+"<../../ ทั่วไป/email_communication/email_domain> `"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:46
 msgid "Replied rate"
@@ -2232,7 +2232,7 @@ msgid ""
 msgstr ""
 "การส่งจดหมายที่ส่งโดยใช้ A * จาก * ที่อยู่อีเมลที่แตกต่างจากผู้ส่ง"
 "โดเมนมีแนวโน้มที่จะตีกลับกับผู้ให้บริการอีเมลบางรายเนื่องจากความล้มเหลว"
-": REF: `DMARC Authentication \u003cMail-Domain-Dmarc\u003e`"
+": REF: `DMARC Authentication <Mail-Domain-Dmarc>`"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:108
 msgid ""
@@ -2241,16 +2241,16 @@ msgid ""
 "bounce rate."
 msgstr ""
 "ไม่สามารถ: doc: `กำหนดค่าบันทึก DNS ที่เหมาะสม"
-"\u003c../../ การสื่อสารทั่วไป/อีเมล/โดเมนอีเมล\u003e `อาจส่งผลให้สูง"
+"<../../ การสื่อสารทั่วไป/อีเมล/โดเมนอีเมล> `อาจส่งผลให้สูง"
 "อัตราตีกลับ"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:112
 msgid ":ref:`Mailing campaigns <email_marketing/mailing-campaigns>`"
-msgstr ": REF: `แคมเปญการส่งจดหมาย \u003ceMail_marketing/Campaigns\u003e`"
+msgstr ": REF: `แคมเปญการส่งจดหมาย <eMail_marketing/Campaigns>`"
 
 #: ../../content/applications/marketing/email_marketing/analyze_metrics.rst:113
 msgid ":doc:`Manage unsubscriptions <unsubscriptions>`"
-msgstr ": doc: `จัดการ unsubscriptions \u003cSubscriptions\u003e`"
+msgstr ": doc: `จัดการ unsubscriptions <Subscriptions>`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:3
 msgid "Lost leads reactivation email"
@@ -2310,7 +2310,7 @@ msgstr ": guilabel: `blacklist` * คือ *` ไม่ตั้งค่า '"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:22
 msgid ":guilabel:`Created on` *>=* `01/01/2024 00:00:01`"
-msgstr ": Guilabel: `สร้างขึ้นบน ' *\u003e \u003d *` 01/01/2024 00: 00: 01`"
+msgstr ": Guilabel: `สร้างขึ้นบน ' *> = *` 01/01/2024 00: 00: 01`"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:23
 msgid ":guilabel:`Stage` *is not in* `New`, `Qualified`, or `Won`"
@@ -2366,7 +2366,7 @@ msgid ""
 msgstr ""
 "เพื่อสร้างและส่งมอบแคมเปญอีเมลที่เปิดใช้งานการเปิดใช้งาน"
 "*crm*และ*การตลาดผ่านอีเมล*แอปพลิเคชัน ** ต้อง ** เป็น: ref: `ติดตั้ง"
-"\u003cทั่วไป/ติดตั้ง\u003e `และกำหนดค่า"
+"<ทั่วไป/ติดตั้ง> `และกำหนดค่า"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:48
 msgid ""
@@ -2381,7 +2381,7 @@ msgid ""
 "The :ref:`Recipients <email_marketing/recipients_field>` field **must** be "
 "set to the *Lead/Opportunity* model."
 msgstr ""
-"The: ref: `ผู้รับ \u003ceapine_marketing/ผู้รับ _field\u003e` ฟิลด์ ** ต้องเป็น **"
+"The: ref: `ผู้รับ <eapine_marketing/ผู้รับ _field>` ฟิลด์ ** ต้องเป็น **"
 "ตั้งค่าเป็นโมเดล * ตะกั่ว/โอกาส *"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:52
@@ -2389,7 +2389,7 @@ msgid ""
 "A :ref:`Blacklist <email_marketing/blacklist_filter>` filter to exclude "
 "unsubscribed recipients."
 msgstr ""
-"ตอบ: ref: `Blacklist \u003ceapine_marketing/blacklist_filter\u003e` ตัวกรองเพื่อแยกออก"
+"ตอบ: ref: `Blacklist <eapine_marketing/blacklist_filter>` ตัวกรองเพื่อแยกออก"
 "ผู้รับที่ไม่ได้สมัครสมาชิก"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:53
@@ -2397,7 +2397,7 @@ msgid ""
 "A :ref:`Created on <email_marketing/created_on_filter>` to target leads that"
 " were lost during a specific period of time."
 msgstr ""
-"ตอบ: ref: `สร้างขึ้นเมื่อ \u003cemail_marketing/created_on_filter\u003e` ไปยังเป้าหมายลูกค้าเป้าหมายนั้น"
+"ตอบ: ref: `สร้างขึ้นเมื่อ <email_marketing/created_on_filter>` ไปยังเป้าหมายลูกค้าเป้าหมายนั้น"
 "หายไปในช่วงระยะเวลาหนึ่ง"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:55
@@ -2408,7 +2408,7 @@ msgid ""
 "organization; however, it's minimally viable to exclude all the leads in the"
 " *Won* stage."
 msgstr ""
-": REF: `stage \u003ceafial_marketing/stage_filter\u003e` ตัวกรองเพื่อยกเว้นโอกาสในการขาย"
+": REF: `stage <eafial_marketing/stage_filter>` ตัวกรองเพื่อยกเว้นโอกาสในการขาย"
 "ชนะแล้วหรือยังคงทำงานอยู่ในขั้นตอนใหม่ของท่อส่ง"
 "(เช่น *ใหม่ *, *ผ่านการรับรอง *ฯลฯ ) "
 "องค์กร; "
@@ -2419,7 +2419,7 @@ msgid ""
 "One or more :ref:`Lost Reason <email_marketing/lost_reason_filter>` filters "
 "to exclude undesired leads, such as duplicate, spam, or irrelevant records."
 msgstr ""
-"หนึ่งหรือมากกว่า: ref: `Lost Reason \u003ceafial_marketing/lost_reason_filter\u003e` ตัวกรอง"
+"หนึ่งหรือมากกว่า: ref: `Lost Reason <eafial_marketing/lost_reason_filter>` ตัวกรอง"
 "เพื่อแยกโอกาสในการขายที่ไม่พึงประสงค์เช่นบันทึกซ้ำสแปมหรือบันทึกที่ไม่เกี่ยวข้อง"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:61
@@ -2427,7 +2427,7 @@ msgid ""
 "A pair of :ref:`Active <email_marketing/active_filter>` filters to target "
 "*both* active and inactive leads."
 msgstr ""
-"คู่ของ: ref: `active \u003ceapify_marketing/active_filter\u003e` ตัวกรองไปยังเป้าหมาย"
+"คู่ของ: ref: `active <eapify_marketing/active_filter>` ตัวกรองไปยังเป้าหมาย"
 "* ทั้งสอง* ที่ใช้งานอยู่และไม่ได้ใช้งาน"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:65
@@ -2495,8 +2495,8 @@ msgid ""
 "date operator, in order to frame the time selection chosen in the third "
 "field."
 msgstr ""
-"จากนั้นในฟิลด์ที่สองเลือก: guilabel: `\u003c\u003d (น้อยกว่าหรือเท่ากับ)`"
-": guilabel: `\u003e \u003d (มากกว่าหรือเท่ากับ)` หรือ: guilabel: `อยู่ระหว่าง '"
+"จากนั้นในฟิลด์ที่สองเลือก: guilabel: `<= (น้อยกว่าหรือเท่ากับ)`"
+": guilabel: `> = (มากกว่าหรือเท่ากับ)` หรือ: guilabel: `อยู่ระหว่าง '"
 "ผู้ให้บริการวันที่เพื่อกำหนดกรอบเวลาที่เลือกในสาม"
 "สนาม."
 
@@ -2621,7 +2621,7 @@ msgid ""
 msgstr ""
 "ถัดไปเพิ่มอย่างน้อยหนึ่ง: Guilabel: `กฎที่หายไป '"
 "ควร ** ไม่ได้รับการกำหนดเป้าหมายสำหรับเฉพาะ: doc: `Lost เหตุผล"
-"\u003c../../ ขาย/CRM/PIPELEN/LOST_OPPORTUNITIES\u003e `"
+"<../../ ขาย/CRM/PIPELEN/LOST_OPPORTUNITIES> `"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:156
 msgid ""
@@ -2657,7 +2657,7 @@ msgid ""
 msgstr ""
 "สำหรับข้อมูลเพิ่มเติมโปรดดูส่วนด้านล่างโดยสรุปวิธีการ"
 ": ref: `เลือกเหตุผลที่หายไปที่เหมาะสม"
-"\u003cEaMe_marketing/select_lost_reasons\u003e `"
+"<EaMe_marketing/select_lost_reasons> `"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst-1
 msgid ""
@@ -2745,7 +2745,7 @@ msgstr ""
 "ระหว่าง: guilabel: `ข้อความธรรมดา 'หรือ: guilabel:` เริ่มจากศูนย์'"
 "ตัวเลือกสำหรับการควบคุมที่ละเอียดยิ่งขึ้น "
 "การตลาด*: อ้างอิง: `เอกสารเกี่ยวกับวิธีการสร้างอีเมล"
-"\u003cemail_marketing/create_email\u003e `"
+"<email_marketing/create_email> `"
 
 #: ../../content/applications/marketing/email_marketing/lost_leads_email.rst:209
 msgid ""
@@ -3215,7 +3215,7 @@ msgid ""
 "New`."
 msgstr ""
 "หากต้องการสร้างรายชื่อผู้รับจดหมายในแอปพลิเคชัน * Email Marketing * ให้ไปที่"
-": MenusElection: `แอพการตลาดผ่านอีเมล -\u003e รายชื่อผู้รับจดหมาย -\u003e รายชื่อผู้รับจดหมาย -\u003e"
+": MenusElection: `แอพการตลาดผ่านอีเมล -> รายชื่อผู้รับจดหมาย -> รายชื่อผู้รับจดหมาย ->"
 "ใหม่ '."
 
 #: ../../content/applications/marketing/email_marketing/mailing_lists.rst:19
@@ -3266,7 +3266,7 @@ msgid ""
 msgstr ""
 "การคลิก: Guilabel: `ส่งจดหมาย 'เปิดเผยหน้าแยกต่างหากพร้อมอีเมลว่างเปล่า"
 "แบบฟอร์มเทมเพลตซึ่งสามารถกรอกได้โดยขั้นตอนต่อไปนี้อธิบายไว้ในไฟล์"
-": เอกสาร: `เอกสารการตลาดผ่านอีเมล \u003c../ email_marketing\u003e`"
+": เอกสาร: `เอกสารการตลาดผ่านอีเมล <../ email_marketing>`"
 
 #: ../../content/applications/marketing/email_marketing/mailing_lists.rst:40
 msgid ""
@@ -3276,7 +3276,7 @@ msgid ""
 msgstr ""
 "การคลิก: Guilabel: `ส่ง SMS` เปิดเผยหน้าแยกต่างหากพร้อม SMS ว่างเปล่า"
 "แบบฟอร์มเทมเพลตซึ่งสามารถกรอกได้โดยขั้นตอนต่อไปนี้อธิบายไว้ในไฟล์"
-": DOC: `SMS Marketing Doc \u003c../ sms_marketing\u003e`"
+": DOC: `SMS Marketing Doc <../ sms_marketing>`"
 
 #: ../../content/applications/marketing/email_marketing/mailing_lists.rst:44
 msgid ""
@@ -3341,8 +3341,8 @@ msgid ""
 msgstr ""
 "เมื่อการกำหนดค่าทั้งหมดในแบบฟอร์มรายชื่อผู้รับจดหมายเสร็จสมบูรณ์แล้ว Odoo"
 "เพิ่มรายการจดหมายใหม่โดยอัตโนมัติไปยังหน้า: guilabel: `หน้าจดหมาย '"
-"ในแอพ * การตลาดผ่านอีเมล * (: การเลือกใช้: `แอพการตลาดผ่านอีเมล -\u003e"
-"รายชื่อผู้รับจดหมาย -\u003e รายชื่อผู้รับจดหมาย)"
+"ในแอพ * การตลาดผ่านอีเมล * (: การเลือกใช้: `แอพการตลาดผ่านอีเมล ->"
+"รายชื่อผู้รับจดหมาย -> รายชื่อผู้รับจดหมาย)"
 
 #: ../../content/applications/marketing/email_marketing/mailing_lists.rst:64
 msgid "Add contacts to mailing list"
@@ -3363,8 +3363,8 @@ msgid ""
 "link on the line of the desired mailing list to which contacts should be "
 "added."
 msgstr ""
-"จากหน้า: Guilabel: `` mailing lists '(: การเลือกเมนู: `การตลาดผ่านอีเมล -\u003e"
-"รายชื่อผู้รับจดหมาย -\u003e รายชื่อผู้รับจดหมาย) คลิกที่: Guilabel: `ผู้ติดต่อทั้งหมด '"
+"จากหน้า: Guilabel: `` mailing lists '(: การเลือกเมนู: `การตลาดผ่านอีเมล ->"
+"รายชื่อผู้รับจดหมาย -> รายชื่อผู้รับจดหมาย) คลิกที่: Guilabel: `ผู้ติดต่อทั้งหมด '"
 "ลิงก์ในบรรทัดของรายการจดหมายที่ต้องการซึ่งควรจะเป็นที่ติดต่อ"
 "เพิ่ม."
 
@@ -3460,7 +3460,7 @@ msgid ""
 msgstr ""
 "หากต้องการเพิ่มผู้ติดต่อไปยังรายชื่อผู้รับจดหมายเฉพาะจากรายการหลักของการส่งจดหมายทั้งหมด"
 "รายชื่อผู้ติดต่อในฐานข้อมูลนำทางไปที่: การเลือกเมนู: `การตลาดผ่านอีเมล"
-"แอพ -\u003e รายชื่อผู้รับจดหมาย -\u003e รายชื่อผู้ติดต่อทางไปรษณีย์ "
+"แอพ -> รายชื่อผู้รับจดหมาย -> รายชื่อผู้ติดต่อทางไปรษณีย์ "
 ": guilabel: หน้ารายชื่อผู้ติดต่อทางไปรษณีย์ซึ่งมีรายชื่อผู้ติดต่อทั้งหมด"
 "เกี่ยวข้องกับทุกรายการส่งจดหมาย"
 
@@ -3804,7 +3804,7 @@ msgid ""
 "when Unsubscribing` feature. Then, click :guilabel:`Save` in the upper-left "
 "corner of the :guilabel:`Settings` page."
 msgstr ""
-"นำทางไปที่: MenusElection: `แอพการตลาดผ่านอีเมล -\u003e การกำหนดค่า -\u003e"
+"นำทางไปที่: MenusElection: `แอพการตลาดผ่านอีเมล -> การกำหนดค่า ->"
 "Settings` และทำเครื่องหมายในช่องทำเครื่องหมายถัดจาก: Guilabel: `ตัวเลือก Blacklist"
 "เมื่อคุณลักษณะที่ไม่ได้สมัครสมาชิก "
 "มุมของหน้า: guilabel: `การตั้งค่า '"
@@ -3881,7 +3881,7 @@ msgid ""
 ":menuselection:`Email Marketing app --> Configuration --> Optout Reasons`."
 msgstr ""
 "ตัวเลือกคำตอบที่ไม่เข้าร่วมสามารถสร้างและแก้ไขได้โดยการนำทางไปยัง"
-": MenusElection: `แอพการตลาดผ่านอีเมล -\u003e การกำหนดค่า -\u003e การเลือกใช้เหตุผล '"
+": MenusElection: `แอพการตลาดผ่านอีเมล -> การกำหนดค่า -> การเลือกใช้เหตุผล '"
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst:56
 msgid ""
@@ -3961,7 +3961,7 @@ msgid ""
 "Addresses`."
 msgstr ""
 "หากต้องการดูรายการที่สมบูรณ์ของที่อยู่อีเมลที่ขึ้นบัญชีดำทั้งหมดนำทางไปที่"
-": MenusElection: `แอพการตลาดผ่านอีเมล -\u003e การกำหนดค่า -\u003e อีเมล Blacklisted"
+": MenusElection: `แอพการตลาดผ่านอีเมล -> การกำหนดค่า -> อีเมล Blacklisted"
 "ที่อยู่"
 
 #: ../../content/applications/marketing/email_marketing/unsubscriptions.rst-1
@@ -4074,7 +4074,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/events.rst:12
 msgid "`Odoo Tutorials: Events <https://www.odoo.com/slides/surveys-63>`_"
-msgstr "`บทเรียน Odoo: กิจกรรม \u003chttps://www.odoo.com/slides/surveys-63\u003e` _"
+msgstr "`บทเรียน Odoo: กิจกรรม <https://www.odoo.com/slides/surveys-63>` _"
 
 #: ../../content/applications/marketing/events.rst:57
 msgid "Events dashboard"
@@ -4186,7 +4186,7 @@ msgid ""
 "click :guilabel:`Save` to activate them."
 msgstr ""
 "ในการเข้าถึงการตั้งค่ากิจกรรมและตัวเลือกคุณสมบัติในกิจกรรม Odoo ****"
-"นำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e การตั้งค่า ' "
+"นำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -> การกำหนดค่า -> การตั้งค่า ' "
 "ที่นี่ทำเครื่องหมายในช่องทำเครื่องหมายข้างการตั้งค่าและ/หรือคุณสมบัติที่ต้องการและ"
 "คลิก: Guilabel: `save` เพื่อเปิดใช้งาน"
 
@@ -4820,7 +4820,7 @@ msgstr ""
 "นี่: Guilabel: `Field Wall 'Twitter' เท่านั้น **** ปรากฏในแบบฟอร์มกิจกรรมถ้า"
 "ติดตั้งแอพ * Social Marketing * และมีการเพิ่มบัญชี X เป็น"
 "สตรีมในแอปพลิเคชัน "
-"การตลาด \u003c../ social_marketing\u003e `เอกสารประกอบ"
+"การตลาด <../ social_marketing> `เอกสารประกอบ"
 
 #: ../../content/applications/marketing/events/create_events.rst:108
 msgid ""
@@ -4867,8 +4867,8 @@ msgid ""
 "Configuration --> Event Tag Categories`."
 msgstr ""
 "แท็กสามารถแสดงในกิจกรรมที่อยู่ในเว็บไซต์โดยเปิดใช้งาน"
-"The * แสดงบนเว็บไซต์ * ช่องทำเครื่องหมายจาก: MenusElection: `แอปกิจกรรม -\u003e"
-"การกำหนดค่า -\u003e หมวดหมู่แท็กเหตุการณ์ '"
+"The * แสดงบนเว็บไซต์ * ช่องทำเครื่องหมายจาก: MenusElection: `แอปกิจกรรม ->"
+"การกำหนดค่า -> หมวดหมู่แท็กเหตุการณ์ '"
 
 #: ../../content/applications/marketing/events/create_events.rst:124
 msgid ""
@@ -4910,7 +4910,7 @@ msgstr ""
 "เว็บไซต์เฉพาะที่สร้างขึ้นใน Odoo "
 "เผยแพร่บน * เว็บไซต์ทั้งหมด * ในฐานข้อมูล "
 ": เอกสาร: `หลายเว็บไซต์"
-"\u003c../../ เว็บไซต์/เว็บไซต์/การกำหนดค่า/multi_website\u003e `เอกสาร"
+"<../../ เว็บไซต์/เว็บไซต์/การกำหนดค่า/multi_website> `เอกสาร"
 
 #: ../../content/applications/marketing/events/create_events.rst:133
 msgid ""
@@ -4978,9 +4978,9 @@ msgid ""
 "<events/event-communication>`, :ref:`Questions <events/event-questions>`, "
 "and :ref:`Notes <events/event-notes>`."
 msgstr ""
-"แท็บเหล่านั้นคือ:: ref: `ตั๋ว \u003cevents/event-tickets\u003e`,: ref: `การสื่อสาร"
-"\u003cเหตุการณ์/การสื่อสารเหตุการณ์\u003e `,: ref:` คำถาม \u003cเหตุการณ์/เหตุการณ์-คำถาม\u003e `,,,,"
-"และ: Ref: `Notes \u003cevents/event-notes\u003e`"
+"แท็บเหล่านั้นคือ:: ref: `ตั๋ว <events/event-tickets>`,: ref: `การสื่อสาร"
+"<เหตุการณ์/การสื่อสารเหตุการณ์> `,: ref:` คำถาม <เหตุการณ์/เหตุการณ์-คำถาม> `,,,,"
+"และ: Ref: `Notes <events/event-notes>`"
 
 #: ../../content/applications/marketing/events/create_events.rst:157
 msgid "Tickets tab"
@@ -5031,7 +5031,7 @@ msgid ""
 "be set to :guilabel:`Event Ticket`."
 msgstr ""
 "เมื่อติดตั้ง Odoo *Events *ประเภทผลิตภัณฑ์ใหม่ *ตั๋วเหตุการณ์ *จะกลายเป็น"
-"มีอยู่ในรูปแบบผลิตภัณฑ์ (: การเลือกเมนู: `การขาย -\u003e ผลิตภัณฑ์ -\u003e"
+"มีอยู่ในรูปแบบผลิตภัณฑ์ (: การเลือกเมนู: `การขาย -> ผลิตภัณฑ์ ->"
 "ผลิตภัณฑ์ ') "
 "แท็บ*ตั๋ว*, การลงทะเบียนเหตุการณ์: Guilabel: `ประเภทผลิตภัณฑ์ '** ต้อง **"
 "ถูกตั้งค่าเป็น: Guilabel: `Event Ticket '"
@@ -5227,7 +5227,7 @@ msgid ""
 ":doc:`WhatsApp <../../productivity/whatsapp>` templates **cannot** be edited"
 " during active configuration. A separate approval from *Meta* is required."
 msgstr ""
-": doc: `whatsapp \u003c../../ ผลผลิต/whatsapp\u003e` เทมเพลต ** ไม่สามารถแก้ไขได้ **"
+": doc: `whatsapp <../../ ผลผลิต/whatsapp>` เทมเพลต ** ไม่สามารถแก้ไขได้ **"
 "ในระหว่างการกำหนดค่าที่ใช้งานอยู่ "
 
 #: ../../content/applications/marketing/events/create_events.rst:254
@@ -5340,7 +5340,7 @@ msgid ""
 " where the template is used."
 msgstr ""
 "หากต้องการดูและจัดการเทมเพลตอีเมลทั้งหมดให้เปิดใช้งาน: REF: `นักพัฒนา-โหมด 'และ"
-"นำทางไปที่: MenusElection: `การตั้งค่า -\u003e เทคนิค -\u003e อีเมล: อีเมล"
+"นำทางไปที่: MenusElection: `การตั้งค่า -> เทคนิค -> อีเมล: อีเมล"
 "แม่แบบ "
 "ที่ใช้เทมเพลต"
 
@@ -5511,8 +5511,8 @@ msgid ""
 ":guilabel:`Create Question` pop-up window."
 msgstr ""
 "เมื่อป้อนการกำหนดค่าที่ต้องการทั้งหมดแล้วคลิกไม่ว่าจะคลิก"
-": Guilabel: `Save \u0026 Close` เพื่อบันทึกคำถามและกลับไปที่"
-": Guilabel: `คำถาม 'แท็บในแบบฟอร์มกิจกรรมหรือคลิก: Guilabel:` Save \u0026 New'"
+": Guilabel: `Save & Close` เพื่อบันทึกคำถามและกลับไปที่"
+": Guilabel: `คำถาม 'แท็บในแบบฟอร์มกิจกรรมหรือคลิก: Guilabel:` Save & New'"
 "เพื่อบันทึกคำถามและสร้างคำถามใหม่ในใหม่ทันที"
 ": Guilabel: `สร้างหน้าต่างคำถาม` ป๊อปอัพ"
 
@@ -5650,7 +5650,7 @@ msgid ""
 "documentation."
 msgstr ""
 "หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชั่นการออกแบบเว็บไซต์และตัวเลือกให้ปรึกษา"
-": เอกสาร: `building block \u003c../../ เว็บไซต์/เว็บไซต์/web_design/building_blocks\u003e`"
+": เอกสาร: `building block <../../ เว็บไซต์/เว็บไซต์/web_design/building_blocks>`"
 "เอกสาร"
 
 #: ../../content/applications/marketing/events/create_events.rst:406
@@ -5677,7 +5677,7 @@ msgid ""
 "left corner of the event form."
 msgstr ""
 "หากต้องการส่งคำเชิญงานไปยังผู้เข้าร่วมประชุมที่มีศักยภาพนำทางไปยังเหตุการณ์ที่ต้องการ"
-"แบบฟอร์ม, ผ่าน: เมนูการเลือก: `แอปกิจกรรม -\u003e เหตุการณ์ 'และคลิกเข้าไปในที่ต้องการ"
+"แบบฟอร์ม, ผ่าน: เมนูการเลือก: `แอปกิจกรรม -> เหตุการณ์ 'และคลิกเข้าไปในที่ต้องการ"
 "เหตุการณ์. "
 "มุมซ้ายของแบบฟอร์มเหตุการณ์"
 
@@ -5689,7 +5689,7 @@ msgid ""
 msgstr ""
 "การทำเช่นนั้นเผยให้เห็นแบบฟอร์มอีเมลว่างเปล่าเพื่อกรอกข้อมูลตามที่ต้องการ "
 "เกี่ยวกับวิธีการสร้างและปรับแต่งอีเมลเช่นนี้อ้างถึงไฟล์"
-": Ref: `สร้างอีเมล \u003cemail_marketing/create_email\u003e` เอกสารประกอบ"
+": Ref: `สร้างอีเมล <email_marketing/create_email>` เอกสารประกอบ"
 
 #: ../../content/applications/marketing/events/create_events.rst:421
 msgid ""
@@ -5745,7 +5745,7 @@ msgid ""
 "Settings`, and tick the :guilabel:`Booth Management` checkbox. Then, click "
 ":guilabel:`Save`."
 msgstr ""
-"ในการทำเช่นนั้นนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e"
+"ในการทำเช่นนั้นนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -> การกำหนดค่า ->"
 "การตั้งค่า 'และทำเครื่องหมายที่: Guilabel: `ช่องทำเครื่องหมายการจัดการบูธ' "
 ": Guilabel: `Save`"
 
@@ -5762,7 +5762,7 @@ msgid ""
 msgstr ""
 "เมื่อเปิดใช้งานการตั้งค่า: guilabel: `` `การจัดการบูธ 'ใหม่"
 ": doc: `ประเภทผลิตภัณฑ์"
-"\u003c../../ Inventory_and_mrp/Inventory/Product_management/Configure/Type\u003e `"
+"<../../ Inventory_and_mrp/Inventory/Product_management/Configure/Type> `"
 "พร้อมใช้งานในทุกรูปแบบผลิตภัณฑ์: *Event Booth *"
 
 #: ../../content/applications/marketing/events/event_booths.rst:26
@@ -5794,7 +5794,7 @@ msgid ""
 "reveals a list of all created booth categories."
 msgstr ""
 "หากต้องการเข้าถึง: guilabel: `dashboard หมวดหมู่บูธ 'ไปที่"
-": MenusElection: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e หมวดหมู่บูธ 'ซึ่ง"
+": MenusElection: `แอปกิจกรรม -> การกำหนดค่า -> หมวดหมู่บูธ 'ซึ่ง"
 "เปิดเผยรายการของหมวดหมู่บูธที่สร้างขึ้นทั้งหมด"
 
 #: ../../content/applications/marketing/events/event_booths.rst-1
@@ -6061,7 +6061,7 @@ msgid ""
 "event form."
 msgstr ""
 "เพื่อเพิ่มบูธลงในเหตุการณ์นำทางไปยังแบบฟอร์มเหตุการณ์ที่มีอยู่ผ่าน"
-": MenusElection: `แอปกิจกรรม -\u003e events` และเลือกเหตุการณ์ที่ต้องการจาก"
+": MenusElection: `แอปกิจกรรม -> events` และเลือกเหตุการณ์ที่ต้องการจาก"
 "The: Guilabel: `Events` Dashboard "
 "แบบฟอร์มเหตุการณ์"
 
@@ -6176,7 +6176,7 @@ msgstr ""
 "เพียงแค่คลิก: Guilabel: `create` จากเมนูแบบเลื่อนลงที่เกิดขึ้นสร้างขึ้น"
 "หมวดหมู่ แต่ไม่เปิดเผย: guilabel: `สร้าง booth category '"
 "หน้าต่างป๊อปอัพ "
-"หมวดหมู่* หน้า (: เมนูการเลือก: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e บูธ"
+"หมวดหมู่* หน้า (: เมนูการเลือก: `แอปกิจกรรม -> การกำหนดค่า -> บูธ"
 "หมวดหมู่ ')"
 
 #: ../../content/applications/marketing/events/event_booths.rst:184
@@ -6288,7 +6288,7 @@ msgid ""
 "Alternatively, enter :doc:`Debug mode <../../general/developer_mode>`, and "
 "open the specific event form in the the *Events* application."
 msgstr ""
-"อีกทางเลือกหนึ่งป้อน: DOC: `โหมดการดีบัก \u003c../../ ทั่วไป/นักพัฒนา/นักพัฒนา\u003e` และ"
+"อีกทางเลือกหนึ่งป้อน: DOC: `โหมดการดีบัก <../../ ทั่วไป/นักพัฒนา/นักพัฒนา>` และ"
 "เปิดแบบฟอร์มเหตุการณ์เฉพาะในแอปพลิเคชัน * Events *"
 
 #: ../../content/applications/marketing/events/event_booths.rst:225
@@ -6458,7 +6458,7 @@ msgid ""
 " Templates`. Doing so reveals the :guilabel:`Event Templates` page. Here, "
 "find all the existing event templates in the database."
 msgstr ""
-"ในการเริ่มต้นนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e เหตุการณ์"
+"ในการเริ่มต้นนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -> การกำหนดค่า -> เหตุการณ์"
 "แม่แบบ "
 "ค้นหาเทมเพลตเหตุการณ์ที่มีอยู่ทั้งหมดในฐานข้อมูล"
 
@@ -6515,8 +6515,8 @@ msgid ""
 "in the upper-left corner. Doing so reveals a blank event template form that "
 "can be customized in a number of different ways."
 msgstr ""
-"** บนแดชบอร์ด ** โดยการนำทางไป: เมนูการเลือก: `แอปกิจกรรม -\u003e"
-"การกำหนดค่า -\u003e เทมเพลตเหตุการณ์และคลิกปุ่ม: guilabel: `new`"
+"** บนแดชบอร์ด ** โดยการนำทางไป: เมนูการเลือก: `แอปกิจกรรม ->"
+"การกำหนดค่า -> เทมเพลตเหตุการณ์และคลิกปุ่ม: guilabel: `new`"
 "ที่มุมบนซ้าย "
 "สามารถปรับแต่งได้หลายวิธี"
 
@@ -6554,7 +6554,7 @@ msgid ""
 "Templates`)."
 msgstr ""
 "เทมเพลตเหตุการณ์จะต้องได้รับการแก้ไขโดยเลือกในเหตุการณ์ *"
-"เทมเพลต* หน้า (: เมนูการเลือก: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e เหตุการณ์"
+"เทมเพลต* หน้า (: เมนูการเลือก: `แอปกิจกรรม -> การกำหนดค่า -> เหตุการณ์"
 "เทมเพลต ')"
 
 #: ../../content/applications/marketing/events/event_templates.rst:58
@@ -6633,7 +6633,7 @@ msgstr ""
 "แยกหน้าซึ่งสามารถซื้อบูธกิจกรรมได้ "
 "ปรับแต่งและกำหนดค่าในแท็บ: guilabel: `booths` ของเหตุการณ์"
 "แบบฟอร์มเทมเพลตจากหมวดหมู่ * บูธ * หน้า (: เมนูการเลือก: `แอปกิจกรรม"
-"-\u003e การกำหนดค่า-\u003e หมวดหมู่บูธ)"
+"-> การกำหนดค่า-> หมวดหมู่บูธ)"
 
 #: ../../content/applications/marketing/events/event_templates.rst:87
 msgid ""
@@ -6719,23 +6719,23 @@ msgstr ""
 
 #: ../../content/applications/marketing/events/event_templates.rst:112
 msgid ":ref:`Tickets <events/event-tickets>`"
-msgstr ": ref: `ตั๋ว \u003cevents/event-tickets\u003e`"
+msgstr ": ref: `ตั๋ว <events/event-tickets>`"
 
 #: ../../content/applications/marketing/events/event_templates.rst:113
 msgid ":ref:`Communication <events/event-communication>`"
-msgstr ": ref: `การสื่อสาร \u003cเหตุการณ์/การสื่อสารเหตุการณ์\u003e`"
+msgstr ": ref: `การสื่อสาร <เหตุการณ์/การสื่อสารเหตุการณ์>`"
 
 #: ../../content/applications/marketing/events/event_templates.rst:114
 msgid ":ref:`Booths <event_templates/event_template/booths>`"
-msgstr ": สีแดง: `บูธ \u003cเทมเพลตเหตุการณ์/เทมเพลตเหตุการณ์/บูธ\u003e`"
+msgstr ": สีแดง: `บูธ <เทมเพลตเหตุการณ์/เทมเพลตเหตุการณ์/บูธ>`"
 
 #: ../../content/applications/marketing/events/event_templates.rst:115
 msgid ":ref:`Questions <events/event-questions>`"
-msgstr ": REF: `คำถาม \u003cเหตุการณ์/คำถามเหตุการณ์\u003e`"
+msgstr ": REF: `คำถาม <เหตุการณ์/คำถามเหตุการณ์>`"
 
 #: ../../content/applications/marketing/events/event_templates.rst:116
 msgid ":ref:`Notes <events/event-notes>`"
-msgstr ": ref: `notes \u003cevents/event-notes\u003e`"
+msgstr ": ref: `notes <events/event-notes>`"
 
 #: ../../content/applications/marketing/events/event_templates.rst:121
 msgid "Booths tab"
@@ -6778,7 +6778,7 @@ msgid ""
 msgstr ""
 "บูธกิจกรรมสามารถสร้างและปรับแต่งได้สองวิธีในกิจกรรม Odoo *"
 "แอปพลิเคชัน. "
-"หรือโดยการนำทางไปที่: MeneSelection: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e บูธ"
+"หรือโดยการนำทางไปที่: MeneSelection: `แอปกิจกรรม -> การกำหนดค่า -> บูธ"
 "หมวดหมู่และคลิก: Guilabel: `ใหม่ '"
 
 #: ../../content/applications/marketing/events/event_templates.rst:138
@@ -6814,7 +6814,7 @@ msgstr ""
 "จากนั้นเลือกที่เหมาะสม: Guilabel: `booth category 'จากดรอปดาวน์"
 "ฟิลด์ด้านล่าง "
 "หมวดหมู่* หน้าในแอปพลิเคชัน* Events* ซึ่งสามารถเข้าถึงได้โดย"
-"การนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e บูธ"
+"การนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -> การกำหนดค่า -> บูธ"
 "หมวดหมู่ '"
 
 #: ../../content/applications/marketing/events/event_templates.rst:154
@@ -6876,7 +6876,7 @@ msgid ""
 "When all desired configurations are complete, click the :guilabel:`Save & "
 "Close` button."
 msgstr ""
-"เมื่อการกำหนดค่าที่ต้องการทั้งหมดเสร็จสมบูรณ์ให้คลิก: Guilabel: `save \u0026"
+"เมื่อการกำหนดค่าที่ต้องการทั้งหมดเสร็จสมบูรณ์ให้คลิก: Guilabel: `save &"
 "ปุ่มปิด"
 
 #: ../../content/applications/marketing/events/event_templates.rst:177
@@ -6886,7 +6886,7 @@ msgid ""
 "clicking :guilabel:`New`."
 msgstr ""
 "การกำหนดค่าและตัวเลือกเดียวกันนั้นมีให้โดยการนำทางไปยัง"
-": MenusElection: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e หมวดหมู่บูธ 'และ"
+": MenusElection: `แอปกิจกรรม -> การกำหนดค่า -> หมวดหมู่บูธ 'และ"
 "คลิก: Guilabel: `ใหม่ '"
 
 #: ../../content/applications/marketing/events/event_templates.rst:180
@@ -6920,9 +6920,9 @@ msgid ""
 ":guilabel:`Discard` to remove all changes, and return to the event template "
 "form."
 msgstr ""
-"เมื่อการกำหนดค่าที่ต้องการทั้งหมดเสร็จสมบูรณ์คลิก: Guilabel: `save \u0026 close`"
+"เมื่อการกำหนดค่าที่ต้องการทั้งหมดเสร็จสมบูรณ์คลิก: Guilabel: `save & close`"
 "เพื่อบันทึกบูธและกลับไปที่แบบฟอร์มเทมเพลตเหตุการณ์ "
-": Guilabel: `save \u0026 new` เพื่อบันทึกบูธและเริ่มสร้างบูธอื่น"
+": Guilabel: `save & new` เพื่อบันทึกบูธและเริ่มสร้างบูธอื่น"
 "บนใหม่: Guilabel: `สร้างหน้าต่างป๊อปอัพบูธ "
 ": Guilabel: `Discard` เพื่อลบการเปลี่ยนแปลงทั้งหมดและกลับไปที่เทมเพลตเหตุการณ์"
 "รูปร่าง."
@@ -6965,7 +6965,7 @@ msgstr ""
 "จากแบบฟอร์มเหตุการณ์คลิกฟิลด์: guilabel: `template` เพื่อเปิดเผยทั้งหมด"
 "เทมเพลตเหตุการณ์ที่มีอยู่ในฐานข้อมูล "
 "พวกเขาอยู่ในรายการ * เทมเพลตเหตุการณ์ * หน้า * (: การเลือกเมนู: `แอปกิจกรรม"
-"-\u003e การกำหนดค่า-\u003e เทมเพลตเหตุการณ์)"
+"-> การกำหนดค่า-> เทมเพลตเหตุการณ์)"
 
 #: ../../content/applications/marketing/events/event_templates.rst:209
 msgid ""
@@ -7022,8 +7022,8 @@ msgid ""
 "setting. Doing so provides the ability to manage and publish an event "
 "schedule with various tracks."
 msgstr ""
-"ในการทำเช่นนั้นนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e"
-"Settings` และทำเครื่องหมายในช่องทำเครื่องหมายข้าง: Guilabel: `Schedule \u0026 Tracks '"
+"ในการทำเช่นนั้นนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -> การกำหนดค่า ->"
+"Settings` และทำเครื่องหมายในช่องทำเครื่องหมายข้าง: Guilabel: `Schedule & Tracks '"
 "การตั้งค่า. "
 "กำหนดเวลาด้วยแทร็กต่าง ๆ"
 
@@ -7072,7 +7072,7 @@ msgid ""
 msgstr ""
 "ด้วย: Guilabel: `Event Gamification` เปิดใช้งานการตั้งค่า, AN: Guilabel:` เพิ่ม"
 "ปุ่ม Quiz` จะปรากฏในรูปแบบการติดตามให้ความสามารถในการ: ref: `เร็ว"
-"สร้างคำถาม \u003cevents/track-add-quiz\u003e `เฉพาะสำหรับหัวข้อที่เกี่ยวข้องกับสิ่งนั้น"
+"สร้างคำถาม <events/track-add-quiz> `เฉพาะสำหรับหัวข้อที่เกี่ยวข้องกับสิ่งนั้น"
 "แทร็กเฉพาะ"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:39
@@ -7096,7 +7096,7 @@ msgid ""
 "*Events* application."
 msgstr ""
 "ในการเข้าถึงแก้ไขและ/หรือสร้างแทร็กสำหรับเหตุการณ์ก่อนไปที่"
-"เหตุการณ์ที่กำหนดค่าไว้ล่วงหน้าหรือ: DOC: `สร้างเหตุการณ์ใหม่ \u003ccreate_events\u003e` จาก"
+"เหตุการณ์ที่กำหนดค่าไว้ล่วงหน้าหรือ: DOC: `สร้างเหตุการณ์ใหม่ <create_events>` จาก"
 "* กิจกรรม* แอปพลิเคชัน"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:48
@@ -7249,7 +7249,7 @@ msgid ""
 msgstr ""
 "ในการเข้าถึงรายการสถานที่ทั้งหมดสำหรับแทร็กกิจกรรมซึ่งสามารถทำได้"
 "แก้ไข (และเพิ่ม) ได้ตลอดเวลานำทางไปที่: เมนูการเลือก: `แอปกิจกรรม"
-"-\u003e การกำหนดค่า-\u003e สถานที่ติดตาม '"
+"-> การกำหนดค่า-> สถานที่ติดตาม '"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:111
 msgid "Then, add a :guilabel:`Duration` to the track (in minutes)."
@@ -7315,9 +7315,9 @@ msgid ""
 "tab>`."
 msgstr ""
 "ใต้ส่วนข้อมูลทั่วไปนั้นมีสามแท็บ:"
-": Ref: `ลำโพง \u003cevents/track-speaker-tab\u003e`,: ref: `คำอธิบาย \u003cevents/track-"
-"Description-tab\u003e `และ: ref:` การโต้ตอบ \u003cเหตุการณ์/การติดตามแบบอินเทอร์ติคติ-"
-"แท็บ\u003e `"
+": Ref: `ลำโพง <events/track-speaker-tab>`,: ref: `คำอธิบาย <events/track-"
+"Description-tab> `และ: ref:` การโต้ตอบ <เหตุการณ์/การติดตามแบบอินเทอร์ติคติ-"
+"แท็บ> `"
 
 #: ../../content/applications/marketing/events/event_tracks.rst:137
 msgid "Speaker tab"
@@ -7656,7 +7656,7 @@ msgid ""
 "new :guilabel:`Create Questions` pop-up form."
 msgstr ""
 "เมื่อตัวเลือกคำตอบที่ต้องการทั้งหมด (และการกำหนดค่า) เสร็จสมบูรณ์แล้ว"
-"คลิก: Guilabel: `save \u0026 close` เพื่อบันทึกคำถามปิดป๊อปอัพ"
+"คลิก: Guilabel: `save & close` เพื่อบันทึกคำถามปิดป๊อปอัพ"
 "หน้าต่างและกลับไปที่แบบฟอร์มตอบคำถามแทร็ก "
 "เพื่อบันทึกคำถามนี้และเริ่มสร้างคำถามอื่นทันทีในไฟล์"
 "ใหม่: Guilabel: `สร้างแบบฟอร์มป๊อปอัพคำถาม"
@@ -7779,7 +7779,7 @@ msgid ""
 ":guilabel:`Scan a badge` option."
 msgstr ""
 "สแกนรหัสที่มีอยู่ในตราผู้เข้าร่วมกิจกรรมโดยนำทางไป"
-": MenusElection: `แอพกิจกรรม -\u003e โต๊ะลงทะเบียนและเลือกไฟล์"
+": MenusElection: `แอพกิจกรรม -> โต๊ะลงทะเบียนและเลือกไฟล์"
 ": Guilabel: `สแกนตัวเลือกป้าย"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:28
@@ -7841,7 +7841,7 @@ msgid ""
 ":guilabel:`Select Attendee` option."
 msgstr ""
 "ให้สิทธิ์การเข้าถึงผู้เข้าร่วมกิจกรรมด้วยตนเองโดยการนำทางไป"
-": MenusElection: `แอพกิจกรรม -\u003e โต๊ะลงทะเบียนและเลือกไฟล์"
+": MenusElection: `แอพกิจกรรม -> โต๊ะลงทะเบียนและเลือกไฟล์"
 ": Guilabel: `เลือกตัวเลือกผู้เข้าร่วม"
 
 #: ../../content/applications/marketing/events/registration_desk.rst:51
@@ -7955,7 +7955,7 @@ msgid ""
 " app --> Reporting --> Revenues`."
 msgstr ""
 "ในการเข้าถึงหน้าการรายงาน * ผู้เข้าร่วม * ให้ไปที่: เมนูการเลือก: `เหตุการณ์"
-"แอพ -\u003e การรายงาน -\u003e รายได้ '"
+"แอพ -> การรายงาน -> รายได้ '"
 
 #: ../../content/applications/marketing/events/revenues_report.rst-1
 msgid ""
@@ -7985,7 +7985,7 @@ msgid ""
 "to the :ref:`Graph views <reporting/using-graph>` documentation."
 msgstr ""
 "หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับมุมมองกราฟต่างๆ (และตัวเลือกมุมมองกราฟ) อ้างอิง"
-"ถึง: ref: `มุมมองกราฟ \u003cการรายงาน/การใช้งาน-กราฟ\u003e` เอกสารประกอบ"
+"ถึง: ref: `มุมมองกราฟ <การรายงาน/การใช้งาน-กราฟ>` เอกสารประกอบ"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:29
 msgid ""
@@ -7994,7 +7994,7 @@ msgid ""
 ":guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
 "หน้าการรายงาน: guilabel: `` `หน้าการรายงาน"
-"ตาราง \u003cการรายงาน/มุมมอง/pivot\u003e `โดยคลิกที่: ไอคอน:` oi-view-pivot`"
+"ตาราง <การรายงาน/มุมมอง/pivot> `โดยคลิกที่: ไอคอน:` oi-view-pivot`"
 ": Guilabel: `(pivot)` ไอคอนในมุมบนขวา"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:34
@@ -8006,7 +8006,7 @@ msgid ""
 "Choosing specific :ref:`Measures <reporting/choosing-measures>` is a quick "
 "way to customize reporting pages."
 msgstr ""
-"การเลือกเฉพาะ: ref: `มาตรการ \u003cการรายงาน/การเลือก-วัด\u003e` เป็นไปอย่างรวดเร็ว"
+"การเลือกเฉพาะ: ref: `มาตรการ <การรายงาน/การเลือก-วัด>` เป็นไปอย่างรวดเร็ว"
 "วิธีปรับแต่งหน้ารายงาน"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:39
@@ -8086,8 +8086,8 @@ msgid ""
 "<search/group>`, and :ref:`Favorites <search/favorites>`."
 msgstr ""
 "การทำเช่นนั้นจะเปิดเมนูตัวเลือกขนาดใหญ่แบบเลื่อนลงที่จัดเป็นคอลัมน์:"
-": REF: `ตัวกรอง \u003cSearch/preconfigured-filters\u003e`,: ref: `กลุ่มโดย"
-"\u003cการค้นหา/กลุ่ม\u003e `และ: อ้างอิง:` รายการโปรด \u003cการค้นหา/รายการโปรด\u003e `"
+": REF: `ตัวกรอง <Search/preconfigured-filters>`,: ref: `กลุ่มโดย"
+"<การค้นหา/กลุ่ม> `และ: อ้างอิง:` รายการโปรด <การค้นหา/รายการโปรด> `"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:65
 msgid ""
@@ -8229,7 +8229,7 @@ msgid ""
 msgstr ""
 ": Guilabel: `เพิ่มตัวกรองที่กำหนดเอง ': สร้างตัวกรองที่กำหนดเองเพื่อวิเคราะห์เหตุการณ์-"
 "ข้อมูลรายได้ที่เกี่ยวข้อง "
-": Ref: `ตัวกรองที่กำหนดเอง \u003cการค้นหา/ตัวกรองแบบกำหนดเอง\u003e`"
+": Ref: `ตัวกรองที่กำหนดเอง <การค้นหา/ตัวกรองแบบกำหนดเอง>`"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:108
 msgid "Group By options"
@@ -8339,8 +8339,8 @@ msgid ""
 "Reporting --> Revenues`. Stay in the default graph view, but remove the "
 "default filters from the search bar."
 msgstr ""
-"ในการสร้างรายงานดังกล่าวนำทางไปที่: MeneSelection: `แอปกิจกรรม -\u003e"
-"การรายงาน -\u003e รายได้ ' "
+"ในการสร้างรายงานดังกล่าวนำทางไปที่: MeneSelection: `แอปกิจกรรม ->"
+"การรายงาน -> รายได้ ' "
 "ตัวกรองเริ่มต้นจากแถบค้นหา"
 
 #: ../../content/applications/marketing/events/revenues_report.rst:142
@@ -8441,7 +8441,7 @@ msgid ""
 "and switch to the pivot table view, by clicking the :icon:`oi-view-pivot` "
 ":guilabel:`(Pivot)` icon in the upper-right corner."
 msgstr ""
-"ก่อนอื่นนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -\u003e การรายงาน -\u003e รายได้ '"
+"ก่อนอื่นนำทางไปที่: เมนูการเลือก: `แอปกิจกรรม -> การรายงาน -> รายได้ '"
 "และสลับไปที่มุมมองตารางเดือยโดยคลิกที่: ไอคอน: `oi-view-pivot`"
 ": Guilabel: `(pivot)` ไอคอนในมุมบนขวา"
 
@@ -8525,7 +8525,7 @@ msgid ""
 "Settings`. In the :guilabel:`Registration` section, there are two different "
 "settings: :guilabel:`Tickets` and :guilabel:`Online Ticketing`."
 msgstr ""
-"ก่อนอื่นนำทางไปที่: MenusElection: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e"
+"ก่อนอื่นนำทางไปที่: MenusElection: `แอปกิจกรรม -> การกำหนดค่า ->"
 "การตั้งค่า ' "
 "การตั้งค่า :: Guilabel: `Tickets` และ: Guilabel:` การออกตั๋วออนไลน์ '"
 
@@ -8856,7 +8856,7 @@ msgid ""
 "the event website: :guilabel:`Talks`, :guilabel:`Talk Proposals`, and "
 ":guilabel:`Agenda`."
 msgstr ""
-"ด้วยการตั้งค่า * Schedule \u0026 Tracks * เปิดใช้งานในแอป Odoo * Events *"
+"ด้วยการตั้งค่า * Schedule & Tracks * เปิดใช้งานในแอป Odoo * Events *"
 "ลิงค์ต่อไปนี้จะถูกเพิ่มลงในเมนู Subheader โดยอัตโนมัติซึ่งอยู่บน"
 "เว็บไซต์เหตุการณ์:: guilabel: `talks` ,: guilabel:` talk proposals` และ"
 ": Guilabel: `agenda`"
@@ -8867,9 +8867,9 @@ msgid ""
 ":menuselection:`Events app --> Configuration --> Settings`, tick the "
 "checkbox beside :guilabel:`Schedule & Tracks`, and click :guilabel:`Save`."
 msgstr ""
-"หากต้องการเปิดใช้งานการตั้งค่า: guilabel: `schedule \u0026 Tracks` นำทางไปที่"
-": MenusElection: `แอปกิจกรรม -\u003e การกำหนดค่า -\u003e การตั้งค่า ', ติ๊ก"
-"ช่องทำเครื่องหมายข้าง: Guilabel: `ตารางเวลา \u0026 แทร็ก 'และคลิก: Guilabel:` Save`"
+"หากต้องการเปิดใช้งานการตั้งค่า: guilabel: `schedule & Tracks` นำทางไปที่"
+": MenusElection: `แอปกิจกรรม -> การกำหนดค่า -> การตั้งค่า ', ติ๊ก"
+"ช่องทำเครื่องหมายข้าง: Guilabel: `ตารางเวลา & แทร็ก 'และคลิก: Guilabel:` Save`"
 
 #: ../../content/applications/marketing/events/track_manage_talks.rst:33
 msgid "Talks page"
@@ -9193,8 +9193,8 @@ msgid ""
 "<marketing_automation/campaign-templates>`."
 msgstr ""
 "เริ่มต้นด้วยการสร้าง: ref: `แคมเปญใหม่ตั้งแต่เริ่มต้น"
-"\u003cmoungal_automation/แคมเปญ\u003e `หรือเริ่มต้นด้วย: ref:` เทมเพลตแคมเปญ"
-"\u003cmouncriy_automation/แคมเปญ templates\u003e `"
+"<moungal_automation/แคมเปญ> `หรือเริ่มต้นด้วย: ref:` เทมเพลตแคมเปญ"
+"<mouncriy_automation/แคมเปญ templates> `"
 
 #: ../../content/applications/marketing/marketing_automation.rst:19
 #: ../../content/applications/marketing/sms_marketing.rst:17
@@ -9202,7 +9202,7 @@ msgstr ""
 msgid ""
 "`Odoo Tutorials: Marketing <https://www.odoo.com/slides/marketing-27>`_"
 msgstr ""
-"`บทเรียน Odoo: การตลาด \u003chttps://www.odoo.com/slides/marketing-27\u003e` _ _"
+"`บทเรียน Odoo: การตลาด <https://www.odoo.com/slides/marketing-27>` _ _"
 
 #: ../../content/applications/marketing/marketing_automation.rst:46
 msgid ""
@@ -9227,7 +9227,7 @@ msgid ""
 "*Marketing Automation* are dependent on that specific application."
 msgstr ""
 "การติดตั้ง * แอปพลิเคชันการตลาดอัตโนมัติ * ยังติดตั้งไฟล์"
-": doc: `การตลาดผ่านอีเมล \u003cemail_marketing\u003e` แอพเป็นคุณสมบัติส่วนใหญ่ของ Odoo"
+": doc: `การตลาดผ่านอีเมล <email_marketing>` แอพเป็นคุณสมบัติส่วนใหญ่ของ Odoo"
 "* ระบบการตลาดอัตโนมัติ* ขึ้นอยู่กับแอปพลิเคชันเฉพาะนั้น"
 
 #: ../../content/applications/marketing/marketing_automation.rst:57
@@ -9236,8 +9236,8 @@ msgid ""
 "<sms_marketing>` applications to access *all* of the features available in "
 "*Marketing Automation*."
 msgstr ""
-"นอกจากนี้ติดตั้ง: doc: `crm \u003c../ sales/crm\u003e` และ: doc: `การตลาด SMS"
-"\u003csms_marketing\u003e `แอปพลิเคชันเพื่อเข้าถึง * ทั้งหมด * ของคุณสมบัติที่มีอยู่ใน"
+"นอกจากนี้ติดตั้ง: doc: `crm <../ sales/crm>` และ: doc: `การตลาด SMS"
+"<sms_marketing> `แอปพลิเคชันเพื่อเข้าถึง * ทั้งหมด * ของคุณสมบัติที่มีอยู่ใน"
 "*การตลาดอัตโนมัติ*"
 
 #: ../../content/applications/marketing/marketing_automation.rst:60
@@ -9268,7 +9268,7 @@ msgid ""
 "<marketing_automation/campaign-templates>`."
 msgstr ""
 "สามารถสร้างแคมเปญใหม่ได้ตั้งแต่เริ่มต้นหรือจาก: ref: `เทมเพลต"
-"\u003cmouncriy_automation/แคมเปญ templates\u003e `"
+"<mouncriy_automation/แคมเปญ templates> `"
 
 #: ../../content/applications/marketing/marketing_automation.rst:74
 msgid ""
@@ -9312,7 +9312,7 @@ msgstr ""
 "ในการเริ่มต้นด้วยเทมเพลตนำทางไปที่: Menuselection: `การตลาด"
 "แอปพลิเคชัน Automation` จาก Dashboard หลัก Odoo เพื่อเปิดไฟล์"
 ": Guilabel: `discaram 'dashboard ซึ่งแสดงหก: doc:` เทมเพลตแคมเปญ"
-"\u003cเทมเพลตการตลาดอัตโนมัติ/แคมเปญ\u003e `การ์ด:"
+"<เทมเพลตการตลาดอัตโนมัติ/แคมเปญ> `การ์ด:"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ":guilabel:`🏷️ Tag Hot Contacts`"
@@ -9342,7 +9342,7 @@ msgid ""
 "<marketing_automation/campaign_templates/double_optin>`"
 msgstr ""
 ": ไอคอน: `fa-check-square`: doc:` double opt-in"
-"\u003cmoungal_automation/campaign_templates/double_optin\u003e `"
+"<moungal_automation/campaign_templates/double_optin> `"
 
 #: ../../content/applications/marketing/marketing_automation.rst:0
 msgid ":guilabel:`Send an email to new recipients to confirm their consent.`"
@@ -9499,7 +9499,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation.rst:152
 msgid ":doc:`Audience targeting <marketing_automation/target_audience>`"
-msgstr ": DOC: `การกำหนดเป้าหมายผู้ชม \u003cmoung มาก"
+msgstr ": DOC: `การกำหนดเป้าหมายผู้ชม <moung มาก"
 
 #: ../../content/applications/marketing/marketing_automation.rst:155
 msgid "Workflow"
@@ -9546,7 +9546,7 @@ msgid ""
 ":ref:`Email <marketing_automation/email-activity-type>`: an email that is "
 "sent to the target audience."
 msgstr ""
-": Ref: `อีเมล \u003cMarketing_automation/Email-Activity- ประเภท\u003e`: อีเมลนั่นคือ"
+": Ref: `อีเมล <Marketing_automation/Email-Activity- ประเภท>`: อีเมลนั่นคือ"
 "ส่งไปยังกลุ่มเป้าหมาย"
 
 #: ../../content/applications/marketing/marketing_automation.rst:172
@@ -9555,7 +9555,7 @@ msgid ""
 ":ref:`Server action <marketing_automation/sa-activity-type>`: an internal "
 "action within the database that is executed."
 msgstr ""
-": REF: `การกระทำของเซิร์ฟเวอร์ \u003cmalling_automation/SA- กิจกรรมประเภท\u003e`: ภายใน"
+": REF: `การกระทำของเซิร์ฟเวอร์ <malling_automation/SA- กิจกรรมประเภท>`: ภายใน"
 "ดำเนินการภายในฐานข้อมูลที่ดำเนินการ"
 
 #: ../../content/applications/marketing/marketing_automation.rst:174
@@ -9564,7 +9564,7 @@ msgid ""
 ":ref:`SMS <marketing_automation/sms-activity-type>`: a text message that is "
 "sent to the target audience."
 msgstr ""
-": ref: `sms \u003cmoungal_automation/sms- กิจกรรมประเภท\u003e`: ข้อความที่เป็น"
+": ref: `sms <moungal_automation/sms- กิจกรรมประเภท>`: ข้อความที่เป็น"
 "ส่งไปยังกลุ่มเป้าหมาย"
 
 #: ../../content/applications/marketing/marketing_automation.rst:178
@@ -9865,7 +9865,7 @@ msgid ""
 "list. Add the link to that page in the URL of the confirmation button."
 msgstr ""
 "เพื่อให้ประสบการณ์ที่คล่องตัวสำหรับการติดต่อพิจารณา: doc: `การสร้าง"
-"หน้าบนเว็บไซต์ \u003c../../../ เว็บไซต์/เว็บไซต์/หน้า\u003e `ที่แสดงออก"
+"หน้าบนเว็บไซต์ <../../../ เว็บไซต์/เว็บไซต์/หน้า> `ที่แสดงออก"
 "ความกตัญญูต่อการติดต่อเพื่อยืนยันการสมัครรับจดหมายของพวกเขา"
 "รายการ. "
 
@@ -9953,7 +9953,7 @@ msgid ""
 "contacts."
 msgstr ""
 "เมื่อการกำหนดค่าแคมเปญเสร็จสมบูรณ์ให้พิจารณา: doc: `การเปิดตัวการทดสอบ"
-"\u003c../ testing_running\u003e `เพื่อตรวจสอบการดำเนินการตามที่คาดไว้ "
+"<../ testing_running> `เพื่อตรวจสอบการดำเนินการตามที่คาดไว้ "
 "การทดสอบแคมเปญประสบความสำเร็จ: Guilabel: `start` แคมเปญเริ่มต้น"
 "การส่งอีเมลยืนยันการเลือกใช้สองครั้งไปยัง * จดหมายข่าว * รายชื่อผู้รับจดหมาย"
 "ผู้ติดต่อและกรอกรายชื่อผู้ติดต่อ * ที่ได้รับการยืนยัน * รายชื่อผู้รับจดหมายด้วยการมีส่วนร่วม"
@@ -9987,7 +9987,7 @@ msgid ""
 "contacts in the *Newsletter* mailing list."
 msgstr ""
 "ก่อนที่จะส่งอีเมลการตลาดใด ๆ : อ้างอิง: `ใช้แคมเปญ Opt-In Double"
-"เทมเพลต \u003cmalling_automation/template/การใช้ double-optin\u003e `ใน"
+"เทมเพลต <malling_automation/template/การใช้ double-optin> `ใน"
 "* การตลาดอัตโนมัติ* แอพเพื่อยืนยันความยินยอมทางอีเมลทางการตลาดจาก"
 "ผู้ติดต่อใน * จดหมายข่าว * รายชื่อผู้รับจดหมาย"
 
@@ -9999,7 +9999,7 @@ msgid ""
 msgstr ""
 "หลังจากเปิดตัวแคมเปญ * double opt-in * ให้ดูผู้ติดต่อที่มี"
 "การเลือกใช้สองครั้งในรายชื่อผู้ติดต่อ * ที่ได้รับการยืนยัน *"
-"(: MenusElection: `แอพการตลาดผ่านอีเมล -\u003e รายชื่อจดหมาย -\u003e รายชื่อผู้รับจดหมาย ')"
+"(: MenusElection: `แอพการตลาดผ่านอีเมล -> รายชื่อจดหมาย -> รายชื่อผู้รับจดหมาย ')"
 
 #: ../../content/applications/marketing/marketing_automation/campaign_templates/double_optin.rst-1
 msgid "Activity metrics on the campaign form."
@@ -10064,7 +10064,7 @@ msgid ""
 msgstr ""
 ": guilabel: `บันทึกเป็นตัวกรองที่ชื่นชอบ ': บันทึกปัจจุบัน: guilabel:` filter'"
 "สำหรับการใช้งานในอนาคตกับโมเดล Guilabel: `` target 'และสามารถจัดการได้"
-"จาก: MenusElection: `แอพการตลาดอัตโนมัติ -\u003e การกำหนดค่า -\u003e"
+"จาก: MenusElection: `แอพการตลาดอัตโนมัติ -> การกำหนดค่า ->"
 "เมนูตัวกรองที่ชื่นชอบ"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:16
@@ -10139,7 +10139,7 @@ msgstr ""
 "หากต้องการปรับแต่ง: กฏกรรไกรทาง: `` ตัวกรอง 'กฎของแคมเปญคลิก: guilabel: `➕"
 "เพิ่มปุ่มเงื่อนไขเพื่อเปิดเผยแถวใหม่ที่มีกฎที่กำหนดค่าได้"
 "พารามิเตอร์ "
-"ตัวกรอง\u003e `เอกสารสำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างกฎตัวกรอง"
+"ตัวกรอง> `เอกสารสำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างกฎตัวกรอง"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst-1
 msgid "A new filter rule row on the campaign form Filters."
@@ -10199,7 +10199,7 @@ msgstr ": Guilabel: `stage`: guilabel:` อยู่ใน: guilabel: `ใหม
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:68
 msgid ":guilabel:`Expected Revenue` :guilabel:`>` `1,000`"
-msgstr ": Guilabel: `รายได้ที่คาดหวัง ': Guilabel:`\u003e `` 1,000'"
+msgstr ": Guilabel: `รายได้ที่คาดหวัง ': Guilabel:`> `` 1,000'"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:69
 msgid ":guilabel:`any 🔽 (down arrow)` :guilabel:`of:`"
@@ -10207,11 +10207,11 @@ msgstr ": Guilabel: `any 🔽 (ลูกศรลง)`: Guilabel: `of:`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:71
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Lead`"
-msgstr ": guilabel: `type`: guilabel:` \u003d `: guilabel:` lead '"
+msgstr ": guilabel: `type`: guilabel:` = `: guilabel:` lead '"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:72
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Opportunity`"
-msgstr ": guilabel: `type`: guilabel:` \u003d `: guilabel:` โอกาส '"
+msgstr ": guilabel: `type`: guilabel:` = `: guilabel:` โอกาส '"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:74
 msgid ""
@@ -10227,7 +10227,7 @@ msgstr "การกำหนดค่าโดเมนในแคมเปญ
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:81
 msgid ":ref:`Domain developer documentation <reference/orm/domains>`"
-msgstr ": ref: `เอกสารผู้พัฒนาโดเมน \u003cการอ้างอิง/orm/domains\u003e`"
+msgstr ": ref: `เอกสารผู้พัฒนาโดเมน <การอ้างอิง/orm/domains>`"
 
 #: ../../content/applications/marketing/marketing_automation/target_audience.rst:82
 #: ../../content/applications/marketing/marketing_automation/testing_running.rst:153
@@ -10363,7 +10363,7 @@ msgstr ""
 "การทำเช่นนี้เผยให้เห็นว่างเปล่า: Guilabel: `สร้างฟอร์มป๊อปอัพ record`"
 "ข้อมูลการติดต่อที่จำเป็น (: Guilabel: `email` ,: guilabel:` มือถือ 'ฯลฯ )"
 "* ต้องป้อน* เพื่อให้การทดสอบทำงาน "
-"ป้อนข้อมูลคลิก: Guilabel: `Save \u0026 Close`"
+"ป้อนข้อมูลคลิก: Guilabel: `Save & Close`"
 
 #: ../../content/applications/marketing/marketing_automation/testing_running.rst-1
 msgid ""
@@ -10378,7 +10378,7 @@ msgid ""
 "When all the necessary fields have been entered, click :guilabel:`Save & "
 "Close` to return to the :guilabel:`Launch a test` pop-up window."
 msgstr ""
-"เมื่อป้อนฟิลด์ที่จำเป็นทั้งหมดให้คลิก: Guilabel: `บันทึก \u0026"
+"เมื่อป้อนฟิลด์ที่จำเป็นทั้งหมดให้คลิก: Guilabel: `บันทึก &"
 "ปิด 'เพื่อกลับไปที่: Guilabel: `เปิดหน้าต่างการทดสอบ' ป๊อปอัพ"
 
 #: ../../content/applications/marketing/marketing_automation/testing_running.rst:61
@@ -10595,7 +10595,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation/testing_running.rst:151
 msgid ":doc:`Campaign configuration <../marketing_automation>`"
-msgstr ": DOC: `การกำหนดค่าแคมเปญ \u003c../ marketing_automation\u003e`"
+msgstr ": DOC: `การกำหนดค่าแคมเปญ <../ marketing_automation>`"
 
 #: ../../content/applications/marketing/marketing_automation/testing_running.rst:152
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:337
@@ -10652,7 +10652,7 @@ msgid ""
 "corresponds to period after the workflow begins."
 msgstr ""
 "ทางด้านซ้ายของบล็อกกิจกรรมตัวกำหนดค่า: doc: `เวลาทริกเกอร์"
-"\u003cworkflow_activities\u003e `แสดงเป็นระยะเวลา (ทั้ง: Guilabel:` ชั่วโมง '"
+"<workflow_activities> `แสดงเป็นระยะเวลา (ทั้ง: Guilabel:` ชั่วโมง '"
 ": Guilabel: `days` ,: guilabel:` สัปดาห์ 'หรือ: guilabel: `เดือน') ถ้าเป็นเช่นนั้น"
 "สอดคล้องกับช่วงเวลาหลังจากเวิร์กโฟลว์เริ่มต้นขึ้น"
 
@@ -10837,8 +10837,8 @@ msgid ""
 "page, wherein all campaign-related URLs can be analyzed."
 msgstr ""
 "Odoo ติดตาม URL ทั้งหมดที่ใช้ในแคมเปญการตลาด "
-"URL เหล่านั้นนำทางไปที่: เมนูการเลือก: `แอพการตลาดอัตโนมัติ -\u003e"
-"การรายงาน -\u003e Link Tracker` "
+"URL เหล่านั้นนำทางไปที่: เมนูการเลือก: `แอพการตลาดอัตโนมัติ ->"
+"การรายงาน -> Link Tracker` "
 "หน้าสามารถวิเคราะห์ URL ที่เกี่ยวข้องกับแคมเปญทั้งหมดได้"
 
 #: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst:108
@@ -10905,7 +10905,7 @@ msgstr ""
 "Odoo ติดตามกิจกรรมทั้งหมดที่ใช้ในทุกแคมเปญการตลาด "
 "ที่เกี่ยวข้องกับกิจกรรมเหล่านี้สามารถเข้าถึงและวิเคราะห์ในไฟล์"
 ": guilabel: `หน้าร่องรอย 'ซึ่งสามารถพบได้โดยการนำทางไปยัง"
-": เมนูการเลือก: `แอพการตลาดอัตโนมัติ -\u003e การรายงาน -\u003e ร่องรอย '"
+": เมนูการเลือก: `แอพการตลาดอัตโนมัติ -> การรายงาน -> ร่องรอย '"
 
 #: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst-1
 msgid "The Traces page in the Odoo Marketing Automation application."
@@ -10971,7 +10971,7 @@ msgstr ""
 "Odoo ติดตามผู้เข้าร่วมทั้งหมดที่เกี่ยวข้องกับทุกแคมเปญการตลาด "
 "ที่เกี่ยวข้องกับผู้เข้าร่วมเหล่านี้สามารถเข้าถึงและวิเคราะห์ในไฟล์"
 ": guilabel: หน้าผู้เข้าร่วมซึ่งสามารถพบได้โดยการนำทางไปยัง"
-": เมนูการเลือก: `แอพการตลาดอัตโนมัติ -\u003e การรายงาน -\u003e ผู้เข้าร่วม '"
+": เมนูการเลือก: `แอพการตลาดอัตโนมัติ -> การรายงาน -> ผู้เข้าร่วม '"
 
 #: ../../content/applications/marketing/marketing_automation/understanding_metrics.rst-1
 msgid "The Participants page in the Odoo Marketing Automation application."
@@ -11025,7 +11025,7 @@ msgstr ""
 "A * Workflow * เป็นโครงสร้างโดยรวม * โครงสร้างของระบบอัตโนมัติทางการตลาด"
 "แคมเปญ. "
 "เวิร์กโฟลว์สามารถสร้างขึ้นจากจำนวน: ref: `กิจกรรม"
-"\u003cmoungal_automation/กิจกรรม\u003e `เพื่อตอบสนองความต้องการของแคมเปญ"
+"<moungal_automation/กิจกรรม> `เพื่อตอบสนองความต้องการของแคมเปญ"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:13
 msgid "A workflow in an Odoo Marketing Automation campaign."
@@ -11038,7 +11038,7 @@ msgid ""
 "opened**."
 msgstr ""
 "ลำดับเวิร์กโฟลว์ของสามกิจกรรม; "
-": ref: `ประเภททริกเกอร์ \u003cmoungal_automation/trigger-type\u003e` จาก ** mail: ไม่"
+": ref: `ประเภททริกเกอร์ <moungal_automation/trigger-type>` จาก ** mail: ไม่"
 "เปิด **."
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:21
@@ -11062,8 +11062,8 @@ msgid ""
 msgstr ""
 "สามารถเพิ่มกิจกรรมใหม่ลงในเวิร์กโฟลว์ในแบบฟอร์มแคมเปญโดยเลือก"
 "แคมเปญที่มีอยู่หรือ: ref: `การสร้างแคมเปญใหม่"
-"\u003cmoungal_automation/แคมเปญ\u003e `จาก: การเลือกเมนู:` การตลาด"
-"แอพ Automation -\u003e dashboard campaigns `จากนั้นคลิกที่: Guilabel:` เพิ่ม"
+"<moungal_automation/แคมเปญ> `จาก: การเลือกเมนู:` การตลาด"
+"แอพ Automation -> dashboard campaigns `จากนั้นคลิกที่: Guilabel:` เพิ่ม"
 "ปุ่มกิจกรรมใหม่ในส่วน: guilabel: `เวิร์กโฟลว์ ' "
 ": Guilabel: `สร้างกิจกรรมป๊อปอัพกิจกรรม"
 
@@ -11074,8 +11074,8 @@ msgid ""
 "types>` to be executed from the :guilabel:`Activity Type` field."
 msgstr ""
 "ก่อนอื่นกำหนดชื่อของกิจกรรมใน: guilabel: `activity name '"
-"ฟิลด์และเลือก: ref: `ประเภทของกิจกรรม \u003cmoungal_automation/activity-"
-"ประเภท\u003e `ที่จะดำเนินการจากฟิลด์: Guilabel:` ประเภทกิจกรรม '"
+"ฟิลด์และเลือก: ref: `ประเภทของกิจกรรม <moungal_automation/activity-"
+"ประเภท> `ที่จะดำเนินการจากฟิลด์: Guilabel:` ประเภทกิจกรรม '"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:33
 msgid ""
@@ -11085,9 +11085,9 @@ msgid ""
 "<marketing_automation/activity-domain>` of the activity."
 msgstr ""
 "จากนั้นกำหนดค่ากิจกรรม: ref: `ทริกเกอร์"
-"\u003cmarketing_automation/Trigger\u003e `และทางเลือก,: ref:` ระยะเวลาหมดอายุ"
-"\u003cmarketing_automation/Denpiry-Duration\u003e `และ: ref:` domain"
-"\u003cmoungal_automation/activity-domain\u003e `ของกิจกรรม"
+"<marketing_automation/Trigger> `และทางเลือก,: ref:` ระยะเวลาหมดอายุ"
+"<marketing_automation/Denpiry-Duration> `และ: ref:` domain"
+"<moungal_automation/activity-domain> `ของกิจกรรม"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:37
 msgid ""
@@ -11097,8 +11097,8 @@ msgid ""
 " window to add another activity. Clicking :guilabel:`Discard` closes the "
 "pop-up window without saving the activity."
 msgstr ""
-"เมื่อกิจกรรมได้รับการกำหนดค่าอย่างสมบูรณ์คลิก: Guilabel: `save \u0026 Close` เพื่อเพิ่ม"
-"เป็นเวิร์กโฟลว์ของแคมเปญหรือคลิก: Guilabel: `save \u0026 new` เพื่อเพิ่มไฟล์"
+"เมื่อกิจกรรมได้รับการกำหนดค่าอย่างสมบูรณ์คลิก: Guilabel: `save & Close` เพื่อเพิ่ม"
+"เป็นเวิร์กโฟลว์ของแคมเปญหรือคลิก: Guilabel: `save & new` เพื่อเพิ่มไฟล์"
 "กิจกรรมของเวิร์กโฟลว์และเปิดใหม่: Guilabel: `สร้างกิจกรรม 'ป๊อปอัพ"
 "หน้าต่างเพื่อเพิ่มกิจกรรมอื่น "
 "หน้าต่างป๊อปอัพโดยไม่บันทึกกิจกรรม"
@@ -11162,10 +11162,10 @@ msgid ""
 "window, in order to continue to configure the :ref:`trigger "
 "<marketing_automation/trigger>`."
 msgstr ""
-"เมื่อกำหนดค่าเทมเพลตอีเมลให้คลิก: Guilabel: `save \u0026 Close` to"
+"เมื่อกำหนดค่าเทมเพลตอีเมลให้คลิก: Guilabel: `save & Close` to"
 "บันทึกกิจกรรมและกลับไปที่: guilabel: `สร้างกิจกรรม 'ป๊อปอัพ"
 "หน้าต่างเพื่อดำเนินการต่อเพื่อกำหนดค่า: ref: `ทริกเกอร์"
-"\u003cmoungal_automation/Trigger\u003e `"
+"<moungal_automation/Trigger> `"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:81
 msgid ""
@@ -11179,7 +11179,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:85
 msgid ":doc:`Creating and configuring email templates <../email_marketing>`"
-msgstr ": doc: `การสร้างและกำหนดค่าเทมเพลตอีเมล \u003c../ email_marketing\u003e`"
+msgstr ": doc: `การสร้างและกำหนดค่าเทมเพลตอีเมล <../ email_marketing>`"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:90
 msgid "Server action"
@@ -11199,7 +11199,7 @@ msgstr ""
 "มีฟิลด์ Action` "
 "การกระทำเซิร์ฟเวอร์ที่กำหนดค่าล่วงหน้าสำหรับแคมเปญ: Guilabel: `target '"
 "แบบอย่าง. "
-"\u003cmoungal_automation/create-sa\u003e `"
+"<moungal_automation/create-sa> `"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst-1
 msgid "The Server Action drop-down menu on create activities pop-up window."
@@ -11215,7 +11215,7 @@ msgstr ""
 "หลังจากเลือกการกระทำของเซิร์ฟเวอร์ที่กำหนดค่าล่วงหน้าแล้วไม่มีประเภทกิจกรรมอื่น ๆ"
 "จำเป็นต้องมีการกำหนดค่า "
 "กิจกรรมและกลับไปที่: Guilabel: `สร้างกิจกรรม` หน้าต่างป๊อปอัพใน"
-"เพื่อกำหนดค่า: ref: `trigger \u003cmoungal_automation/trigger\u003e`"
+"เพื่อกำหนดค่า: ref: `trigger <moungal_automation/trigger>`"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:107
 msgid ""
@@ -11224,7 +11224,7 @@ msgid ""
 "Server Actions` dashboard."
 msgstr ""
 "หากต้องการดูการกระทำของเซิร์ฟเวอร์ทั้งหมดในฐานข้อมูลให้เปิดใช้งาน: REF: `นักพัฒนา-โหมด '"
-"และนำทางไปที่: เมนูการเลือก: `แอพการตั้งค่า -\u003e เทคนิค -\u003e การกระทำ -\u003e"
+"และนำทางไปที่: เมนูการเลือก: `แอพการตั้งค่า -> เทคนิค -> การกระทำ ->"
 "แดชบอร์ดการกระทำของเซิร์ฟเวอร์"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:113
@@ -11324,10 +11324,10 @@ msgid ""
 "window, in order to configure the :ref:`trigger "
 "<marketing_automation/trigger>`."
 msgstr ""
-"เมื่อกำหนดค่าการกระทำของเซิร์ฟเวอร์ให้คลิก: Guilabel: `save \u0026 Close` เพื่อบันทึก"
+"เมื่อกำหนดค่าการกระทำของเซิร์ฟเวอร์ให้คลิก: Guilabel: `save & Close` เพื่อบันทึก"
 "กิจกรรมและกลับไปที่: guilabel: `สร้างกิจกรรม 'ป๊อปอัพ"
 "หน้าต่างเพื่อกำหนดค่า: ref: `ทริกเกอร์"
-"\u003cmoungal_automation/Trigger\u003e `"
+"<moungal_automation/Trigger> `"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:144
 msgid ""
@@ -11372,13 +11372,13 @@ msgid ""
 "the activity, and return to the :guilabel:`Create Activities` pop-up window,"
 " in order to configure the :ref:`trigger <marketing_automation/trigger>`."
 msgstr ""
-"เมื่อกำหนดค่าเทมเพลต SMS ให้คลิก: Guilabel: `save \u0026 Close` เพื่อบันทึก"
+"เมื่อกำหนดค่าเทมเพลต SMS ให้คลิก: Guilabel: `save & Close` เพื่อบันทึก"
 "กิจกรรมและกลับไปที่: Guilabel: `สร้างหน้าต่างกิจกรรมป๊อปอัพ"
-"ในการกำหนดค่า: ref: `trigger \u003cmoungal_automation/trigger\u003e`"
+"ในการกำหนดค่า: ref: `trigger <moungal_automation/trigger>`"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:169
 msgid ":doc:`Creating and configuring SMS templates <../sms_marketing>`"
-msgstr ": doc: `การสร้างและกำหนดค่าเทมเพลต SMS \u003c../ sms_marketing\u003e`"
+msgstr ": doc: `การสร้างและกำหนดค่าเทมเพลต SMS <../ sms_marketing>`"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:174
 msgid "Trigger"
@@ -11391,7 +11391,7 @@ msgid ""
 " is to define when the activity should be executed. This is done in the "
 ":guilabel:`Trigger` field group."
 msgstr ""
-"เมื่อ an: ref: `ประเภทกิจกรรม \u003cmalling_automation/ประเภทกิจกรรม\u003e` คือ"
+"เมื่อ an: ref: `ประเภทกิจกรรม <malling_automation/ประเภทกิจกรรม>` คือ"
 "กำหนดค่าขั้นตอนต่อไปใน: guilabel: `สร้างหน้าต่างกิจกรรม` ป๊อปอัพ"
 "คือการกำหนดเวลาที่ควรดำเนินการ "
 ": Guilabel: `Trigger` Field Group"
@@ -11408,7 +11408,7 @@ msgid ""
 "not)."
 msgstr ""
 "ในการตั้งค่าความล่าช้าในการดำเนินการสำหรับกิจกรรมเมื่อ: ref: `ประเภททริกเกอร์"
-"\u003cmoungal_automation/trigger-type\u003e `เกิดขึ้นพิมพ์จำนวนทั้งหมดในไฟล์"
+"<moungal_automation/trigger-type> `เกิดขึ้นพิมพ์จำนวนทั้งหมดในไฟล์"
 "* หมายเลขช่วงเวลา* อินพุต (เช่น `2` นั้นถูกต้อง` 0` ก็ใช้ได้และ `1.5`"
 "ไม่)."
 
@@ -11432,7 +11432,7 @@ msgstr ""
 "หากกำหนดหมายเลขช่วงเวลาเป็น `0` และประเภทช่วงเวลาถูกตั้งค่าเป็น"
 ": Guilabel: `ชั่วโมง 'กิจกรรมจะถูกดำเนินการทันทีหลังจาก"
 "ประเภททริกเกอร์เกิดขึ้น (ในการรันตามกำหนดเวลาถัดไปของ: ref: `mail: อีเมล"
-"คิวผู้จัดการ cron \u003cอีเมล-ออกไปข้างหน้า-เวลา-เวลา\u003e `)"
+"คิวผู้จัดการ cron <อีเมล-ออกไปข้างหน้า-เวลา-เวลา> `)"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:199
 msgid "Trigger type"
@@ -11465,7 +11465,7 @@ msgstr ""
 "ประเภททริกเกอร์อื่น ๆ ทั้งหมดเปิดเผยเมนูแบบเลื่อนลง: Guilabel: `ฟิลด์กิจกรรม '"
 "มีกิจกรรมอื่น ๆ ทั้งหมดในแคมเปญ "
 "ประเภทเหล่านี้แปลงกิจกรรมนี้เป็น: ref: `กิจกรรมเด็ก"
-"\u003cmoungal_automation/child-activities\u003e `จะดำเนินการโดยตรงหลังจาก"
+"<moungal_automation/child-activities> `จะดำเนินการโดยตรงหลังจาก"
 "เลือก: Guilabel: `activity`:"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:211
@@ -11556,7 +11556,7 @@ msgid ""
 "activity defined in the :guilabel:`Activity` field."
 msgstr ""
 "หากประเภททริกเกอร์ถูกตั้งค่าเป็น: guilabel: `mail: clicked` กิจกรรมนี้คือ"
-"แปลงเป็น A: REF: `กิจกรรมเด็ก \u003cMorking_automation/กิจกรรมเด็ก\u003e`"
+"แปลงเป็น A: REF: `กิจกรรมเด็ก <Morking_automation/กิจกรรมเด็ก>`"
 "และจะดำเนินการ ** หลังจาก ** ผู้เข้าร่วมคลิกที่ลิงค์จากผู้ปกครอง"
 "กิจกรรมที่กำหนดไว้ใน: Guilabel: `activity` ฟิลด์"
 
@@ -11626,9 +11626,9 @@ msgid ""
 "to the :guilabel:`Target` of the campaign."
 msgstr ""
 "สนาม: guilabel: `ฟิลด์ตัวกรองกิจกรรม 'มุ่งเน้นกิจกรรมนี้ ** และ ** มัน"
-": Ref: `กิจกรรมเด็ก \u003cAknoring_automation/กิจกรรมเด็ก\u003e`, แม้กระทั่ง"
+": Ref: `กิจกรรมเด็ก <Aknoring_automation/กิจกรรมเด็ก>`, แม้กระทั่ง"
 "เพิ่มเติมเกี่ยวกับกลุ่มตัวกรองของแคมเปญที่เฉพาะเจาะจง "
-"เช่นเดียวกับ: ref: `การกำหนดตัวกรอง \u003cmalling_automation/defining-filters\u003e` สำหรับ"
+"เช่นเดียวกับ: ref: `การกำหนดตัวกรอง <malling_automation/defining-filters>` สำหรับ"
 "แคมเปญและฟิลด์ที่มีอยู่ในตัวกรองนั้นมีความเฉพาะเจาะจง"
 "ถึง: Guilabel: `Target 'ของแคมเปญ"
 
@@ -11650,7 +11650,7 @@ msgid ""
 msgstr ""
 "The: Guilabel: `ตัวกรองที่ใช้แล้วแสดงตัวกรองรวมจากไฟล์"
 ": Guilabel: `activity filter` และแคมเปญที่สืบทอดมา: doc:` ตัวกรอง"
-"\u003csource_audience\u003e ` "
+"<source_audience> ` "
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:266
 msgid ""
@@ -11699,9 +11699,9 @@ msgid ""
 "<marketing_automation/activity-types>` (*Email*, *SMS*, or *Server Action*),"
 " and are as follows:"
 msgstr ""
-"กิจกรรมของเด็ก: Ref: `ประเภททริกเกอร์ \u003cmoungal_automation/trigger-"
-"พิมพ์\u003e `มีความเฉพาะเจาะจงกับผู้ปกครอง: REF:` ประเภทกิจกรรม"
-"\u003cmoungal_automation/กิจกรรมประเภท\u003e `(*อีเมล*,*SMS*หรือ*การกระทำเซิร์ฟเวอร์*)"
+"กิจกรรมของเด็ก: Ref: `ประเภททริกเกอร์ <moungal_automation/trigger-"
+"พิมพ์> `มีความเฉพาะเจาะจงกับผู้ปกครอง: REF:` ประเภทกิจกรรม"
+"<moungal_automation/กิจกรรมประเภท> `(*อีเมล*,*SMS*หรือ*การกระทำเซิร์ฟเวอร์*)"
 "และมีดังนี้:"
 
 #: ../../content/applications/marketing/marketing_automation/workflow_activities.rst:0
@@ -11812,7 +11812,7 @@ msgid ""
 msgstr ""
 "เมื่อเลือกประเภททริกเกอร์แล้ว: Guilabel: `สร้างกิจกรรม 'ป๊อปอัพ"
 "หน้าต่างเปิดเพื่อกำหนดค่ากิจกรรมเด็ก "
-": Ref: `การสร้างกิจกรรมใหม่ \u003cmarketing_automation/กิจกรรม\u003e` ด้วย"
+": Ref: `การสร้างกิจกรรมใหม่ <marketing_automation/กิจกรรม>` ด้วย"
 "ข้อยกเว้นที่: ฟิลด์ Guilabel: `trigger` เต็มไปด้วยการเลือกล่วงหน้า"
 "ประเภททริกเกอร์และ: ฟิลด์ Guilabel: `กิจกรรม 'มีกิจกรรมหลัก"
 "เลือก"
@@ -11970,7 +11970,7 @@ msgid ""
 "along with various types of data related to that specific list (e.g. number "
 "of contacts, mailings, recipients, etc.)."
 msgstr ""
-"หากต้องการสร้าง (หรือแก้ไข) รายชื่อผู้รับจดหมายไปที่: การเลือกเมนู: `รายชื่อผู้รับจดหมาย -\u003e"
+"หากต้องการสร้าง (หรือแก้ไข) รายชื่อผู้รับจดหมายไปที่: การเลือกเมนู: `รายชื่อผู้รับจดหมาย ->"
 "รายชื่อผู้รับจดหมาย ' "
 "พร้อมกับข้อมูลประเภทต่าง ๆ ที่เกี่ยวข้องกับรายการเฉพาะนั้น (เช่นหมายเลข"
 "ของผู้ติดต่อ, จดหมาย, ผู้รับ, ฯลฯ )"
@@ -12049,9 +12049,9 @@ msgid ""
 "any mailings (e.g. `Blacklist` > `is` > `not set`)."
 msgstr ""
 "ตัวอย่างเช่นข้อความด้านล่างจะถูกส่งไปยังผู้ติดต่อในไฟล์"
-"ฐานข้อมูลที่ตั้งอยู่ในสหรัฐอเมริกา (เช่น 'ประเทศ'\u003e `ประเทศ"
+"ฐานข้อมูลที่ตั้งอยู่ในสหรัฐอเมริกา (เช่น 'ประเทศ'> `ประเทศ"
 "ชื่อ `เท่ากับ` สหรัฐอเมริกา ') และพวกเขาไม่ได้ขึ้นบัญชีดำตัวเองจาก"
-"การส่งจดหมายใด ๆ (เช่น `blacklist`\u003e` is`\u003e `ไม่ตั้งค่า ')"
+"การส่งจดหมายใด ๆ (เช่น `blacklist`>` is`> `ไม่ตั้งค่า ')"
 
 #: ../../content/applications/marketing/sms_marketing/create_sms.rst:0
 msgid "Contact recipients on SMS marketing."
@@ -12099,7 +12099,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/create_sms.rst:78
 msgid "`Odoo SMS - FAQ <https://iap-services.odoo.com/iap/sms/pricing>`_"
-msgstr "`Odoo SMS - คำถามที่พบบ่อย \u003chttps://iap-services.odoo.com/iap/sms/pricing\u003e` _"
+msgstr "`Odoo SMS - คำถามที่พบบ่อย <https://iap-services.odoo.com/iap/sms/pricing>` _"
 
 #: ../../content/applications/marketing/sms_marketing/create_sms.rst:81
 msgid "Track links used in SMS messages"
@@ -12115,7 +12115,7 @@ msgstr ""
 "เมื่อมีการใช้ลิงค์ใน: ABBR: `SMS (บริการข้อความสั้น ๆ )` ข้อความ Odoo"
 "สร้างตัวติดตามลิงค์โดยอัตโนมัติเพื่อรวบรวมข้อมูลการวิเคราะห์และตัวชี้วัด"
 "เกี่ยวข้องกับลิงก์เฉพาะเหล่านั้นซึ่งสามารถพบได้โดยไปที่"
-": MenusElection: `การกำหนดค่า -\u003e Link Tracker`"
+": MenusElection: `การกำหนดค่า -> Link Tracker`"
 
 #: ../../content/applications/marketing/sms_marketing/create_sms.rst-1
 msgid "SMS Link Tracker page."
@@ -12235,7 +12235,7 @@ msgid ""
 "Click :menuselection:`Mailing Lists --> Mailing Lists` to see an overview of"
 " all mailing lists in the database."
 msgstr ""
-"คลิก: MenusElection: `รายชื่อจดหมาย -\u003e รายชื่อผู้รับจดหมาย 'เพื่อดูภาพรวมของ"
+"คลิก: MenusElection: `รายชื่อจดหมาย -> รายชื่อผู้รับจดหมาย 'เพื่อดูภาพรวมของ"
 "รายการจดหมายทั้งหมดในฐานข้อมูล"
 
 #: ../../content/applications/marketing/sms_marketing/mailing_lists_blacklists.rst-1
@@ -12358,7 +12358,7 @@ msgid ""
 "configured mailing lists in the database."
 msgstr ""
 "เข้าถึงข้อมูลผู้ติดต่อจากรายชื่อผู้รับจดหมายอย่างน้อยหนึ่งรายการนำทางไปยัง"
-": MenusElection: `รายชื่อผู้รับจดหมาย -\u003e ผู้ติดต่อรายชื่อผู้รับจดหมาย 'เพื่อเปิดเผยไฟล์"
+": MenusElection: `รายชื่อผู้รับจดหมาย -> ผู้ติดต่อรายชื่อผู้รับจดหมาย 'เพื่อเปิดเผยไฟล์"
 "แดชบอร์ดพร้อมกับผู้ติดต่อทั้งหมดที่เกี่ยวข้องกับหนึ่งหรือมากกว่าของไฟล์"
 "รายการจดหมายที่กำหนดค่าไว้ในฐานข้อมูล"
 
@@ -12450,7 +12450,7 @@ msgid ""
 "the database."
 msgstr ""
 "หากต้องการดูคอลเลกชันที่สมบูรณ์ของหมายเลขบัญชีดำนำไปที่"
-": เมนูการเลือก: `แอพการตลาด SMS -\u003e การกำหนดค่า -\u003e โทรศัพท์แบล็กลิสต์"
+": เมนูการเลือก: `แอพการตลาด SMS -> การกำหนดค่า -> โทรศัพท์แบล็กลิสต์"
 "ตัวเลข `เพื่อเปิดเผยแดชบอร์ดที่มีหมายเลขโทรศัพท์สีดำทุกหมายเลขใน"
 "ฐานข้อมูล"
 
@@ -12506,8 +12506,8 @@ msgid ""
 "drop-down menu (beneath the search bar), and click :guilabel:`Import "
 "records`."
 msgstr ""
-"ในการทำเช่นนั้นนำทางไปที่: เมนูการเลือก: แอพการตลาด SMS -\u003e การกำหนดค่า"
-"-\u003e หมายเลขโทรศัพท์ Blacklisted `จากนั้นเลือก:: guilabel:` รายการโปรด '"
+"ในการทำเช่นนั้นนำทางไปที่: เมนูการเลือก: แอพการตลาด SMS -> การกำหนดค่า"
+"-> หมายเลขโทรศัพท์ Blacklisted `จากนั้นเลือก:: guilabel:` รายการโปรด '"
 "เมนูแบบเลื่อนลง (ใต้แถบค้นหา) และคลิก: Guilabel: `นำเข้า"
 "Records`."
 
@@ -12552,7 +12552,7 @@ msgid ""
 msgstr ""
 "ในการเปิดใช้งาน: ABBR: `SMS (บริการข้อความสั้น ๆ )` แคมเปญใน ODOO ตรวจสอบให้แน่ใจว่า"
 "คุณลักษณะ * การส่งจดหมาย * เปิดใช้งานโดยไปที่"
-": MenusElection: `การตลาดผ่านอีเมล -\u003e การกำหนดค่า -\u003e การตั้งค่า 'และจากนั้น"
+": MenusElection: `การตลาดผ่านอีเมล -> การกำหนดค่า -> การตั้งค่า 'และจากนั้น"
 "เปิดใช้งาน: Guilabel: `แคมเปญส่งจดหมาย 'และ: Guilabel:` บันทึกการเปลี่ยนแปลง"
 
 #: ../../content/applications/marketing/sms_marketing/marketing_campaigns.rst-1
@@ -12650,7 +12650,7 @@ msgid ""
 "variation. Then, Odoo sends that winning mailing variation to the remaining "
 "recipients, who weren't involved in the test, at that prior date and time."
 msgstr ""
-"ในที่สุด: Guilabel: `ส่ง Final On` \u200b\u200bField อยู่ในรายการ "
+"ในที่สุด: Guilabel: `ส่ง Final On` Field อยู่ในรายการ "
 "วันที่เวลาที่ Odoo ใช้เป็นกำหนดส่งเพื่อกำหนดการส่งจดหมายที่ชนะ"
 "การเปลี่ยนแปลง "
 "ผู้รับที่ไม่ได้มีส่วนร่วมในการทดสอบ ณ วันและเวลาก่อนหน้านั้น"
@@ -12819,7 +12819,7 @@ msgid ""
 "click :guilabel:`Activate the Developer Mode`."
 msgstr ""
 "ในการตั้งค่า: Guilabel: `sms templates` สำหรับการใช้งานในอนาคตเปิดใช้งาน"
-": Ref: `โหมดนักพัฒนา \u003cนักพัฒนาโหมด\u003e` โดยการนำทางไปยัง Odoo หลัก"
+": Ref: `โหมดนักพัฒนา <นักพัฒนาโหมด>` โดยการนำทางไปยัง Odoo หลัก"
 "แดชบอร์ดที่เต็มไปด้วยแอพและเลือก: การเลือก: การตั้งค่า: `การตั้งค่า"
 "แอพ `. "
 "คลิก: Guilabel: `เปิดใช้งานโหมดนักพัฒนา '"
@@ -12844,7 +12844,7 @@ msgid ""
 "future marketing campaigns."
 msgstr ""
 "ต่อไปกลับไปที่: การเลือกเมนู: `แอปการตั้งค่า 'และในตอนนี้มองเห็นได้"
-"เมนูส่วนหัวที่ด้านบนเลือก: เมนูการเลือก: `เทคนิค -\u003e เทมเพลต SMS '"
+"เมนูส่วนหัวที่ด้านบนเลือก: เมนูการเลือก: `เทคนิค -> เทมเพลต SMS '"
 "ในการเริ่มต้นการตั้งค่า: ABBR: `SMS (บริการข้อความสั้น ๆ )` เทมเพลตสำหรับ"
 "แคมเปญการตลาดในอนาคต"
 
@@ -12906,7 +12906,7 @@ msgstr "SMS มีกี่ประเภท?"
 
 #: ../../content/applications/marketing/sms_marketing/pricing_and_faq.rst:15
 msgid "There are 2 types: GSM7 and UNICODE."
-msgstr "มี 2 \u200b\u200bประเภท: GSM7 และ Unicode"
+msgstr "มี 2 ประเภท: GSM7 และ Unicode"
 
 #: ../../content/applications/marketing/sms_marketing/pricing_and_faq.rst:17
 msgid ""
@@ -12955,8 +12955,8 @@ msgid ""
 msgstr ""
 "ราคาของ SMS ขึ้นอยู่กับปลายทางและความยาว (จำนวนของ"
 "อักขระ) ของข้อความ "
-"ปรึกษา **: `Odoo SMS - คำถามที่พบบ่อย \u003chttps: // iap-"
-"services.odoo.com/iap/sms/pricing#sms_faq_01\u003e`_"
+"ปรึกษา **: `Odoo SMS - คำถามที่พบบ่อย <https: // iap-"
+"services.odoo.com/iap/sms/pricing#sms_faq_01>`_"
 
 #: ../../content/applications/marketing/sms_marketing/pricing_and_faq.rst:40
 msgid ""
@@ -12978,7 +12978,7 @@ msgstr "วิธีซื้อเครดิต"
 
 #: ../../content/applications/marketing/sms_marketing/pricing_and_faq.rst:49
 msgid "Go to :menuselection:`Settings --> Buy Credits`."
-msgstr "ไปที่: การเลือกเมนู: `การตั้งค่า -\u003e ซื้อเครดิต '"
+msgstr "ไปที่: การเลือกเมนู: `การตั้งค่า -> ซื้อเครดิต '"
 
 #: ../../content/applications/marketing/sms_marketing/pricing_and_faq.rst-1
 msgid "Buying credits for SMS Marketing in Odoo settings."
@@ -12986,7 +12986,7 @@ msgstr "การซื้อเครดิตสำหรับการตล
 
 #: ../../content/applications/marketing/sms_marketing/pricing_and_faq.rst:55
 msgid "Or go to :menuselection:`Settings --> View my Services`."
-msgstr "หรือไปที่: การเลือกเมนู: `การตั้งค่า -\u003e ดูบริการของฉัน '"
+msgstr "หรือไปที่: การเลือกเมนู: `การตั้งค่า -> ดูบริการของฉัน '"
 
 #: ../../content/applications/marketing/sms_marketing/pricing_and_faq.rst-1
 msgid "Using Odoo IAP to recharge credits for SMS Marketing in Odoo settings."
@@ -13142,7 +13142,7 @@ msgstr "** กฎระเบียบ GDPR มีผลต่อบริกา
 msgid ""
 "Please find our `Privacy Policy here <https://iap.odoo.com/privacy#sms>`__."
 msgstr ""
-"โปรดค้นหานโยบายความเป็นส่วนตัวของเราที่นี่ \u003chttps://iap.odoo.com/privacy#sms\u003e `__"
+"โปรดค้นหานโยบายความเป็นส่วนตัวของเราที่นี่ <https://iap.odoo.com/privacy#sms> `__"
 
 #: ../../content/applications/marketing/sms_marketing/pricing_and_faq.rst:0
 msgid "**Can I use my own SMS provider?**"
@@ -13156,7 +13156,7 @@ msgid ""
 msgstr ""
 "ใช่ แต่มันเป็นไปไม่ได้นอกกรอบ "
 "ฐานข้อมูลที่อนุญาตให้ใช้ผู้ให้บริการ SMS ส่วนบุคคล "
-"Success Packs `ที่นี่ \u003chttps://www.odoo.com/pricing-packs\u003e` _"
+"Success Packs `ที่นี่ <https://www.odoo.com/pricing-packs>` _"
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:3
 msgid "SMS analysis"
@@ -13229,7 +13229,7 @@ msgid ""
 msgstr ""
 "การเพิ่มแอปพลิเคชัน * สตูดิโอ * อัพเกรดสถานะการสมัครสมาชิกเป็น"
 "*กำหนดเอง*ซึ่งเพิ่มค่าใช้จ่าย "
-"\u003chttps://www.odoo.com/contactus\u003e `_ หรือติดต่อลูกค้าของฐานข้อมูล"
+"<https://www.odoo.com/contactus> `_ หรือติดต่อลูกค้าของฐานข้อมูล"
 "ผู้จัดการความสำเร็จโดยมีคำถามใด ๆ เกี่ยวกับการเปลี่ยนแปลง"
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:34
@@ -13238,9 +13238,9 @@ msgid ""
 " to :menuselection:`Settings app --> Technical menu --> Automation section "
 "--> Automation Rules`. Then, click :guilabel:`New` to create a new rule."
 msgstr ""
-"หากต้องการใช้กฎระบบอัตโนมัตินำทางใน: Ref: `โหมดนักพัฒนา \u003cนักพัฒนาโหมด\u003e`"
-"ถึง: MenusElection: `แอพการตั้งค่า -\u003e เมนูทางเทคนิค -\u003e ส่วนอัตโนมัติ"
-"-\u003e กฎระบบอัตโนมัติ ' "
+"หากต้องการใช้กฎระบบอัตโนมัตินำทางใน: Ref: `โหมดนักพัฒนา <นักพัฒนาโหมด>`"
+"ถึง: MenusElection: `แอพการตั้งค่า -> เมนูทางเทคนิค -> ส่วนอัตโนมัติ"
+"-> กฎระบบอัตโนมัติ ' "
 
 #: ../../content/applications/marketing/sms_marketing/sms_analysis.rst:38
 msgid ""
@@ -13590,7 +13590,7 @@ msgstr ""
 "อีกวิธีหนึ่งในการเชื่อมโยงบัญชีโซเชียลมีเดียกับ Odoo *การตลาดเพื่อสังคม *"
 "สามารถทำได้ในหน้า: guilabel: `หน้าโซเชียลมีเดีย ' "
 ": guilabel: `หน้าโซเชียลมีเดีย ', นำทางไปที่: เมนูการเลือก:` การตลาดเพื่อสังคม"
-"แอพ -\u003e การกำหนดค่า -\u003e โซเชียลมีเดีย"
+"แอพ -> การกำหนดค่า -> โซเชียลมีเดีย"
 
 #: ../../content/applications/marketing/social_marketing.rst:103
 msgid ""
@@ -13626,7 +13626,7 @@ msgid ""
 "is associated."
 msgstr ""
 "หากต้องการดูรายการบัญชีโซเชียลและเว็บไซต์ทั้งหมดที่เชื่อมโยงกับฐานข้อมูลไป"
-"ถึง: MenusElection: `แอพการตลาดเพื่อสังคม -\u003e การกำหนดค่า -\u003e โซเชียล"
+"ถึง: MenusElection: `แอพการตลาดเพื่อสังคม -> การกำหนดค่า -> โซเชียล"
 "บัญชี ' "
 ": Guilabel: `handle/name`,: Guilabel: `แพลตฟอร์มโซเชียลมีเดีย '"
 "มันคือใคร: Guilabel: `สร้างโดย 'และ:: guilabel:` บริษัท ' ซึ่งมัน"
@@ -13661,7 +13661,7 @@ msgid ""
 msgstr ""
 "หากต้องการดูหน้าแยกต่างหากด้วยสตรีมโซเชียลมีเดียทั้งหมดที่ได้รับ"
 "เพิ่มไปยังแผงควบคุมการตลาดทางสังคม * หลักนำทางไปที่"
-": เมนูการเลือก: `แอพการตลาดเพื่อสังคม -\u003e การกำหนดค่า -\u003e สตรีมโซเชียล"
+": เมนูการเลือก: `แอพการตลาดเพื่อสังคม -> การกำหนดค่า -> สตรีมโซเชียล"
 
 #: ../../content/applications/marketing/social_marketing.rst:138
 msgid ""
@@ -13697,7 +13697,7 @@ msgid ""
 msgstr ""
 "เพื่อดูภาพรวมที่สมบูรณ์ของทุกคนที่เข้าเยี่ยมชมเว็บไซต์"
 "เชื่อมต่อกับฐานข้อมูลนำทางไปที่: เมนูการเลือก: `แอพการตลาดเพื่อสังคม"
-"-\u003e ผู้เยี่ยมชม"
+"-> ผู้เยี่ยมชม"
 
 #: ../../content/applications/marketing/social_marketing.rst-1
 msgid "View of the Visitors page in the Odoo Social Marketing application."
@@ -13965,7 +13965,7 @@ msgstr ""
 "เพื่อ: Guilabel: `ส่งตัวเลือกการส่งจดหมายใหม่ 'เพื่อปรากฏในแคมเปญ"
 "เทมเพลตตรวจสอบให้แน่ใจว่าเปิดใช้งานคุณสมบัติ * การส่งจดหมาย *"
 "* การตลาดผ่านอีเมล* แอป "
-"การตลาด -\u003e การกำหนดค่า -\u003e การตั้งค่า 'เปิดใช้งาน: Guilabel: `การส่งจดหมาย"
+"การตลาด -> การกำหนดค่า -> การตั้งค่า 'เปิดใช้งาน: Guilabel: `การส่งจดหมาย"
 "แคมเปญ `และคลิก: Guilabel:` Save`"
 
 #: ../../content/applications/marketing/social_marketing/social_campaigns.rst:111
@@ -14099,7 +14099,7 @@ msgid ""
 "post that has been created and posted with Odoo can be seen and accessed."
 msgstr ""
 "หากต้องการดูภาพรวมที่สมบูรณ์ของโพสต์ให้ไปที่ Odoo: Menuselection: `Social"
-"แอพการตลาด -\u003e โพสต์ ' "
+"แอพการตลาด -> โพสต์ ' "
 "โพสต์ที่ถูกสร้างและโพสต์ด้วย Odoo สามารถมองเห็นและเข้าถึงได้"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:15
@@ -14511,7 +14511,7 @@ msgid ""
 "Or, navigate to :menuselection:`Social Marketing app --> Posts` and click "
 "the :guilabel:`New` button."
 msgstr ""
-"หรือนำทางไปที่: เมนูการเลือก: `แอพการตลาดเพื่อสังคม -\u003e โพสต์ 'และคลิก"
+"หรือนำทางไปที่: เมนูการเลือก: `แอพการตลาดเพื่อสังคม -> โพสต์ 'และคลิก"
 "ปุ่ม: Guilabel: `new`"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst-1
@@ -14620,7 +14620,7 @@ msgid ""
 "Settings`, activate :guilabel:`Enable Web Push Notifications`, fill out the "
 "corresponding fields, and click :guilabel:`Save`."
 msgstr ""
-"ในการทำเช่นนั้นนำทางไปที่: MeneSelection: `แอพเว็บไซต์ -\u003e การกำหนดค่า -\u003e"
+"ในการทำเช่นนั้นนำทางไปที่: MeneSelection: `แอพเว็บไซต์ -> การกำหนดค่า ->"
 "การตั้งค่า 'เปิดใช้งาน: Guilabel: `เปิดใช้งานการแจ้งเตือนแบบพุชเว็บ'"
 "ฟิลด์ที่สอดคล้องกันและคลิก: Guilabel: `Save`"
 
@@ -14787,7 +14787,7 @@ msgid ""
 "When all the desired settings have been entered, click :guilabel:`Save & "
 "Close` to save the campaign and return to the social media post detail form."
 msgstr ""
-"เมื่อป้อนการตั้งค่าที่ต้องการทั้งหมดคลิก: Guilabel: `บันทึก \u0026"
+"เมื่อป้อนการตั้งค่าที่ต้องการทั้งหมดคลิก: Guilabel: `บันทึก &"
 "ปิดเพื่อบันทึกแคมเปญและกลับไปที่แบบฟอร์มรายละเอียดโพสต์โซเชียลมีเดีย"
 
 #: ../../content/applications/marketing/social_marketing/social_posts.rst:305
@@ -15042,7 +15042,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/surveys.rst:16
 msgid "`Odoo Tutorials: Surveys <https://www.odoo.com/slides/surveys-62>`_"
-msgstr "`บทเรียน Odoo: แบบสำรวจ \u003chttps://www.odoo.com/slides/surveys-62\u003e` _"
+msgstr "`บทเรียน Odoo: แบบสำรวจ <https://www.odoo.com/slides/surveys-62>` _"
 
 #: ../../content/applications/marketing/surveys.rst:19
 msgid "Dashboard"
@@ -15245,7 +15245,7 @@ msgid ""
 "and searching for `Survey: Invite`."
 msgstr ""
 "ค่าเริ่มต้น: Guilabel: `mail template` สำหรับคำเชิญแบบสำรวจสามารถแก้ไขได้โดย"
-"การนำทางไปที่: เมนูการเลือก: `การตั้งค่า -\u003e เทคนิค -\u003e เทมเพลตอีเมล '"
+"การนำทางไปที่: เมนูการเลือก: `การตั้งค่า -> เทคนิค -> เทมเพลตอีเมล '"
 "และค้นหา `การสำรวจ: เชิญ '"
 
 #: ../../content/applications/marketing/surveys.rst:96
@@ -15570,7 +15570,7 @@ msgid ""
 msgstr ""
 "เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับองค์ประกอบการวิเคราะห์ที่แตกต่างที่พบในไฟล์"
 ": Guilabel: `dashboard Surveys`, ตรวจสอบ: doc:` Essentials Surveys Essentials"
-"\u003c../ การสำรวจ/สร้าง\u003e `เอกสารประกอบ"
+"<../ การสำรวจ/สร้าง> `เอกสารประกอบ"
 
 #: ../../content/applications/marketing/surveys/analysis.rst:30
 msgid ""
@@ -16108,7 +16108,7 @@ msgid ""
 " survey title has the number of participants in parenthesis."
 msgstr ""
 "เพื่อดูรายการรวมของผู้เข้าร่วมทั้งหมดของการสำรวจทุกครั้งใน"
-"ฐานข้อมูลนำทางไปที่: เมนูการเลือก: `แอพสำรวจ -\u003e การมีส่วนร่วม ' "
+"ฐานข้อมูลนำทางไปที่: เมนูการเลือก: `แอพสำรวจ -> การมีส่วนร่วม ' "
 "การสำรวจทุกครั้งในฐานข้อมูลจะแสดงในรายการซ้อนเริ่มต้น "
 "ชื่อสำรวจมีจำนวนผู้เข้าร่วมในวงเล็บ"
 
@@ -16163,7 +16163,7 @@ msgid ""
 ":menuselection:`Surveys app --> New` to reveal a blank survey form."
 msgstr ""
 "หากต้องการสร้างแบบสำรวจในแอปพลิเคชัน Odoo * Surveys * ให้ไปที่"
-": เมนูการเลือก: `แอปสำรวจ -\u003e ใหม่ 'เพื่อเปิดเผยแบบฟอร์มการสำรวจเปล่า"
+": เมนูการเลือก: `แอปสำรวจ -> ใหม่ 'เพื่อเปิดเผยแบบฟอร์มการสำรวจเปล่า"
 
 #: ../../content/applications/marketing/surveys/create.rst:9
 msgid ""
@@ -16335,7 +16335,7 @@ msgid ""
 "questions <questions>` documentation."
 msgstr ""
 "หากต้องการเรียนรู้วิธีการสร้างและปรับแต่งคำถามโปรดดูที่: doc: `สร้าง"
-"คำถาม \u003cคำถาม\u003e `เอกสาร"
+"คำถาม <คำถาม> `เอกสาร"
 
 #: ../../content/applications/marketing/surveys/create.rst:80
 #: ../../content/applications/marketing/surveys/questions.rst:73
@@ -16431,7 +16431,7 @@ msgid ""
 msgstr ""
 "ใน: แท็บ Guilabel: `ตัวเลือก 'ของแบบฟอร์มการสำรวจมีตัวเลือกมากมายให้"
 "เลือกจากแยกในสี่ส่วนที่แตกต่างกัน :: guilabel: `คำถาม '"
-": Guilabel: `เวลา \u0026 การให้คะแนน ',: Guilabel:` ผู้เข้าร่วม' และ: Guilabel: `live"
+": Guilabel: `เวลา & การให้คะแนน ',: Guilabel:` ผู้เข้าร่วม' และ: Guilabel: `live"
 "เซสชั่น '"
 
 #: ../../content/applications/marketing/surveys/create.rst:114
@@ -16569,7 +16569,7 @@ msgid ""
 "amount of time (in :guilabel:`minutes`) to be set as the time limit for the "
 "survey."
 msgstr ""
-"ตัวเลือกแรกในส่วน: Guilabel: `` `` time \u0026 คะแนน 'คือ"
+"ตัวเลือกแรกในส่วน: Guilabel: `` `` time & คะแนน 'คือ"
 ": Guilabel: `ตัวเลือกการ จำกัด เวลาสำรวจ ' "
 "ระยะเวลา (ใน: guilabel: `นาที ') ที่จะตั้งค่าเป็นขีด จำกัด เวลาสำหรับ"
 "สำรวจ."
@@ -16902,7 +16902,7 @@ msgstr ""
 "ผู้เข้าร่วมอย่างน้อยหนึ่งคนที่เสร็จสิ้นการสำรวจ "
 "ผลลัพธ์ `เปิดเผยแท็บแยกต่างหากที่มีการวิเคราะห์ภาพของการสำรวจ"
 "คำถามและคำตอบ "
-"Surveys \u003cSovere\u003e `เอกสารประกอบ"
+"Surveys <Sovere> `เอกสารประกอบ"
 
 #: ../../content/applications/marketing/surveys/create.rst:305
 msgid ""
@@ -16952,7 +16952,7 @@ msgstr ""
 "การสำรวจเพื่อให้ผู้ใช้ตรวจสอบข้อผิดพลาดหรือความไม่สอดคล้องกัน"
 "จากมุมมองของผู้เข้าร่วม "
 "แบบสำรวจเวอร์ชันทดสอบหากมีแบนเนอร์สีน้ำเงินที่ด้านบนของ"
-"หน้าจอ, การอ่าน: `นี่คือแบบสำรวจการทดสอบ -\u003e แก้ไขการสำรวจ '"
+"หน้าจอ, การอ่าน: `นี่คือแบบสำรวจการทดสอบ -> แก้ไขการสำรวจ '"
 
 #: ../../content/applications/marketing/surveys/create.rst:321
 msgid ""
@@ -17103,8 +17103,8 @@ msgid ""
 " <../surveys/questions>`."
 msgstr ""
 "เมื่อเลือกตัวเลือกปุ่มตัวเลือกการสำรวจที่ต้องการให้ดำเนินการต่อไป"
-": doc: `สร้างแบบสำรวจ \u003c../ แบบสำรวจ/สร้าง\u003e` ด้วย: doc: `คำถามและส่วนต่างๆ"
-"\u003c../ การสำรวจ/คำถาม\u003e `"
+": doc: `สร้างแบบสำรวจ <../ แบบสำรวจ/สร้าง>` ด้วย: doc: `คำถามและส่วนต่างๆ"
+"<../ การสำรวจ/คำถาม> `"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:44
 msgid ""
@@ -17153,7 +17153,7 @@ msgid ""
 " and :guilabel:`Live Session`."
 msgstr ""
 "แท็บ: Guilabel: `oppection 'จัดเป็นสี่ส่วน:"
-": Guilabel: `question ',: guilabel:` เวลา \u0026 การให้คะแนน',: guilabel: `ผู้เข้าร่วม ',,,"
+": Guilabel: `question ',: guilabel:` เวลา & การให้คะแนน',: guilabel: `ผู้เข้าร่วม ',,,"
 "และ: Guilabel: `Live Session`"
 
 #: ../../content/applications/marketing/surveys/live_session.rst:68
@@ -17246,7 +17246,7 @@ msgid ""
 msgstr ""
 "อย่างไรก็ตามหาก: Guilabel: `เป็นตัวเลือกการรับรอง` เปิดใช้งานการสำรวจ"
 "** ไม่สามารถใช้เป็นแบบสำรวจ*Live Session* "
-"ตัวเลือกการรับรอง `ไม่ ** ไม่ปรากฏใน: guilabel:` เวลา \u0026 การให้คะแนน '"
+"ตัวเลือกการรับรอง `ไม่ ** ไม่ปรากฏใน: guilabel:` เวลา & การให้คะแนน '"
 "ส่วนของ: แท็บ Guilabel: `ตัวเลือก 'ถ้า:: guilabel:` live session'"
 "เลือกตัวเลือกปุ่มตัวเลือกประเภทการสำรวจ"
 
@@ -17547,7 +17547,7 @@ msgid ""
 ":doc:`creating and customizing surveys <../surveys/create>`."
 msgstr ""
 "ในการสำรวจ odoo **คำถามการประดิษฐ์และการตัดเย็บคำถามเป็นสิ่งสำคัญสำหรับ"
-": DOC: `การสร้างและปรับแต่งการสำรวจ \u003c../ แบบสำรวจ/สร้าง\u003e`"
+": DOC: `การสร้างและปรับแต่งการสำรวจ <../ แบบสำรวจ/สร้าง>`"
 
 #: ../../content/applications/marketing/surveys/questions.rst:8
 msgid ""
@@ -17565,8 +17565,8 @@ msgid ""
 "survey."
 msgstr ""
 "ในการเข้าถึงรายการ * ทั้งหมด * คำถามที่สร้างขึ้นในไฟล์"
-"ฐานข้อมูลนำทางไปที่: เมนูการเลือก: `แอพสำรวจ -\u003e คำถามและคำตอบ"
-"-\u003e คำถาม ' "
+"ฐานข้อมูลนำทางไปที่: เมนูการเลือก: `แอพสำรวจ -> คำถามและคำตอบ"
+"-> คำถาม ' "
 "สำรวจ."
 
 #: ../../content/applications/marketing/surveys/questions.rst:14
@@ -17579,9 +17579,9 @@ msgid ""
 msgstr ""
 "อย่างไรก็ตามมีเพียงสถานที่เดียวในแอปพลิเคชัน Odoo * Surveys *"
 "สามารถสร้างคำถามแบบสำรวจได้ "
-"ไปที่: เมนูการเลือก: `แอพสำรวจ-\u003e new` หรือโดยเลือกล่วงหน้า-"
+"ไปที่: เมนูการเลือก: `แอพสำรวจ-> new` หรือโดยเลือกล่วงหน้า-"
 "การสำรวจที่มีอยู่จากหน้า: guilabel: `หน้าสำรวจ (: การเลือกเมนู:` การสำรวจ"
-"แอพ -\u003e Surveys`)"
+"แอพ -> Surveys`)"
 
 #: ../../content/applications/marketing/surveys/questions.rst:22
 msgid ""
@@ -17650,9 +17650,9 @@ msgid ""
 ":guilabel:`Save & New` to save the question and create a new one right away "
 "in a fresh :guilabel:`Create Sections and Questions` pop-up window."
 msgstr ""
-"เมื่อการกำหนดค่าที่ต้องการทั้งหมดเสร็จสมบูรณ์ให้คลิก: Guilabel: `save \u0026"
+"เมื่อการกำหนดค่าที่ต้องการทั้งหมดเสร็จสมบูรณ์ให้คลิก: Guilabel: `save &"
 "ปิดเพื่อบันทึกคำถามและกลับไปที่แบบฟอร์มสำรวจหรือ"
-": Guilabel: `save \u0026 new` เพื่อบันทึกคำถามและสร้างคำถามใหม่ทันที"
+": Guilabel: `save & new` เพื่อบันทึกคำถามและสร้างคำถามใหม่ทันที"
 "ใน Fresh: Guilabel: `สร้างส่วนและคำถาม` หน้าต่างป๊อปอัพ"
 
 #: ../../content/applications/marketing/surveys/questions.rst:81
@@ -18280,7 +18280,7 @@ msgid ""
 ":doc:`website theme <../../websites/website/web_design/themes>`."
 msgstr ""
 "สีข้อความสำรวจเชื่อมโยงโดยตรงกับสีที่ใช้สำหรับ"
-": doc: `ธีมเว็บไซต์ \u003c../../ เว็บไซต์/เว็บไซต์/web_design/ธีม\u003e`"
+": doc: `ธีมเว็บไซต์ <../../ เว็บไซต์/เว็บไซต์/web_design/ธีม>`"
 
 #: ../../content/applications/marketing/surveys/scoring.rst:3
 msgid "Scoring surveys"
