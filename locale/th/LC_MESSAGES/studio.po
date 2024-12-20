@@ -2,25 +2,14 @@
 # Copyright (C) Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Wil Odoo, 2024
 # Rasareeyar Lappiam, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 17.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 11:43+0000\n"
-"PO-Revision-Date: 2024-03-30 23:40+0000\n"
-"Last-Translator: Rasareeyar Lappiam, 2024\n"
-"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: th\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../content/applications/studio.rst:6
 msgid "Studio"
@@ -31,57 +20,62 @@ msgid ""
 "Studio is a toolbox that allows you to customize Odoo without coding "
 "knowledge. For example, you can, in any app, add or modify:"
 msgstr ""
+"Studio เป็นกล่องเครื่องมือที่ช่วยให้คุณปรับแต่ง Odoo โดยไม่ต้องเข้ารหัส"
+"ความรู้. "
 
 #: ../../content/applications/studio.rst:21
 msgid ":doc:`Fields <studio/fields>`"
-msgstr ""
+msgstr ": doc: `ฟิลด์ \u003cstudio/ฟิลด์\u003e`"
 
 #: ../../content/applications/studio.rst:22
 msgid ":doc:`Views <studio/views>`"
-msgstr ""
+msgstr ": doc: `views \u003cStudio/Views\u003e`"
 
 #: ../../content/applications/studio.rst:23
 msgid ":doc:`Models <studio/models_modules_apps>`"
-msgstr ""
+msgstr ": doc: `models \u003cstudio/models_modules_apps\u003e`"
 
 #: ../../content/applications/studio.rst:24
 msgid ":doc:`Automated actions <studio/automated_actions>`"
-msgstr ""
+msgstr ": doc: `การกระทำอัตโนมัติ \u003cStudio/Automated_Actions\u003e`"
 
 #: ../../content/applications/studio.rst:25
 msgid ":doc:`PDF reports <studio/pdf_reports>`"
-msgstr ""
+msgstr ": เอกสาร: `รายงาน PDF \u003cStudio/PDF_Reports\u003e`"
 
 #: ../../content/applications/studio.rst:26
 msgid ":doc:`Approval rules <studio/approval_rules>`"
-msgstr ""
+msgstr ": doc: `กฎการอนุมัติ \u003cStudio/Approval_rules\u003e`"
 
 #: ../../content/applications/studio.rst:27
 msgid "Security rules"
-msgstr ""
+msgstr "กฎความปลอดภัย"
 
 #: ../../content/applications/studio.rst:29
 msgid ""
 "You can also :doc:`build an app from scratch <studio/models_modules_apps>`."
 msgstr ""
+"นอกจากนี้คุณยังสามารถ: DOC: `สร้างแอพตั้งแต่เริ่มต้น \u003cStudio/Models_Modules_Apps\u003e`"
 
 #: ../../content/applications/studio.rst:33
 msgid ""
 "To access Studio, navigate to the app and model you want to modify, then "
 "click the **Toggle Studio** button, or vice versa."
 msgstr ""
+"ในการเข้าถึงสตูดิโอนำทางไปยังแอพและรุ่นที่คุณต้องการแก้ไขแล้ว"
+"คลิกปุ่ม ** Toggle Studio ** หรือในทางกลับกัน"
 
 #: ../../content/applications/studio.rst:36
 msgid "To close Studio, click :guilabel:`Close` in the upper right corner."
-msgstr ""
+msgstr "หากต้องการปิดสตูดิโอคลิก: Guilabel: `Close` ที่มุมขวาบน"
 
 #: ../../content/applications/studio.rst:39
 msgid "`Odoo Tutorials: Studio <https://www.odoo.com/slides/studio-31>`_"
-msgstr ""
+msgstr "`บทเรียน Odoo: สตูดิโอ \u003chttps://www.odoo.com/slides/studio-31\u003e` _"
 
 #: ../../content/applications/studio/approval_rules.rst:3
 msgid "Approval rules"
-msgstr ""
+msgstr "กฎการอนุมัติ"
 
 #: ../../content/applications/studio/approval_rules.rst:5
 msgid ""
@@ -89,6 +83,9 @@ msgid ""
 "They allow you to define the criteria for when an approval is required "
 "before an action can be performed using a button."
 msgstr ""
+"กฎการอนุมัติจากสตูดิโอใช้เพื่อทำให้กระบวนการอนุมัติเป็นไปโดยอัตโนมัติสำหรับการดำเนินการ"
+"พวกเขาอนุญาตให้คุณกำหนดเกณฑ์สำหรับเมื่อจำเป็นต้องได้รับการอนุมัติ"
+"ก่อนที่จะสามารถดำเนินการได้โดยใช้ปุ่ม"
 
 #: ../../content/applications/studio/approval_rules.rst:9
 msgid "Configuration"
@@ -96,45 +93,55 @@ msgstr "การกำหนดค่า"
 
 #: ../../content/applications/studio/approval_rules.rst:11
 msgid "To add approval rules, proceed as follows:"
-msgstr ""
+msgstr "หากต้องการเพิ่มกฎการอนุมัติให้ดำเนินการดังนี้:"
 
 #: ../../content/applications/studio/approval_rules.rst:13
 msgid ""
 ":ref:`Open Studio <studio/access>` and switch to the required :doc:`view "
 "<views>`."
 msgstr ""
+": Ref: `Open Studio \u003cStudio/Access\u003e` และเปลี่ยนไปใช้สิ่งที่ต้องการ: DOC: `View"
+"\u003cSiew\u003e `"
 
 #: ../../content/applications/studio/approval_rules.rst:14
 msgid "Select the button for which you want to add approval rules."
-msgstr ""
+msgstr "เลือกปุ่มที่คุณต้องการเพิ่มกฎการอนุมัติ"
 
 #: ../../content/applications/studio/approval_rules.rst:15
 msgid ""
 "In the :guilabel:`Properties` tab on the left, enable the :guilabel:`Set "
 "approval rules` feature."
 msgstr ""
+"ในแท็บ: guilabel: `properties` ทางด้านซ้ายเปิดใช้งาน: guilabel:` set"
+"คุณสมบัติกฎการอนุมัติ `"
 
 #: ../../content/applications/studio/approval_rules.rst:17
 msgid ""
 "Specify the :guilabel:`Allowed Group` to limit the approval permission to a "
 "specific user group."
 msgstr ""
+"ระบุ: Guilabel: `กลุ่มที่อนุญาต 'เพื่อ จำกัด การอนุมัติการอนุมัติให้กับก"
+"กลุ่มผู้ใช้เฉพาะ"
 
 #: ../../content/applications/studio/approval_rules.rst:19
 msgid ""
 "Select the :guilabel:`Responsible` user to create an activity for a specific"
 " user when approval is requested from them."
 msgstr ""
+"เลือก: Guilabel: `ผู้ใช้ที่รับผิดชอบ 'เพื่อสร้างกิจกรรมสำหรับเฉพาะ"
+"ผู้ใช้เมื่อได้รับการอนุมัติจากพวกเขา"
 
 #: ../../content/applications/studio/approval_rules.rst:21
 msgid "Select the :guilabel:`Users to notify` via internal note."
-msgstr ""
+msgstr "เลือก: Guilabel: `ผู้ใช้เพื่อแจ้งให้ทราบผ่านโน้ตภายใน"
 
 #: ../../content/applications/studio/approval_rules.rst:22
 msgid ""
 "Add a :guilabel:`Description` to be displayed in the :ref:`Approval dialog "
 "<approval-rules/use>`."
 msgstr ""
+"เพิ่ม a: guilabel: `คำอธิบาย 'ที่จะแสดงใน: ref:` กล่องโต้ตอบการอนุมัติ"
+"\u003cการอนุมัติกฎ/การใช้\u003e `"
 
 #: ../../content/applications/studio/approval_rules.rst:24
 msgid ""
@@ -142,18 +149,25 @@ msgid ""
 "by clicking the :icon:`fa-filter` (:guilabel:`filter`) icon next to the "
 ":guilabel:`Allowed Group` field."
 msgstr ""
+"นอกจากนี้คุณยังสามารถเพิ่มเงื่อนไขสำหรับกฎการอนุมัติที่จะใช้"
+"โดยคลิกที่: ไอคอน: `fa-filter` (: guilabel:` filter`) ไอคอนถัดจาก"
+": Guilabel: `field กลุ่มที่ได้รับอนุญาต '"
 
 #: ../../content/applications/studio/approval_rules.rst:27
 msgid ""
 "To add another rule, click :guilabel:`Add an approval rule`. When there are "
 "multiple approval rules, you can:"
 msgstr ""
+"หากต้องการเพิ่มกฎอื่นคลิก: Guilabel: `เพิ่มกฎการอนุมัติ ' "
+"กฎการอนุมัติหลายข้อคุณสามารถ:"
 
 #: ../../content/applications/studio/approval_rules.rst:30
 msgid ""
 "enable :guilabel:`Exclusive Approval` to require approvers to be different "
 "users;"
 msgstr ""
+"เปิดใช้งาน: Guilabel: `การอนุมัติพิเศษ` เพื่อให้ผู้อนุมัติแตกต่างกัน"
+"ผู้ใช้;"
 
 #: ../../content/applications/studio/approval_rules.rst:31
 msgid ""
@@ -163,18 +177,27 @@ msgid ""
 " the approval rules have the same :guilabel:`Notification Order`, all users "
 "are notified at the same time when the first approval is requested."
 msgstr ""
+"เปลี่ยน: Guilabel: `คำสั่งแจ้งเตือน 'ของกฎการอนุมัติเพื่อให้"
+": Guilabel: `accentsum` และ: guilabel: `ผู้ใช้ที่จะแจ้งเตือน 'ได้รับการแจ้งเตือนเท่านั้น"
+"เมื่อกฎก่อนหน้านี้ได้รับการอนุมัติและจำเป็นต้องได้รับการอนุมัติ "
+"กฎการอนุมัติมีเหมือนกัน: Guilabel: `คำสั่งแจ้งเตือน 'ผู้ใช้ทั้งหมด"
+"ได้รับแจ้งในเวลาเดียวกันเมื่อมีการร้องขอการอนุมัติครั้งแรก"
 
 #: ../../content/applications/studio/approval_rules.rst:36
 msgid ""
 "Click the :icon:`fa-trash` (:guilabel:`trash`) icon next to the "
 ":guilabel:`Allowed Group` field to delete the approval rule."
 msgstr ""
+"คลิกที่: ไอคอน: `fa-trash` (: guilabel:` trash`) ไอคอนถัดจาก"
+": Guilabel: `ฟิลด์กลุ่มที่ได้รับอนุญาตเพื่อลบกฎการอนุมัติ"
 
 #: ../../content/applications/studio/approval_rules.rst:40
 msgid ""
 "You can create :ref:`user groups <access-rights/groups>` specifically for "
 "approvals."
 msgstr ""
+"คุณสามารถสร้าง: ref: `กลุ่มผู้ใช้ \u003cการเข้าถึงสิทธิ/กลุ่ม\u003e` โดยเฉพาะสำหรับ"
+"การอนุมัติ"
 
 #: ../../content/applications/studio/approval_rules.rst:45
 msgid "Use"
@@ -182,17 +205,19 @@ msgstr "ใช้"
 
 #: ../../content/applications/studio/approval_rules.rst:47
 msgid "Once approval rules have been defined for a button:"
-msgstr ""
+msgstr "เมื่อมีการกำหนดกฎการอนุมัติสำหรับปุ่ม:"
 
 #: ../../content/applications/studio/approval_rules.rst:49
 msgid ""
 "A **user avatar** icon is displayed next to the button's label for each "
 "approval rule that has been defined."
 msgstr ""
+"ไอคอน Avatar ** ผู้ใช้ ** จะปรากฏขึ้นถัดจากฉลากของปุ่มสำหรับแต่ละรายการ"
+"กฎการอนุมัติที่กำหนดไว้"
 
 #: ../../content/applications/studio/approval_rules.rst:0
 msgid "Confirm button with approval for purchase orders"
-msgstr ""
+msgstr "ปุ่มยืนยันด้วยการอนุมัติคำสั่งซื้อ"
 
 #: ../../content/applications/studio/approval_rules.rst:55
 msgid ""
@@ -200,20 +225,25 @@ msgid ""
 "in the top-right corner and an activity is created for the user specified in"
 " the :guilabel:`Responsible` field."
 msgstr ""
+"เมื่อผู้ใช้ที่ไม่ได้รับอนุญาตคลิกปุ่มข้อความแสดงข้อผิดพลาดจะปรากฏขึ้น"
+"ในมุมบนขวาและกิจกรรมถูกสร้างขึ้นสำหรับผู้ใช้ที่ระบุไว้ใน"
+": Guilabel: `` Field '"
 
 #: ../../content/applications/studio/approval_rules.rst:57
 msgid ""
 "Only users from the group defined in the :guilabel:`Allowed Group` field are"
 " authorized to approve or reject the action."
 msgstr ""
+"เฉพาะผู้ใช้จากกลุ่มที่กำหนดไว้ใน: Guilabel: `freed Group '"
+"ได้รับอนุญาตให้อนุมัติหรือปฏิเสธการกระทำ"
 
 #: ../../content/applications/studio/approval_rules.rst:60
 msgid "Authorized users can:"
-msgstr ""
+msgstr "ผู้ใช้ที่ได้รับอนุญาตสามารถ:"
 
 #: ../../content/applications/studio/approval_rules.rst:62
 msgid "approve and perform the action by clicking the button;"
-msgstr ""
+msgstr "อนุมัติและดำเนินการโดยคลิกที่ปุ่ม;"
 
 #: ../../content/applications/studio/approval_rules.rst:63
 msgid ""
@@ -221,6 +251,9 @@ msgid ""
 "**user avatar** icon next to the button's label, then clicking the "
 ":icon:`fa-check` (:guilabel:`Approve`) button in the dialog that opens;"
 msgstr ""
+"อนุมัติการกระทำและอนุญาตให้ผู้ใช้รายอื่นดำเนินการได้โดยคลิกที่"
+"** ไอคอนของผู้ใช้ ** ไอคอนถัดจากฉลากของปุ่มจากนั้นคลิกที่"
+": ไอคอน: `fa-check` (: guilabel:` apprice`) ปุ่มในกล่องโต้ตอบที่เปิด;"
 
 #: ../../content/applications/studio/approval_rules.rst:66
 msgid ""
@@ -228,10 +261,13 @@ msgid ""
 "label, then clicking the :icon:`fa-times` (:guilabel:`Reject`) button in the"
 " dialog that opens."
 msgstr ""
+"ปฏิเสธการกระทำโดยคลิกที่ไอคอน Avatar ** ผู้ใช้ ** ไอคอนถัดจากปุ่ม"
+"ฉลากจากนั้นคลิกที่: ไอคอน: `fa-times` (: guilabel:` ปฏิเสธ ')"
+"กล่องโต้ตอบที่เปิดขึ้น"
 
 #: ../../content/applications/studio/approval_rules.rst-1
 msgid "Approval dialog"
-msgstr ""
+msgstr "กล่องโต้ตอบการอนุมัติ"
 
 #: ../../content/applications/studio/approval_rules.rst:73
 msgid ""
@@ -239,6 +275,9 @@ msgid ""
 "clicking the **user avatar** icon next to the button's label, then clicking "
 "the :icon:`fa-undo` (:guilabel:`Revoke`) button."
 msgstr ""
+"ผู้ใช้ที่อนุมัติ/ปฏิเสธการกระทำสามารถเพิกถอนการตัดสินใจของพวกเขาได้โดย"
+"คลิกไอคอน Avatar ** ผู้ใช้ ** ถัดจากฉลากของปุ่มจากนั้นคลิก"
+": ไอคอน: `fa-undo` (: guilabel:` revoke`) ปุ่ม"
 
 #: ../../content/applications/studio/approval_rules.rst:76
 msgid ""
@@ -248,14 +287,15 @@ msgid ""
 "</applications/general/developer_mode>` and go to :menuselection:`Settings "
 "--> Technical --> Studio Approval Entries`."
 msgstr ""
-"การอนุมัติจะถูกติดตามในช่องแชทของบันทึก "
-"รายการอนุมัติจะถูกสร้างขึ้นทุกครั้งที่มีการดำเนินการที่เกี่ยวข้องกับการอนุมัติของสตูดิโอหากต้องการเข้าถึงรายการอนุมัติ"
-" ให้ :doc:`เปิดใช้งานโหมดนักพัฒนา </applications/general/developer_mode>` "
-"และไปที่ :menuselection:`การตั้งค่า --> เทคนิค --> รายการอนุมัติของสตูดิโอ`"
+"การอนุมัติจะถูกติดตามในการพูดคุยของบันทึก "
+"สร้างขึ้นทุกครั้งที่มีการดำเนินการที่เกี่ยวข้องกับการอนุมัติสตูดิโอ "
+"รายการการอนุมัติ: DOC: `เปิดใช้งานโหมดนักพัฒนา"
+"\u003c/แอปพลิเคชัน/ทั่วไป/นักพัฒนาซอฟต์แวร์ _Mode\u003e `และไปที่: การเลือกเมนู:` การตั้งค่า"
+"-\u003e ทางเทคนิค-\u003e รายการอนุมัติสตูดิโอ"
 
 #: ../../content/applications/studio/automated_actions.rst:3
 msgid "Automation rules"
-msgstr "กฎอัตโนมัติ"
+msgstr "กฎระบบอัตโนมัติ"
 
 #: ../../content/applications/studio/automated_actions.rst:5
 msgid ""
@@ -264,20 +304,26 @@ msgid ""
 " events, time conditions (e.g., archive a record 7 days after its last "
 "update), or external events."
 msgstr ""
+"กฎระบบอัตโนมัติใช้เพื่อกระตุ้นการเปลี่ยนแปลงอัตโนมัติตามการกระทำของผู้ใช้"
+"(เช่นใช้การแก้ไขเมื่อฟิลด์ถูกตั้งค่าเป็นค่าเฉพาะ) อีเมล"
+"เหตุการณ์เงื่อนไขเวลา (เช่นเก็บบันทึก 7 วันหลังจากครั้งสุดท้าย"
+"อัปเดต) หรือเหตุการณ์ภายนอก"
 
 #: ../../content/applications/studio/automated_actions.rst:9
 msgid "To create an automation rule with Studio, proceed as follows:"
-msgstr ""
+msgstr "ในการสร้างกฎระบบอัตโนมัติด้วยสตูดิโอให้ดำเนินการดังนี้:"
 
 #: ../../content/applications/studio/automated_actions.rst:11
 msgid "Open Studio and click :guilabel:`Automations`, then :guilabel:`New`."
-msgstr ""
+msgstr "Open Studio และคลิก: Guilabel: `Automations` จากนั้น: Guilabel:` ใหม่ '"
 
 #: ../../content/applications/studio/automated_actions.rst:12
 msgid ""
 "Select the :ref:`studio/automated-actions/trigger` and, if necessary, fill "
 "in the fields that appear on the screen based on the chosen trigger."
 msgstr ""
+"เลือก: ref: `studio/automated-actions/trigger` และหากจำเป็นให้เติม"
+"ในฟิลด์ที่ปรากฏบนหน้าจอตามทริกเกอร์ที่เลือก"
 
 #: ../../content/applications/studio/automated_actions.rst:14
 msgid ""
@@ -285,14 +331,17 @@ msgid ""
 ":ref:`action <studio/automated-actions/action>` and fill in the fields that "
 "appear on the screen based on your selected action."
 msgstr ""
+"คลิก: Guilabel: `เพิ่มแอ็คชั่น 'จากนั้นเลือก:: guilabel:` type'"
+": ref: `action \u003cStudio/Automated-Actions/Action\u003e` และกรอกข้อมูลในฟิลด์นั้น"
+"ปรากฏบนหน้าจอตามการกระทำที่คุณเลือก"
 
 #: ../../content/applications/studio/automated_actions.rst:17
 msgid "Click :guilabel:`Save & Close` or :guilabel:`Save & New`."
-msgstr "คลิก :guilabel:`บันทึกและปิด` หรือ :guilabel:`บันทึกและสร้าง`"
+msgstr "คลิก: Guilabel: `Save \u0026 Close` หรือ: Guilabel:` Save \u0026 New`"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an automated action on the Subscription model"
-msgstr ""
+msgstr "ตัวอย่างการกระทำอัตโนมัติในรูปแบบการสมัครสมาชิก"
 
 #: ../../content/applications/studio/automated_actions.rst:25
 msgid ""
@@ -302,6 +351,11 @@ msgid ""
 "automation rule, and select the :guilabel:`Model` in the "
 ":guilabel:`Automation Rules` form."
 msgstr ""
+"ในการแก้ไข: doc: `model \u003cmodels_modules_apps\u003e` ของกฎระบบอัตโนมัติ"
+"สวิตช์รุ่นก่อนคลิก: Guilabel: `automations` ในสตูดิโอหรือ"
+": Ref: `เปิดใช้งานโหมดนักพัฒนา \u003cนักพัฒนาโหมด\u003e`, สร้างหรือแก้ไข"
+"กฎระบบอัตโนมัติและเลือก: Guilabel: `model` ใน"
+": Guilabel: `แบบฟอร์มกฎระบบอัตโนมัติ '"
 
 #: ../../content/applications/studio/automated_actions.rst:29
 msgid ""
@@ -310,14 +364,18 @@ msgid ""
 ":guilabel:`Automations`. In this case, the :guilabel:`Trigger` is set to "
 ":guilabel:`Stage is set to` by default, but you can change it if necessary."
 msgstr ""
+"นอกจากนี้คุณยังสามารถสร้างกฎระบบอัตโนมัติจากระยะ Kanban ใด ๆ ได้โดยคลิกที่"
+"ไอคอนเกียร์ (: Guilabel: `⚙`) ถัดจากชื่อ Kanban Stage จากนั้นเลือก"
+": Guilabel: `Automations ' "
+": Guilabel: `Stage ถูกตั้งค่าเป็นค่าเริ่มต้น แต่คุณสามารถเปลี่ยนได้หากจำเป็น"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Create automations from a kanban stage"
-msgstr ""
+msgstr "สร้างระบบอัตโนมัติจากเวที Kanban"
 
 #: ../../content/applications/studio/automated_actions.rst:40
 msgid "Trigger"
-msgstr "เปิดใช้งาน"
+msgstr "สิ่งกระตุ้น"
 
 #: ../../content/applications/studio/automated_actions.rst:42
 msgid ""
@@ -325,26 +383,29 @@ msgid ""
 " applied. The available triggers depend on the :doc:`model "
 "<models_modules_apps>`. Five trigger categories are available overall:"
 msgstr ""
+": Guilabel: `Trigger` ใช้เพื่อกำหนดว่ากฎระบบอัตโนมัติควรจะเป็นเมื่อใด"
+"สมัครแล้ว. "
+"\u003cmodels_modules_apps\u003e ` "
 
 #: ../../content/applications/studio/automated_actions.rst:46
 msgid ":ref:`studio/automated-actions/trigger/values-updated`"
-msgstr ""
+msgstr ": REF: `Studio/Automated-Actions/Trigger/Values-Updated`"
 
 #: ../../content/applications/studio/automated_actions.rst:47
 msgid ":ref:`studio/automated-actions/trigger/email-events`"
-msgstr ""
+msgstr ": Ref: `Studio/Automated-Actions/Trigger/Email-Events`"
 
 #: ../../content/applications/studio/automated_actions.rst:48
 msgid ":ref:`studio/automated-actions/trigger/values-timing-conditions`"
-msgstr ""
+msgstr ": ref: `Studio/Automated-Actions/Trigger/Timing-Conditions '"
 
 #: ../../content/applications/studio/automated_actions.rst:49
 msgid ":ref:`studio/automated-actions/trigger/custom`"
-msgstr ""
+msgstr ": Ref: `Studio/Automated-Actions/Trigger/Custom`"
 
 #: ../../content/applications/studio/automated_actions.rst:50
 msgid ":ref:`studio/automated-actions/trigger/external`"
-msgstr ""
+msgstr ": Ref: `Studio/Automated-Actions/Trigger/External`"
 
 #: ../../content/applications/studio/automated_actions.rst:53
 msgid ""
@@ -355,6 +416,12 @@ msgid ""
 " on <studio/automated-actions/trigger/custom>` filters are checked *during* "
 "the execution of the automation rule."
 msgstr ""
+"นอกจากนี้คุณยังสามารถกำหนด: Guilabel: `ก่อนอัพเดตโดเมน` เพื่อระบุไฟล์"
+"เงื่อนไขที่ต้องปฏิบัติตาม * ก่อน * กฎระบบอัตโนมัติจะถูกเรียกใช้ "
+"ความคมชัดเงื่อนไขที่กำหนดโดยใช้: ref: `เงื่อนไขพิเศษ"
+"\u003cStudio/Automated-Actions/Trigger/Timing-Timing-Conditions\u003e `และ: REF:` ใช้"
+"บน \u003cStudio/Automated-Actions/Trigger/Custom\u003e `ตัวกรองถูกตรวจสอบ *ในระหว่าง *"
+"การดำเนินการของกฎระบบอัตโนมัติ"
 
 #: ../../content/applications/studio/automated_actions.rst:59
 msgid ""
@@ -362,6 +429,9 @@ msgid ""
 "mode <developer-mode>`, create or edit an automation rule, click "
 ":guilabel:`Edit Domain`, then click :guilabel:`New Rule`."
 msgstr ""
+"เพื่อกำหนด A: Guilabel: `ก่อนอัพเดทโดเมน,: ref:` เปิดใช้งานนักพัฒนา"
+"โหมด \u003cนักพัฒนาโหมด\u003e `สร้างหรือแก้ไขกฎระบบอัตโนมัติคลิก"
+": Guilabel: `แก้ไขโดเมน 'จากนั้นคลิก: Guilabel:` กฎใหม่'"
 
 #: ../../content/applications/studio/automated_actions.rst:63
 msgid ""
@@ -371,14 +441,19 @@ msgid ""
 "Domain` to :guilabel:`Email is not set`, and the :guilabel:`Apply on` domain"
 " to :guilabel:`Email is set`."
 msgstr ""
+"ตัวอย่างเช่นหากคุณต้องการให้การดำเนินการอัตโนมัติเกิดขึ้นเมื่อมีอีเมล"
+"ที่อยู่ถูกตั้งค่าบนผู้ติดต่อที่ไม่มีที่อยู่มาก่อน (ตรงกันข้าม"
+"ในการแก้ไขที่อยู่ที่มีอยู่ของพวกเขา) ให้กำหนด: guilabel: `ก่อนอัปเดต"
+"Domain` to: guilabel: `อีเมลไม่ได้ตั้งค่า 'และ:: guilabel:` ใช้โดเมนบน'"
+"ถึง: Guilabel: `อีเมลถูกตั้งค่า '"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a trigger with a Before Update Domain"
-msgstr ""
+msgstr "ตัวอย่างทริกเกอร์ที่มีโดเมนอัปเดตก่อน"
 
 #: ../../content/applications/studio/automated_actions.rst:74
 msgid "Values Updated"
-msgstr "อัปเดตค่าแล้ว"
+msgstr "ค่าที่อัปเดต"
 
 #: ../../content/applications/studio/automated_actions.rst:76
 msgid ""
@@ -387,10 +462,14 @@ msgid ""
 "setting the :guilabel:`User` field. Select the trigger, then select a value "
 "if required."
 msgstr ""
+"ทริกเกอร์ที่มีอยู่ในหมวดหมู่นี้ขึ้นอยู่กับโมเดลและขึ้นอยู่กับ"
+"การเปลี่ยนแปลงฟิลด์ทั่วไปเช่นการเพิ่มแท็กเฉพาะ (เช่นงาน) หรือ"
+"การตั้งค่าฟิลด์: Guilabel: `ผู้ใช้ ' "
+"หากจำเป็น"
 
 #: ../../content/applications/studio/automated_actions.rst-1
 msgid "Example of a Values Updated trigger"
-msgstr ""
+msgstr "ตัวอย่างของทริกเกอร์ที่อัปเดต"
 
 #: ../../content/applications/studio/automated_actions.rst:86
 msgid "Email Events"
@@ -398,39 +477,47 @@ msgstr "กิจกรรมอีเมล"
 
 #: ../../content/applications/studio/automated_actions.rst:88
 msgid "Trigger automated actions upon receiving or sending emails."
-msgstr ""
+msgstr "ทริกเกอร์การกระทำอัตโนมัติเมื่อได้รับหรือส่งอีเมล"
 
 #: ../../content/applications/studio/automated_actions.rst:93
 msgid "Timing Conditions"
-msgstr "เงื่อนไขการกำหนดเวลา"
+msgstr "เงื่อนไขเวลา"
 
 #: ../../content/applications/studio/automated_actions.rst:95
 msgid ""
 "Trigger automated actions based on a date field. The following triggers are "
 "available:"
 msgstr ""
+"ทริกเกอร์การกระทำอัตโนมัติตามฟิลด์วันที่ "
+"มีอยู่:"
 
 #: ../../content/applications/studio/automated_actions.rst:97
 msgid ""
 ":guilabel:`Based on date field`: Select the field to be used next to the "
 ":guilabel:`Delay` field."
 msgstr ""
+": Guilabel: `ขึ้นอยู่กับฟิลด์วันที่ ': เลือกฟิลด์ที่จะใช้ถัดจากไฟล์"
+": Guilabel: `delay 'ฟิลด์ฟิลด์"
 
 #: ../../content/applications/studio/automated_actions.rst:98
 msgid ""
 ":guilabel:`After creation`: The action is triggered when a record is created"
 " and saved."
 msgstr ""
+": Guilabel: `หลังจากการสร้างสรรค์ ': การกระทำจะถูกทริกเกอร์เมื่อมีการสร้างบันทึก"
+"และบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:99
 msgid ""
 ":guilabel:`After last update`: The action is triggered when an existing "
 "record is edited and saved."
 msgstr ""
+": Guilabel: `หลังจากอัปเดตล่าสุด ': การกระทำจะถูกทริกเกอร์เมื่อมีอยู่"
+"บันทึกได้รับการแก้ไขและบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:102
 msgid "You can then define:"
-msgstr ""
+msgstr "จากนั้นคุณสามารถกำหนด:"
 
 #: ../../content/applications/studio/automated_actions.rst:104
 msgid ""
@@ -439,6 +526,10 @@ msgid ""
 " you selected the :guilabel:`Based on date field` trigger, you must also "
 "select the date field to be used to determine the delay."
 msgstr ""
+"ตอบ: Guilabel: `delay`: ระบุจำนวนนาทีชั่วโมงวันหรือเดือน"
+"หากต้องการทริกเกอร์การกระทำก่อนวันที่ทริกเกอร์ระบุจำนวนลบ "
+"คุณเลือก: Guilabel: `ตามทริกเกอร์ฟิลด์วันที่คุณต้อง"
+"เลือกฟิลด์วันที่ที่จะใช้เพื่อกำหนดความล่าช้า"
 
 #: ../../content/applications/studio/automated_actions.rst:107
 msgid ""
@@ -446,12 +537,17 @@ msgid ""
 "the conditions to be met to trigger the automation rule. Click "
 ":guilabel:`New Rule` to add another condition."
 msgstr ""
+": guilabel: `เงื่อนไขพิเศษ ': คลิก: guilabel:` เพิ่มเงื่อนไข' จากนั้นระบุ"
+"เงื่อนไขที่จะพบเพื่อทริกเกอร์กฎระบบอัตโนมัติ "
+": Guilabel: `กฎใหม่ 'เพื่อเพิ่มเงื่อนไขอื่น"
 
 #: ../../content/applications/studio/automated_actions.rst:110
 msgid ""
 "The action is triggered when the delay is reached and the conditions are "
 "met."
 msgstr ""
+"การกระทำจะถูกกระตุ้นเมื่อถึงความล่าช้าและเงื่อนไขคือ"
+"พบกัน"
 
 #: ../../content/applications/studio/automated_actions.rst:113
 msgid ""
@@ -460,16 +556,22 @@ msgid ""
 ":guilabel:`Trigger Date` and set the :guilabel:`Delay` to **-30** "
 ":guilabel:`Minutes`."
 msgstr ""
+"หากคุณต้องการส่งอีเมลแจ้งเตือน 30 นาทีก่อนเริ่มก"
+"เหตุการณ์ปฏิทินเลือก: guilabel: `start (เหตุการณ์ปฏิทิน)` ภายใต้"
+": Guilabel: `Trigger Date` และตั้งค่า: Guilabel:` Delay` ถึง **-30 **"
+": Guilabel: `นาที '"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a Based on date field trigger"
-msgstr ""
+msgstr "ตัวอย่างของทริกเกอร์ฟิลด์วันที่"
 
 #: ../../content/applications/studio/automated_actions.rst:121
 msgid ""
 "By default, the scheduler checks for trigger dates every 4 hours, meaning "
 "lower granularity in time-based automations may not always be honored."
 msgstr ""
+"โดยค่าเริ่มต้นกำหนดการตรวจสอบวันที่ทริกเกอร์ทุก 4 ชั่วโมงความหมาย"
+"ความละเอียดต่ำในระบบอัตโนมัติตามเวลาอาจไม่ได้รับเกียรติเสมอไป"
 
 #: ../../content/applications/studio/automated_actions.rst:127
 msgid "Custom"
@@ -477,21 +579,23 @@ msgstr "กำหนดเอง"
 
 #: ../../content/applications/studio/automated_actions.rst:129
 msgid "Trigger automated actions:"
-msgstr ""
+msgstr "ทริกเกอร์การกระทำอัตโนมัติ:"
 
 #: ../../content/applications/studio/automated_actions.rst:131
 msgid ":guilabel:`On save`: When the record is saved;"
-msgstr ""
+msgstr ": Guilabel: `on save`: เมื่อบันทึกบันทึก;"
 
 #: ../../content/applications/studio/automated_actions.rst:132
 msgid ":guilabel:`On deletion`: When a record is deleted;"
-msgstr ""
+msgstr ": Guilabel: `on on Deletion`: เมื่อมีการลบบันทึก;"
 
 #: ../../content/applications/studio/automated_actions.rst:133
 msgid ""
 ":guilabel:`On UI change`: When a field's value is changed on the :ref:`Form "
 "view <studio/views/general/form>`, even before saving the record."
 msgstr ""
+": Guilabel: `on UI Change`: เมื่อค่าของฟิลด์เปลี่ยนไปใน: ref:` แบบฟอร์ม"
+"ดู \u003cStudio/Views/General/Form\u003e `แม้กระทั่งก่อนที่จะบันทึกบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:136
 msgid ""
@@ -499,18 +603,25 @@ msgid ""
 "**must** then select the field(s) to be used to trigger the automation rule "
 "in the :guilabel:`When updating` field."
 msgstr ""
+"สำหรับ: guilabel: `on save` และ: guilabel:` on on Ui Change` Triggers คุณ"
+"** ต้อง ** จากนั้นเลือกฟิลด์ที่จะใช้เพื่อเรียกใช้กฎระบบอัตโนมัติ"
+"ใน: Guilabel: `เมื่ออัปเดต 'ฟิลด์"
 
 #: ../../content/applications/studio/automated_actions.rst:140
 msgid ""
 "If no field is selected in the :guilabel:`When updating` field, the "
 "automated action may be executed multiple times per record."
 msgstr ""
+"หากไม่มีการเลือกฟิลด์ใน: Guilabel: `เมื่ออัปเดต '"
+"การกระทำอัตโนมัติอาจดำเนินการหลายครั้งต่อบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:143
 msgid ""
 "Optionally, you can also define additional conditions to be met to trigger "
 "the automation rule in the :guilabel:`Apply on` field."
 msgstr ""
+"ทางเลือกคุณยังสามารถกำหนดเงื่อนไขเพิ่มเติมที่จะพบเพื่อทริกเกอร์"
+"กฎระบบอัตโนมัติใน: Guilabel: `ใช้ฟิลด์ On`"
 
 #: ../../content/applications/studio/automated_actions.rst:147
 msgid ""
@@ -519,6 +630,10 @@ msgid ""
 "when a modification is made manually. The action is not executed if the "
 "field is changed through another automation rule."
 msgstr ""
+": Guilabel: `on on UI Change` Trigger สามารถใช้กับไฟล์"
+": REF: `Studio/Automated-Actions/Action/Python-Code` การกระทำและใช้งานได้เท่านั้น"
+"เมื่อมีการดัดแปลงด้วยตนเอง "
+"ฟิลด์ถูกเปลี่ยนผ่านกฎระบบอัตโนมัติอื่น"
 
 #: ../../content/applications/studio/automated_actions.rst:155
 msgid "External"
@@ -532,6 +647,11 @@ msgid ""
 "event. It usually includes a data payload containing information about the "
 "event that occurred."
 msgstr ""
+"ทริกเกอร์การกระทำอัตโนมัติตามเหตุการณ์ภายนอกโดยใช้ webhook "
+"Webhook เป็นวิธีการสื่อสารระหว่างสองระบบที่แหล่งที่มา"
+"ระบบส่งคำขอ HTTP (S) ไปยังระบบปลายทางตามเฉพาะ"
+"เหตุการณ์. "
+"เหตุการณ์ที่เกิดขึ้น"
 
 #: ../../content/applications/studio/automated_actions.rst:162
 msgid ""
@@ -540,6 +660,10 @@ msgid ""
 "the request). Then, in the :guilabel:`Target Record` field, enter the code "
 "to run to define the record(s) to be updated using the automation rule."
 msgstr ""
+"ในการกำหนดค่า: guilabel: `on บน webhook` trigger คัดลอก: guilabel:` url`"
+"สร้างโดย Odoo เข้าสู่ระบบปลายทาง (เช่นระบบที่ได้รับ"
+"คำขอ) "
+"ในการเรียกใช้เพื่อกำหนดระเบียนที่จะอัปเดตโดยใช้กฎระบบอัตโนมัติ"
 
 #: ../../content/applications/studio/automated_actions.rst:167
 msgid ""
@@ -547,6 +671,9 @@ msgid ""
 "caution could potentially expose your system to malicious parties. Click the"
 " :guilabel:`Rotate Secret` button to change the URL's secret if necessary."
 msgstr ""
+"URL จะต้องได้รับการปฏิบัติเป็น ** เป็นความลับ **; "
+"ข้อควรระวังอาจทำให้ระบบของคุณแก่บุคคลที่เป็นอันตราย "
+": Guilabel: `หมุนปุ่มลับเพื่อเปลี่ยนความลับของ URL หากจำเป็น"
 
 #: ../../content/applications/studio/automated_actions.rst:172
 msgid ""
@@ -554,6 +681,9 @@ msgid ""
 " webhooks coming from another Odoo database. It is used to determine the "
 "record(s) to be updated using the information in the payload."
 msgstr ""
+"รหัสที่กำหนดโดยค่าเริ่มต้นในฟิลด์: guilabel: `` target Record '"
+"Webhooks มาจากฐานข้อมูล Odoo อื่น "
+"บันทึกที่จะอัปเดตโดยใช้ข้อมูลในน้ำหนักบรรทุก"
 
 #: ../../content/applications/studio/automated_actions.rst:175
 msgid ""
@@ -563,6 +693,11 @@ msgid ""
 " :guilabel:`Target record` field must contain any valid code, but its result"
 " doesn't have any effect on the automated action itself."
 msgstr ""
+"หากคุณต้องการใช้เนื้อหาของ WebHook เพื่อจุดประสงค์อื่นนอกเหนือจากการค้นหา"
+"บันทึก (เช่น * สร้าง * บันทึก) ตัวเลือกเดียวของคุณคือการใช้ไฟล์"
+": REF: `การกระทำของสตูดิโอ/อัตโนมัติ-แอ็คชั่น/แอ็คชั่น/Python-Code` "
+": ฟิลด์ Guilabel: `target Record 'จะต้องมีรหัสที่ถูกต้องใด ๆ แต่ผลลัพธ์ของมัน"
+"ไม่มีผลกระทบใด ๆ ต่อการกระทำอัตโนมัติ"
 
 #: ../../content/applications/studio/automated_actions.rst:179
 msgid ""
@@ -570,6 +705,9 @@ msgid ""
 " variable (i.e., a dictionary that contains the GET parameters or POST JSON "
 "body of the incoming request)."
 msgstr ""
+"เนื้อหา webhook มีอยู่ในบริบทการดำเนินการของเซิร์ฟเวอร์เป็น 'payload'"
+"ตัวแปร (เช่นพจนานุกรมที่มีพารามิเตอร์รับหรือโพสต์ JSON"
+"ร่างกายของคำขอที่เข้ามา)"
 
 #: ../../content/applications/studio/automated_actions.rst:182
 msgid ""
@@ -579,15 +717,15 @@ msgid ""
 "issues that may arise. To access the logs, click the :guilabel:`Logs` smart "
 "button at the top of the :guilabel:`Automation rules` form."
 msgstr ""
-"คุณสามารถเลือก :guilabel:`บันทึกการโทร` เพื่อบันทึกข้อมูลที่ได้รับ เช่น "
-"เพื่อให้แน่ใจว่าข้อมูลที่ส่งโดยระบบต้นทางตรงกับรูปแบบและเนื้อหาที่คาดหวัง "
-"นอกจากนี้ยังช่วยระบุและวิเคราะห์ปัญหาที่อาจเกิดขึ้นได้อีกด้วย "
-"หากต้องการเข้าถึงบันทึก ให้คลิกปุ่มอัจฉริยะ :guilabel:`บันทึก` "
-"ที่ด้านบนของแบบฟอร์ม :guilabel:`กฏเกณฑ์อัตโนมัติ`"
+"นอกจากนี้คุณยังสามารถเลือกที่จะ: guilabel: `log call 'เพื่อบันทึก payloads"
+"ได้รับเช่นเพื่อให้แน่ใจว่าข้อมูลที่ส่งโดยระบบต้นทางตรงกับไฟล์"
+"รูปแบบและเนื้อหาที่คาดหวัง "
+"ปัญหาที่อาจเกิดขึ้น "
+"ปุ่มที่ด้านบนของ: Guilabel: `` กฎระบบอัตโนมัติ '"
 
 #: ../../content/applications/studio/automated_actions.rst:190
 msgid "Actions"
-msgstr "การดำเนินการ"
+msgstr "การกระทำ"
 
 #: ../../content/applications/studio/automated_actions.rst:192
 msgid ""
@@ -595,6 +733,9 @@ msgid ""
 "actions/trigger>`, click :guilabel:`Add an action` to define the action to "
 "be executed."
 msgstr ""
+"เมื่อคุณกำหนดกฎระบบอัตโนมัติ: อ้างอิง: `ทริกเกอร์ \u003cสตูดิโอ/อัตโนมัติ-"
+"การกระทำ/ทริกเกอร์\u003e `, คลิก: guilabel:` เพิ่มการกระทำ 'เพื่อกำหนดการกระทำ"
+"ถูกประหารชีวิต"
 
 #: ../../content/applications/studio/automated_actions.rst:196
 msgid ""
@@ -606,17 +747,17 @@ msgid ""
 " record` action, the email uses the values set *before* the update action is"
 " run."
 msgstr ""
-"คุณสามารถกำหนดการกระทำได้หลายอย่างสำหรับกฎทริกเกอร์/อัตโนมัติเดียวกัน "
-"การดำเนินการจะดำเนินการตามลำดับที่กำหนดไว้ ซึ่งหมายความว่า "
-"หากคุณกำหนดการดำเนินการ :guilabel:`อัปเดตบันทึก` แล้วตามด้วย "
-":guilabel:`ส่งอีเมล` อีเมลจะใช้ค่าที่อัปเดต อย่างไรก็ตาม "
-"หากมีการกำหนดการดำเนินการ :guilabel:`ส่งอีเมล` ก่อนการดำเนินการ "
-":guilabel:`อัปเดตบันทึก` อีเมลจะใช้ค่าที่ตั้งไว้ *ก่อน* "
-"การดำเนินการอัปเดตจะทำงาน"
+"คุณสามารถกำหนดการกระทำหลายอย่างสำหรับกฎทริกเกอร์/ระบบอัตโนมัติเดียวกัน "
+"การกระทำจะถูกดำเนินการตามลำดับที่กำหนดไว้ "
+"ถ้าคุณกำหนด:: guilabel: `update record` การกระทำแล้ว"
+": Guilabel: `ส่งอีเมล 'การกระทำอีเมลใช้ค่าที่อัปเดต "
+"ถ้า: guilabel: `ส่งอีเมล` การกระทำถูกกำหนดก่อน:: guilabel: `update"
+"record` action, อีเมลใช้ค่าที่ตั้งไว้ * ก่อน * การดำเนินการอัปเดตคือ"
+"วิ่ง."
 
 #: ../../content/applications/studio/automated_actions.rst:206
 msgid "Update Record"
-msgstr "อัปเดตบันทึก"
+msgstr "อัพเดทบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:208
 msgid ""
@@ -625,6 +766,10 @@ msgid ""
 "the field to be updated; click the right arrow next to the field name to "
 "access the list of related fields if needed."
 msgstr ""
+"การดำเนินการนี้อนุญาตให้อัปเดตหนึ่งในฟิลด์ (เกี่ยวข้อง) ของบันทึก "
+": Guilabel: `update 'ฟิลด์และในรายการที่เปิด, เลือกหรือค้นหา"
+"ฟิลด์ที่จะอัปเดต; "
+"เข้าถึงรายการฟิลด์ที่เกี่ยวข้องหากจำเป็น"
 
 #: ../../content/applications/studio/automated_actions.rst:212
 msgid ""
@@ -633,6 +778,10 @@ msgid ""
 ":guilabel:`Adding`, :guilabel:`Removing`, or :guilabel:`Setting it to` the "
 "selected value or by :guilabel:`Clearing it`."
 msgstr ""
+"หากคุณเลือก A: REF: `Many2Many Field \u003cStudio/Fields/Relational-"
+"ฟิลด์/many2Many\u003e `เลือกว่าฟิลด์จะต้องได้รับการอัปเดตโดย"
+": guilabel: `adding` ,: guilabel:` refive 'หรือ: guilabel: `ตั้งค่าเป็น'"
+"ค่าที่เลือกหรือโดย: guilabel: `การล้างมัน '"
 
 #: ../../content/applications/studio/automated_actions.rst:217
 msgid ""
@@ -640,10 +789,13 @@ msgid ""
 "set the :guilabel:`Update` field to :guilabel:`Customer > Tags`, select "
 ":guilabel:`By Removing`, then select the tag."
 msgstr ""
+"หากคุณต้องการให้การกระทำอัตโนมัติลบแท็กออกจากบันทึกลูกค้า"
+"ตั้งค่าฟิลด์: guilabel: `update` เป็น: guilabel:` ลูกค้า\u003e แท็ก 'เลือก"
+": Guilabel: `โดยการลบ 'จากนั้นเลือกแท็ก"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of an Update Record action"
-msgstr ""
+msgstr "ตัวอย่างการดำเนินการบันทึกการอัพเดท"
 
 #: ../../content/applications/studio/automated_actions.rst:225
 msgid ""
@@ -656,18 +808,18 @@ msgid ""
 ":guilabel:`Priority is set to` to `High` and define the :guilabel:`Update "
 "Record` action as follows:"
 msgstr ""
-"หรือคุณสามารถตั้งค่าฟิลด์ของบันทึกแบบไดนามิกโดยใช้โค้ด Python ได้ โดยเลือก "
-":guilabel:`คำนวณ` แทน :guilabel:`อัปเดต` "
-"จากนั้นป้อนโค้ดที่จะใช้ในการคำนวณค่าของฟิลด์ ตัวอย่างเช่น "
-"หากคุณต้องการให้กฎอัตโนมัติคำนวณฟิลด์ :ref:`datetime <studio/fields/simple-"
-"fields/date-time>` ที่กำหนดเอง เมื่อกำหนดลำดับความสำคัญของงานเป็น `สูง` "
-"(โดยการติดดาวงาน) คุณสามารถกำหนดทริกเกอร์ "
-":guilabel:`ลำดับความสำคัญถูกตั้งค่าเป็น `สูง` และกำหนดการกระทำ "
-":guilabel:`อัปเดตบันทึก` ดังต่อไปนี้:"
+"หรือคุณสามารถตั้งค่าฟิลด์ของบันทึกได้แบบไดนามิกโดยใช้ Python"
+"รหัส. "
+"จากนั้นป้อนรหัสที่จะใช้สำหรับการคำนวณค่าของฟิลด์ "
+"หากคุณต้องการให้กฎระบบอัตโนมัติคำนวณกำหนดเอง: REF: `ฟิลด์ DateTime"
+"\u003cStudio/Fields/Simple-Fields/Date-Time\u003e `เมื่อมีการตั้งค่าลำดับความสำคัญของงาน"
+"`สูง '(โดยนำแสดงโดยงาน) คุณสามารถกำหนดทริกเกอร์"
+": Guilabel: `ลำดับความสำคัญถูกตั้งค่าเป็น` สูง 'และกำหนด:: guilabel: `อัปเดต"
+"บันทึกการกระทำดังนี้:"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Compute a custom datetime field using a Python expression"
-msgstr ""
+msgstr "คำนวณฟิลด์ DateTime ที่กำหนดเองโดยใช้นิพจน์ Python"
 
 #: ../../content/applications/studio/automated_actions.rst:236
 msgid "Create Activity"
@@ -680,18 +832,26 @@ msgid ""
 "then specify when you want the activity to be scheduled in the "
 ":guilabel:`Due Date In` field, and select a :guilabel:`User type`:"
 msgstr ""
+"การกระทำนี้ใช้เพื่อกำหนดเวลากิจกรรมใหม่ที่เชื่อมโยงกับบันทึก "
+"an: guilabel: `ประเภทกิจกรรม ', ป้อน: guilabel:` title` และคำอธิบาย,"
+"จากนั้นระบุเมื่อคุณต้องการกำหนดกิจกรรมใน"
+": Guilabel: `วันครบกำหนดในฟิลด์และเลือก A: Guilabel:` ประเภทผู้ใช้ ':"
 
 #: ../../content/applications/studio/automated_actions.rst:242
 msgid ""
 "To always assign the activity to the same user, select :guilabel:`Specific "
 "User` and add the user in the :guilabel:`Responsible` field;"
 msgstr ""
+"หากต้องการกำหนดกิจกรรมให้กับผู้ใช้คนเดียวกันเสมอเลือก: Guilabel: `เฉพาะ"
+"ผู้ใช้ `และเพิ่มผู้ใช้ใน: Guilabel:` `ความรับผิดชอบ '"
 
 #: ../../content/applications/studio/automated_actions.rst:244
 msgid ""
 "To target a user linked to the record dynamically, select :guilabel:`Dynamic"
 " User (based on record)` and change the :guilabel:`User Field` if necessary."
 msgstr ""
+"หากต้องการกำหนดเป้าหมายผู้ใช้ที่เชื่อมโยงกับบันทึกแบบไดนามิกให้เลือก: guilabel: `ไดนามิก"
+"ผู้ใช้ (ตามบันทึก) `และเปลี่ยน:: guilabel:` ฟิลด์ผู้ใช้ 'หากจำเป็น"
 
 #: ../../content/applications/studio/automated_actions.rst:248
 msgid ""
@@ -700,14 +860,18 @@ msgid ""
 ":guilabel:`Activity Type` to :guilabel:`Call` and the :guilabel:`User Type` "
 "to :guilabel:`Dynamic User (based on record)`."
 msgstr ""
+"หลังจากผู้นำกลายเป็นโอกาสคุณต้องการให้มีการดำเนินการอัตโนมัติ"
+"ตั้งค่าการโทรสำหรับผู้ใช้ที่รับผิดชอบลูกค้าเป้าหมาย "
+": guilabel: `ประเภทกิจกรรม 'ถึง: guilabel:` call' และ:: guilabel: `ประเภทผู้ใช้ '"
+"ถึง: Guilabel: `ผู้ใช้แบบไดนามิก (ขึ้นอยู่กับการบันทึก)`"
 
 #: ../../content/applications/studio/automated_actions.rst:0
 msgid "Example of a Create Activity action"
-msgstr ""
+msgstr "ตัวอย่างของการสร้างกิจกรรม"
 
 #: ../../content/applications/studio/automated_actions.rst:256
 msgid "Send Email and Send SMS"
-msgstr ""
+msgstr "ส่งอีเมลและส่ง SMS"
 
 #: ../../content/applications/studio/automated_actions.rst:258
 msgid ""
@@ -717,32 +881,43 @@ msgid ""
 " As` or :guilabel:`Send SMS As` field, choose how you want to send the email"
 " or text message:"
 msgstr ""
+"การกระทำเหล่านี้ใช้เพื่อส่งอีเมลหรือข้อความไปยังผู้ติดต่อ"
+"เชื่อมโยงกับบันทึกเฉพาะ "
+"เทมเพลต `หรือ an: guilabel:` sms template` จากนั้นใน: guilabel: `ส่งอีเมล"
+"AS` หรือ: Guilabel: `ส่งฟิลด์ SMS เป็น 'เลือกวิธีที่คุณต้องการส่งอีเมล"
+"หรือข้อความ:"
 
 #: ../../content/applications/studio/automated_actions.rst:263
 msgid ""
 ":guilabel:`Email`: to send the message as an email to the recipients of the "
 ":guilabel:`Email Template`."
 msgstr ""
+": Guilabel: `อีเมล ': เพื่อส่งข้อความเป็นอีเมลไปยังผู้รับของ"
+": Guilabel: `Email Template`"
 
 #: ../../content/applications/studio/automated_actions.rst:265
 msgid ""
 ":guilabel:`Message`: to post the message on the record and notify the "
 "record's followers."
 msgstr ""
+": Guilabel: `message`: หากต้องการโพสต์ข้อความในบันทึกและแจ้งให้ทราบ"
+"ผู้ติดตามของบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:266
 msgid ""
 ":guilabel:`Note`: to send the message as an internal note visible to "
 "internal users in the chatter."
 msgstr ""
-":guilabel:`บันทึกภายใน`: "
-"เพื่อส่งข้อความเป็นบันทึกภายในที่ผู้ใช้ภายในจะมองเห็นได้ในช่องแชท"
+": Guilabel: `note`: เพื่อส่งข้อความเป็นบันทึกภายในที่มองเห็นได้"
+"ผู้ใช้ภายในในการพูดคุย"
 
 #: ../../content/applications/studio/automated_actions.rst:268
 msgid ""
 ":guilabel:`SMS (without note)`: to send the message as a text message to the"
 " recipients of the :guilabel:`SMS template`."
 msgstr ""
+": Guilabel: `SMS (โดยไม่มีหมายเหตุ)`: เพื่อส่งข้อความเป็นข้อความไปยัง"
+"ผู้รับ: Guilabel: `SMS Template`"
 
 #: ../../content/applications/studio/automated_actions.rst:270
 msgid ""
@@ -750,24 +925,27 @@ msgid ""
 "recipients of the :guilabel:`SMS template` and post it as an internal note "
 "in the chatter."
 msgstr ""
-":guilabel:`SMS (พร้อมบันทึก)`: ส่งข้อความเป็นข้อความไปยังผู้รับของ "
-":guilabel:`เทมเพลต SMS` และโพสต์เป็นบันทึกภายในในช่องแชท"
+": Guilabel: `SMS (พร้อมหมายเหตุ)`: เพื่อส่งข้อความเป็นข้อความไปยัง"
+"ผู้รับ: guilabel: `sms template` และโพสต์เป็นบันทึกภายใน"
+"ในการพูดพล่อย"
 
 #: ../../content/applications/studio/automated_actions.rst:272
 msgid ""
 ":guilabel:`Note only`: to only post the message as an internal note in the "
 "chatter."
 msgstr ""
-":guilabel:`หมายเหตุเท่านั้น`: โพสต์ข้อความเป็นบันทึกภายในในช่องแชทเท่านั้น"
+": Guilabel: `note only ': เพื่อโพสต์ข้อความเป็นหมายเหตุภายในในไฟล์"
+"พูดพล่อย"
 
 #: ../../content/applications/studio/automated_actions.rst:277
 msgid "Add Followers and Remove Followers"
-msgstr ""
+msgstr "เพิ่มผู้ติดตามและลบผู้ติดตาม"
 
 #: ../../content/applications/studio/automated_actions.rst:279
 msgid ""
 "Use these actions to (un)subscribe existing contacts to/from the record."
 msgstr ""
+"ใช้การกระทำเหล่านี้เพื่อ (UN) สมัครสมาชิกผู้ติดต่อที่มีอยู่ไป/จากบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:282
 msgid "Create Record"
@@ -775,7 +953,7 @@ msgstr "สร้างบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:284
 msgid "This action is used to create a new record on any model."
-msgstr ""
+msgstr "การกระทำนี้ใช้เพื่อสร้างระเบียนใหม่ในรุ่นใด ๆ"
 
 #: ../../content/applications/studio/automated_actions.rst:286
 msgid ""
@@ -785,6 +963,11 @@ msgid ""
 "a field in the :guilabel:`Link Field` field to link the record that "
 "triggered the creation of the new record."
 msgstr ""
+"เลือกโมเดลที่ต้องการใน: Guilabel: `Record เพื่อสร้าง '; "
+"มีโมเดลปัจจุบันตามค่าเริ่มต้น "
+"บันทึกแล้วหากคุณต้องการสร้างระเบียนในรุ่นอื่นให้เลือก"
+"ฟิลด์ในฟิลด์: guilabel: `link field` เพื่อเชื่อมโยงบันทึกนั้น"
+"กระตุ้นการสร้างสถิติใหม่"
 
 #: ../../content/applications/studio/automated_actions.rst:292
 msgid ""
@@ -793,6 +976,10 @@ msgid ""
 "on the current model that are linked to a :ref:`many2one field "
 "<studio/fields/relational-fields/many2one>` on the target model."
 msgstr ""
+"รายการดรอปดาวน์ที่เกี่ยวข้องกับ: ฟิลด์ Guilabel: `Link Field` มีเท่านั้น"
+": REF: `one2Many Fields \u003cStudio/Fields/Relational-Fields/One2Many\u003e` ที่มีอยู่"
+"ในโมเดลปัจจุบันที่เชื่อมโยงกับ A: REF: `Many2One Field"
+"\u003cสตูดิโอ/ฟิลด์/relational-fields/many2one\u003e `ในโมเดลเป้าหมาย"
 
 #: ../../content/applications/studio/automated_actions.rst:297
 msgid ""
@@ -802,84 +989,103 @@ msgid ""
 "to create a new project task and then assign it to a specific user using an "
 ":guilabel:`Update Record` action."
 msgstr ""
+"คุณสามารถสร้างกฎระบบอัตโนมัติอื่นด้วย: ref: `Studio/Automated-"
+"การกระทำ/การกระทำ/อัปเดต-บันทึก `การดำเนินการอัปเดตฟิลด์ของระเบียนใหม่"
+"หากจำเป็น "
+"เพื่อสร้างงานโครงการใหม่จากนั้นกำหนดให้กับผู้ใช้เฉพาะโดยใช้ไฟล์"
+": Guilabel: `update Record` Action"
 
 #: ../../content/applications/studio/automated_actions.rst:305
 msgid "Execute Code"
-msgstr "ดำเนินการรหัส"
+msgstr "เรียกใช้รหัส"
 
 #: ../../content/applications/studio/automated_actions.rst:307
 msgid ""
 "This action is used to execute Python code. You can write your code into the"
 " :guilabel:`Code` tab using the following variables:"
 msgstr ""
+"การดำเนินการนี้ใช้เพื่อเรียกใช้รหัส Python "
+": Guilabel: `code` แท็บโดยใช้ตัวแปรต่อไปนี้:"
 
 #: ../../content/applications/studio/automated_actions.rst:310
 msgid "`env`: environment on which the action is triggered"
-msgstr ""
+msgstr "`env`: สภาพแวดล้อมที่มีการเรียกใช้การกระทำ"
 
 #: ../../content/applications/studio/automated_actions.rst:311
 msgid ""
 "`model`: model of the record on which the action is triggered; is a void "
 "recordset"
 msgstr ""
+"`model`: โมเดลของบันทึกที่การกระทำถูกเรียกใช้; "
+"ชุดบันทึก"
 
 #: ../../content/applications/studio/automated_actions.rst:312
 msgid "`record`: record on which the action is triggered; may be void"
-msgstr ""
+msgstr "`Record`: บันทึกว่าการกระทำใดถูกเรียกใช้ "
 
 #: ../../content/applications/studio/automated_actions.rst:313
 msgid ""
 "`records`: recordset of all records on which the action is triggered in "
 "multi-mode; this may be left empty"
 msgstr ""
+"`Records`: Recordset ของระเบียนทั้งหมดที่มีการเรียกใช้การกระทำ"
+"หลายโหมด; "
 
 #: ../../content/applications/studio/automated_actions.rst:315
 msgid "`time`, `datetime`, `dateutil`, `timezone`: useful Python libraries"
-msgstr ""
+msgstr "`time`,` DateTime ', `DateUtil`,` TimeZone': Libraries Python ที่มีประโยชน์"
 
 #: ../../content/applications/studio/automated_actions.rst:316
 msgid ""
 "`float_compare`: utility function to compare floats based on specific "
 "precision"
 msgstr ""
+"`float_compare`: ฟังก์ชั่นยูทิลิตี้เพื่อเปรียบเทียบลอยตามเฉพาะ"
+"ความแม่นยำ"
 
 #: ../../content/applications/studio/automated_actions.rst:317
 msgid ""
 "`log(message, level='info')`: logging function to record debug information "
 "in ir.logging table"
 msgstr ""
+"`log (ข้อความ, level \u003d 'info')`: ฟังก์ชั่นการบันทึกเพื่อบันทึกข้อมูลการดีบัก"
+"ใน Ir.logging Table"
 
 #: ../../content/applications/studio/automated_actions.rst:319
 msgid "`_logger.info(message)`: logger to emit messages in server logs"
-msgstr ""
+msgstr "`_logger.info (ข้อความ)`: logger เพื่อปล่อยข้อความในบันทึกเซิร์ฟเวอร์"
 
 #: ../../content/applications/studio/automated_actions.rst:320
 msgid "`UserError`: exception class for raising user-facing warning messages"
-msgstr ""
+msgstr "`userError`: คลาสข้อยกเว้นสำหรับการเพิ่มข้อความเตือนผู้ใช้หันหน้าเข้าหา"
 
 #: ../../content/applications/studio/automated_actions.rst:321
 msgid "`Command`: x2many commands namespace"
-msgstr ""
+msgstr "`command`: x2 หลายคำสั่งเนมสเปซ"
 
 #: ../../content/applications/studio/automated_actions.rst:322
 msgid "`action = {...}`: to return an action"
-msgstr ""
+msgstr "`action \u003d {... }`: เพื่อส่งคืนการกระทำ"
 
 #: ../../content/applications/studio/automated_actions.rst:325
 msgid ""
 "The available variables are described both in the :guilabel:`Code` and "
 ":guilabel:`Help` tabs."
 msgstr ""
+"ตัวแปรที่มีอยู่มีการอธิบายทั้งใน: Guilabel: `code 'และ"
+": Guilabel: `help` แท็บ"
 
 #: ../../content/applications/studio/automated_actions.rst:328
 msgid "Send Webhook Notification"
-msgstr "ส่งการแจ้งเตือน Webhook"
+msgstr "ส่งการแจ้งเตือน webhook"
 
 #: ../../content/applications/studio/automated_actions.rst:330
 msgid ""
 "This action allows to send a POST request with the values of the "
 ":guilabel:`Fields` to the URL specified in the :guilabel:`URL` field."
 msgstr ""
+"การดำเนินการนี้อนุญาตให้ส่งคำขอโพสต์พร้อมค่าของไฟล์"
+": Guilabel: `Fields` ไปยัง URL ที่ระบุไว้ใน: Guilabel:` url`"
 
 #: ../../content/applications/studio/automated_actions.rst:333
 msgid ""
@@ -887,10 +1093,13 @@ msgid ""
 "the request using a random record's data or dummy data if no record is "
 "available."
 msgstr ""
+": Guilabel: `ตัวอย่าง Payload` ให้ตัวอย่างของข้อมูลที่รวมอยู่ใน"
+"คำขอโดยใช้ข้อมูลของบันทึกแบบสุ่มหรือข้อมูลจำลองหากไม่มีการบันทึก"
+"มีอยู่."
 
 #: ../../content/applications/studio/automated_actions.rst:339
 msgid "Execute Existing Actions"
-msgstr "ดำเนินการการกระทำที่มีอยู่"
+msgstr "ดำเนินการกระทำที่มีอยู่"
 
 #: ../../content/applications/studio/automated_actions.rst:341
 msgid ""
@@ -899,10 +1108,14 @@ msgid ""
 ":guilabel:`Add: Child Actions` pop-up, select an existing action or click "
 ":guilabel:`New` to create a new one."
 msgstr ""
+"การดำเนินการใช้เพื่อทริกเกอร์การกระทำหลายอย่าง (เชื่อมโยงกับโมเดลปัจจุบัน)"
+"ในเวลาเดียวกัน "
+": Guilabel: `เพิ่ม: การกระทำของเด็ก` ป๊อปอัพเลือกการกระทำที่มีอยู่หรือคลิก"
+": Guilabel: `ใหม่` เพื่อสร้างใหม่"
 
 #: ../../content/applications/studio/fields.rst:3
 msgid "Fields and widgets"
-msgstr ""
+msgstr "ฟิลด์และวิดเจ็ต"
 
 #: ../../content/applications/studio/fields.rst:5
 msgid ""
@@ -912,12 +1125,11 @@ msgid ""
 "them. How the data is presented and formatted on the :abbr:`UI (User "
 "Interface)` is defined by their widget."
 msgstr ""
-"ฟิลด์จะสร้างโครงสร้างของโมเดลฐานข้อมูล "
-"หากคุณลองนึกถึงโมเดลเป็นตารางหรือสเปรดชีต "
-"ฟิลด์ก็คือคอลัมน์ที่จัดเก็บข้อมูลในเรกคอร์ด (เช่น แถว) นอกจากนี้ "
-"ฟิลด์ยังกำหนดประเภทของข้อมูลที่จัดเก็บอยู่ภายในอีกด้วย "
-"วิธีการนำเสนอและจัดรูปแบบข้อมูลบน :abbr:`UI (อินเทอร์เฟซผู้ใช้)` "
-"จะถูกกำหนดโดยวิดเจ็ตของฟิลด์"
+"ฟิลด์จัดโครงสร้างแบบจำลองของฐานข้อมูล "
+"หรือสเปรดชีตฟิลด์เป็นคอลัมน์ที่เก็บข้อมูลไว้ในบันทึก"
+"(เช่นแถว) "
+"พวกเขา. "
+"อินเตอร์เฟส) `ถูกกำหนดโดยวิดเจ็ตของพวกเขา"
 
 #: ../../content/applications/studio/fields.rst:10
 msgid ""
@@ -925,6 +1137,9 @@ msgid ""
 "you can choose from 20 fields in Studio, as some field types are available "
 "more than once with a different default widget."
 msgstr ""
+"จากมุมมองทางเทคนิคมี 15 ประเภทใน ODOO "
+"คุณสามารถเลือกจาก 20 ฟิลด์ในสตูดิโอเนื่องจากมีบางประเภทฟิลด์ที่มีอยู่"
+"มากกว่าหนึ่งครั้งด้วยวิดเจ็ตเริ่มต้นที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:14
 msgid ""
@@ -933,30 +1148,37 @@ msgid ""
 "records/list` views. On other views, you can only add :guilabel:`Existing "
 "Fields` :dfn:`(fields already on the model)`."
 msgstr ""
+": Guilabel: `ฟิลด์ใหม่ 'สามารถเพิ่มลงในไฟล์"
+": REF: `Studio/Views/General/Form` และ: Ref:` Studio/Views/Multiple-"
+"มุมมองบันทึก/รายการ "
+"Fields`: dfn: `(ฟิลด์แล้วในโมเดลแล้ว)`"
 
 #: ../../content/applications/studio/fields.rst:21
 msgid "Simple fields"
-msgstr ""
+msgstr "เขตข้อมูลง่ายๆ"
 
 #: ../../content/applications/studio/fields.rst:23
 msgid "Simple fields contain basic values, such as text, numbers, files, etc."
-msgstr ""
+msgstr "ฟิลด์อย่างง่ายมีค่าพื้นฐานเช่นข้อความตัวเลขไฟล์ ฯลฯ"
 
 #: ../../content/applications/studio/fields.rst:26
 #: ../../content/applications/studio/fields.rst:325
 msgid ""
 "Non-default widgets, when available, are presented as bullet points below."
 msgstr ""
+"วิดเจ็ตที่ไม่ใช่ default เมื่อมีจะถูกนำเสนอเป็นสัญลักษณ์แสดงหัวข้อย่อยด้านล่าง"
 
 #: ../../content/applications/studio/fields.rst:31
 msgid "Text (`char`)"
-msgstr ""
+msgstr "ข้อความ (`char`)"
 
 #: ../../content/applications/studio/fields.rst:33
 msgid ""
 "The :guilabel:`Text` field is used for short text containing any character. "
 "One text line is displayed when filling out the field."
 msgstr ""
+"ฟิลด์: guilabel: `text` ใช้สำหรับข้อความสั้น ๆ ที่มีอักขระใด ๆ"
+"บรรทัดข้อความหนึ่งรายการจะปรากฏขึ้นเมื่อกรอกข้อมูล"
 
 #: ../../content/applications/studio/fields.rst:36
 #: ../../content/applications/studio/fields.rst:220
@@ -964,8 +1186,8 @@ msgid ""
 ":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
 "tag. The value cannot be edited on the UI, but a default value can be set."
 msgstr ""
-":guilabel:`ตราสัญลักษณ์`: แสดงค่าภายในรูปทรงโค้งมน คล้ายกับแท็ก "
-"ไม่สามารถแก้ไขค่าบน UI ได้ แต่สามารถตั้งค่าเริ่มต้นได้"
+": Guilabel: `Badge`: แสดงค่าภายในรูปร่างโค้งมนคล้ายกับก"
+"แท็ก. "
 
 #: ../../content/applications/studio/fields.rst:38
 #: ../../content/applications/studio/fields.rst:71
@@ -973,16 +1195,20 @@ msgid ""
 ":guilabel:`Copy to Clipboard`: users can copy the value by clicking a "
 "button."
 msgstr ""
+": Guilabel: `คัดลอกไปยัง Clipboard`: ผู้ใช้สามารถคัดลอกค่าได้โดยคลิก a"
+"ปุ่ม."
 
 #: ../../content/applications/studio/fields.rst:39
 msgid ":guilabel:`E-mail`: the value becomes a clickable *mailto* link."
-msgstr ""
+msgstr ": Guilabel: `e-mail`: ค่ากลายเป็นลิงค์ * mailto * ที่คลิกได้ *"
 
 #: ../../content/applications/studio/fields.rst:40
 msgid ""
 ":guilabel:`Image`: displays an image using a URL. The value cannot be edited"
 " manually, but a default value can be set."
 msgstr ""
+": Guilabel: `image`: แสดงภาพโดยใช้ URL "
+"ด้วยตนเอง แต่สามารถตั้งค่าเริ่มต้นได้"
 
 #: ../../content/applications/studio/fields.rst:44
 msgid ""
@@ -991,28 +1217,34 @@ msgid ""
 " Odoo when using a :guilabel:`Text` field with the :guilabel:`Image` widget."
 " For example, it can be useful if you want to save disk space."
 msgstr ""
+"สิ่งนี้ใช้งานได้แตกต่างจากการเลือก: ref: `ฟิลด์รูปภาพ"
+"\u003cสตูดิโอ/ฟิลด์/simple-fields/image\u003e `โดยตรงเนื่องจากภาพไม่ได้เก็บไว้ใน"
+"Odoo เมื่อใช้: guilabel: `text text` ฟิลด์กับ: Guilabel:` image` วิดเจ็ต"
+"ตัวอย่างเช่นมันจะมีประโยชน์หากคุณต้องการบันทึกพื้นที่ดิสก์"
 
 #: ../../content/applications/studio/fields.rst:49
 msgid ":guilabel:`Phone`: the value becomes a clickable *tel* link."
-msgstr ""
+msgstr ": guilabel: `โทรศัพท์ ': ค่ากลายเป็นลิงค์ * tel * tel *"
 
 #: ../../content/applications/studio/fields.rst:52
 msgid ""
 "Tick :guilabel:`Enable SMS` to add an option to send an SMS directly from "
 "Odoo next to the field."
 msgstr ""
+"Tick: Guilabel: `เปิดใช้งาน SMS` เพื่อเพิ่มตัวเลือกในการส่ง SMS โดยตรงจาก"
+"Odoo ถัดจากสนาม"
 
 #: ../../content/applications/studio/fields.rst:55
 msgid ":guilabel:`URL`: the value becomes a clickable URL."
-msgstr ""
+msgstr ": Guilabel: `url`: ค่ากลายเป็น URL ที่คลิกได้"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Text fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์ข้อความที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:66
 msgid "Multiline Text (`text`)"
-msgstr ""
+msgstr "ข้อความ multiline (`text`)"
 
 #: ../../content/applications/studio/fields.rst:68
 msgid ""
@@ -1020,20 +1252,25 @@ msgid ""
 "type of character. Two text lines are displayed on the UI when filling out "
 "the field."
 msgstr ""
+"ฟิลด์: guilabel: `text multiline text` ใช้สำหรับข้อความที่ยาวกว่าที่มีอยู่"
+"ประเภทของตัวละคร "
+"สนาม"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Multiline Text fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์ข้อความ multiline ที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:82
 msgid "Integer (`integer`)"
-msgstr ""
+msgstr "จำนวนเต็ม (`จำนวนเต็ม ')"
 
 #: ../../content/applications/studio/fields.rst:84
 msgid ""
 "The :guilabel:`Integer` field is used for all integer numbers "
 "(:dfn:`positive, negative, or zero, without a decimal`)."
 msgstr ""
+"ฟิลด์: guilabel: `จำนวนเต็ม 'ใช้สำหรับหมายเลขจำนวนเต็มทั้งหมด"
+"(: DFN: `บวกลบหรือเป็นศูนย์โดยไม่มีทศนิยม)"
 
 #: ../../content/applications/studio/fields.rst:87
 msgid ""
@@ -1041,6 +1278,9 @@ msgid ""
 "usually for a computed value. The value cannot be edited on the UI, but a "
 "default value can be set."
 msgstr ""
+": Guilabel: `เปอร์เซ็นต์พาย ': แสดงค่าภายในวงกลมเปอร์เซ็นต์"
+"โดยปกติสำหรับค่าที่คำนวณ "
+"สามารถตั้งค่าเริ่มต้นได้"
 
 #: ../../content/applications/studio/fields.rst:89
 #: ../../content/applications/studio/fields.rst:118
@@ -1049,32 +1289,41 @@ msgid ""
 "usually for a computed value. The field cannot be edited manually, but a "
 "default value can be set."
 msgstr ""
+": Guilabel: `Progress Bar`: แสดงค่าถัดจากแถบเปอร์เซ็นต์"
+"โดยปกติสำหรับค่าที่คำนวณ "
+"สามารถตั้งค่าเริ่มต้นได้"
 
 #: ../../content/applications/studio/fields.rst:91
 msgid ""
 ":guilabel:`Handle`: displays a drag handle icon to order records manually in"
 " :ref:`List view <studio/views/multiple-records/list>`."
 msgstr ""
+": Guilabel: `handle`: แสดงไอคอนด้ามจับลากเพื่อสั่งซื้อบันทึกด้วยตนเอง"
+": REF: `List View \u003cStudio/Views/Multiple-Records/List\u003e`"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Integer fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์จำนวนเต็มที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:103
 msgid "Decimal (`float`)"
-msgstr ""
+msgstr "ทศนิยม (`float ')"
 
 #: ../../content/applications/studio/fields.rst:105
 msgid ""
 "The :guilabel:`Decimal` field is used for all decimal numbers "
 "(:dfn:`positive, negative, or zero, with a decimal`)."
 msgstr ""
+": ฟิลด์ Guilabel: `ทศนิยม` ใช้สำหรับหมายเลขทศนิยมทั้งหมด"
+"(: DFN: `บวกลบหรือเป็นศูนย์ด้วยทศนิยม ')"
 
 #: ../../content/applications/studio/fields.rst:109
 msgid ""
 "Decimal numbers are displayed with two decimals after the decimal point on "
 "the UI, but they are stored in the database with more precision."
 msgstr ""
+"ตัวเลขทศนิยมจะแสดงด้วยทศนิยมสองตัวหลังจากจุดทศนิยมเปิด"
+"UI แต่ถูกเก็บไว้ในฐานข้อมูลที่มีความแม่นยำมากขึ้น"
 
 #: ../../content/applications/studio/fields.rst:112
 msgid ""
@@ -1082,11 +1331,15 @@ msgid ""
 "<studio/fields/simple-fields/monetary>`. It is recommended to use the later "
 "as it offers more functionalities."
 msgstr ""
+": Guilabel: `การเงิน ': มันคล้ายกับการใช้: ref:` ฟิลด์การเงิน"
+"\u003cStudio/Fields/Simple-Fields/Monetary\u003e ` "
+"เนื่องจากมีฟังก์ชั่นมากขึ้น"
 
 #: ../../content/applications/studio/fields.rst:115
 msgid ""
 ":guilabel:`Percentage`: displays a percent character `%` after the value."
 msgstr ""
+": Guilabel: `เปอร์เซ็นต์`: แสดงเปอร์เซ็นต์อักขระ `%` หลังจากค่า"
 
 #: ../../content/applications/studio/fields.rst:116
 msgid ""
@@ -1094,24 +1347,29 @@ msgid ""
 "usually for a computed value. The field cannot be edited manually, but a "
 "default value can be set."
 msgstr ""
+": Guilabel: `เปอร์เซ็นต์พาย ': แสดงค่าภายในวงกลมเปอร์เซ็นต์"
+"โดยปกติสำหรับค่าที่คำนวณ "
+"สามารถตั้งค่าเริ่มต้นได้"
 
 #: ../../content/applications/studio/fields.rst:120
 msgid ""
 ":guilabel:`Time`: the value must follow the *hh:mm* format, with a maximum "
 "of 59 minutes."
 msgstr ""
+": Guilabel: `time`: ค่าจะต้องเป็นไปตามรูปแบบ * hh: mm * ที่มีค่าสูงสุด"
+"59 นาที"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Decimal fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของทศนิยมที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:131
 msgid "Monetary (`monetary`)"
-msgstr ""
+msgstr "การเงิน (`การเงิน ')"
 
 #: ../../content/applications/studio/fields.rst:133
 msgid "The :guilabel:`Monetary` field is used for all monetary values."
-msgstr ""
+msgstr "ฟิลด์: guilabel: `การเงิน` ใช้สำหรับค่าเงินทั้งหมด"
 
 #: ../../content/applications/studio/fields.rst:136
 msgid ""
@@ -1120,52 +1378,62 @@ msgid ""
 "to add the :guilabel:`Currency` field for you. Once it is added, add the "
 ":guilabel:`Monetary` field again."
 msgstr ""
+"เมื่อคุณเพิ่ม A: Guilabel: `` การเงิน 'คุณจะได้รับแจ้งให้เพิ่มไฟล์"
+": guilabel: `ฟิลด์สกุลเงิน` หากไม่มีอยู่ในโมเดลแล้ว "
+"ในการเพิ่มฟิลด์: Guilabel: `Currency` สำหรับคุณ "
+": Guilabel: `` การเงิน 'อีกครั้ง"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Monetary field along with its Currency field"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์การเงินพร้อมกับฟิลด์สกุลเงิน"
 
 #: ../../content/applications/studio/fields.rst:149
 msgid "Html (`html`)"
-msgstr ""
+msgstr "html (`html`)"
 
 #: ../../content/applications/studio/fields.rst:151
 msgid ""
 "The :guilabel:`Html` field is used to add text that can be edited using the "
 "Odoo HTML editor."
 msgstr ""
+"ฟิลด์ Guilabel: `` html` ใช้เพื่อเพิ่มข้อความที่สามารถแก้ไขได้โดยใช้ไฟล์"
+"Odoo HTML Editor"
 
 #: ../../content/applications/studio/fields.rst:153
 msgid ""
 ":guilabel:`Multiline Text`: disables the Odoo HTML editor to allow editing "
 "raw HTML."
 msgstr ""
+": guilabel: `multiline text`: ปิดใช้งานตัวแก้ไข Odoo HTML เพื่ออนุญาตการแก้ไข"
+"HTML ดิบ"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Html fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์ HTML ที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:164
 msgid "Date (`date`)"
-msgstr ""
+msgstr "วันที่ (`วันที่ ')"
 
 #: ../../content/applications/studio/fields.rst:166
 msgid "The :guilabel:`Date` field is used to select a date on a calendar."
-msgstr ""
+msgstr "ฟิลด์: guilabel: `date`` ฟิลด์ใช้เพื่อเลือกวันที่ในปฏิทิน"
 
 #: ../../content/applications/studio/fields.rst:168
 msgid ""
 ":guilabel:`Remaining Days`: the remaining number of days before the selected"
 " date is displayed (e.g., *In 5 days*), based on the current date."
 msgstr ""
+": Guilabel: `วันที่เหลือ ': จำนวนวันที่เหลือก่อนที่จะเลือก"
+"วันที่จะปรากฏขึ้น (เช่น *ใน 5 วัน *) ตามวันที่ปัจจุบัน"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Date fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์วันที่ที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:180
 msgid "Date & Time (`datetime`)"
-msgstr ""
+msgstr "วันที่และเวลา (`dateTime`)"
 
 #: ../../content/applications/studio/fields.rst:182
 msgid ""
@@ -1173,65 +1441,79 @@ msgid ""
 " a time on a clock. The user's current time is automatically used if no time"
 " is set."
 msgstr ""
+"ฟิลด์: Guilabel: `` date \u0026 Time 'ใช้เพื่อเลือกวันที่ในปฏิทินและ"
+"เวลาบนนาฬิกา "
+"ถูกตั้งค่า"
 
 #: ../../content/applications/studio/fields.rst:185
 msgid ""
 ":guilabel:`Date`: used to record the time without displaying it on the UI."
 msgstr ""
+": Guilabel: `date`: ใช้เพื่อบันทึกเวลาโดยไม่แสดงบน UI"
 
 #: ../../content/applications/studio/fields.rst:186
 msgid ""
 ":guilabel:`Remaining days`: displays the remaining number of days before the"
 " selected date (e.g., *In 5 days*), based on the current date and time."
 msgstr ""
+": Guilabel: `วันที่เหลือ ': แสดงจำนวนวันที่เหลือก่อน"
+"วันที่ที่เลือก (เช่น *ใน 5 วัน *) ขึ้นอยู่กับวันที่และเวลาปัจจุบัน"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Date & Time fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์วันที่และเวลาที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:198
 msgid "Checkbox (`boolean`)"
-msgstr ""
+msgstr "ช่องทำเครื่องหมาย (`boolean ')"
 
 #: ../../content/applications/studio/fields.rst:200
 msgid ""
 "The :guilabel:`Checkbox` field is used when a value should only be true or "
 "false, indicated by checking or unchecking a checkbox."
 msgstr ""
+"ฟิลด์: guilabel: `ช่องทำเครื่องหมาย` ใช้เมื่อค่าควรเป็นจริงหรือ"
+"เท็จระบุโดยการตรวจสอบหรือยกเลิกการตรวจสอบช่องทำเครื่องหมาย"
 
 #: ../../content/applications/studio/fields.rst:203
 msgid ""
 ":guilabel:`Button`: displays a radio button. The widget works without "
 "switching to the edit mode."
 msgstr ""
+": Guilabel: `button ': แสดงปุ่มตัวเลือก "
+"เปลี่ยนไปใช้โหมดแก้ไข"
 
 #: ../../content/applications/studio/fields.rst:204
 msgid ""
 ":guilabel:`Toggle`: displays a toggle button. The widget works without "
 "switching to the edit mode."
 msgstr ""
+": Guilabel: `toggle`: แสดงปุ่มสลับ "
+"เปลี่ยนไปใช้โหมดแก้ไข"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Checkbox fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างฟิลด์ช่องทำเครื่องหมายที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:215
 msgid "Selection (`selection`)"
-msgstr ""
+msgstr "การเลือก (`การเลือก ')"
 
 #: ../../content/applications/studio/fields.rst:217
 msgid ""
 "The :guilabel:`Selection` field is used when users should select a single "
 "value from a group of predefined values."
 msgstr ""
+"ฟิลด์: guilabel: `` selection 'ใช้เมื่อผู้ใช้ควรเลือกเดียว"
+"ค่าจากกลุ่มของค่าที่กำหนดไว้ล่วงหน้า"
 
 #: ../../content/applications/studio/fields.rst:222
 msgid ""
 ":guilabel:`Badges`: displays all selectable values simultaneously inside "
 "rectangular shapes, organized horizontally."
 msgstr ""
-":guilabel:`ตราสัญลักษณ์`: "
-"แสดงค่าที่เลือกได้ทั้งหมดพร้อมกันภายในรูปทรงสี่เหลี่ยม โดยจัดเรียงตามแนวนอน"
+": Guilabel: `Badges`: แสดงค่าที่เลือกได้ทั้งหมดพร้อมกันภายใน"
+"รูปทรงสี่เหลี่ยมจัดระเบียบในแนวนอน"
 
 #: ../../content/applications/studio/fields.rst:224
 msgid ""
@@ -1241,6 +1523,11 @@ msgid ""
 "fields/priority>`, although, for the latter, four priority values are "
 "already predefined."
 msgstr ""
+": Guilabel: `priority`: แสดงสัญลักษณ์ดาวแทนค่าซึ่งสามารถทำได้"
+"ใช้เพื่อระบุระดับความสำคัญหรือระดับความพึงพอใจเช่น "
+"เอฟเฟกต์เดียวกับการเลือก: ref: `ฟิลด์ลำดับความสำคัญ \u003cสตูดิโอ/ฟิลด์/ง่าย-"
+"ฟิลด์/ลำดับความสำคัญ\u003e `แม้ว่าสำหรับหลังค่าสี่ค่าลำดับความสำคัญคือ"
+"กำหนดไว้ล่วงหน้าแล้ว"
 
 #: ../../content/applications/studio/fields.rst:228
 #: ../../content/applications/studio/fields.rst:352
@@ -1248,20 +1535,24 @@ msgid ""
 ":guilabel:`Radio`: displays all selectable values at the same time as radio "
 "buttons."
 msgstr ""
+": Guilabel: `Radio`: แสดงค่าที่เลือกได้ทั้งหมดในเวลาเดียวกันกับวิทยุ"
+"ปุ่ม."
 
 #: ../../content/applications/studio/fields.rst:231
 msgid ""
 "By default, radio buttons are organized vertically. Tick :guilabel:`display "
 "horizontally` to switch the way they are displayed."
 msgstr ""
+"โดยค่าเริ่มต้นปุ่มตัวเลือกจะถูกจัดระเบียบในแนวตั้ง "
+"แนวนอน `เพื่อเปลี่ยนวิธีการแสดง"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of Selection fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์การเลือกที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:243
 msgid "Priority (`selection`)"
-msgstr ""
+msgstr "ลำดับความสำคัญ (`การเลือก ')"
 
 #: ../../content/applications/studio/fields.rst:245
 msgid ""
@@ -1274,14 +1565,14 @@ msgid ""
 "have the same effects as described under :ref:`Selection "
 "<studio/fields/simple-fields/selection>`."
 msgstr ""
-"ช่อง :guilabel:`ลำดับความสำคัญ` ใช้เพื่อแสดงระบบการให้คะแนนสามดาว "
-"ซึ่งสามารถใช้เพื่อระบุระดับความสำคัญหรือความพึงพอใจ ประเภทฟิลด์นี้คือ "
-":ref:`ฟิลด์การเลือก <studio/fields/simple-fields/selection>` โดยมีวิดเจ็ต "
-":guilabel:`ลำดับความสำคัญ` ที่เลือกไว้ตามค่าเริ่มต้น "
-"และค่าลำดับความสำคัญสี่ค่าที่กำหนดไว้ล่วงหน้า ด้วยเหตุนี้ วิดเจ็ต "
-":guilabel:`ตราสัญลักษณ์`, :guilabel:`ตราสัญลักษณ์`, :guilabel:`วิทยุ` และ "
-":guilabel:`การเลือก` วิดเจ็ตจะมีผลเหมือนกับที่อธิบายไว้ใน :ref:`การเลือก "
-"<studio/fields/simple-fields/selection>`"
+"ฟิลด์ Guilabel: `` priority 'ใช้เพื่อแสดงระดับสามดาว"
+"ระบบซึ่งสามารถใช้เพื่อระบุความสำคัญหรือระดับความพึงพอใจ "
+"ประเภทของฟิลด์คือ A: REF: `ฟิลด์การเลือก \u003cStudio/Fields/Simple-"
+"ฟิลด์/การเลือก\u003e `ด้วย: guilabel:` widget priority` ที่เลือกโดยค่าเริ่มต้น"
+"และค่าลำดับความสำคัญสี่ประการที่กำหนดไว้ล่วงหน้า "
+": Guilabel: `Badges` ,: Guilabel:` Radio 'และ: Guilabel: `selection` วิดเจ็ต"
+"มีเอฟเฟกต์เดียวกับที่อธิบายไว้ภายใต้: Ref: `การเลือก"
+"\u003cStudio/Fields/Simple-Fields/Selection\u003e `"
 
 #: ../../content/applications/studio/fields.rst:253
 msgid ""
@@ -1290,20 +1581,26 @@ msgid ""
 "(i.e., when no selection is made), so having four values results in a three-"
 "star rating system, for example."
 msgstr ""
+"หากต้องการเปลี่ยนจำนวนดาวที่มีอยู่โดยการเพิ่มหรือลบค่าให้คลิก"
+": Guilabel: `แก้ไขค่า ' "
+"(เช่นเมื่อไม่มีการเลือก) ดังนั้นการมีสี่ค่าส่งผลให้สาม-"
+"ตัวอย่างเช่นระบบการจัดอันดับดาว"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Priority field"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์ลำดับความสำคัญ"
 
 #: ../../content/applications/studio/fields.rst:266
 msgid "File (`binary`)"
-msgstr ""
+msgstr "ไฟล์ (`binary`)"
 
 #: ../../content/applications/studio/fields.rst:268
 msgid ""
 "The :guilabel:`File` field is used to upload any type of file, or sign a "
 "form (:guilabel:`Sign` widget)."
 msgstr ""
+"ฟิลด์: guilabel: `file` ใช้เพื่ออัปโหลดไฟล์ทุกประเภทหรือลงชื่อ"
+"แบบฟอร์ม (: Guilabel: `วิดเจ็ต Sign`)"
 
 #: ../../content/applications/studio/fields.rst:271
 msgid ""
@@ -1311,12 +1608,17 @@ msgid ""
 "in :ref:`Form view <studio/views/general/form>`. This has the same effect as"
 " using the :ref:`Image field <studio/fields/simple-fields/image>`."
 msgstr ""
+": Guilabel: `image`: ผู้ใช้สามารถอัปโหลดไฟล์รูปภาพซึ่งจะปรากฏขึ้นจากนั้น"
+"ใน: Ref: `Form View \u003cStudio/Views/General/Form\u003e` "
+"การใช้: ref: `ฟิลด์ภาพ \u003cสตูดิโอ/ฟิลด์/Simple-Fields/Image\u003e`"
 
 #: ../../content/applications/studio/fields.rst:274
 msgid ""
 ":guilabel:`PDF Viewer`: users can upload a PDF file, which can be then "
 "browsed from the :ref:`Form view <studio/views/general/form>`."
 msgstr ""
+": guilabel: `pdf viewer`: ผู้ใช้สามารถอัปโหลดไฟล์ PDF ซึ่งสามารถทำได้"
+"เรียกดูจาก: ref: `Form View \u003cStudio/Views/General/Form\u003e`"
 
 #: ../../content/applications/studio/fields.rst:276
 msgid ""
@@ -1324,14 +1626,17 @@ msgid ""
 "effect as selecting the :ref:`Sign field <studio/fields/simple-"
 "fields/sign>`."
 msgstr ""
+": Guilabel: `Sign`: ผู้ใช้สามารถลงนามในแบบฟอร์มทางอิเล็กทรอนิกส์ "
+"เอฟเฟกต์เป็นการเลือก: ref: `ฟิลด์ Sign \u003cStudio/Fields/Simple-"
+"ฟิลด์/เครื่องหมาย\u003e `"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Examples of File fields with different widgets"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์ไฟล์ที่มีวิดเจ็ตที่แตกต่างกัน"
 
 #: ../../content/applications/studio/fields.rst:288
 msgid "Image (`binary`)"
-msgstr ""
+msgstr "รูปภาพ (`binary`)"
 
 #: ../../content/applications/studio/fields.rst:290
 msgid ""
@@ -1343,16 +1648,25 @@ msgid ""
 "the same effects as described under :ref:`File <studio/fields/simple-"
 "fields/file>`."
 msgstr ""
+"ฟิลด์: guilabel: `image` ใช้เพื่ออัปโหลดรูปภาพและแสดงใน"
+": Ref: `Form View \u003cStudio/Views/General/Form\u003e` "
+": REF: `ฟิลด์ไฟล์ \u003cStudio/Fields/Simple-Fields/File\u003e` ด้วย"
+": Guilabel: `image` วิดเจ็ตเลือกตามค่าเริ่มต้น "
+": guilabel: `file` ,: guilabel:` pdf viewer` และ: guilabel: `widgets sign '"
+"เอฟเฟกต์เดียวกับที่อธิบายไว้ภายใต้: ref: `file \u003cStudio/Fields/Simple-"
+"ฟิลด์/ไฟล์\u003e `"
 
 #: ../../content/applications/studio/fields.rst:297
 msgid ""
 "To change the display size of uploaded images, select :guilabel:`Small`, "
 ":guilabel:`Medium`, or :guilabel:`Large` under the :guilabel:`Size` option."
 msgstr ""
+"หากต้องการเปลี่ยนขนาดการแสดงผลของภาพที่อัปโหลดให้เลือก: Guilabel: `เล็ก '"
+": Guilabel: `Medium` หรือ: Guilabel:` `large` ภายใต้: Guilabel:` size 'ตัวเลือก"
 
 #: ../../content/applications/studio/fields.rst:303
 msgid "Sign (`binary`)"
-msgstr ""
+msgstr "ป้าย (`binary`)"
 
 #: ../../content/applications/studio/fields.rst:305
 msgid ""
@@ -1363,6 +1677,12 @@ msgid ""
 " the same effects as described under :ref:`File <studio/fields/simple-"
 "fields/file>`."
 msgstr ""
+"ฟิลด์: guilabel: `sign` ใช้เพื่อลงนามในแบบฟอร์มทางอิเล็กทรอนิกส์ "
+"ประเภทของฟิลด์คือ: ref: `ฟิลด์ไฟล์ \u003cสตูดิโอ/ฟิลด์/simple-fields/file\u003e` ด้วย"
+": guilabel: `widget sign` เลือกโดยค่าเริ่มต้น "
+": guilabel: `file` ,: guilabel:` image 'และ: guilabel: `widgets pdf viewer` มีวิดเจ็ต"
+"เอฟเฟกต์เดียวกับที่อธิบายไว้ภายใต้: ref: `file \u003cStudio/Fields/Simple-"
+"ฟิลด์/ไฟล์\u003e `"
 
 #: ../../content/applications/studio/fields.rst:311
 msgid ""
@@ -1373,20 +1693,28 @@ msgid ""
 "<studio/fields/relational-fields/related-field>` on the model only). The "
 "signature is automatically generated using the data from the selected field."
 msgstr ""
+"เพื่อให้ผู้ใช้: Guilabel: `` `auto` ตัวเลือกเมื่อต้องวาดของพวกเขา"
+"ลายเซ็น, เลือกหนึ่งใน: guilabel: `การเติมอัตโนมัติด้วยฟิลด์ '"
+"(: ref: `text \u003cStudio/Fields/Simple-Fields/Text\u003e`,: ref: `many2one"
+"\u003cสตูดิโอ/ฟิลด์/relation"
+"\u003cStudio/Fields/Relational-Fields/ที่เกี่ยวข้อง\u003e `บนโมเดลเท่านั้น) "
+"ลายเซ็นถูกสร้างขึ้นโดยอัตโนมัติโดยใช้ข้อมูลจากฟิลด์ที่เลือก"
 
 #: ../../content/applications/studio/fields.rst:320
 msgid "Relational fields"
-msgstr ""
+msgstr "ทุ่งนา"
 
 #: ../../content/applications/studio/fields.rst:322
 msgid ""
 "Relational fields are used to link and display the data from records on "
 "another model."
 msgstr ""
+"ฟิลด์เชิงสัมพันธ์ใช้ในการเชื่อมโยงและแสดงข้อมูลจากบันทึกบน"
+"อีกรุ่น"
 
 #: ../../content/applications/studio/fields.rst:330
 msgid "Many2One (`many2one`)"
-msgstr ""
+msgstr "many2one (`many2one`)"
 
 #: ../../content/applications/studio/fields.rst:332
 msgid ""
@@ -1394,6 +1722,9 @@ msgid ""
 "model) to the record being edited. The record's name from the other model is"
 " then displayed on the record being edited."
 msgstr ""
+"ฟิลด์ Guilabel: `` many2one` ใช้เพื่อเชื่อมโยงบันทึกอื่น (จากอื่น"
+"โมเดล) ไปยังบันทึกที่ถูกแก้ไข "
+"จากนั้นแสดงในบันทึกที่แก้ไข"
 
 #: ../../content/applications/studio/fields.rst:336
 msgid ""
@@ -1401,40 +1732,49 @@ msgid ""
 ":guilabel:`Many2One` field pointing at the *Contact* model. This allows "
 "**many** sales orders to be linked to **one** contact (customer)."
 msgstr ""
+"ในรูปแบบ * คำสั่งขาย ** ฟิลด์ Guilabel: `` ลูกค้า 'คือ"
+": Guilabel: `field Many2One` ชี้ไปที่โมเดล * ติดต่อ * "
+"** คำสั่งขายจำนวนมาก ** ที่จะเชื่อมโยงกับ ** หนึ่ง ** ติดต่อ (ลูกค้า)"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Diagram showing a many2one relationship"
-msgstr ""
+msgstr "ไดอะแกรมแสดงความสัมพันธ์ 2None"
 
 #: ../../content/applications/studio/fields.rst:345
 msgid ""
 "To prevent users from creating a new record in the linked model, tick "
 ":guilabel:`Disable creation`."
 msgstr ""
+"เพื่อป้องกันไม่ให้ผู้ใช้สร้างระเบียนใหม่ในโมเดลที่เชื่อมโยง"
+": Guilabel: `ปิดการสร้างสรรค์ '"
 
 #: ../../content/applications/studio/fields.rst:347
 msgid ""
 "To prevent users from opening records in a pop-up window, tick "
 ":guilabel:`Disable opening`."
 msgstr ""
+"เพื่อป้องกันไม่ให้ผู้ใช้เปิดระเบียนในหน้าต่างป๊อปอัพติ๊ก"
+": Guilabel: `ปิดการเปิดใช้งาน '"
 
 #: ../../content/applications/studio/fields.rst:348
 msgid ""
 "To help users only select the right record, click on :guilabel:`Domain` to "
 "create a filter."
 msgstr ""
+"หากต้องการช่วยผู้ใช้เลือกระเบียนที่ถูกต้องเท่านั้นให้คลิกที่: Guilabel: `domain '"
+"สร้างตัวกรอง"
 
 #: ../../content/applications/studio/fields.rst:350
 msgid ""
 ":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
 "tag. The value cannot be edited on the UI."
 msgstr ""
-":guilabel:`ตราสัญลักษณ์`: แสดงค่าภายในรูปทรงโค้งมน คล้ายกับแท็ก "
-"ไม่สามารถแก้ไขค่าบน UI ได้"
+": Guilabel: `Badge`: แสดงค่าภายในรูปร่างโค้งมนคล้ายกับก"
+"แท็ก. "
 
 #: ../../content/applications/studio/fields.rst:357
 msgid "One2Many (`one2many`)"
-msgstr ""
+msgstr "One2Many (`one2many`)"
 
 #: ../../content/applications/studio/fields.rst:359
 msgid ""
@@ -1442,16 +1782,21 @@ msgid ""
 "between a record on the current model and multiple records from another "
 "model."
 msgstr ""
+"ฟิลด์ Guilabel: `one2many` ใช้เพื่อแสดงความสัมพันธ์ที่มีอยู่เดิม"
+"ระหว่างบันทึกในโมเดลปัจจุบันและหลายระเบียนจากที่อื่น"
+"แบบอย่าง."
 
 #: ../../content/applications/studio/fields.rst:363
 msgid ""
 "You could add a :guilabel:`One2Many` field on the *Contact* model to look at"
 " **one** customer's **many** sales orders."
 msgstr ""
+"คุณสามารถเพิ่ม A: Guilabel: `one2many` ฟิลด์บนโมเดล * ติดต่อ * เพื่อดู"
+"** หนึ่ง ** ลูกค้า ** คำสั่งขายมากมาย **"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Diagram showing a one2many relationship"
-msgstr ""
+msgstr "ไดอะแกรมแสดงความสัมพันธ์แบบเดียว"
 
 #: ../../content/applications/studio/fields.rst:371
 msgid ""
@@ -1460,16 +1805,22 @@ msgid ""
 "fields/many2one>`. One2Many relations do not exist independently: a reverse-"
 "search of existing Many2One relations is performed."
 msgstr ""
+"หากต้องการใช้ A: Guilabel: `one2many` ฟิลด์ทั้งสองรุ่นต้องเชื่อมโยงกัน"
+"ใช้ A: REF: `Many2One Field \u003cStudio/Fields/Relational-"
+"ฟิลด์/many2one\u003e ` "
+"การค้นหาความสัมพันธ์ที่มีอยู่มากมายที่มีอยู่"
 
 #: ../../content/applications/studio/fields.rst:378
 msgid "Lines (`one2many`)"
-msgstr ""
+msgstr "เส้น (`one2many`)"
 
 #: ../../content/applications/studio/fields.rst:380
 msgid ""
 "The :guilabel:`Lines` field is used to create a table with rows and columns "
 "(e.g., the lines of products on a sales order)."
 msgstr ""
+"ฟิลด์: guilabel: `` lines 'ใช้เพื่อสร้างตารางที่มีแถวและคอลัมน์"
+"(เช่นสายผลิตภัณฑ์ตามคำสั่งขาย)"
 
 #: ../../content/applications/studio/fields.rst:384
 msgid ""
@@ -1477,14 +1828,17 @@ msgid ""
 ":guilabel:`Edit List View`. To edit the form that pops up when a user clicks"
 " on :guilabel:`Add a line`, click on :guilabel:`Edit Form View` instead."
 msgstr ""
+"หากต้องการแก้ไขคอลัมน์ให้คลิกที่: ฟิลด์ Guilabel: `` lines 'แล้ว"
+": Guilabel: `แก้ไขรายการดู ' "
+"บน: Guilabel: `เพิ่มบรรทัด 'คลิกที่: Guilabel:` แก้ไขรูปแบบมุมมอง' แทน"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Lines field"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์บรรทัด"
 
 #: ../../content/applications/studio/fields.rst:397
 msgid "Many2Many (`many2many`)"
-msgstr ""
+msgstr "Many2Many (`` many2many`)"
 
 #: ../../content/applications/studio/fields.rst:399
 msgid ""
@@ -1494,6 +1848,11 @@ msgid ""
 ":guilabel:`Domain`, just like :ref:`Many2One fields "
 "<studio/fields/relational-fields/many2one>`."
 msgstr ""
+"ฟิลด์: guilabel: `` many2many` ฟิลด์ใช้เพื่อเชื่อมโยงหลายระเบียนจาก"
+"อีกรุ่นหนึ่งไปยังหลายระเบียนในรุ่นปัจจุบัน "
+"ใช้: Guilabel: `disable Creation` ,: guilabel:` ปิดการเปิดใช้งาน '"
+": guilabel: `domain` เช่นเดียวกับ: ref:` many2one fields"
+"\u003cStudio/Fields/Relational-Fields/Many2One\u003e `"
 
 #: ../../content/applications/studio/fields.rst:405
 msgid ""
@@ -1502,15 +1861,20 @@ msgid ""
 "single user to be assigned to **many** tasks and **many** users to be "
 "assigned to a single task."
 msgstr ""
+"ในโมเดล * task *,: guilabel: `` `ผู้รับมอบหมาย 'คือ"
+": Guilabel: `field Many2Many` ชี้ไปที่โมเดล * ติดต่อ * "
+"ผู้ใช้รายเดียวที่ได้รับมอบหมายให้ ** งาน ** มากมายและ ** ผู้ใช้ ** หลายคนที่จะเป็น"
+"มอบหมายให้งานเดียว"
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Diagram showing many2many relationships"
-msgstr ""
+msgstr "ไดอะแกรมแสดงความสัมพันธ์มากมาย 2 ครั้ง"
 
 #: ../../content/applications/studio/fields.rst:413
 msgid ""
 ":guilabel:`Checkboxes`: users can select several values using checkboxes."
 msgstr ""
+": Guilabel: `ช่องทำเครื่องหมาย ': ผู้ใช้สามารถเลือกหลายค่าโดยใช้ช่องทำเครื่องหมาย"
 
 #: ../../content/applications/studio/fields.rst:414
 msgid ""
@@ -1518,10 +1882,13 @@ msgid ""
 "shapes, also known as *tags*. This has the same effect as selecting the "
 ":ref:`Tags field <studio/fields/relational-fields/tags>`."
 msgstr ""
+": guilabel: `tags`: ผู้ใช้สามารถเลือกค่าหลายค่าที่ปรากฏเป็นม้วน"
+"รูปร่างหรือที่รู้จักกันในชื่อ *แท็ก * "
+": REF: `ฟิลด์แท็ก \u003cสตูดิโอ/ฟิลด์/relational-fields/tags\u003e`"
 
 #: ../../content/applications/studio/fields.rst:421
 msgid "Tags (`many2many`)"
-msgstr ""
+msgstr "Tags (`many2many`)"
 
 #: ../../content/applications/studio/fields.rst:423
 msgid ""
@@ -1533,20 +1900,29 @@ msgid ""
 "effects as described under :ref:`Many2Many <studio/fields/relational-"
 "fields/many2many>`."
 msgstr ""
+"ฟิลด์: guilabel: `tags 'ใช้เพื่อแสดงค่าหลายค่าจากอื่น"
+"โมเดลปรากฏในรูปทรงโค้งมนหรือที่รู้จักกันในชื่อ *แท็ก * "
+"ตอบ: ref: `Many2Many Field \u003cStudio/Fields/Relational-Fields/Many2Many\u003e` ด้วย"
+": Guilabel: `tags` วิดเจ็ตที่เลือกโดยค่าเริ่มต้น "
+": guilabel: `ช่องทำเครื่องหมาย 'และ: guilabel:` widgets many2many` มีเหมือนกัน"
+"เอฟเฟกต์ตามที่อธิบายไว้ภายใต้: REF: `Many2Many \u003cStudio/Fields/Relational-"
+"Fields/Many2Many\u003e `"
 
 #: ../../content/applications/studio/fields.rst:430
 msgid ""
 "To display tags with different background colors, tick :guilabel:`Use "
 "colors`."
 msgstr ""
+"หากต้องการแสดงแท็กที่มีสีพื้นหลังที่แตกต่างกันเห็บ: guilabel: `ใช้"
+"Colors`."
 
 #: ../../content/applications/studio/fields.rst:0
 msgid "Example of a Tags field"
-msgstr ""
+msgstr "ตัวอย่างของฟิลด์แท็ก"
 
 #: ../../content/applications/studio/fields.rst:441
 msgid "Related Field (`related`)"
-msgstr ""
+msgstr "ฟิลด์ที่เกี่ยวข้อง (`ที่เกี่ยวข้อง ')"
 
 #: ../../content/applications/studio/fields.rst:443
 msgid ""
@@ -1554,6 +1930,9 @@ msgid ""
 "relationship is created between models. It uses an existing relationship to "
 "fetch and display information from another record."
 msgstr ""
+"ตอบ: Guilabel: `Field ที่เกี่ยวข้อง 'ไม่ใช่สนามเชิงสัมพันธ์ต่อ se; "
+"ความสัมพันธ์ถูกสร้างขึ้นระหว่างแบบจำลอง "
+"ดึงข้อมูลและแสดงข้อมูลจากบันทึกอื่น"
 
 #: ../../content/applications/studio/fields.rst:447
 msgid ""
@@ -1561,6 +1940,9 @@ msgid ""
 "the :guilabel:`Related Field` `partner_id.email` by selecting "
 ":guilabel:`Customer` and then :guilabel:`Email`."
 msgstr ""
+"ในการแสดงที่อยู่อีเมลของลูกค้าในรุ่น * ใบสั่งขาย * ให้ใช้"
+"The: Guilabel: `Field '` partner_id.email` โดยการเลือก"
+": Guilabel: `ลูกค้า 'แล้ว: Guilabel:` email'"
 
 #: ../../content/applications/studio/fields.rst:453
 msgid "Properties"
@@ -1572,6 +1954,9 @@ msgid ""
 " the UI, tick :guilabel:`Invisible`. It helps clear the UI by only showing "
 "the essential fields depending on a specific situation."
 msgstr ""
+": Guilabel: `Invisible`: เมื่อไม่จำเป็นสำหรับผู้ใช้ในการดูฟิลด์บน"
+"UI, tick: Guilabel: `Invisible` "
+"ฟิลด์ที่สำคัญขึ้นอยู่กับสถานการณ์เฉพาะ"
 
 #: ../../content/applications/studio/fields.rst:460
 msgid ""
@@ -1579,6 +1964,9 @@ msgid ""
 "appears when :guilabel:`Individual` is selected, as that field would not be "
 "helpful for a :guilabel:`Company` contact."
 msgstr ""
+"บน * แบบฟอร์ม * มุมมองของโมเดล * ติดต่อ *,: guilabel: `title` ฟิลด์เท่านั้น"
+"จะปรากฏเมื่อ: Guilabel: `บุคคล 'ถูกเลือกเนื่องจากฟิลด์นั้นจะไม่เป็น"
+"มีประโยชน์สำหรับ A: Guilabel: `company` ติดต่อ"
 
 #: ../../content/applications/studio/fields.rst:465
 msgid ""
@@ -1586,29 +1974,39 @@ msgid ""
 "fields inside Studio, click on a view's :guilabel:`View` tab and tick "
 ":guilabel:`Show Invisible Elements`."
 msgstr ""
+"แอตทริบิวต์: guilabel: `unvisible` ยังใช้กับสตูดิโอ "
+"ฟิลด์ภายในสตูดิโอคลิกที่มุมมอง: guilabel: `view` แท็บและติ๊ก"
+": Guilabel: `แสดงองค์ประกอบที่มองไม่เห็น '"
 
 #: ../../content/applications/studio/fields.rst:469
 msgid ""
 ":guilabel:`Required`: If a field should always be completed by the user "
 "before being able to proceed, tick :guilabel:`Required`."
 msgstr ""
+": Guilabel: `จำเป็น ': หากผู้ใช้ควรจะเสร็จสมบูรณ์เสมอ"
+"ก่อนที่จะสามารถดำเนินการต่อได้ติ๊ก: Guilabel: `จำเป็น '"
 
 #: ../../content/applications/studio/fields.rst:471
 msgid ""
 ":guilabel:`Read only`: If users should not be able to modify a field, tick "
 ":guilabel:`Read only`."
 msgstr ""
+": Guilabel: `อ่านเท่านั้น ': หากผู้ใช้ไม่สามารถแก้ไขฟิลด์ได้"
+": Guilabel: `อ่านเท่านั้น '"
 
 #: ../../content/applications/studio/fields.rst:474
 msgid ""
 "You can choose to apply these three properties only for specific records by "
 "clicking on :guilabel:`Conditional` and creating a filter."
 msgstr ""
+"คุณสามารถเลือกที่จะใช้คุณสมบัติทั้งสามนี้เฉพาะสำหรับบันทึกเฉพาะโดย"
+"คลิกที่: Guilabel: `เงื่อนไข 'และสร้างตัวกรอง"
 
 #: ../../content/applications/studio/fields.rst:477
 msgid ""
 ":guilabel:`Label`: The :guilabel:`Label` is the field's name on the UI."
 msgstr ""
+": Guilabel: `label`: The: Guilabel:` label` เป็นชื่อของฟิลด์บน UI"
 
 #: ../../content/applications/studio/fields.rst:480
 msgid ""
@@ -1616,6 +2014,9 @@ msgid ""
 "change the latter, activate the :ref:`Developer mode <developer-mode>`, and "
 "edit the :guilabel:`Technical Name`."
 msgstr ""
+"นี่ไม่ใช่ชื่อเดียวกับที่ใช้ในฐานข้อมูล PostgreSQL "
+"เปลี่ยนหลังเปิดใช้งาน: ref: `โหมดนักพัฒนา \u003cนักพัฒนา-โหมด\u003e` และ"
+"แก้ไข: Guilabel: `ชื่อทางเทคนิค '"
 
 #: ../../content/applications/studio/fields.rst:483
 msgid ""
@@ -1623,6 +2024,9 @@ msgid ""
 "description under :guilabel:`Help Tooltip`. It is displayed inside a tooltip"
 " box when hovering with your mouse over the field's label."
 msgstr ""
+": Guilabel: `help tooltip`: เพื่ออธิบายวัตถุประสงค์ของฟิลด์เขียนก"
+"คำอธิบายภายใต้: Guilabel: `Help Tooltip` "
+"กล่องเมื่อวางเมาส์บนฉลากของสนาม"
 
 #: ../../content/applications/studio/fields.rst:486
 msgid ""
@@ -1630,28 +2034,37 @@ msgid ""
 "completed, write it under :guilabel:`Placeholder`. It is displayed in light "
 "gray in lieu of the field's value."
 msgstr ""
+": Guilabel: `ตัวยึด`: เพื่อเป็นตัวอย่างของการที่สนามควรเป็นอย่างไร"
+"เสร็จสิ้นเขียนภายใต้: Guilabel: `placeholder` "
+"สีเทาแทนค่าของสนาม"
 
 #: ../../content/applications/studio/fields.rst:488
 msgid ""
 ":guilabel:`Widget`: To change the default appearance or functionality of a "
 "field, select one of the available widgets."
 msgstr ""
+": Guilabel: `วิดเจ็ต ': หากต้องการเปลี่ยนลักษณะที่ปรากฏหรือฟังก์ชั่นเริ่มต้นของก"
+"ฟิลด์เลือกหนึ่งในวิดเจ็ตที่มีอยู่"
 
 #: ../../content/applications/studio/fields.rst:490
 msgid ""
 ":guilabel:`Default value`: To add a default value to a field when a record "
 "is created, use :guilabel:`Default value`."
 msgstr ""
+": Guilabel: `ค่าเริ่มต้น ': เพื่อเพิ่มค่าเริ่มต้นไปยังฟิลด์เมื่อบันทึก"
+"ถูกสร้างขึ้นใช้: Guilabel: `ค่าเริ่มต้น '"
 
 #: ../../content/applications/studio/fields.rst:492
 msgid ""
 ":guilabel:`Limit visibility to groups`: To limit which users can see the "
 "field, select a user access group."
 msgstr ""
+": Guilabel: `จำกัด การมองเห็นกลุ่ม ': เพื่อ จำกัด ผู้ใช้รายใดที่สามารถดูไฟล์"
+"ฟิลด์เลือกกลุ่มการเข้าถึงผู้ใช้"
 
 #: ../../content/applications/studio/models_modules_apps.rst:3
 msgid "Models, modules, and apps"
-msgstr ""
+msgstr "โมเดลโมดูลและแอพ"
 
 #: ../../content/applications/studio/models_modules_apps.rst:5
 msgid ""
@@ -1660,22 +2073,30 @@ msgid ""
 "information that can be linked with other tables. A model usually represents"
 " a business concept, such as a *sales order*, *contact*, or *product*."
 msgstr ""
+"แบบจำลองกำหนดโครงสร้างเชิงตรรกะของฐานข้อมูลและวิธีการจัดเก็บข้อมูล"
+"จัดระเบียบและจัดการ "
+"ข้อมูลที่สามารถเชื่อมโยงกับตารางอื่น ๆ "
+"แนวคิดทางธุรกิจเช่นคำสั่งขาย *, *, *ติดต่อ *หรือ *ผลิตภัณฑ์ *"
 
 #: ../../content/applications/studio/models_modules_apps.rst:9
 msgid ""
 "Modules and apps contain various elements, such as models, views, data "
 "files, web controllers, and static web data."
 msgstr ""
+"โมดูลและแอพมีองค์ประกอบต่าง ๆ เช่นแบบจำลองมุมมองข้อมูลข้อมูล"
+"ไฟล์ตัวควบคุมเว็บและข้อมูลเว็บแบบคงที่"
 
 #: ../../content/applications/studio/models_modules_apps.rst:13
 msgid ""
 "All apps are modules. Larger, standalone modules are typically referred to "
 "as apps, whereas other modules usually serve as add-ons to said apps."
 msgstr ""
+"แอพทั้งหมดเป็นโมดูล "
+"ในฐานะแอพในขณะที่โมดูลอื่น ๆ มักจะทำหน้าที่เป็นส่วนเสริมของแอพดังกล่าว"
 
 #: ../../content/applications/studio/models_modules_apps.rst:19
 msgid "Suggested features"
-msgstr ""
+msgstr "คุณสมบัติที่แนะนำ"
 
 #: ../../content/applications/studio/models_modules_apps.rst:21
 msgid ""
@@ -1687,13 +2108,13 @@ msgid ""
 "Furthermore, these features interact together in some cases to increase "
 "their usefulness."
 msgstr ""
-"เมื่อคุณสร้างโมเดลหรือแอปใหม่ด้วย Studio คุณสามารถเลือกเพิ่มฟีเจอร์ได้มากถึง"
-" 14 ฟีเจอร์เพื่อเร่งกระบวนการสร้างให้เร็วขึ้น ฟิลด์กลุ่มฟีเจอร์เหล่านี้ "
-"การตั้งค่าเริ่มต้น "
-"และมุมมองที่โดยปกติจะใช้ร่วมกันเพื่อให้มีฟังก์ชันการทำงานมาตรฐานบางอย่าง "
-"ฟีเจอร์เหล่านี้ส่วนใหญ่สามารถเพิ่มได้ในภายหลัง "
-"แต่การเพิ่มตั้งแต่เริ่มต้นจะทำให้กระบวนการสร้างโมเดลง่ายขึ้นมาก นอกจากนี้ "
-"ฟีเจอร์เหล่านี้ยังทำงานร่วมกันในบางกรณีเพื่อเพิ่มประโยชน์อีกด้วย"
+"เมื่อคุณสร้างรุ่นใหม่หรือแอพด้วยสตูดิโอคุณสามารถเลือกที่จะเพิ่มได้"
+"14 คุณสมบัติในการเร่งกระบวนการสร้าง "
+"การตั้งค่าเริ่มต้นและมุมมองที่มักใช้ร่วมกันเพื่อให้บางอย่าง"
+"ฟังก์ชั่นมาตรฐาน "
+"การเพิ่มพวกเขาตั้งแต่เริ่มต้นทำให้กระบวนการสร้างแบบจำลองง่ายขึ้นมาก"
+"นอกจากนี้คุณสมบัติเหล่านี้มีปฏิสัมพันธ์กันในบางกรณีเพื่อเพิ่ม"
+"ประโยชน์ของพวกเขา"
 
 #: ../../content/applications/studio/models_modules_apps.rst:28
 msgid ""
@@ -1702,11 +2123,16 @@ msgid ""
 "features/pipeline-stages` features enabled adds the image in the card layout"
 " of the :ref:`Kanban view <studio/views/multiple-records/kanban>`."
 msgstr ""
+"การสร้างโมเดลด้วย: ref: `Studio/Models-Modules-Apps/แนะนำ-"
+"คุณสมบัติ/picture` และ: ref: `studio/models-modules-apps/แนะนำ-"
+"ฟีเจอร์/pipeline-stages` คุณสมบัติที่เปิดใช้งานจะเพิ่มรูปภาพในเค้าโครงการ์ด"
+"ของ: ref: `Kanban View \u003cStudio/Views/Multiple-Records/Kanban\u003e`"
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid ""
 "Combination of the Picture and Pipeline stages features on the Kanban view"
 msgstr ""
+"การรวมกันของรูปภาพและขั้นตอนการใช้งานในมุมมอง Kanban"
 
 #: ../../content/applications/studio/models_modules_apps.rst:39
 msgid "Contact details"
@@ -1723,14 +2149,22 @@ msgid ""
 "<studio/views/multiple-records/list>`, and the :ref:`Map view "
 "<studio/views/multiple-records/map>` is activated."
 msgstr ""
+"การเลือก: Guilabel: `รายละเอียดการติดต่อ` เพิ่มไปยัง: ref: `มุมมองฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `A: REF:` Many2One Field"
+"\u003cสตูดิโอ/ฟิลด์/relation"
+"และสองของมัน: ref: `ฟิลด์ที่เกี่ยวข้อง \u003cสตูดิโอ/ฟิลด์/สัมพันธ์-"
+"ฟิลด์/ฟิลด์ที่เกี่ยวข้อง\u003e `:: guilabel:` โทรศัพท์ 'และ: guilabel: `อีเมล' "
+": ฟิลด์ Guilabel: `contact` ฟิลด์จะถูกเพิ่มลงใน: ref:` `มุมมองรายการ"
+"\u003cStudio/Views/Multiple-Records/list\u003e `และ: ref:` MAP View"
+"\u003cสตูดิโอ/มุมมอง/หลายบันทึก/แผนที่\u003e `เปิดใช้งาน"
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "Contact details feature on the Form view"
-msgstr ""
+msgstr "คุณสมบัติรายละเอียดการติดต่อในมุมมองแบบฟอร์ม"
 
 #: ../../content/applications/studio/models_modules_apps.rst:57
 msgid "User assignment"
-msgstr "การมอบหมายผู้ใช้"
+msgstr "การกำหนดผู้ใช้"
 
 #: ../../content/applications/studio/models_modules_apps.rst:59
 msgid ""
@@ -1743,17 +2177,18 @@ msgid ""
 "avatar. The :guilabel:`Responsible` field is also added to the :ref:`List "
 "view <studio/views/multiple-records/list>`."
 msgstr ""
-"การเลือก :guilabel:`การมอบหมายผู้ใช้` จะเพิ่มฟิลด์ :ref:`มุมมองแบบฟอร์ม "
-"<studio/views/general/form>` ลงใน :ref:`มุมมองแบบฟอร์ม "
-"<studio/views/general/form>` และลิงก์ไปยังโมเดล *รายชื่อผู้ติดต่อ* โดยมี "
-":guilabel:`โดเมน`: `แชร์ผู้ใช้ไม่ได้ถูกตั้งค่า` เพื่อให้สามารถเลือก "
-"*ผู้ใช้ภายใน* ได้เท่านั้น นอกจากนี้ วิดเจ็ต :guilabel:`many2one_avatar_user`"
-" ยังใช้เพื่อแสดงอวาตาร์ของผู้ใช้ ฟิลด์ :guilabel:`รับผิดชอบ` ยังถูกเพิ่มลงใน"
-" :ref:`มุมมองรายการ <studio/views/multiple-records/list>` อีกด้วย"
+"การเลือก: guilabel: `การกำหนดผู้ใช้ 'เพิ่มใน: ref:` มุมมองฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `A: REF:` Many2One Field"
+"\u003cสตูดิโอ/ฟิลด์/relational-fields/many2one\u003e `เชื่อมโยงกับโมเดล * ติดต่อ *"
+"ด้วยสิ่งต่อไปนี้: guilabel: `domain`:` ผู้ใช้แชร์ไม่ได้ตั้งค่า 'ให้อนุญาตเท่านั้น"
+"การเลือก *ผู้ใช้ภายใน * "
+": guilabel: `` many2one_avatar_user` วิดเจ็ตใช้เพื่อแสดงของผู้ใช้"
+"อวตาร "
+"ดู \u003cStudio/Views/หลายบันทึก/รายการ\u003e `"
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "User assignment feature on the Form view"
-msgstr ""
+msgstr "คุณสมบัติการกำหนดผู้ใช้ในมุมมองแบบฟอร์ม"
 
 #: ../../content/applications/studio/models_modules_apps.rst:75
 msgid "Date & Calendar"
@@ -1766,10 +2201,14 @@ msgid ""
 "fields/date>` and activates the :ref:`Calendar view "
 "<studio/views/timeline/calendar>`."
 msgstr ""
+"การเลือก: guilabel: `วันที่ \u0026 ปฏิทิน` เพิ่มไปยัง: ref: `มุมมองฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `A: REF:` Field Date \u003cStudio/Fields/Simple-"
+"ฟิลด์/วันที่\u003e `และเปิดใช้งาน: ref:` มุมมองปฏิทิน"
+"\u003cStudio/Views/Timeline/Calendar\u003e `"
 
 #: ../../content/applications/studio/models_modules_apps.rst:84
 msgid "Date range & Gantt"
-msgstr "ช่วงวันที่และแกนต์"
+msgstr "ช่วงวันที่ \u0026 Gantt"
 
 #: ../../content/applications/studio/models_modules_apps.rst:86
 msgid ""
@@ -1779,10 +2218,15 @@ msgid ""
 "an end date, using the :guilabel:`daterange` widget, and activates the "
 ":ref:`Gantt view <studio/views/timeline/gantt>`."
 msgstr ""
+"การเลือก: guilabel: `ช่วงวันที่ \u0026 gantt` เพิ่มไปยัง: ref:` มุมมองฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `Two: Ref:` date fields \u003cStudio/Fields/Simple-"
+"ฟิลด์/วันที่\u003e `ถัดจากกัน: หนึ่งในการตั้งค่าวันที่เริ่มต้นอีกอันหนึ่งที่จะตั้งค่า"
+"วันที่สิ้นสุดโดยใช้: guilabel: `daterange` วิดเจ็ตและเปิดใช้งาน"
+": Ref: `Gantt View \u003cStudio/Views/Timeline/Gantt\u003e`"
 
 #: ../../content/applications/studio/models_modules_apps.rst:94
 msgid "Pipeline stages"
-msgstr "ขั้นตอนไปป์ไลน์"
+msgstr "ขั้นตอนท่อ"
 
 #: ../../content/applications/studio/models_modules_apps.rst:96
 msgid ""
@@ -1795,10 +2239,18 @@ msgid ""
 "<studio/views/general/form>`. The :guilabel:`Color` field is added to the "
 ":ref:`List view <studio/views/multiple-records/list>`."
 msgstr ""
+"การเลือก: Guilabel: `stage pipeline` เปิดใช้งาน: ref: `มุมมอง Kanban"
+"\u003cStudio/Views/Multiple-Records/Kanban\u003e `เพิ่มหลายฟิลด์เช่น"
+": REF: `Priority \u003cStudio/Fields/Simple-Fields/Priority\u003e` และ: Guilabel: `Kanban"
+"State` และสามขั้นตอน :: guilabel: `new` ,: guilabel:` กำลังดำเนินการ 'และ"
+": Guilabel: `เสร็จแล้ว ' "
+": Guilabel: `` Kanban State 'Field ถูกเพิ่มลงใน: ref: `Form View"
+"\u003cStudio/Views/General/Form\u003e ` "
+": REF: `List View \u003cStudio/Views/Multiple-Records/List\u003e`"
 
 #: ../../content/applications/studio/models_modules_apps.rst:105
 msgid "The :guilabel:`Pipeline stages` feature can be added at a later stage."
-msgstr ""
+msgstr "คุณลักษณะ: Guilabel: `` คุณลักษณะของ Pipeline Stages 'สามารถเพิ่มได้ในระยะต่อมา"
 
 #: ../../content/applications/studio/models_modules_apps.rst:110
 msgid "Tags"
@@ -1811,6 +2263,10 @@ msgid ""
 "<studio/fields/relational-fields/tags>`, creating a *Tag* model with "
 "preconfigured access rights in the process."
 msgstr ""
+"การเลือก: guilabel: `tags` เพิ่มใน: ref:` `studio/views/general/form` และ"
+": REF: `Studio/Views/Multiple-Records/List` Views A: REF:` ฟิลด์แท็ก"
+"\u003cStudio/Fields/Relational-Fields/Tags\u003e `สร้างโมเดล * แท็ก * ด้วย"
+"สิทธิการเข้าถึงที่กำหนดค่าไว้ล่วงหน้าในกระบวนการ"
 
 #: ../../content/applications/studio/models_modules_apps.rst:120
 msgid "Picture"
@@ -1822,14 +2278,17 @@ msgid ""
 "<studio/views/general/form>` an :ref:`Image field <studio/fields/simple-"
 "fields/image>`."
 msgstr ""
+"การเลือก: guilabel: `pictures` เพิ่มไปทางขวาบนของ: ref:` มุมมองฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `an: ref:` ฟิลด์ภาพ \u003cStudio/Fields/Simple-"
+"ฟิลด์/รูปภาพ\u003e `"
 
 #: ../../content/applications/studio/models_modules_apps.rst:126
 msgid "The :guilabel:`Picture` feature can be added at a later stage."
-msgstr ""
+msgstr "สามารถเพิ่มคุณลักษณะ: Guilabel: `picture` ในระยะต่อมา"
 
 #: ../../content/applications/studio/models_modules_apps.rst:131
 msgid "Lines"
-msgstr "รายการ"
+msgstr "เส้น"
 
 #: ../../content/applications/studio/models_modules_apps.rst:133
 msgid ""
@@ -1837,10 +2296,13 @@ msgid ""
 "<studio/views/general/form>` a :ref:`Lines field <studio/fields/relational-"
 "fields/lines>` inside a :guilabel:`Tab` component."
 msgstr ""
+"การเลือก: guilabel: `lines`: เพิ่มไปยัง: ref:` มุมมองฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `A: REF:` Lines Field \u003cStudio/Fields/Relational-"
+"ฟิลด์/บรรทัด\u003e `ภายใน A: Guilabel:` ส่วนประกอบแท็บ '"
 
 #: ../../content/applications/studio/models_modules_apps.rst:139
 msgid "Notes"
-msgstr "โน้ต"
+msgstr "หมายเหตุ"
 
 #: ../../content/applications/studio/models_modules_apps.rst:141
 msgid ""
@@ -1848,10 +2310,13 @@ msgid ""
 "<studio/views/general/form>` an :ref:`Html field <studio/fields/simple-"
 "fields/html>` using the full width of the form."
 msgstr ""
+"การเลือก: Guilabel: `notes` เพิ่มใน: ref:` มุมมองฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `an: ref:` html field \u003cStudio/Fields/Simple-"
+"ฟิลด์/html\u003e `การใช้ความกว้างเต็มของแบบฟอร์ม"
 
 #: ../../content/applications/studio/models_modules_apps.rst:147
 msgid "Monetary value"
-msgstr "ค่าของเงิน"
+msgstr "มูลค่าทางการเงิน"
 
 #: ../../content/applications/studio/models_modules_apps.rst:149
 msgid ""
@@ -1861,10 +2326,15 @@ msgid ""
 "fields/monetary>`. The :ref:`studio/views/reporting/graph` and "
 ":ref:`studio/views/reporting/pivot` views are also activated."
 msgstr ""
+"การเลือก: Guilabel: `ค่าเงิน 'เพิ่มไปยังไฟล์"
+": REF: `Studio/Views/General/Form` และ: Ref:` Studio/Views/Multiple-"
+"Views/list Views A: REF: `ฟิลด์การเงิน \u003cStudio/Fields/Simple-"
+"ฟิลด์/การเงิน\u003e ` "
+": REF: `` Studio/Views/Reporting/Pivot` Views ยังเปิดใช้งาน"
 
 #: ../../content/applications/studio/models_modules_apps.rst:155
 msgid "A *Currency* field is added and hidden from the view."
-msgstr ""
+msgstr "ฟิลด์ A * สกุลเงิน * ถูกเพิ่มและซ่อนจากมุมมอง"
 
 #: ../../content/applications/studio/models_modules_apps.rst:160
 msgid "Company"
@@ -1876,14 +2346,17 @@ msgid ""
 "and :ref:`studio/views/multiple-records/list` views a :ref:`Many2One field "
 "<studio/fields/relational-fields/many2one>` linked to the *Company* model."
 msgstr ""
+"การเลือก: Guilabel: `Company` เพิ่มไปยัง: ref:` studio/views/general/form`"
+"และ: Ref: `Studio/Views/Multiple-Records/List` Views A: REF:` Many2One Field"
+"\u003cStudio/Fields/Relational-Fields/Many2One\u003e `เชื่อมโยงกับโมเดล * บริษัท *"
 
 #: ../../content/applications/studio/models_modules_apps.rst:167
 msgid "This is only useful if you work in a multi-company environment."
-msgstr ""
+msgstr "สิ่งนี้มีประโยชน์ก็ต่อเมื่อคุณทำงานในสภาพแวดล้อมที่มีหลาย บริษัท"
 
 #: ../../content/applications/studio/models_modules_apps.rst:172
 msgid "Custom Sorting"
-msgstr "การเรียงลำดับแบบกำหนดเอง"
+msgstr "การจัดเรียงที่กำหนดเอง"
 
 #: ../../content/applications/studio/models_modules_apps.rst:174
 msgid ""
@@ -1891,14 +2364,17 @@ msgid ""
 "<studio/views/multiple-records/list>` a drag handle icon to manually reorder"
 " records."
 msgstr ""
+"การเลือก: guilabel: `การเรียงลำดับที่กำหนดเอง 'เพิ่มไปยัง: ref:` มุมมองรายการ"
+"\u003cStudio/Views/Multiple-Records/list\u003e `ไอคอนด้ามจับลากเพื่อจัดลำดับใหม่ด้วยตนเอง"
+"บันทึก"
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "Custom Sorting feature on the List view"
-msgstr ""
+msgstr "คุณสมบัติการเรียงลำดับที่กำหนดเองในมุมมองรายการ"
 
 #: ../../content/applications/studio/models_modules_apps.rst:186
 msgid "Chatter"
-msgstr "แชท"
+msgstr "การพูดพล่อย"
 
 #: ../../content/applications/studio/models_modules_apps.rst:188
 msgid ""
@@ -1906,21 +2382,21 @@ msgid ""
 "<studio/views/general/form>` Chatter functionalities (sending messages, "
 "logging notes, and scheduling activities)."
 msgstr ""
-"การเลือก :guilabel:`ช่องแชท` จะเพิ่มฟังก์ชันช่องแชท ลงใน "
-":ref:`มุมมองแบบฟอร์ม <studio/views/general/form>` (การส่งข้อความ "
-"การบันทึกบันทึก และการกำหนดตารางกิจกรรม)"
+"การเลือก: guilabel: `chatter` เพิ่มลงใน: ref:` มุมมองแบบฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `ฟังก์ชั่นการพูดคุย (ส่งข้อความ"
+"บันทึกการบันทึกและกิจกรรมการจัดตารางเวลา)"
 
 #: ../../content/applications/studio/models_modules_apps.rst:192
 msgid "The :guilabel:`Chatter` feature can be added at a later stage."
-msgstr "สามารถเพิ่มฟีเจอร์ :guilabel:`ช่องแชท` ได้ภายหลัง"
+msgstr "สามารถเพิ่มคุณลักษณะ: Guilabel: `chatter` ในระยะต่อมา"
 
 #: ../../content/applications/studio/models_modules_apps.rst:0
 msgid "Chatter feature on the Form view"
-msgstr "ฟีเจอร์ช่องแชทบนมุมมองแบบฟอร์ม"
+msgstr "ฟีเจอร์การพูดคุยในมุมมองแบบฟอร์ม"
 
 #: ../../content/applications/studio/models_modules_apps.rst:203
 msgid "Archiving"
-msgstr "กำลังเก็บถาวร"
+msgstr "การเก็บถาวร"
 
 #: ../../content/applications/studio/models_modules_apps.rst:205
 msgid ""
@@ -1928,16 +2404,21 @@ msgid ""
 " and :ref:`studio/views/multiple-records/list` views the :guilabel:`Archive`"
 " action and hides archived records from searches and views by default."
 msgstr ""
+"การเลือก: Guilabel: `archiving` เพิ่มไปยัง: ref:` Studio/Views/General/Form`"
+"และ: Ref: `Studio/Views/Multiple-Records/List` Views the: Guilabel:` Archive '"
+"การดำเนินการและซ่อนเรคคอร์ดที่เก็บถาวรจากการค้นหาและมุมมองโดยค่าเริ่มต้น"
 
 #: ../../content/applications/studio/models_modules_apps.rst:212
 msgid "Export and import customizations"
-msgstr ""
+msgstr "การส่งออกและการปรับแต่งนำเข้า"
 
 #: ../../content/applications/studio/models_modules_apps.rst:214
 msgid ""
 "When you do any customization with Studio, a new module named "
 ":guilabel:`Studio customizations` is added to your database."
 msgstr ""
+"เมื่อคุณปรับแต่งกับสตูดิโอโมดูลใหม่ชื่อ"
+": Guilabel: `การปรับแต่งสตูดิโอ 'ถูกเพิ่มลงในฐานข้อมูลของคุณ"
 
 #: ../../content/applications/studio/models_modules_apps.rst:217
 msgid ""
@@ -1945,6 +2426,9 @@ msgid ""
 "Studio --> Customizations --> Export` to download a ZIP file containing all "
 "customizations."
 msgstr ""
+"หากต้องการส่งออกการปรับแต่งเหล่านี้ไปที่: Menuselection: `แผงควบคุมหลัก -\u003e"
+"Studio -\u003e การปรับแต่ง -\u003e ส่งออก `เพื่อดาวน์โหลดไฟล์ zip ที่มีทั้งหมด"
+"การปรับแต่ง"
 
 #: ../../content/applications/studio/models_modules_apps.rst:220
 msgid ""
@@ -1953,6 +2437,10 @@ msgid ""
 " --> Customizations --> Import`, then upload the exported ZIP file before "
 "clicking on the :guilabel:`Import` button."
 msgstr ""
+"หากต้องการนำเข้าและติดตั้งการปรับแต่งเหล่านี้ในฐานข้อมูลอื่นให้เชื่อมต่อกับ"
+"ฐานข้อมูลปลายทางและไปที่: เมนูการเลือก: `แผงควบคุมหลัก -\u003e สตูดิโอ"
+"-\u003e การปรับแต่ง-\u003e import` จากนั้นอัปโหลดไฟล์ ZIP ที่ส่งออกมาก่อน"
+"คลิกที่ปุ่ม: Guilabel: `import`"
 
 #: ../../content/applications/studio/models_modules_apps.rst:225
 msgid ""
@@ -1960,10 +2448,13 @@ msgid ""
 "and modules as the source database. Studio does not add the underlying "
 "modules as dependencies of the exported module."
 msgstr ""
+"ก่อนนำเข้าตรวจสอบให้แน่ใจว่าฐานข้อมูลปลายทางมีแอพเดียวกัน"
+"และโมดูลเป็นฐานข้อมูลต้นฉบับ "
+"โมดูลเป็นการพึ่งพาโมดูลที่ส่งออก"
 
 #: ../../content/applications/studio/pdf_reports.rst:3
 msgid "PDF reports"
-msgstr ""
+msgstr "รายงาน PDF"
 
 #: ../../content/applications/studio/pdf_reports.rst:5
 msgid ""
@@ -1971,6 +2462,9 @@ msgid ""
 "reports/edit>` (e.g., invoices, quotations, etc.) or :ref:`create new ones "
 "<studio/pdf-reports/edit>`."
 msgstr ""
+"ด้วยสตูดิโอคุณสามารถ: ref: `แก้ไขรายงาน PDF ที่มีอยู่ \u003cStudio/PDF-"
+"รายงาน/แก้ไข\u003e `(เช่นใบแจ้งหนี้ใบเสนอราคา ฯลฯ ) หรือ: ref:` สร้างใหม่"
+"\u003cStudio/PDF-Reports/Edit\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:11
 msgid "Default layout"
@@ -1983,6 +2477,10 @@ msgid ""
 " :guilabel:`Configure Document Layout`. Layout settings are company-specific"
 " but apply to all reports."
 msgstr ""
+"เค้าโครงเริ่มต้นของรายงานได้รับการจัดการนอกสตูดิโอ "
+": การเลือกเมนู: `การตั้งค่า 'ในส่วน: guilabel:` บริษัท ' คลิก"
+": Guilabel: `กำหนดค่าเค้าโครงเอกสาร ' "
+"แต่นำไปใช้กับรายงานทั้งหมด"
 
 #: ../../content/applications/studio/pdf_reports.rst:18
 msgid ""
@@ -1990,30 +2488,33 @@ msgid ""
 "report preview on the right, or download  a sample invoice PDF by clicking "
 ":guilabel:`Download PDF Preview`."
 msgstr ""
+"คุณสามารถดูว่าการตั้งค่าที่แตกต่างมีผลต่อเค้าโครงรายงานในไฟล์"
+"รายงานตัวอย่างทางด้านขวาหรือดาวน์โหลดตัวอย่างใบแจ้งหนี้ PDF โดยคลิก"
+": Guilabel: `ดาวน์โหลด PDF Preview`"
 
 #: ../../content/applications/studio/pdf_reports.rst:21
 msgid "Use the following settings:"
-msgstr ""
+msgstr "ใช้การตั้งค่าต่อไปนี้:"
 
 #: ../../content/applications/studio/pdf_reports.rst:25
 msgid ":guilabel:`Layout`: Four layouts are available:"
-msgstr ""
+msgstr ": Guilabel: `layout`: มีเลย์เอาต์สี่รูปแบบ:"
 
 #: ../../content/applications/studio/pdf_reports.rst:29
 msgid "Light"
-msgstr "อ่อน"
+msgstr "แสงสว่าง"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Light report layout sample"
-msgstr ""
+msgstr "ตัวอย่างเค้าโครงรายงานแสง"
 
 #: ../../content/applications/studio/pdf_reports.rst:34
 msgid "Boxed"
-msgstr "กล่อง"
+msgstr "มีกล่อง"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Boxed report layout sample"
-msgstr ""
+msgstr "ตัวอย่างเค้าโครงรายงานกล่อง"
 
 #: ../../content/applications/studio/pdf_reports.rst:39
 msgid "Bold"
@@ -2021,15 +2522,15 @@ msgstr "ตัวหนา"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Bold report layout sample"
-msgstr ""
+msgstr "ตัวอย่างเค้าโครงรายงานตัวหนา"
 
 #: ../../content/applications/studio/pdf_reports.rst:44
 msgid "Striped"
-msgstr "Striped"
+msgstr "ลาย"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Striped report layout sample"
-msgstr ""
+msgstr "ตัวอย่างเค้าโครงรายงานลาย"
 
 #: ../../content/applications/studio/pdf_reports.rst:51
 msgid ""
@@ -2038,6 +2539,10 @@ msgid ""
 "scripts). Go to the `Google Fonts website <https://fonts.google.com/>`_ to "
 "preview them."
 msgstr ""
+": Guilabel: `font`: มีแบบอักษรเจ็ดแบบ: Lato, Roboto, Open Sans,"
+"Montserrat, Oswald, Raleway และ Tajawal (ซึ่งสนับสนุนภาษาอาหรับและละติน"
+"สคริปต์) "
+"ดูตัวอย่าง"
 
 #: ../../content/applications/studio/pdf_reports.rst:57
 msgid ""
@@ -2046,6 +2551,10 @@ msgid ""
 " model, which you can access by going to :menuselection:`Settings` and then "
 "clicking :guilabel:`Update Info` in the :guilabel:`Companies` section."
 msgstr ""
+": guilabel: `โลโก้ บริษัท ': คลิกปุ่ม: guilabel:` แก้ไข' เพื่ออัปโหลดหรือ"
+"เปลี่ยนโลโก้ "
+"โมเดลซึ่งคุณสามารถเข้าถึงได้โดยไปที่: การเลือกเมนู: `การตั้งค่า 'แล้ว"
+"การคลิก: Guilabel: `Update Info` ใน: Guilabel:` บริษัท '"
 
 #: ../../content/applications/studio/pdf_reports.rst:64
 msgid ""
@@ -2053,25 +2562,31 @@ msgid ""
 "structure reports. The default colors are automatically generated based on "
 "the colors of the logo."
 msgstr ""
+": Guilabel: `colors`: เปลี่ยนสีหลักและรองที่ใช้"
+"รายงานโครงสร้าง "
+"สีของโลโก้"
 
 #: ../../content/applications/studio/pdf_reports.rst:69
 msgid ""
 ":guilabel:`Layout background`: The following backgrounds are available:"
 msgstr ""
+": Guilabel: `layout background`: มีพื้นหลังต่อไปนี้:"
 
 #: ../../content/applications/studio/pdf_reports.rst:71
 msgid ":guilabel:`Blank`: nothing is displayed."
-msgstr ""
+msgstr ": Guilabel: `blank`: ไม่มีอะไรปรากฏขึ้น"
 
 #: ../../content/applications/studio/pdf_reports.rst:72
 msgid ""
 ":guilabel:`Geometric`: an image featuring geometric shapes is displayed in "
 "the background."
 msgstr ""
+": Guilabel: `geometric`: ภาพที่มีรูปทรงเรขาคณิตจะปรากฏขึ้นใน"
+"พื้นหลัง"
 
 #: ../../content/applications/studio/pdf_reports.rst:73
 msgid ":guilabel:`Custom`: upload a custom background image."
-msgstr ""
+msgstr ": Guilabel: `Custom`: อัปโหลดภาพพื้นหลังที่กำหนดเอง"
 
 #: ../../content/applications/studio/pdf_reports.rst:77
 msgid ""
@@ -2079,6 +2594,9 @@ msgid ""
 ":ref:`external reports <studio/pdf-reports/header-footer/external>`. You can"
 " add multiple lines of text."
 msgstr ""
+": Guilabel: `บริษัท สโลแกน ': นี่แสดงในส่วนหัวของ"
+": REF: `รายงานภายนอก \u003cStudio/PDF-Reports/Header-footer/external\u003e` "
+"เพิ่มข้อความหลายบรรทัด"
 
 #: ../../content/applications/studio/pdf_reports.rst:82
 msgid ""
@@ -2086,6 +2604,9 @@ msgid ""
 ":ref:`external reports <studio/pdf-reports/header-footer/external>`. You can"
 " add multiple lines of text."
 msgstr ""
+": Guilabel: `รายละเอียด บริษัท ': สิ่งเหล่านี้แสดงในส่วนหัวของ"
+": REF: `รายงานภายนอก \u003cStudio/PDF-Reports/Header-footer/external\u003e` "
+"เพิ่มข้อความหลายบรรทัด"
 
 #: ../../content/applications/studio/pdf_reports.rst:87
 msgid ""
@@ -2094,6 +2615,10 @@ msgid ""
 "lines of text. You can also edit the footer using the :ref:`report editor "
 "<studio/pdf-reports/edit>`."
 msgstr ""
+": guilabel: `footer`: ข้อความนี้ใช้ในส่วนท้ายของ: ref:` ภายนอก"
+"รายงาน \u003cStudio/PDF-Reports/Header-Footer/External\u003e ` "
+"บรรทัดของข้อความ "
+"\u003cStudio/PDF-Reports/Edit\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:93
 msgid ""
@@ -2103,10 +2628,15 @@ msgid ""
 "individual reports in the :guilabel:`Paper format` field in :ref:`Studio "
 "<studio/pdf-reports/create>`."
 msgstr ""
+": Guilabel: `รูปแบบกระดาษ ': เพื่อกำหนดขนาดกระดาษเริ่มต้นของรายงาน "
+"สามารถเลือก: Guilabel: `A4` (21 ซม. x 29.7 ซม.) ,: guilabel:` us letter` (21.59 ซม."
+"x 27.54 ซม.) หรือ: guilabel: `หน้ารหัส QR ' "
+"รายงานส่วนบุคคลใน: guilabel: `ฟิลด์รูปแบบกระดาษ 'ใน: ref:` สตูดิโอ"
+"\u003cสตูดิโอ/PDF- รายงาน/สร้าง\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:101
 msgid "Creating new PDF reports"
-msgstr ""
+msgstr "การสร้างรายงาน PDF ใหม่"
 
 #: ../../content/applications/studio/pdf_reports.rst:103
 msgid ""
@@ -2115,10 +2645,14 @@ msgid ""
 "in the popup window that opens, select the type of report. This is solely "
 "used to determine what is displayed in the header and footer:"
 msgstr ""
+"หากต้องการสร้างรายงานใหม่สำหรับโมเดลให้เข้าถึงโมเดลให้คลิกสลับ **"
+"ปุ่มสตูดิโอ ** จากนั้นคลิก: Guilabel: `รายงาน ' "
+"ในหน้าต่างป๊อปอัปที่เปิดให้เลือกประเภทของรายงาน "
+"ใช้เพื่อกำหนดสิ่งที่แสดงในส่วนหัวและส่วนท้าย:"
 
 #: ../../content/applications/studio/pdf_reports.rst:109
 msgid ":guilabel:`External`:"
-msgstr ""
+msgstr ": Guilabel: `external`:"
 
 #: ../../content/applications/studio/pdf_reports.rst:111
 msgid ""
@@ -2126,34 +2660,45 @@ msgid ""
 "layout/logo>`, :ref:`tagline <studio/pdf-reports/default-layout/tagline>`, "
 "and :ref:`details <studio/pdf-reports/default-layout/details>`."
 msgstr ""
+"ส่วนหัวแสดงของ บริษัท : REF: `Logo \u003cStudio/PDF-Reports/Default-"
+"เลย์เอาต์/โลโก้\u003e `,: ref:` สโลแกน \u003cสตูดิโอ/pdf-reports/default-layout/slafline\u003e `,,,"
+"และ: REF: `รายละเอียด \u003cStudio/PDF-Reports/Default-Layout/รายละเอียด\u003e`"
 
 #: ../../content/applications/studio/pdf_reports.rst:114
 msgid ""
 "The footer displays the values set in the :ref:`Footer <studio/pdf-"
 "reports/default-layout/footer>` field and the page number."
 msgstr ""
+"ส่วนท้ายจะแสดงค่าที่ตั้งไว้ใน: ref: `footer \u003cStudio/PDF-"
+"รายงาน/Default-Layout/Footer\u003e `ฟิลด์และหมายเลขหน้า"
 
 #: ../../content/applications/studio/pdf_reports.rst:117
 msgid ""
 ":guilabel:`Internal`: The header displays the user's current date and time, "
 ":guilabel:`Company Name`, and page number. There is no footer."
 msgstr ""
+": Guilabel: `ภายใน ': ส่วนหัวแสดงวันที่และเวลาปัจจุบันของผู้ใช้"
+": Guilabel: `ชื่อ บริษัท 'และหมายเลขหน้า "
 
 #: ../../content/applications/studio/pdf_reports.rst:120
 msgid ""
 ":guilabel:`Blank`: There is neither a header nor a footer. Click in the "
 "upper left corner of the page to edit the report."
 msgstr ""
+": Guilabel: `blank`: ไม่มีส่วนหัวหรือส่วนท้าย "
+"มุมซ้ายบนของหน้าเพื่อแก้ไขรายงาน"
 
 #: ../../content/applications/studio/pdf_reports.rst:123
 msgid ""
 "Once you have created the report, you can start :ref:`editing it "
 "<studio/pdf-reports/edit>`."
 msgstr ""
+"เมื่อคุณสร้างรายงานแล้วคุณสามารถเริ่มต้น: REF: `แก้ไขมัน"
+"\u003cStudio/PDF-Reports/Edit\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:128
 msgid "Editing PDF reports"
-msgstr ""
+msgstr "การแก้ไขรายงาน PDF"
 
 #: ../../content/applications/studio/pdf_reports.rst:130
 msgid ""
@@ -2162,12 +2707,18 @@ msgid ""
 " Select an existing report to open it or :ref:`create a new one <studio/pdf-"
 "reports/create>`."
 msgstr ""
+"หากต้องการเข้าถึงรายงานที่มีอยู่สำหรับรุ่นให้เข้าถึงรุ่น (เช่นการขาย"
+"คำสั่งซื้อ) คลิกปุ่มสตูดิโอสลับ **** จากนั้นคลิก: Guilabel: `รายงาน '"
+"เลือกรายงานที่มีอยู่เพื่อเปิดหรือ: ref: `สร้างใหม่ \u003cStudio/PDF-"
+"รายงาน/สร้าง\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:135
 msgid ""
 "Alternatively, you can also open Studio, click :guilabel:`Reports`, and "
 "search for a specific report or model."
 msgstr ""
+"อีกทางเลือกหนึ่งคุณสามารถเปิดสตูดิโอคลิก: Guilabel: `รายงาน 'และ"
+"ค้นหารายงานหรือรูปแบบเฉพาะ"
 
 #: ../../content/applications/studio/pdf_reports.rst:139
 msgid ""
@@ -2176,10 +2727,14 @@ msgid ""
 "pointer on the top right corner of the report, click the vertical ellipsis "
 "icon (:guilabel:`⋮`), and then select :guilabel:`Duplicate`."
 msgstr ""
+"ขอแนะนำอย่างยิ่งให้ทำซ้ำ ** รายงานมาตรฐานและดำเนินการ"
+"การเปลี่ยนแปลงในเวอร์ชันที่ซ้ำกัน "
+"ตัวชี้ที่มุมบนขวาของรายงานคลิกที่จุดไข่ปลาแนวตั้ง"
+"ไอคอน (: Guilabel: `⋮`) จากนั้นเลือก: Guilabel: `duplicate`"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Duplicating a PDF report"
-msgstr ""
+msgstr "ทำซ้ำรายงาน PDF"
 
 #: ../../content/applications/studio/pdf_reports.rst:148
 msgid "Options"
@@ -2190,12 +2745,16 @@ msgid ""
 "Once you've selected or created a report, you can use the options in the "
 "left part of the screen to:"
 msgstr ""
+"เมื่อคุณเลือกหรือสร้างรายงานแล้วคุณสามารถใช้ตัวเลือกในไฟล์"
+"ส่วนซ้ายของหน้าจอเป็น:"
 
 #: ../../content/applications/studio/pdf_reports.rst:152
 msgid ""
 "Change the :guilabel:`Report name`. The new name is applied everywhere (in "
 "Studio, under the :guilabel:`Print` button, and in the PDF file name)."
 msgstr ""
+"เปลี่ยน: Guilabel: `Name Report ' "
+"สตูดิโอภายใต้ปุ่ม: Guilabel: `print` และในชื่อไฟล์ PDF)"
 
 #: ../../content/applications/studio/pdf_reports.rst:154
 msgid ""
@@ -2203,12 +2762,17 @@ msgid ""
 "defined in the :ref:`default layout <studio/pdf-reports/default-"
 "layout/paper>` is used."
 msgstr ""
+"แก้ไข:: guilabel: `รูปแบบกระดาษ ' "
+"กำหนดไว้ใน: ref: `เค้าโครงเริ่มต้น \u003cStudio/PDF-Reports/Default-"
+"Layout/Paper\u003e `ใช้"
 
 #: ../../content/applications/studio/pdf_reports.rst:156
 msgid ""
 ":guilabel:`Show in print menu`: to add the report in the :guilabel:`Print` "
 "menu available from the record."
 msgstr ""
+": guilabel: `show in menu`: เพื่อเพิ่มรายงานใน: guilabel: `print '"
+"เมนูพร้อมใช้งานจากบันทึก"
 
 #: ../../content/applications/studio/pdf_reports.rst:158
 msgid ""
@@ -2217,66 +2781,86 @@ msgid ""
 " the report any subsequent time. This is legally required for invoices and "
 "is mainly used in this case."
 msgstr ""
+": Guilabel: `โหลดใหม่จากไฟล์แนบ`: เพื่อบันทึกรายงานเป็นไฟล์แนบบน"
+"บันทึกเป็นครั้งแรกที่มันถูกสร้างขึ้นและโหลดเวอร์ชันดั้งเดิมของ"
+"รายงานเวลาใด ๆ ที่ตามมา "
+"ส่วนใหญ่จะใช้ในกรณีนี้"
 
 #: ../../content/applications/studio/pdf_reports.rst:161
 msgid ""
 ":guilabel:`Limit visibility to groups`: to limit the availability of the PDF"
 " report to specific :doc:`user groups <../general/users/access_rights>`."
 msgstr ""
+": Guilabel: `จำกัด การมองเห็นกลุ่ม ': เพื่อ จำกัด ความพร้อมใช้งานของ PDF"
+"รายงานเฉพาะ: doc: `กลุ่มผู้ใช้ \u003c../ ทั่วไป/ผู้ใช้/access_rights\u003e`"
 
 #: ../../content/applications/studio/pdf_reports.rst:163
 msgid ""
 ":guilabel:`Edit sources`: to modify the report directly in the :ref:`XML "
 "file <studio/pdf-reports/XML-editing>`."
 msgstr ""
+": guilabel: `แก้ไขแหล่งที่มา ': เพื่อแก้ไขรายงานโดยตรงใน: ref:` xml"
+"ไฟล์ \u003cStudio/PDF-Reports/XML-editing\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:165
 msgid ""
 ":guilabel:`Reset report`: to discard all changes made to the report and "
 "reset it to its standard version."
 msgstr ""
+": Guilabel: `Reset Report`: เพื่อยกเลิกการเปลี่ยนแปลงทั้งหมดที่เกิดขึ้นกับรายงานและ"
+"รีเซ็ตเป็นเวอร์ชันมาตรฐาน"
 
 #: ../../content/applications/studio/pdf_reports.rst:167
 msgid ":guilabel:`Print preview`: to generate and download a report preview."
-msgstr ""
+msgstr ": Guilabel: `Print Preview`: เพื่อสร้างและดาวน์โหลดตัวอย่างรายงาน"
 
 #: ../../content/applications/studio/pdf_reports.rst:170
 msgid "Report editor"
-msgstr ""
+msgstr "รายงานบรรณาธิการ"
 
 #: ../../content/applications/studio/pdf_reports.rst:172
 msgid ""
 "The report editor allows you to modify the formatting and contents of the "
 "report."
 msgstr ""
+"ตัวแก้ไขรายงานช่วยให้คุณสามารถแก้ไขการจัดรูปแบบและเนื้อหาของไฟล์"
+"รายงาน."
 
 #: ../../content/applications/studio/pdf_reports.rst:175
 msgid ""
 "You can :guilabel:`Undo` or :guilabel:`Redo` changes using the related "
 "buttons or the shortcuts `CTRL Z` and `CTRL Y`."
 msgstr ""
+"คุณสามารถ: guilabel: `undo` หรือ: guilabel:` redo` การเปลี่ยนแปลงโดยใช้สิ่งที่เกี่ยวข้อง"
+"ปุ่มหรือทางลัด `ctrl z` และ` ctrl y`"
 
 #: ../../content/applications/studio/pdf_reports.rst:178
 msgid ""
 "Changes are saved automatically when you leave the report or manually using "
 "the :guilabel:`Save` button."
 msgstr ""
+"การเปลี่ยนแปลงจะถูกบันทึกโดยอัตโนมัติเมื่อคุณออกจากรายงานหรือใช้ด้วยตนเอง"
+"ปุ่ม: Guilabel: `save`"
 
 #: ../../content/applications/studio/pdf_reports.rst:181
 msgid ""
 "You can reset the report to its standard version by clicking the "
 ":guilabel:`Reset report` button in the left part of the screen."
 msgstr ""
+"คุณสามารถรีเซ็ตรายงานเป็นเวอร์ชันมาตรฐานได้โดยคลิกที่"
+": Guilabel: `Reset Report 'ปุ่ม' ในส่วนซ้ายของหน้าจอ"
 
 #: ../../content/applications/studio/pdf_reports.rst:185
 msgid ""
 "Editing the header and footer of a report impacts all standard and custom "
 "reports."
 msgstr ""
+"การแก้ไขส่วนหัวและส่วนท้ายของรายงานส่งผลกระทบต่อมาตรฐานและกำหนดเองทั้งหมด"
+"รายงาน"
 
 #: ../../content/applications/studio/pdf_reports.rst:188
 msgid "Conditional blocks"
-msgstr ""
+msgstr "บล็อกเงื่อนไข"
 
 #: ../../content/applications/studio/pdf_reports.rst:190
 msgid ""
@@ -2284,39 +2868,47 @@ msgid ""
 "statements). These are used to show/hide content based on specific "
 "conditions. Click on the block to view the conditions."
 msgstr ""
+"รูปสี่เหลี่ยมผืนผ้าประแสดง ** บล็อกเงื่อนไข ** (*ถ้า/อื่น*"
+"ข้อความ) "
+"เงื่อนไข. "
 
 #: ../../content/applications/studio/pdf_reports.rst-1
 msgid "View conditions applied to a block."
-msgstr ""
+msgstr "ดูเงื่อนไขที่ใช้กับบล็อก"
 
 #: ../../content/applications/studio/pdf_reports.rst:196
 msgid ""
 "Select a value to preview its corresponding output and edit it if necessary."
 msgstr ""
+"เลือกค่าเพื่อดูตัวอย่างผลลัพธ์ที่สอดคล้องกันและแก้ไขหากจำเป็น"
 
 #: ../../content/applications/studio/pdf_reports.rst-1
 msgid "Preview the output of another condition."
-msgstr ""
+msgstr "ดูตัวอย่างผลลัพธ์ของเงื่อนไขอื่น"
 
 #: ../../content/applications/studio/pdf_reports.rst:202
 msgid ""
 "Conditions can only be edited in :ref:`XML <studio/pdf-reports/XML-"
 "editing>`."
 msgstr ""
+"เงื่อนไขสามารถแก้ไขได้ใน: ref: `xml \u003cStudio/PDF-Reports/XML-"
+"การแก้ไข\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:205
 msgid "Other content"
-msgstr ""
+msgstr "เนื้อหาอื่น ๆ"
 
 #: ../../content/applications/studio/pdf_reports.rst:207
 msgid "There are two types of text content in reports:"
-msgstr ""
+msgstr "มีเนื้อหาข้อความสองประเภทในรายงาน:"
 
 #: ../../content/applications/studio/pdf_reports.rst:209
 msgid ""
 "Static text, i.e., the text that's not highlighted in blue, which can be "
 "modified directly in the editor."
 msgstr ""
+"ข้อความคงที่เช่นข้อความที่ไม่ได้เน้นด้วยสีน้ำเงินซึ่งสามารถทำได้"
+"แก้ไขโดยตรงในตัวแก้ไข"
 
 #: ../../content/applications/studio/pdf_reports.rst:211
 msgid ""
@@ -2324,6 +2916,9 @@ msgid ""
 "by field values when the report is generated, e.g., the SO number or the "
 "quotation date."
 msgstr ""
+"ข้อความแบบไดนามิกเช่นข้อความที่เน้นเป็นสีน้ำเงินซึ่งถูกแทนที่"
+"ตามค่าฟิลด์เมื่อมีการสร้างรายงานเช่นจำนวน SO หรือไฟล์"
+"วันที่ใบเสนอราคา"
 
 #: ../../content/applications/studio/pdf_reports.rst:214
 msgid ""
@@ -2332,20 +2927,26 @@ msgid ""
 "<knowledge/powerbox>`, then type the command's name or select it from the "
 "list."
 msgstr ""
+"คุณสามารถเพิ่มเนื้อหา (เช่นฟิลด์, รายการ, ตาราง, รูปภาพ, แบนเนอร์ ฯลฯ )"
+"รายงานการใช้คำสั่ง "
+"\u003cความรู้/powerbox\u003e `จากนั้นพิมพ์ชื่อคำสั่งหรือเลือกจากไฟล์"
+"รายการ."
 
 #: ../../content/applications/studio/pdf_reports.rst:218
 msgid "To add static text to the report, type the text where you want it."
-msgstr ""
+msgstr "หากต้องการเพิ่มข้อความแบบคงที่ลงในรายงานให้พิมพ์ข้อความที่คุณต้องการ"
 
 #: ../../content/applications/studio/pdf_reports.rst:220
 msgid ""
 "For more advanced changes, you can :ref:`edit the report in the XML directly"
 " <studio/pdf-reports/XML-editing>`."
 msgstr ""
+"สำหรับการเปลี่ยนแปลงขั้นสูงเพิ่มเติมคุณสามารถ: ref: `แก้ไขรายงานใน XML โดยตรง"
+"\u003cStudio/PDF-Reports/XML-editing\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:226
 msgid "Add a field"
-msgstr ""
+msgstr "เพิ่มฟิลด์"
 
 #: ../../content/applications/studio/pdf_reports.rst:228
 msgid ""
@@ -2354,6 +2955,10 @@ msgid ""
 "to the field name to access the list of related fields if needed. Then, "
 "specify the default value and press `Enter`."
 msgstr ""
+"หากต้องการเพิ่มฟิลด์ให้พิมพ์ `/` และเลือกคำสั่ง: guilabel: `ฟิลด์ ' "
+"รายการที่เปิด, เลือกหรือค้นหาฟิลด์; "
+"ไปยังชื่อฟิลด์เพื่อเข้าถึงรายการฟิลด์ที่เกี่ยวข้องหากจำเป็น "
+"ระบุค่าเริ่มต้นและกด `Enter`"
 
 #: ../../content/applications/studio/pdf_reports.rst-1
 msgid "Select a related field."
@@ -2361,7 +2966,7 @@ msgstr "เลือกฟิลด์ที่เกี่ยวข้อง"
 
 #: ../../content/applications/studio/pdf_reports.rst:236
 msgid "Add a data table"
-msgstr ""
+msgstr "เพิ่มตารางข้อมูล"
 
 #: ../../content/applications/studio/pdf_reports.rst:238
 msgid ""
@@ -2370,12 +2975,18 @@ msgid ""
 "the :guilabel:`Dynamic Table` command, and select the relation to be "
 "displayed in the table."
 msgstr ""
+"ตารางข้อมูลใช้เพื่อแสดง: ref: `ฟิลด์เชิงสัมพันธ์"
+"\u003cStudio/Fields/Relational-Fields\u003e ` "
+"คำสั่ง: guilabel: `dynamic Table` และเลือกความสัมพันธ์เป็น"
+"แสดงในตาราง"
 
 #: ../../content/applications/studio/pdf_reports.rst:243
 msgid ""
 "Only relations of type `one2many` or `many2many` can be displayed as data "
 "tables."
 msgstr ""
+"ความสัมพันธ์เฉพาะประเภท `one2many` หรือ` many2many` สามารถแสดงเป็นข้อมูลได้"
+"ตาราง"
 
 #: ../../content/applications/studio/pdf_reports.rst:245
 msgid ""
@@ -2383,10 +2994,13 @@ msgid ""
 "Position the cursor on top of the column, then click the purple rectangle "
 "and select an option."
 msgstr ""
+"เมื่อเพิ่มตารางแล้วคุณสามารถเพิ่มคอลัมน์โดยใช้เครื่องมือตาราง"
+"จัดตำแหน่งเคอร์เซอร์ที่ด้านบนของคอลัมน์จากนั้นคลิกสี่เหลี่ยมสีม่วง"
+"และเลือกตัวเลือก"
 
 #: ../../content/applications/studio/pdf_reports.rst-1
 msgid "Add a column in a dynamic table."
-msgstr ""
+msgstr "เพิ่มคอลัมน์ในตารางไดนามิก"
 
 #: ../../content/applications/studio/pdf_reports.rst:251
 msgid ""
@@ -2394,10 +3008,13 @@ msgid ""
 "field>` in the columns. The dialog box that opens shows the source object "
 "for the field (e.g., the *Tag* model) and the list of available fields."
 msgstr ""
+"จากนั้นคุณสามารถแทรก: ref: `ฟิลด์ที่คุณเลือก \u003cStudio/PDF-Reports/Add-"
+"ฟิลด์\u003e `ในคอลัมน์ "
+"สำหรับฟิลด์ (เช่นโมเดลแท็ก *) และรายการฟิลด์ที่มีอยู่"
 
 #: ../../content/applications/studio/pdf_reports.rst-1
 msgid "List of available fields for the Tag model."
-msgstr ""
+msgstr "รายการฟิลด์ที่มีอยู่สำหรับโมเดลแท็ก"
 
 #: ../../content/applications/studio/pdf_reports.rst:259
 msgid ""
@@ -2406,12 +3023,18 @@ msgid ""
 "add static content rows above or below the generated rows using the table "
 "tools."
 msgstr ""
+"แถวเริ่มต้นวนซ้ำโดยอัตโนมัติผ่านเนื้อหาของฟิลด์สร้างขึ้น"
+"แถวในรายงานสำหรับแต่ละค่าฟิลด์ (เช่นหนึ่งแถวต่อแท็ก) "
+"เพิ่มแถวเนื้อหาคงที่ด้านบนหรือต่ำกว่าแถวที่สร้างขึ้นโดยใช้ตาราง"
+"เครื่องมือ"
 
 #: ../../content/applications/studio/pdf_reports.rst:262
 msgid ""
 "You can also add data tables by :ref:`modifying the report's XML "
 "<studio/pdf-reports/XML-editing>`."
 msgstr ""
+"นอกจากนี้คุณยังสามารถเพิ่มตารางข้อมูลโดย: ref: `การแก้ไข XML ของรายงาน"
+"\u003cStudio/PDF-Reports/XML-editing\u003e `"
 
 #: ../../content/applications/studio/pdf_reports.rst:265
 msgid "Formatting"
@@ -2422,14 +3045,16 @@ msgid ""
 "To format text in the report, select it, then format it using the options in"
 " the :ref:`knowledge/text-editor`."
 msgstr ""
+"หากต้องการจัดรูปแบบข้อความในรายงานเลือกจากนั้นจัดรูปแบบโดยใช้ตัวเลือกใน"
+"The: ref: `ความรู้/บรรณาธิการข้อความ '"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Format text using the text editor."
-msgstr ""
+msgstr "รูปแบบข้อความโดยใช้ตัวแก้ไขข้อความ"
 
 #: ../../content/applications/studio/pdf_reports.rst:276
 msgid "Editing the report's XML"
-msgstr ""
+msgstr "การแก้ไข XML ของรายงาน"
 
 #: ../../content/applications/studio/pdf_reports.rst:279
 msgid ""
@@ -2437,11 +3062,15 @@ msgid ""
 " <../../../administration/upgrade>`. If this happens, simply copy your "
 "changes from the old database into your upgraded database."
 msgstr ""
+"การแก้ไข XML โดยตรงอาจส่งผลให้เกิดปัญหารายงานระหว่าง: DOC: `การอัพเกรด"
+"\u003c../../../ การดูแลระบบ/อัพเกรด\u003e ` "
+"การเปลี่ยนแปลงจากฐานข้อมูลเก่าเป็นฐานข้อมูลที่อัพเกรดของคุณ"
 
 #: ../../content/applications/studio/pdf_reports.rst:283
 msgid ""
 "To edit the report's XML, click :guilabel:`Edit sources` in the left pane."
 msgstr ""
+"หากต้องการแก้ไข XML ของรายงานคลิก: Guilabel: `แก้ไขแหล่งที่มาในบานหน้าต่างด้านซ้าย"
 
 #: ../../content/applications/studio/pdf_reports.rst:286
 msgid "Examples"
@@ -2454,6 +3083,10 @@ msgid ""
 " XML. For example, with a sales order, you can find the following structure "
 "in the XML (simplified for documentation purposes):"
 msgstr ""
+"บางครั้งตารางไม่ได้รับการยอมรับอย่างเหมาะสมเนื่องจากซับซ้อน"
+"โครงสร้าง "
+"XML "
+"ใน XML (ง่ายขึ้นเพื่อวัตถุประสงค์ในการจัดทำเอกสาร):"
 
 #: ../../content/applications/studio/pdf_reports.rst:318
 msgid ""
@@ -2462,6 +3095,10 @@ msgid ""
 " section (with e.g., the column title) and another one in the body section "
 "with the field content (usually, with a `t-out` or `t-field` directive)."
 msgstr ""
+"ในการแก้ไขตารางคุณต้องตรวจสอบให้แน่ใจว่าแต่ละแถวมีจำนวนข้อมูลเท่ากัน"
+"เซลล์. "
+"ส่วน (เช่นชื่อคอลัมน์) และอีกอันหนึ่งในส่วนของร่างกาย"
+"ด้วยเนื้อหาของฟิลด์ (โดยปกติจะมีคำสั่ง `t-out` หรือ` t-field`)"
 
 #: ../../content/applications/studio/pdf_reports.rst:344
 msgid ""
@@ -2469,16 +3106,21 @@ msgid ""
 "`Mozilla Developer Network website <https://developer.mozilla.org/en-"
 "US/docs/Learn/HTML/Tables/Basics>`_."
 msgstr ""
+"เซลล์สามารถขยายหลายแถวหรือคอลัมน์ "
+"`เว็บไซต์เครือข่ายนักพัฒนา Mozilla \u003chttps://developer.mozilla.org/en-"
+"US/DOCS/Learn/HTML/Tables/Basics\u003e `_"
 
 #: ../../content/applications/studio/pdf_reports.rst:347
 msgid ""
 "For example, you can modify the **Quotation/Order** report to add a column "
 "to display the product category in the main table:"
 msgstr ""
+"ตัวอย่างเช่นคุณสามารถแก้ไข ** ใบเสนอราคา/คำสั่งซื้อ ** รายงานเพื่อเพิ่มคอลัมน์"
+"เพื่อแสดงหมวดหมู่ผลิตภัณฑ์ในตารางหลัก:"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Add a Product Category column in a SO."
-msgstr ""
+msgstr "เพิ่มคอลัมน์หมวดหมู่ผลิตภัณฑ์ใน A SO"
 
 #: ../../content/applications/studio/pdf_reports.rst:376
 msgid ""
@@ -2486,10 +3128,13 @@ msgid ""
 "you wish to access and display. As an example, let's add a table that "
 "details the tags on a sales order:"
 msgstr ""
+"ในการเพิ่มตารางใน XML คุณต้องรู้ชื่อของฟิลด์และวัตถุ"
+"คุณต้องการเข้าถึงและแสดงผล "
+"รายละเอียดแท็กในใบสั่งขาย:"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Add a data table in XML"
-msgstr ""
+msgstr "เพิ่มตารางข้อมูลใน XML"
 
 #: ../../content/applications/studio/pdf_reports.rst:407
 msgid ""
@@ -2497,12 +3142,17 @@ msgid ""
 "<https://getbootstrap.com/docs/5.1/content/tables>`_, like the `table` class"
 " included in the example above."
 msgstr ""
+"เมื่อเพิ่มตารางด้วยตนเองให้สไตล์โดยใช้คลาส bootstrap"
+"\u003chttps://getbootstrap.com/docs/5.1/content/tables\u003e `_ เช่นคลาส` ตาราง '"
+"รวมอยู่ในตัวอย่างด้านบน"
 
 #: ../../content/applications/studio/pdf_reports.rst:413
 msgid ""
 "If you want to show/hide content based on specific conditions, you can "
 "manually add `if/else` control statements in the report XML."
 msgstr ""
+"หากคุณต้องการแสดง/ซ่อนเนื้อหาตามเงื่อนไขเฉพาะคุณสามารถทำได้"
+"เพิ่มคำสั่งควบคุม `if/else` ด้วยตนเองในรายงาน XML"
 
 #: ../../content/applications/studio/pdf_reports.rst:416
 msgid ""
@@ -2511,6 +3161,10 @@ msgid ""
 "evaluated as `True` or `False`. The table will not be displayed if there are"
 " no tags in the quotation."
 msgstr ""
+"ตัวอย่างเช่นหากคุณต้องการซ่อนตารางข้อมูลที่กำหนดเองหากไม่มีแท็ก"
+"คุณสามารถใช้แอตทริบิวต์ `t-if` เพื่อกำหนดเงื่อนไขซึ่งก็คือแล้ว"
+"ประเมินว่า `true` หรือ` false ' "
+"ไม่มีแท็กในใบเสนอราคา"
 
 #: ../../content/applications/studio/pdf_reports.rst:445
 msgid ""
@@ -2521,11 +3175,12 @@ msgid ""
 "attribute. As an example, let's show a quick message explaining that there "
 "are no tags on the quotation:"
 msgstr ""
-"หากคุณต้องการแสดงบล็อกอื่นในกรณีที่คำสั่ง `t-if` ถูกประเมินว่าเป็น 'False' "
-"คุณสามารถระบุได้โดยใช้คำสั่ง 't-else` บล็อก 't-else' ต้องอยู่หลังบล็อก "
-"'t-if' โดยตรงในโครงสร้างเอกสาร ไม่จำเป็นต้องระบุเงื่อนไขใดๆ ในแอตทริบิวต์ "
-"\"t-else\" เป็นตัวอย่าง เรามาแสดงข้อความสั้นๆ "
-"ที่อธิบายว่าไม่มีแท็กในใบเสนอราคา:"
+"หากคุณต้องการแสดงบล็อกอื่นในกรณีที่คำสั่ง `t-if` คือ"
+"ประเมินเป็น `false 'คุณสามารถระบุได้โดยใช้คำสั่ง` t-else` "
+"บล็อก `t-else` จะต้องติดตามบล็อก` t-if` ในเอกสารโดยตรง"
+"โครงสร้าง. "
+"คุณลักษณะ. "
+"ไม่มีแท็กในใบเสนอราคา:"
 
 #: ../../content/applications/studio/pdf_reports.rst:477
 msgid ""
@@ -2533,18 +3188,21 @@ msgid ""
 " sections are mutually exclusive and should be displayed as conditional "
 "blocks:"
 msgstr ""
+"โดยใช้สัญลักษณ์ `t-if/t-else` ตัวแก้ไขรายงานตระหนักว่าสิ่งเหล่านี้"
+"ส่วนต่าง ๆ ร่วมกันและควรแสดงเป็นเงื่อนไข"
+"บล็อก:"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Output preview if there are tags."
-msgstr ""
+msgstr "ตัวอย่างเอาต์พุตหากมีแท็ก"
 
 #: ../../content/applications/studio/pdf_reports.rst:483
 msgid "You can switch conditions using the editor to preview their output:"
-msgstr ""
+msgstr "คุณสามารถสลับเงื่อนไขโดยใช้ตัวแก้ไขเพื่อดูตัวอย่างผลลัพธ์ของพวกเขา:"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Output preview if there are no tags."
-msgstr ""
+msgstr "ตัวอย่างเอาต์พุตหากไม่มีแท็ก"
 
 #: ../../content/applications/studio/pdf_reports.rst:488
 msgid ""
@@ -2552,6 +3210,9 @@ msgid ""
 "to add intermediary conditions. For example, this is how the title of sales "
 "order reports changes based on the condition of the underlying document."
 msgstr ""
+"หากคุณต้องการมีหลายตัวเลือกคุณสามารถใช้คำสั่ง `t-elif`"
+"เพื่อเพิ่มเงื่อนไขตัวกลาง "
+"รายงานการสั่งซื้อการเปลี่ยนแปลงตามเงื่อนไขของเอกสารพื้นฐาน"
 
 #: ../../content/applications/studio/pdf_reports.rst:501
 msgid ""
@@ -2560,6 +3221,10 @@ msgid ""
 " either `draft` or `sent`, then *Quotation* is used. If none of those "
 "conditions are met, the report's title is *Order*."
 msgstr ""
+"ใบแจ้งหนี้ * pro-forma * ถูกใช้ขึ้นอยู่กับบริบทบางอย่าง"
+"เงื่อนไข. "
+"ไม่ว่าจะเป็น `draft` หรือ` ส่ง 'จากนั้นใช้ใบเสนอราคา ** "
+"ตามเงื่อนไขชื่อของรายงานคือ *คำสั่งซื้อ *"
 
 #: ../../content/applications/studio/pdf_reports.rst:507
 msgid ""
@@ -2570,6 +3235,12 @@ msgid ""
 "directive and accompanying `t-options` attributes provides better sizing and"
 " positioning control."
 msgstr ""
+"การทำงานกับรูปภาพในรายงานอาจเป็นเรื่องที่ท้าทาย"
+"ขนาดและพฤติกรรมของภาพไม่ชัดเจนเสมอไป "
+"การใช้ตัวแก้ไขรายงาน (: ref: `โดยใช้คำสั่ง /ฟิลด์ \u003cStudio /PDF-"
+"รายงาน/add-field\u003e `) แต่แทรกลงใน XML โดยใช้` t-field '"
+"คำสั่งและการประกอบแอตทริบิวต์ `t-options` ให้ขนาดที่ดีขึ้นและ"
+"การควบคุมตำแหน่ง"
 
 #: ../../content/applications/studio/pdf_reports.rst:513
 msgid ""
@@ -2577,32 +3248,41 @@ msgid ""
 "product as a 64px-wide image (with an automatic height based on the image's "
 "aspect ratio)."
 msgstr ""
+"ตัวอย่างเช่นรหัสต่อไปนี้ส่งออกฟิลด์ `image_128` ของบรรทัด"
+"ผลิตภัณฑ์เป็นภาพกว้าง 64px (ด้วยความสูงอัตโนมัติตามภาพ"
+"อัตราส่วนภาพ)"
 
 #: ../../content/applications/studio/pdf_reports.rst:520
 msgid "The following options are available for image widgets:"
-msgstr ""
+msgstr "ตัวเลือกต่อไปนี้พร้อมใช้งานสำหรับวิดเจ็ตภาพ:"
 
 #: ../../content/applications/studio/pdf_reports.rst:522
 msgid ""
 "`width`: width of the image, usually in pixels or CSS length units (e.g., "
 "`rem`) (leave empty for auto-width)."
 msgstr ""
+"`ความกว้าง ': ความกว้างของภาพมักจะอยู่ในพิกเซลหรือหน่วยความยาว CSS (เช่น"
+"`rem`) (ว่างเปล่าสำหรับความกว้างอัตโนมัติ)"
 
 #: ../../content/applications/studio/pdf_reports.rst:524
 msgid ""
 "`height`: height of the image, usually in pixels or CSS length units (e.g., "
 "`rem`) (leave empty for auto-height)."
 msgstr ""
+"`ความสูง ': ความสูงของภาพมักจะอยู่ในพิกเซลหรือหน่วยความยาว CSS (เช่น"
+"`rem`) (ว่างเปล่าสำหรับความสูงอัตโนมัติ)"
 
 #: ../../content/applications/studio/pdf_reports.rst:526
 msgid ""
 "`class`: CSS classes applied on the `img` tag; `Bootstrap classes "
 "<https://getbootstrap.com/docs/5.1/content/tables>`_ are available."
 msgstr ""
+"`class`: คลาส CSS ใช้กับแท็ก` img`; "
+"\u003chttps://getbootstrap.com/docs/5.1/content/tables\u003e `_ พร้อมใช้งาน"
 
 #: ../../content/applications/studio/pdf_reports.rst:528
 msgid "`alt`: alternative text of the image"
-msgstr ""
+msgstr "`alt`: ข้อความทางเลือกของภาพ"
 
 #: ../../content/applications/studio/pdf_reports.rst:529
 msgid ""
@@ -2610,6 +3290,9 @@ msgid ""
 "with `Bootstrap classes "
 "<https://getbootstrap.com/docs/5.1/content/tables>`_."
 msgstr ""
+"`style`: คุณลักษณะสไตล์; "
+"ด้วยคลาส bootstrap"
+"\u003chttps://getbootstrap.com/docs/5.1/content/tables\u003e `_"
 
 #: ../../content/applications/studio/pdf_reports.rst:532
 msgid ""
@@ -2617,6 +3300,10 @@ msgid ""
 "within quotes, e.g., `t-options-width=\"'64px'\"` (or, alternatively, a "
 "valid Python expression)."
 msgstr ""
+"แอตทริบิวต์เหล่านี้จะต้องมีสตริงเช่นข้อความที่แนบมาภายในคำพูด"
+"ภายในคำพูดเช่น `t-options--------------Width \u003d \\"
+"`(หรืออีกทางเลือกหนึ่ง"
+"การแสดงออกของงูหลามที่ถูกต้อง)"
 
 #: ../../content/applications/studio/pdf_reports.rst:536
 msgid ""
@@ -2624,12 +3311,17 @@ msgid ""
 "directive on a `span` (for inline content) or `div` (for block content) "
 "node."
 msgstr ""
+"ไม่สามารถใช้วิดเจ็ตภาพบนแท็ก `img` "
+"คำสั่งเกี่ยวกับ `span` (สำหรับเนื้อหาอินไลน์) หรือ` div` (สำหรับเนื้อหาบล็อก)"
+"โหนด"
 
 #: ../../content/applications/studio/pdf_reports.rst:539
 msgid ""
 "For example, let's add a column with the product image in the quotation "
 "table:"
 msgstr ""
+"ตัวอย่างเช่นลองเพิ่มคอลัมน์ด้วยภาพผลิตภัณฑ์ในใบเสนอราคา"
+"โต๊ะ:"
 
 #: ../../content/applications/studio/pdf_reports.rst:567
 msgid ""
@@ -2637,10 +3329,13 @@ msgid ""
 "the Bootstrap classes used in `t-options-class` create a thumbnail-like "
 "border with rounded corners and a shadow."
 msgstr ""
+"แอตทริบิวต์ `t-options '"
+"คลาส bootstrap ที่ใช้ใน `t-options-class` สร้างรูปขนาดย่อเหมือน"
+"ชายแดนที่มีมุมโค้งมนและเงา"
 
 #: ../../content/applications/studio/pdf_reports.rst:0
 msgid "Add a column with the product image in the quotation table."
-msgstr ""
+msgstr "เพิ่มคอลัมน์ด้วยภาพผลิตภัณฑ์ในตารางใบเสนอราคา"
 
 #: ../../content/applications/studio/views.rst:3
 msgid "Views"
@@ -2655,6 +3350,12 @@ msgid ""
 ":ref:`multiple records <studio/views/multiple-records>`, :ref:`timeline "
 "<studio/views/timeline>`, and :ref:`reporting <studio/views/reporting>`."
 msgstr ""
+"มุมมองเป็นอินเทอร์เฟซที่อนุญาตให้แสดงข้อมูลที่มีอยู่ในไฟล์"
+": doc: `model \u003cmodels_modules_apps\u003e` "
+"เป็นวิธีที่แตกต่างกันในการแสดงข้อมูลเดียวกัน "
+"จัดเป็นสี่หมวดหมู่ :: REF: `General \u003cStudio/Views/General\u003e`,,,"
+": ref: `หลายระเบียน \u003cStudio/Views/Multiple-Records\u003e` ,: REF: `Timeline"
+"\u003cStudio/Views/Timeline\u003e `และ: Ref:` การรายงาน \u003cStudio/Views/การรายงาน\u003e `"
 
 #: ../../content/applications/studio/views.rst:12
 msgid ""
@@ -2663,6 +3364,10 @@ msgid ""
 "(:guilabel:`ellipsis`) icon next to the desired view, and click "
 ":guilabel:`Set as Default`."
 msgstr ""
+"หากต้องการเปลี่ยนมุมมองเริ่มต้นของรุ่น: ref: `Access Studio \u003cStudio/Access\u003e`,,,"
+"ไปที่: guilabel: `views`, คลิกที่: ไอคอน:` fa-ellipsis-v`"
+"(: Guilabel: `ellipsis`) ไอคอนถัดจากมุมมองที่ต้องการและคลิก"
+": Guilabel: `ตั้งเป็นค่าเริ่มต้น '"
 
 #: ../../content/applications/studio/views.rst:15
 msgid ""
@@ -2670,6 +3375,9 @@ msgid ""
 ":ref:`Developer mode <developer-mode>`, go to the view you want to edit, "
 "select the :guilabel:`View` tab, and click :guilabel:`</> XML`."
 msgstr ""
+"คุณสามารถแก้ไขมุมมองโดยใช้ตัวแก้ไข XML ในตัว: เปิดใช้งานไฟล์"
+": REF: `โหมดนักพัฒนา \u003cนักพัฒนาโหมด\u003e` ไปที่มุมมองที่คุณต้องการแก้ไข"
+"เลือกแท็บ: guilabel: `view` แล้วคลิก: Guilabel:` \u003c/\u003e xml`"
 
 #: ../../content/applications/studio/views.rst:20
 msgid ""
@@ -2681,13 +3389,13 @@ msgid ""
 "corresponding XPath, which defines the modified part of the view, are "
 "automatically generated."
 msgstr ""
-"หากคุณกำลังแก้ไขมุมมองโดยใช้ตัวแก้ไข XML "
-"หลีกเลี่ยงการเปลี่ยนแปลงโดยตรงต่อมุมมองมาตรฐานและมุมมองที่สืบทอดมา "
-"เนื่องจากการเปลี่ยนแปลงเหล่านี้จะถูกรีเซ็ตและสูญหายระหว่างการอัปเดตหรืออัปเกรดโมดูล"
-" ตรวจสอบให้แน่ใจว่าคุณเลือกมุมมองที่สืบทอดมาจาก สตูดิโอที่ถูกต้องเสมอ: "
-"เมื่อคุณแก้ไขมุมมองในสตูดิโอโดยการลากและวางฟิลด์ใหม่ ตัวอย่างเช่น "
-"มุมมองที่สืบทอดมาจากสตูดิโอ เฉพาะเจาะจงและ XPath ที่เกี่ยวข้อง "
-"ซึ่งกำหนดส่วนที่แก้ไขของมุมมอง จะถูกสร้างขึ้นโดยอัตโนมัติ"
+"หากคุณกำลังแก้ไขมุมมองโดยใช้ตัวแก้ไข XML ให้หลีกเลี่ยงการเปลี่ยนแปลง"
+"โดยตรงไปยังมุมมองมาตรฐานและมรดกเนื่องจากสิ่งเหล่านี้จะถูกรีเซ็ตและสูญหาย"
+"ในระหว่างการอัปเดตหรือการอัพเกรดโมดูล "
+"สตูดิโอมรดกที่สืบทอดมา: เมื่อคุณแก้ไขมุมมองในสตูดิโอโดยการลากและ"
+"ยกตัวอย่างเช่นฟิลด์ใหม่สตูดิโอที่ได้รับมรดกและมัน"
+"XPath ที่สอดคล้องกันซึ่งกำหนดส่วนที่แก้ไขของมุมมองคือ"
+"สร้างขึ้นโดยอัตโนมัติ"
 
 #: ../../content/applications/studio/views.rst:30
 msgid "General views"
@@ -2701,22 +3409,28 @@ msgid ""
 "The settings described below are found under the view's :guilabel:`View` tab"
 " unless specified otherwise."
 msgstr ""
+"การตั้งค่าที่อธิบายไว้ด้านล่างนี้อยู่ภายใต้มุมมอง: แท็บ Guilabel: `view`"
+"เว้นแต่จะระบุไว้เป็นอย่างอื่น"
 
 #: ../../content/applications/studio/views.rst:39
 msgid "Form"
-msgstr "ฟอร์ม"
+msgstr "รูปร่าง"
 
 #: ../../content/applications/studio/views.rst:41
 msgid ""
 "The :guilabel:`Form` :icon:`fa-address-card` view is used when creating and "
 "editing records, such as contacts, sales orders, products, etc."
 msgstr ""
+"The: Guilabel: `form`: ไอคอน:` `มุมมองที่อยู่อาศัยของ Fa-address-card '"
+"การแก้ไขบันทึกเช่นผู้ติดต่อคำสั่งขายผลิตภัณฑ์ ฯลฯ"
 
 #: ../../content/applications/studio/views.rst:44
 msgid ""
 "To structure a form, drag and drop the :guilabel:`Tabs and Columns` element "
 "found under the :guilabel:`+ Add` tab."
 msgstr ""
+"ในการจัดโครงสร้างแบบฟอร์มลากและวาง: guilabel: `` องค์ประกอบแท็บและคอลัมน์ '"
+"พบได้ภายใต้แท็บ: guilabel: `+ add`"
 
 #: ../../content/applications/studio/views.rst:46
 #: ../../content/applications/studio/views.rst:137
@@ -2724,12 +3438,16 @@ msgid ""
 "To prevent users from creating, editing, or deleting records, untick "
 ":guilabel:`Can Create`, :guilabel:`Can Edit`, or :guilabel:`Can Delete`."
 msgstr ""
+"เพื่อป้องกันไม่ให้ผู้ใช้สร้างแก้ไขหรือลบบันทึก"
+": Guilabel: `สามารถสร้าง ',: guilabel:` สามารถแก้ไข' หรือ: guilabel: `สามารถลบ 'ได้"
 
 #: ../../content/applications/studio/views.rst:48
 msgid ""
 "To add a button, click :guilabel:`Add a button` at the top of the form, "
 "enter a :guilabel:`Label`, and select the button's action:"
 msgstr ""
+"หากต้องการเพิ่มปุ่มคลิก: Guilabel: `เพิ่มปุ่ม 'ที่ด้านบนของแบบฟอร์ม"
+"ป้อน A: Guilabel: `label 'และเลือกการกระทำของปุ่ม:"
 
 #: ../../content/applications/studio/views.rst:51
 #: ../../content/applications/studio/views.rst:153
@@ -2737,6 +3455,8 @@ msgid ""
 ":guilabel:`Run a Server Action`: select the :ref:`server action "
 "<reference/actions/server>` to be executed from the dropdown list;"
 msgstr ""
+": guilabel: `เรียกใช้เซิร์ฟเวอร์แอ็คชั่น ': เลือก: ref:` การกระทำเซิร์ฟเวอร์"
+"\u003cการอ้างอิง/การกระทำ/เซิร์ฟเวอร์\u003e `ที่จะดำเนินการจากรายการดรอปดาวน์"
 
 #: ../../content/applications/studio/views.rst:53
 #: ../../content/applications/studio/views.rst:155
@@ -2744,6 +3464,8 @@ msgid ""
 ":guilabel:`Call a method`: specify an existing Python method already defined"
 " in Odoo."
 msgstr ""
+": guilabel: `เรียกเมธอด ': ระบุวิธี Python ที่มีอยู่แล้วกำหนดไว้แล้ว"
+"ใน Odoo"
 
 #: ../../content/applications/studio/views.rst:55
 msgid ""
@@ -2752,10 +3474,14 @@ msgid ""
 "an :guilabel:`Icon`, and select a :ref:`related field "
 "<studio/fields/relational-fields/related-field>`."
 msgstr ""
+"หากต้องการเพิ่มปุ่มอัจฉริยะให้คลิกที่: ไอคอน: `fa-plus-square` (: guilabel:` plus`)"
+"ไอคอนในมุมบนขวาของแบบฟอร์ม "
+"an: guilabel: `icon` และเลือก A: REF:` ฟิลด์ที่เกี่ยวข้อง"
+"\u003cStudio/Fields/Relational-Fields/Resplate-Field\u003e `"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales order model's Form view"
-msgstr ""
+msgstr "มุมมองแบบฟอร์มของโมเดลการขายใบสั่งขาย"
 
 #: ../../content/applications/studio/views.rst:67
 msgid "Activity"
@@ -2766,14 +3492,16 @@ msgid ""
 "The :guilabel:`Activity` :icon:`fa-clock-o` view is used to schedule and "
 "have an overview of activities (emails, calls, etc.) linked to records."
 msgstr ""
+": Guilabel: `activity`: ไอคอน:` `มุมมอง fa-clock-o` ใช้ในการกำหนดเวลาและ"
+"มีภาพรวมของกิจกรรม (อีเมลการโทร ฯลฯ ) เชื่อมโยงกับบันทึก"
 
 #: ../../content/applications/studio/views.rst:73
 msgid "This view can only be modified within Studio by editing the XML code."
-msgstr ""
+msgstr "มุมมองนี้สามารถแก้ไขได้ภายในสตูดิโอโดยการแก้ไขรหัส XML"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Lead/Opportunity model's Activity view"
-msgstr ""
+msgstr "มุมมองกิจกรรมของรุ่นตะกั่ว/โอกาส"
 
 #: ../../content/applications/studio/views.rst:83
 msgid "Search"
@@ -2784,6 +3512,8 @@ msgid ""
 "The :guilabel:`Search` :icon:`oi-search` view is added on top of other views"
 " to filter, group, and search records."
 msgstr ""
+": guilabel: `search`: ไอคอน: มุมมอง` `oi-search` led"
+"เพื่อกรองจัดกลุ่มและบันทึกการค้นหา"
 
 #: ../../content/applications/studio/views.rst:88
 msgid ""
@@ -2791,6 +3521,9 @@ msgid ""
 ":guilabel:`Separators`, go to the :guilabel:`+ Add` tab and drag and drop "
 "them under :guilabel:`Filters`."
 msgstr ""
+"เพื่อเพิ่ม Custom: Guilabel: `filters 'และโครงสร้างโดยใช้"
+": Guilabel: `separators 'ไปที่: Guilabel:`+ add` แท็บแล้วลากและวาง"
+"ภายใต้: Guilabel: `filters '"
 
 #: ../../content/applications/studio/views.rst:90
 msgid ""
@@ -2798,18 +3531,21 @@ msgid ""
 ":guilabel:`+ Add` tab and drag and drop it under :guilabel:`Autocompletion "
 "Fields`."
 msgstr ""
+"หากต้องการเพิ่มฟิลด์ที่มีอยู่ภายใต้เมนูแบบเลื่อนลงของการค้นหาให้ไปที่"
+": guilabel: `+ add` แท็บแล้วลากและวางลงใต้: Guilabel:` Autocompletion"
+"Fields`."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Project model's Search view on the Kanban view"
-msgstr "มุมมองการค้นหาของแบบจำลองโปรเจ็กต์ในมุมมองคัมบัง"
+msgstr "มุมมองการค้นหาของโมเดลโครงการบนมุมมอง Kanban"
 
 #: ../../content/applications/studio/views.rst:101
 msgid "Multiple records views"
-msgstr "มุมมองบันทึกหลายรายการ"
+msgstr "มุมมองหลายบันทึก"
 
 #: ../../content/applications/studio/views.rst:110
 msgid "Kanban"
-msgstr "คัมบัง"
+msgstr "Kanban"
 
 #: ../../content/applications/studio/views.rst:112
 msgid ""
@@ -2817,6 +3553,9 @@ msgid ""
 "business flows by moving records across stages or as an alternative way to "
 "display records inside *cards*."
 msgstr ""
+"The: Guilabel: `kanban`: ไอคอน:` oi-view-kanban` มุมมองมักใช้เพื่อสนับสนุน"
+"การไหลของธุรกิจโดยการย้ายบันทึกข้ามขั้นตอนหรือเป็นทางเลือกอื่น"
+"แสดงระเบียนภายใน *การ์ด *"
 
 #: ../../content/applications/studio/views.rst:116
 msgid ""
@@ -2824,17 +3563,23 @@ msgid ""
 " on mobile devices instead of the :ref:`List view <studio/views/multiple-"
 "records/list>`."
 msgstr ""
+"ถ้า: Guilabel: `` kanban` view มีอยู่จะถูกใช้โดยค่าเริ่มต้นเพื่อแสดงข้อมูล"
+"บนอุปกรณ์มือถือแทน: ref: `list view \u003cStudio/Views/Multiple-"
+"บันทึก/รายการ\u003e `"
 
 #: ../../content/applications/studio/views.rst:119
 msgid ""
 "To prevent users from creating new records, untick :guilabel:`Can Create`."
 msgstr ""
+"เพื่อป้องกันไม่ให้ผู้ใช้สร้างระเบียนใหม่ UNTICK: Guilabel: `สามารถสร้าง 'ได้"
 
 #: ../../content/applications/studio/views.rst:120
 msgid ""
 "To create records directly within the view, in a minimalistic form, enable "
 ":guilabel:`Quick Create`."
 msgstr ""
+"เพื่อสร้างระเบียนโดยตรงภายในมุมมองในรูปแบบที่เรียบง่ายเปิดใช้งาน"
+": Guilabel: `Quick Create`"
 
 #: ../../content/applications/studio/views.rst:122
 #: ../../content/applications/studio/views.rst:149
@@ -2842,10 +3587,12 @@ msgid ""
 "To set a default grouping for records, select a field under "
 ":guilabel:`Default Group By`."
 msgstr ""
+"หากต้องการตั้งค่าการจัดกลุ่มเริ่มต้นสำหรับบันทึกให้เลือกฟิลด์ภายใต้"
+": Guilabel: `กลุ่มเริ่มต้นโดย '"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Project model's Kanban view"
-msgstr "มุมมองคัมบังของแบบจำลองโปรเจ็กต์"
+msgstr "มุมมอง Kanban ของ Project Model"
 
 #: ../../content/applications/studio/views.rst:132
 msgid "List"
@@ -2856,6 +3603,8 @@ msgid ""
 "The :guilabel:`List` :icon:`oi-view-list` view is used to overview many "
 "records at once, look for records, and edit simple records."
 msgstr ""
+"The: Guilabel: `list`: ไอคอน:` `มุมมอง Oi-view-list 'ใช้เพื่อภาพรวมมากมาย"
+"บันทึกพร้อมกันมองหาระเบียนและแก้ไขบันทึกง่าย ๆ"
 
 #: ../../content/applications/studio/views.rst:139
 msgid ""
@@ -2863,28 +3612,37 @@ msgid ""
 ":guilabel:`Add record at the bottom`, :guilabel:`Add record on top` or "
 ":guilabel:`Open form view` under :guilabel:`When Creating Record`."
 msgstr ""
+"ในการสร้างและแก้ไขบันทึกโดยตรงภายในมุมมองเลือกอย่างใดอย่างหนึ่ง"
+": Guilabel: `เพิ่มบันทึกที่ด้านล่าง ',: guilabel:` เพิ่มบันทึกที่ด้านบน' หรือ"
+": Guilabel: `Open Form View` Under: Guilabel:` เมื่อสร้าง Record`"
 
 #: ../../content/applications/studio/views.rst:144
 msgid ""
 "This prevents users from opening records in :ref:`Form view "
 "<studio/views/general/form>` from the :guilabel:`List` view."
 msgstr ""
+"สิ่งนี้ป้องกันไม่ให้ผู้ใช้เปิดระเบียนใน: REF: `มุมมองแบบฟอร์ม"
+"\u003cStudio/Views/General/Form\u003e `จาก: Guilabel:` list List` View"
 
 #: ../../content/applications/studio/views.rst:147
 msgid "To edit several records at once, tick :guilabel:`Enable Mass Editing`."
-msgstr ""
+msgstr "หากต้องการแก้ไขหลายบันทึกในครั้งเดียวเห็บ: Guilabel: `เปิดใช้งานการแก้ไขมวลชน"
 
 #: ../../content/applications/studio/views.rst:148
 msgid ""
 "To change the way records are sorted by default, select a field under "
 ":guilabel:`Sort By`."
 msgstr ""
+"หากต้องการเปลี่ยนวิธีการจัดเรียงบันทึกตามค่าเริ่มต้นให้เลือกฟิลด์ภายใต้"
+": Guilabel: `Sort By`"
 
 #: ../../content/applications/studio/views.rst:150
 msgid ""
 "To add a button, click :guilabel:`Add a button` at the top of the list, "
 "enter a :guilabel:`Label`, and select the button's action:"
 msgstr ""
+"หากต้องการเพิ่มปุ่มคลิก: Guilabel: `เพิ่มปุ่ม 'ที่ด้านบนของรายการ"
+"ป้อน A: Guilabel: `label 'และเลือกการกระทำของปุ่ม:"
 
 #: ../../content/applications/studio/views.rst:158
 msgid ""
@@ -2892,14 +3650,17 @@ msgid ""
 "records manually, add an :ref:`Integer field <studio/fields/simple-"
 "fields/integer>` with the :guilabel:`Handle` widget."
 msgstr ""
+"หากต้องการเพิ่ม A: ไอคอน: `oi-draggable` (: guilabel:` drag handle ') ไอคอนเพื่อจัดลำดับใหม่"
+"บันทึกด้วยตนเองเพิ่ม: ref: `ฟิลด์จำนวนเต็ม \u003cStudio/Fields/Simple-"
+"ฟิลด์/จำนวนเต็ม\u003e `ด้วย: guilabel:` widget handle`"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Drag handle icon enabling to sort records manually in List view"
-msgstr ""
+msgstr "ไอคอน Drag Handle ที่เปิดใช้งานการเรียงลำดับบันทึกด้วยตนเองในมุมมองรายการ"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales order model's List view"
-msgstr ""
+msgstr "มุมมองรายการรายการใบสั่งขาย"
 
 #: ../../content/applications/studio/views.rst:172
 msgid "Map"
@@ -2911,6 +3672,9 @@ msgid ""
 " a map. For example, it is used in the Field Service app to plan an "
 "itinerary between different tasks."
 msgstr ""
+": guilabel: `map`: ไอคอน: มุมมอง` `fa-map-marker` ใช้เพื่อแสดงบันทึก"
+"แผนที่ "
+"รายละเอียดการเดินทางระหว่างงานที่แตกต่างกัน"
 
 #: ../../content/applications/studio/views.rst:178
 msgid ""
@@ -2918,24 +3682,33 @@ msgid ""
 " the *Contact* model is required to activate the view, as the contact "
 "address is used to position records on the map."
 msgstr ""
+"ตอบ: ref: `field Many2One \u003cStudio/Fields/Relational-Fields/Many2One\u003e` เชื่อมโยงกับ"
+"จำเป็นต้องใช้โมเดล * ติดต่อ * เพื่อเปิดใช้งานมุมมองเป็นผู้ติดต่อ"
+"ที่อยู่ใช้ในการจัดวางบันทึกบนแผนที่"
 
 #: ../../content/applications/studio/views.rst:181
 msgid ""
 "To select which kind of contact should be used on the map, select it under "
 ":guilabel:`Contact Field`."
 msgstr ""
+"ในการเลือกประเภทของผู้ติดต่อควรใช้บนแผนที่ให้เลือกภายใต้"
+": Guilabel: `Field '"
 
 #: ../../content/applications/studio/views.rst:183
 msgid ""
 "To hide the name or the address of the record, tick :guilabel:`Hide Name` or"
 " :guilabel:`Hide Address`."
 msgstr ""
+"หากต้องการซ่อนชื่อหรือที่อยู่ของบันทึก Tick: Guilabel: `ซ่อนชื่อ 'หรือ"
+": Guilabel: `ซ่อนที่อยู่ '"
 
 #: ../../content/applications/studio/views.rst:185
 msgid ""
 "To add information from other fields, select them under "
 ":guilabel:`Additional Fields`."
 msgstr ""
+"หากต้องการเพิ่มข้อมูลจากฟิลด์อื่น ๆ ให้เลือกภายใต้"
+": Guilabel: `ฟิลด์เพิ่มเติม '"
 
 #: ../../content/applications/studio/views.rst:186
 msgid ""
@@ -2943,10 +3716,13 @@ msgid ""
 ":guilabel:`Enable Routing` and select which field should be used to sort "
 "records for the routing."
 msgstr ""
+"หากต้องการเส้นทางที่แนะนำระหว่างบันทึกที่แตกต่างกันเห็บ"
+": Guilabel: `เปิดใช้งานการกำหนดเส้นทาง 'และเลือกฟิลด์ที่ควรใช้ในการเรียงลำดับ"
+"บันทึกสำหรับการกำหนดเส้นทาง"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Task model's Map view"
-msgstr ""
+msgstr "มุมมองแผนที่ของโมเดลงาน"
 
 #: ../../content/applications/studio/views.rst:197
 msgid "Timeline views"
@@ -2961,12 +3737,12 @@ msgid ""
 "view. You can modify the :guilabel:`Start Date Field` and :guilabel:`Stop "
 "Date Field` after activating the view."
 msgstr ""
-"เมื่อคุณเปิดใช้งานมุมมองไทม์ไลน์ครั้งแรก คุณต้องเลือกฟิลด์ :ref:`วันที่ "
-"<studio/fields/simple-fields/date>` หรือ :ref:`วันที่และเวลา "
-"<studio/fields/simple-fields/date-time>` "
-"ในโมเดลของคุณที่จะใช้เพื่อกำหนดเวลาเริ่มต้นและสิ้นสุดของระเบียนเพื่อแสดงในมุมมอง"
-" คุณสามารถแก้ไข :guilabel:`ฟิลด์วันที่เริ่มต้น` และ "
-":guilabel:`ฟิลด์วันที่หยุด` ได้หลังจากเปิดใช้งานมุมมอง"
+"เมื่อคุณเปิดใช้งานหนึ่งในมุมมองไทม์ไลน์คุณต้องเลือกว่า"
+": Ref: `date \u003cStudio/Fields/Simple-Fields/Date\u003e` หรือ: ref: `วันที่และเวลา"
+"\u003cStudio/Fields/Simple-Fields/Date-Time\u003e `ฟิลด์ในโมเดลของคุณควรใช้"
+"เพื่อกำหนดเมื่อบันทึกเริ่มต้นและหยุดเพื่อแสดงพวกเขาในไฟล์"
+"ดู. "
+"ฟิลด์วันที่ `หลังจากเปิดใช้งานมุมมอง"
 
 #: ../../content/applications/studio/views.rst:211
 msgid "Calendar"
@@ -2977,12 +3753,16 @@ msgid ""
 "The :guilabel:`Calendar` :icon:`fa-calendar` view is used to overview and "
 "manage records inside a calendar."
 msgstr ""
+"The: Guilabel: `Calendar`: ไอคอน:` `มุมมอง fa-calendar` ใช้เพื่อภาพรวมและ"
+"จัดการบันทึกภายในปฏิทิน"
 
 #: ../../content/applications/studio/views.rst:216
 msgid ""
 "To create records directly within the view instead of opening the :ref:`Form"
 " view <studio/views/general/form>`, enable :guilabel:`Quick Create`."
 msgstr ""
+"เพื่อสร้างระเบียนโดยตรงภายในมุมมองแทนที่จะเปิด: ref: `ฟอร์ม"
+"ดู \u003cStudio/Views/General/Form\u003e `, เปิดใช้งาน: Guilabel:` Quick Create`"
 
 #: ../../content/applications/studio/views.rst:220
 msgid ""
@@ -2990,6 +3770,9 @@ msgid ""
 "*name*. However, most models do not support quick creation and open the "
 ":guilabel:`Form` view to fill in the required fields."
 msgstr ""
+"สิ่งนี้ใช้งานได้เฉพาะกับรุ่นเฉพาะที่สามารถสร้างได้อย่างรวดเร็ว * โดยใช้เฉพาะ"
+"*ชื่อ*. "
+": Guilabel: `form` view เพื่อเติมในฟิลด์ที่ต้องการ"
 
 #: ../../content/applications/studio/views.rst:224
 msgid ""
@@ -2997,12 +3780,17 @@ msgid ""
 "All the records sharing the same value for that field are displayed using "
 "the same color."
 msgstr ""
+"ในการบันทึกสีในปฏิทินให้เลือกฟิลด์ภายใต้: Guilabel: `color '"
+"ระเบียนทั้งหมดที่แบ่งปันค่าเดียวกันสำหรับฟิลด์นั้นจะแสดงโดยใช้"
+"สีเดียวกัน"
 
 #: ../../content/applications/studio/views.rst:228
 msgid ""
 "As the number of colors is limited, the same color can end up being assigned"
 " to different values."
 msgstr ""
+"เนื่องจากจำนวนสีมี จำกัด สีเดียวกันอาจจบลงด้วยการกำหนด"
+"ถึงค่าที่แตกต่างกัน"
 
 #: ../../content/applications/studio/views.rst:231
 msgid ""
@@ -3010,6 +3798,9 @@ msgid ""
 " :ref:`Checkbox field <studio/fields/simple-fields/checkbox>` that specifies"
 " if the event lasts the whole day."
 msgstr ""
+"ในการแสดงกิจกรรมที่ยั่งยืนตลอดทั้งวันที่ด้านบนของปฏิทินเลือกก"
+": REF: `ฟิลด์ช่องทำเครื่องหมาย \u003cStudio/Fields/Simple-Fields/ช่องทำเครื่องหมาย\u003e` ที่ระบุ"
+"หากเหตุการณ์มีอายุการใช้งานตลอดทั้งวัน"
 
 #: ../../content/applications/studio/views.rst:234
 msgid ""
@@ -3017,6 +3808,9 @@ msgid ""
 ":guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` "
 "under :guilabel:`Default Display Mode`."
 msgstr ""
+"หากต้องการเลือกมาตราส่วนเวลาเริ่มต้นที่ใช้ในการแสดงเหตุการณ์ให้เลือก"
+": Guilabel: `day` ,: guilabel:` สัปดาห์ ',: guilabel: `เดือน' หรือ: guilabel:` ปี '"
+"ภายใต้: Guilabel: `โหมดแสดงผลเริ่มต้น '"
 
 #: ../../content/applications/studio/views.rst:238
 msgid ""
@@ -3027,14 +3821,20 @@ msgid ""
 "you set an :guilabel:`End Date Field`, the :guilabel:`Delay Field` will not "
 "be taken into account."
 msgstr ""
+"นอกจากนี้คุณยังสามารถใช้ A: Guilabel: `delay field` เพื่อแสดงระยะเวลาของไฟล์"
+"เหตุการณ์เป็นชั่วโมงโดยเลือก: ref: `ทศนิยม \u003cสตูดิโอ/ฟิลด์/ง่าย-"
+"ฟิลด์/ทศนิยม\u003e `หรือ: อ้างอิง:` จำนวนเต็ม \u003cสตูดิโอ/ฟิลด์/ฟิลด์ง่าย/จำนวนเต็ม\u003e `"
+"ฟิลด์บนโมเดลที่ระบุระยะเวลาของเหตุการณ์ "
+"คุณตั้งค่า: guilabel: `field วันที่สิ้นสุด ',: guilabel:` ฟิลด์ล่าช้า' จะไม่"
+"ถูกนำมาพิจารณา"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Calendar Event model's Calendar view"
-msgstr ""
+msgstr "มุมมองปฏิทินของโมเดลกิจกรรมปฏิทิน"
 
 #: ../../content/applications/studio/views.rst:252
 msgid "Cohort"
-msgstr "หมู่คณะ"
+msgstr "กลุ่ม"
 
 #: ../../content/applications/studio/views.rst:254
 msgid ""
@@ -3042,12 +3842,17 @@ msgid ""
 "life cycle of records over a time period. For example, it is used in the "
 "Subscriptions app to view the subscriptions' retention rate."
 msgstr ""
+"The: Guilabel: `cohort`: ไอคอน:` `oi-view-cohort` มุมมองใช้เพื่อตรวจสอบไฟล์"
+"วงจรชีวิตของบันทึกในช่วงเวลา "
+"แอปสมัครสมาชิกเพื่อดูอัตราการเก็บข้อมูลการสมัครสมาชิก"
 
 #: ../../content/applications/studio/views.rst:258
 msgid ""
 "To display a measure (i.e., the aggregated value of a given field) by "
 "default on the view, select a :guilabel:`Measure Field`."
 msgstr ""
+"เพื่อแสดงการวัด (เช่นค่ารวมของฟิลด์ที่กำหนด) โดย"
+"ค่าเริ่มต้นในมุมมองเลือก A: Guilabel: `Measure Field '"
 
 #: ../../content/applications/studio/views.rst:260
 msgid ""
@@ -3055,6 +3860,9 @@ msgid ""
 ":guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` "
 "under :guilabel:`Interval`."
 msgstr ""
+"หากต้องการเลือกช่วงเวลาที่ใช้โดยค่าเริ่มต้นกับผลลัพธ์กลุ่มให้เลือก"
+": Guilabel: `day` ,: guilabel:` สัปดาห์ ',: guilabel: `เดือน' หรือ: guilabel:` ปี '"
+"ภายใต้: Guilabel: `Interval`"
 
 #: ../../content/applications/studio/views.rst:262
 msgid ""
@@ -3064,6 +3872,11 @@ msgid ""
 "records moving out over a period of time - it starts at 0% and increases "
 "with time`."
 msgstr ""
+"หากต้องการเปลี่ยนกลุ่ม: Guilabel: `mode 'เลือกอย่างใดอย่างหนึ่ง: guilabel:` retention'"
+": DFN: `เปอร์เซ็นต์ของบันทึกอยู่ในช่วงระยะเวลาหนึ่งมันเริ่มต้นที่"
+"100% และลดลงตามเวลา `หรือ: guilabel:` churn`: dfn: `เปอร์เซ็นต์ของ"
+"บันทึกการย้ายออกในช่วงระยะเวลาหนึ่ง - เริ่มต้นที่ 0% และเพิ่มขึ้น"
+"กับเวลา `."
 
 #: ../../content/applications/studio/views.rst:266
 msgid ""
@@ -3072,14 +3885,18 @@ msgid ""
 "(from -15 to 0). For most purposes, the :guilabel:`Forward` timeline is "
 "used."
 msgstr ""
+"หากต้องการเปลี่ยนวิธี: Guilabel: `timeline` (เช่นคอลัมน์) ดำเนินไป"
+"เลือกอย่างใดอย่างหนึ่ง: guilabel: `forward` (จาก 0 ถึง +15) หรือ: guilabel:` backward`"
+"(จาก -15 ถึง 0) "
+"ใช้แล้ว."
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Subscription model's Cohort view"
-msgstr ""
+msgstr "มุมมองกลุ่มของโมเดลการสมัครสมาชิก"
 
 #: ../../content/applications/studio/views.rst:278
 msgid "Gantt"
-msgstr "แกนต์"
+msgstr "กานท์"
 
 #: ../../content/applications/studio/views.rst:280
 msgid ""
@@ -3087,18 +3904,25 @@ msgid ""
 "the overall progress of records. Records are represented by a bar under a "
 "time scale."
 msgstr ""
+": Guilabel: `gantt`: ไอคอน:` มุมมอง fa-tasks 'ใช้เพื่อคาดการณ์และตรวจสอบ"
+"ความคืบหน้าโดยรวมของบันทึก "
+"มาตราส่วนเวลา"
 
 #: ../../content/applications/studio/views.rst:283
 msgid ""
 "To prevent users from creating or editing records, untick :guilabel:`Can "
 "Create` or :guilabel:`Can Edit`."
 msgstr ""
+"เพื่อป้องกันไม่"
+"Create` หรือ: Guilabel: `สามารถแก้ไขได้ '"
 
 #: ../../content/applications/studio/views.rst:285
 msgid ""
 "To fill cells in gray whenever a record should not be created there (e.g., "
 "on weekends for employees), tick :guilabel:`Display Unavailability`."
 msgstr ""
+"เพื่อเติมเต็มเซลล์ด้วยสีเทาเมื่อใดก็ตามที่ไม่ควรสร้างบันทึกที่นั่น (เช่น"
+"ในวันหยุดสุดสัปดาห์สำหรับพนักงาน), tick: guilabel: `แสดงไม่พร้อมใช้งาน '"
 
 #: ../../content/applications/studio/views.rst:289
 msgid ""
@@ -3106,27 +3930,29 @@ msgid ""
 " added using Studio. It is supported for the Project, Time Off, Planning, "
 "and Manufacturing apps."
 msgstr ""
-"โมเดลพื้นฐานต้องรองรับฟีเจอร์นี้ "
-"และไม่สามารถเพิ่มการรองรับได้โดยใช้แอปสตูดิโอ ได้รับการสนับสนุนสำหรับแอป "
-"โปรเจ็กต์ ระบบการลา การวางแผนและระบบการผลิต"
+"โมเดลพื้นฐานจะต้องรองรับคุณสมบัตินี้และไม่สามารถรองรับได้"
+"เพิ่มโดยใช้สตูดิโอ "
+"และแอพการผลิต"
 
 #: ../../content/applications/studio/views.rst:292
 msgid "To show a total row at the bottom, tick :guilabel:`Display Total row`."
-msgstr ""
+msgstr "หากต้องการแสดงแถวทั้งหมดที่ด้านล่าง, เห็บ: Guilabel: `แสดงแถวทั้งหมด '"
 
 #: ../../content/applications/studio/views.rst:293
 msgid ""
 "To collapse multiple records in a single row, tick :guilabel:`Collapse First"
 " Level`."
 msgstr ""
+"หากต้องการยุบหลายระเบียนในแถวเดียวติ๊ก: Guilabel: `ล่มสลายก่อน"
+"ระดับ `."
 
 #: ../../content/applications/studio/views.rst:294
 msgid ""
 "To choose which way records are grouped by default on rows (e.g., per "
 "employee or project), select a field under :guilabel:`Default Group by`."
 msgstr ""
-"หากต้องการเลือกวิธีจัดกลุ่มระเบียนตามค่าเริ่มต้นในแถว (เช่น "
-"ต่อพนักงานหรือโปรเจ็กต์) ให้เลือกฟิลด์ภายใต้ :guilabel:`เริ่มต้นจัดกลุ่มตาม`"
+"เพื่อเลือกวิธีการบันทึกวิธีการจัดกลุ่มตามค่าเริ่มต้นเป็นแถว (เช่นต่อ"
+"พนักงานหรือโครงการ) เลือกฟิลด์ภายใต้: Guilabel: `กลุ่มเริ่มต้นโดย '"
 
 #: ../../content/applications/studio/views.rst:296
 msgid ""
@@ -3134,6 +3960,9 @@ msgid ""
 ":guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` under "
 ":guilabel:`Default Scale`."
 msgstr ""
+"ในการกำหนดมาตราส่วนเวลาเริ่มต้นเพื่อดูระเบียนให้เลือก: Guilabel: `day '"
+": Guilabel: `Week` ,: Guilabel:` Month` หรือ: Guilabel: `ปี '"
+": Guilabel: `ระดับเริ่มต้น '"
 
 #: ../../content/applications/studio/views.rst:298
 msgid ""
@@ -3141,12 +3970,17 @@ msgid ""
 "the records sharing the same value for that field are displayed using the "
 "same color."
 msgstr ""
+"ในการบันทึกสีในมุมมองให้เลือกฟิลด์ภายใต้: Guilabel: `color ' "
+"ระเบียนที่แบ่งปันค่าเดียวกันสำหรับฟิลด์นั้นจะแสดงโดยใช้ไฟล์"
+"สีเดียวกัน"
 
 #: ../../content/applications/studio/views.rst:302
 msgid ""
 "As the number of colors is limited, the same color can be assigned to "
 "different values."
 msgstr ""
+"เนื่องจากจำนวนสีมี จำกัด สามารถกำหนดสีเดียวกันได้"
+"ค่าที่แตกต่างกัน"
 
 #: ../../content/applications/studio/views.rst:304
 msgid ""
@@ -3156,14 +3990,19 @@ msgid ""
 ":guilabel:`Day` under :guilabel:`Week Precision`, and :guilabel:`Month "
 "Precision`."
 msgstr ""
+"เพื่อระบุระดับความแม่นยำในแต่ละช่วงเวลาควรแบ่ง"
+"โดยเลือก: Guilabel: `quarter hour` ,: guilabel:` ครึ่งชั่วโมง 'หรือ"
+": guilabel: `ชั่วโมง 'ภายใต้: guilabel:` day precision` ,: guilabel: `ครึ่งวัน' หรือ"
+": Guilabel: `Day` Under: Guilabel:` ความแม่นยำสัปดาห์ 'และ: Guilabel: `เดือน"
+"ความแม่นยำ '"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Planning Shift model's Gantt view"
-msgstr ""
+msgstr "การวางแผนมุมมอง Gantt ของ Shift Model"
 
 #: ../../content/applications/studio/views.rst:317
 msgid "Reporting views"
-msgstr "การรายงานมุมมอง"
+msgstr "มุมมองการรายงาน"
 
 #: ../../content/applications/studio/views.rst:326
 msgid "Pivot"
@@ -3176,12 +4015,18 @@ msgid ""
 "especially useful to aggregate numeric data, create categories, and drill "
 "down the data by expanding and collapsing different levels of data."
 msgstr ""
+"The: Guilabel: `pivot`: ไอคอน:` `oi-view-pivot` view ใช้เพื่อสำรวจและ"
+"วิเคราะห์ข้อมูลที่มีอยู่ในบันทึกในลักษณะการโต้ตอบ "
+"มีประโยชน์อย่างยิ่งในการรวบรวมข้อมูลตัวเลขสร้างหมวดหมู่และการเจาะ"
+"ลงข้อมูลโดยการขยายและยุบข้อมูลระดับต่าง ๆ"
 
 #: ../../content/applications/studio/views.rst:332
 msgid ""
 "To access all records whose data is aggregated under a cell, tick "
 ":guilabel:`Access records from cell`."
 msgstr ""
+"หากต้องการเข้าถึงระเบียนทั้งหมดที่มีข้อมูลรวมอยู่ภายใต้เซลล์ติ๊ก"
+": Guilabel: `การเข้าถึงบันทึกจากเซลล์ '"
 
 #: ../../content/applications/studio/views.rst:334
 msgid ""
@@ -3189,22 +4034,29 @@ msgid ""
 ":guilabel:`Column grouping`, :guilabel:`Row grouping - First level`, or "
 ":guilabel:`Row grouping - Second level`."
 msgstr ""
+"หากต้องการแบ่งข้อมูลออกเป็นหมวดหมู่ที่แตกต่างกันให้เลือกฟิลด์ภายใต้"
+": guilabel: `การจัดกลุ่มคอลัมน์ ',: guilabel:` การจัดกลุ่มแถว - ระดับแรก' หรือ"
+": Guilabel: `การจัดกลุ่มแถว - ระดับที่สอง '"
 
 #: ../../content/applications/studio/views.rst:336
 msgid ""
 "To add different types of data to be measured using the view, select a field"
 " under :guilabel:`Measures`."
 msgstr ""
+"หากต้องการเพิ่มข้อมูลประเภทต่างๆที่จะวัดโดยใช้มุมมองเลือกฟิลด์"
+"ภายใต้: Guilabel: `มาตรการ '"
 
 #: ../../content/applications/studio/views.rst:338
 msgid ""
 "To display a count of records that made up the aggregated data in a cell, "
 "tick :guilabel:`Display count`."
 msgstr ""
+"เพื่อแสดงจำนวนระเบียนที่สร้างข้อมูลรวมในเซลล์"
+"ติ๊ก: Guilabel: `จำนวนการแสดงผล '"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Purchase Report model's Pivot view"
-msgstr ""
+msgstr "มุมมองเดือยของโมเดลรายงานการซื้อ"
 
 #: ../../content/applications/studio/views.rst:349
 msgid "Graph"
@@ -3215,12 +4067,16 @@ msgid ""
 "The :guilabel:`Graph` :icon:`fa-area-chart` view is used to showcase data "
 "from records in a bar, line, or pie chart."
 msgstr ""
+"The: Guilabel: `graph`: ไอคอน:` `มุมมองแผนภูมิพื้นที่ fa-area` ใช้เพื่อแสดงข้อมูล"
+"จากบันทึกในบาร์บรรทัดหรือแผนภูมิวงกลม"
 
 #: ../../content/applications/studio/views.rst:354
 msgid ""
 "To change the default chart, select :guilabel:`Bar`, :guilabel:`Line`, or "
 ":guilabel:`Pie` under :guilabel:`Type`."
 msgstr ""
+"หากต้องการเปลี่ยนแผนภูมิเริ่มต้นให้เลือก: guilabel: `bar`,: guilabel:` line 'หรือ"
+": Guilabel: `Pie` Under: Guilabel:` type`"
 
 #: ../../content/applications/studio/views.rst:356
 msgid ""
@@ -3228,12 +4084,17 @@ msgid ""
 ":guilabel:`First dimension` and, if needed, another under :guilabel:`Second "
 "dimension`."
 msgstr ""
+"หากต้องการเลือกมิติข้อมูลเริ่มต้น (หมวดหมู่) ให้เลือกฟิลด์ภายใต้"
+": guilabel: `มิติแรก 'และถ้าจำเป็นอื่น ๆ ภายใต้: guilabel:` วินาที"
+"มิติ '"
 
 #: ../../content/applications/studio/views.rst:358
 msgid ""
 "To select a default type of data to be measured using the view, select a "
 "field under :guilabel:`Measure`."
 msgstr ""
+"หากต้องการเลือกประเภทข้อมูลเริ่มต้นที่จะวัดโดยใช้มุมมองเลือกก"
+"Field Under: Guilabel: `Measure`"
 
 #: ../../content/applications/studio/views.rst:360
 msgid ""
@@ -3241,6 +4102,9 @@ msgid ""
 "their value, select :guilabel:`Ascending` (from lowest to highest value) or "
 ":guilabel:`Descending` (from highest to lowest) under :guilabel:`Sorting`."
 msgstr ""
+"*สำหรับแผนภูมิแถบและสายเท่านั้น*: เพื่อจัดเรียงหมวดหมู่ข้อมูลที่แตกต่างกันโดย"
+"ค่าของพวกเขาเลือก: guilabel: `adcending` (จากต่ำสุดถึงค่าสูงสุด) หรือ"
+": Guilabel: `detcending` (จากสูงสุดไปต่ำสุด) ภายใต้: Guilabel:` การเรียงลำดับ '"
 
 #: ../../content/applications/studio/views.rst:363
 msgid ""
@@ -3248,6 +4112,9 @@ msgid ""
 "aggregated under a data category on the chart, tick :guilabel:`Access "
 "records from graph`."
 msgstr ""
+"*สำหรับบาร์และแผนภูมิวงกลมเท่านั้น*: เพื่อเข้าถึงระเบียนทั้งหมดที่มีข้อมูล"
+"รวมภายใต้หมวดหมู่ข้อมูลในแผนภูมิ, tick: guilabel: `การเข้าถึง"
+"บันทึกจากกราฟ '"
 
 #: ../../content/applications/studio/views.rst:365
 msgid ""
@@ -3255,7 +4122,11 @@ msgid ""
 "the two columns on top of each other by default by ticking "
 ":guilabel:`Stacked graph`."
 msgstr ""
+"*สำหรับแผนภูมิแท่งเท่านั้น*: เมื่อใช้สองมิติข้อมูล (หมวดหมู่) แสดงผล"
+"ทั้งสองคอลัมน์ด้านบนของกันและกันโดยค่าเริ่มต้นโดยการฟ้อง"
+": Guilabel: `กราฟซ้อนกัน '"
 
 #: ../../content/applications/studio/views.rst:0
 msgid "Sales Analysis Report model's Bar chart on Graph view"
-msgstr ""
+msgstr "รายงานการวิเคราะห์การขายของโมเดลแผนภูมิแท่งบนมุมมองกราฟ"
+

@@ -2,30 +2,19 @@
 # Copyright (C) Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Rasareeyar Lappiam, 2024
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2024
 # Wil Odoo, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 17.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-24 10:43+0000\n"
-"PO-Revision-Date: 2024-03-30 23:40+0000\n"
-"Last-Translator: Wil Odoo, 2024\n"
-"Language-Team: Thai (https://app.transifex.com/odoo/teams/41243/th/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: th\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../../content/applications/essentials.rst:3
 msgid "Odoo essentials"
-msgstr ""
+msgstr "สิ่งจำเป็นสำหรับ Odoo"
 
 #: ../../content/applications/essentials/activities.rst:3
 msgid "Activities"
@@ -33,51 +22,60 @@ msgstr "กิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:7
 msgid "*Activities* are follow-up tasks tied to a record in an Odoo database."
-msgstr ""
+msgstr "* กิจกรรม * เป็นงานติดตามที่เกี่ยวข้องกับการบันทึกในฐานข้อมูลของ Odoo"
 
 #: ../../content/applications/essentials/activities.rst:11
 msgid ""
 "The icon used to display activities varies, depending on the :ref:`activity "
 "type <activities/types>`:"
 msgstr ""
+"ไอคอนที่ใช้ในการแสดงกิจกรรมแตกต่างกันไปตาม: อ้าง:`activity"
+"type < กิจกรรม / ประเภท > `:"
 
 #: ../../content/applications/essentials/activities.rst:14
 msgid ""
 ":icon:`fa-clock-o` :guilabel:`(clock)` icon: the default activities icon."
 msgstr ""
+":icon:fa-clock-o:guilabel:`(นาฬิกา)`ไอคอน: ไอคอนที่ใช้งานอยู่"
 
 #: ../../content/applications/essentials/activities.rst:15
 msgid ":icon:`fa-phone` :guilabel:`(phone)` icon: a phone call is scheduled."
-msgstr ""
+msgstr ": icon:`fa phone`:guilabel:`(phone)`ไอคอน: โทรศัพท์ถูกกำหนดเวลา"
 
 #: ../../content/applications/essentials/activities.rst:16
 msgid ""
 ":icon:`fa-envelope` :guilabel:`(envelope)` icon: an email is scheduled."
 msgstr ""
+":icon:"fa ซองจดหมาย":guilabel:"(ซองจดหมาย)""
 
 #: ../../content/applications/essentials/activities.rst:17
 msgid ":icon:`fa-check` :guilabel:`(check)` icon: a \"to-do\" is scheduled."
-msgstr ""
+msgstr ":: icon:`fa-check`:guilabel:`(check)`ไอคอน:a\#"
+"จัดแล้ว"
 
 #: ../../content/applications/essentials/activities.rst:18
 msgid ":icon:`fa-users` :guilabel:`(people)` icon: a meeting is scheduled."
-msgstr ""
+msgstr ":icon:fa-users:guilabel:`(คน)`ไอคอน:การประชุม"
 
 #: ../../content/applications/essentials/activities.rst:19
 msgid ""
 ":icon:`fa-upload` :guilabel:`(upload)` icon: a document is scheduled to be "
 "uploaded."
 msgstr ""
+":icon:`fa upload`:guilabel:`(upload)`ไอคอน:Document Plan"
+"อัพโหลด"
 
 #: ../../content/applications/essentials/activities.rst:20
 msgid ""
 ":icon:`fa-pencil-square-o` :guilabel:`(request signature)` icon: a signature"
 " request is scheduled."
 msgstr ""
+":: icon:`fa-pencil-square-o`:guilabel:`(ขอลายเซ็น)"
+"คำขอได้ถูกกำหนดไว้แล้ว"
 
 #: ../../content/applications/essentials/activities.rst:23
 msgid "Schedule activities"
-msgstr "กำหนดการกิจกรรม"
+msgstr "กำหนดการจัดงาน"
 
 #: ../../content/applications/essentials/activities.rst:25
 msgid ""
@@ -86,18 +84,18 @@ msgid ""
 "<activities/kanban>`, :ref:`list view <activities/list>`, or "
 ":ref:`activities view <activities/activity>` of an application."
 msgstr ""
-"คุณสามารถกำหนดเวลากิจกรรมได้บนหน้าใดก็ได้ของฐานข้อมูลที่มีเธรด :ref:`ช่องแชท"
-" <activities/chatter>`, :ref:`มุมมองคัมบัง <activities/kanban>`, "
-":ref:`มุมมองรายการ <activities/list>` หรือ :ref:`มุมมองกิจกรรม "
-"<activities/activity>` ของแอปพลิเคชัน"
+"สามารถกำหนดเวลากิจกรรมบนหน้าใด ๆ ของฐานข้อมูลที่มี"
+":ref:`chatter<activities/chatter>`thread,:ref:`kanbanview"
+"<กิจกรรม / Kanban>: อ้าง:` ดูรายการ <กิจกรรม / รายการ> หรือ"
+": อ้าง: `activities view <activities/active> สำหรับแอปพลิเคชัน"
 
 #: ../../content/applications/essentials/activities.rst:32
 msgid "Chatter"
-msgstr "แชท"
+msgstr "จู้จี้"
 
 #: ../../content/applications/essentials/activities.rst:34
 msgid "Activities can be created from the chatter on any record."
-msgstr "สามารถสร้างกิจกรรมได้จากช่องแชทบนบันทึก"
+msgstr "กิจกรรมสามารถสร้างขึ้นจากการแชทในประวัติใดก็ได้"
 
 #: ../../content/applications/essentials/activities.rst:36
 msgid ""
@@ -106,40 +104,48 @@ msgid ""
 "window that appears, :ref:`fill out the Schedule Activity form "
 "<activities/form>`."
 msgstr ""
-"หากต้องการกำหนดเวลาสำหรับกิจกรรมใหม่ ให้คลิกปุ่ม :guilabel:`กิจกรรม` "
-"ที่อยู่ด้านบนของหน้าต่างช่องแชทในหน้าต่างป๊อปอัป :guilabel:`กำหนดการกิจกรรม`"
-" ที่ปรากฏขึ้น ให้ :ref:`กรอกแบบฟอร์มกำหนดการกิจกรรม <activities/form>`"
+"หากต้องการกำหนดเวลากิจกรรมใหม่โปรดคลิกที่: guilabel: ปุ่ม "Activities" ซึ่งตั้งอยู่ที่"
+"ด้านบนของ Chattering ใน: guilabel: "กิจกรรมการวางแผน" ป๊อปอัพ"
+"หน้าต่างที่ปรากฏขึ้น: อ้าง:` กรอกแบบฟอร์ม "วางแผนกิจกรรม""
+"<กิจกรรม / รูปแบบ>"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid "New activity type form."
-msgstr ""
+msgstr "แบบฟอร์มประเภทแคมเปญใหม่"
 
 #: ../../content/applications/essentials/activities.rst:47
 msgid "Kanban view"
-msgstr "มุมมองคัมบัง"
+msgstr "มุมมองของ Kanban"
 
 #: ../../content/applications/essentials/activities.rst:49
 msgid ""
 "Activities can also be created from the :icon:`oi-view-kanban` "
 ":guilabel:`(Kanban)` view."
 msgstr ""
+"กิจกรรมยังสามารถสร้างจาก: icon:'oi ดู Kanban'"
+": guilabel: "(Kanban)" ดู"
 
 #: ../../content/applications/essentials/activities.rst:51
 msgid ""
 "To do so, click on the |clock| located at the bottom of an individual "
 "record."
 msgstr ""
+"สำหรับสิ่งนี้โปรดคลิก #clock ที่ด้านล่างของบุคคล"
+"บันทึกไว้"
 
 #: ../../content/applications/essentials/activities.rst:53
 msgid ""
 "Click :guilabel:`+ Schedule An Activity`, then proceed to :ref:`fill out the"
 " Schedule Activity form <activities/form>`."
 msgstr ""
+"คลิกที่: guilabel: "+ กำหนดเวลากิจกรรม" และดำเนินการต่อ: อ้าง: "กรอก"
+"จัดตารางกิจกรรม <กิจกรรม/ตาราง>"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid ""
 "Kanban view of the CRM pipeline and the option to schedule an activity."
 msgstr ""
+"มุมมองแบบ Kanban สำหรับท่อ CRM และตัวเลือกในการกำหนดเวลากิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:61
 #: ../../content/applications/essentials/activities.rst:79
@@ -148,16 +154,21 @@ msgid ""
 " icon that represents the existing scheduled activity. Click on the activity"
 " type's icon to schedule another activity."
 msgstr ""
+"หากบันทึกกิจกรรมที่วางแผนไว้แล้ว #clock #จะถูกแทนที่ด้วย"
+"ไอคอนที่แสดงถึงกิจกรรมที่วางแผนไว้แล้ว คลิกกิจกรรม"
+"ไอคอนประเภทเพื่อจัดกิจกรรมอื่น"
 
 #: ../../content/applications/essentials/activities.rst:67
 msgid "List view"
-msgstr "ดูล่าสุด"
+msgstr "มุมมองรายการ"
 
 #: ../../content/applications/essentials/activities.rst:69
 msgid ""
 "Activities can also be created from a :icon:`oi-view-list` "
 ":guilabel:`(list)` view."
 msgstr ""
+"กิจกรรมยังสามารถสร้างจาก: icon:`oi ดูรายการ"
+":guilabel:`(รายการ)`ดู"
 
 #: ../../content/applications/essentials/activities.rst:71
 msgid ""
@@ -165,6 +176,9 @@ msgid ""
 ":icon:`oi-settings-adjust` :guilabel:`(settings adjust)` icon in the far-"
 "right of the top row."
 msgstr ""
+"หาก: guilabel: คอลัมน์ "Activities" ซ่อนอยู่ให้ใช้"
+":icon:`oi-settings-adjust`:guilabel:`(sets-adjust)`ไอคอนอยู่ไกล -"
+"ด้านขวาของแถวบนสุด"
 
 #: ../../content/applications/essentials/activities.rst:74
 msgid ""
@@ -172,10 +186,13 @@ msgid ""
 "and click :guilabel:`+ Schedule an activity`. Proceed to :ref:`fill out the "
 "Schedule Activity form <activities/form>` that appears."
 msgstr ""
+"จากนั้นคลิก #clock #เพื่อดูประวัติที่คุณต้องการเพิ่มกิจกรรม,"
+"จากนั้นคลิก: guilabel: "+ กำหนดเวลากิจกรรม" ดำเนินการต่อ: อ้าง:` กรอก"
+"แบบฟอร์มกิจกรรมตารางที่ปรากฏ <activies/form>`"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid "List view of the CRM pipeline and the option to schedule an activity."
-msgstr ""
+msgstr "มุมมองรายการสำหรับท่อ CRM และตัวเลือกในการวางแผนกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:89
 msgid "Activity view"
@@ -187,26 +204,33 @@ msgid ""
 " |clock| is visible in the top-right corner of the main menu bar, amongst "
 "the other view option icons."
 msgstr ""
+"แอปส่วนใหญ่ใน Odoo มีมุมมอง *Activity* ที่พร้อมใช้งาน ถ้ามี a"
+"› นาฬิกา › อยู่ที่มุมขวาบนของแถบเมนูหลัก"
+"ไอคอนตัวเลือกมุมมองเพิ่มเติม"
 
 #: ../../content/applications/essentials/activities.rst:94
 msgid "To open the activity view, click the |clock|."
-msgstr ""
+msgstr "เปิดมุมมองกิจกรรม คลิก #clock #"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid "Top-right menu with the Activities icon called out."
-msgstr ""
+msgstr "เมนูที่มุมขวาบนแสดงไอคอน "Active""
 
 #: ../../content/applications/essentials/activities.rst:100
 msgid ""
 "In this view, all the available activities are listed in the columns, while "
 "the horizontal entries represent all the individual records."
 msgstr ""
+"ในมุมมองนี้กิจกรรมที่มีอยู่ทั้งหมดจะถูกระบุไว้ในคอลัมน์ขณะที่"
+"รายการแนวนอนหมายถึงบันทึกแยกต่างหากทั้งหมด"
 
 #: ../../content/applications/essentials/activities.rst:103
 msgid ""
 "Activities that appear green have a due date in the future, activities that "
 "appear orange are due today, while activities appearing red are overdue."
 msgstr ""
+"กิจกรรมที่แสดงเป็นสีเขียวมีกำหนดเวลาในอนาคต"
+"กิจกรรมที่แสดงเป็นสีส้มหมดอายุในวันนี้ และกิจกรรมที่แสดงเป็นสีแดงหมดอายุแล้ว"
 
 #: ../../content/applications/essentials/activities.rst:106
 msgid ""
@@ -214,18 +238,25 @@ msgid ""
 " display a number indicating how many activities are scheduled for that "
 "type."
 msgstr ""
+"แถบสีในแต่ละคอลัมน์แสดงถึงการบันทึกประเภทกิจกรรมที่เฉพาะเจาะจงและ"
+"แสดงตัวเลขที่ระบุว่ามีกิจกรรมกี่กิจกรรมที่จัดขึ้นเพื่อการนี้"
+"ประเภท"
 
 #: ../../content/applications/essentials/activities.rst:109
 msgid ""
 "If multiple activity types are scheduled for a record, a number appears in "
 "the box, indicating the total number of scheduled activities."
 msgstr ""
+"หากกิจกรรมหลายประเภทถูกจัดเรียงสำหรับหนึ่งระเบียนหมายเลขจะปรากฏขึ้น"
+"กล่องแสดงจำนวนรวมของกิจกรรมที่วางแผนไว้"
 
 #: ../../content/applications/essentials/activities.rst:113
 msgid ""
 "Activity colors, and their relation to an activity's due date, are "
 "consistent throughout Odoo, regardless of the activity type, or the view."
 msgstr ""
+"สีของกิจกรรมและความสัมพันธ์กับเส้นตายของงานมีดังนี้"
+"มีความสม่ำเสมอทั่วทั้ง Odoo โดยไม่คำนึงถึงประเภทของกิจกรรมหรือมุมมอง"
 
 #: ../../content/applications/essentials/activities.rst:116
 msgid ""
@@ -233,15 +264,19 @@ msgid ""
 "Click the :icon:`fa-plus` :guilabel:`(plus)` icon that appears, and then "
 ":ref:`fill out the Schedule Activity form <activities/form>`."
 msgstr ""
+"หากต้องการกำหนดเวลากิจกรรมสำหรับการบันทึก ให้เลื่อนเมาส์ไปที่ฟิลด์ที่เกี่ยวข้อง"
+"คลิกที่ไอคอนที่ปรากฏขึ้น: icon:`fa plus`:guilabel:`(plus)`แล้ว"
+":อ้าง:` กรอกแบบฟอร์มกิจกรรมตาราง <activities/form>`"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid ""
 "Activity view of the CRM pipeline and the option to schedule an activity."
 msgstr ""
+"มุมมองกิจกรรมของท่อ CRM และตัวเลือกในการวางแผนกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:127
 msgid "Schedule Activity form"
-msgstr ""
+msgstr "ตารางกิจกรรมตามแผน"
 
 #: ../../content/applications/essentials/activities.rst:129
 msgid ""
@@ -251,11 +286,11 @@ msgid ""
 "<activities/kanban>`, :ref:`list view <activities/list>`, or :ref:`activity "
 "view <activities/activity>`."
 msgstr ""
-"กิจกรรมสามารถกำหนดเวลาได้จากหลายสถานที่ เช่น จาก :ref:`ช่องแชท "
-"<activities/chatter>` ของบันทึก หรือจากมุมมองหลายมุมมองในแอปพลิเคชั่น "
-"เมื่อพร้อมใช้งาน: :ref:`มุมมองคัมบัง <activities/kanban>`, "
-":ref:`มุมมองรายการ <activities/list>` หรือ :ref:`มุมมองกิจกรรม "
-"<activities/activity>`"
+"โดยสามารถจัดกิจกรรมได้หลากหลายสถานที่ อาทิ"
+": อ้าง: `chat <activity/chat> สำหรับหนึ่งระเบียน หรือจากหนึ่งระเบียน"
+"มุมมองในแอพพลิเคชัน (ถ้ามี): อ้าง:` มุมมอง Kanban"
+"<activies / bankan> `,: ref:` ดูรายการ <activies / list> `หรือ: ref:` activity"
+"ดู <กิจกรรม / กิจกรรม>"
 
 #: ../../content/applications/essentials/activities.rst:134
 #: ../../content/applications/essentials/activities.rst:210
@@ -269,18 +304,26 @@ msgid ""
 ":guilabel:`Meeting`, or :guilabel:`To-Do`. Depending on what other "
 "applications are installed, additional options may be available."
 msgstr ""
+":guilabel:` ประเภทกิจกรรม': เลือกประเภทกิจกรรมจากรายการแบบเลื่อนลง"
+"เมนู ตัวเลือกเริ่มต้นคือ: guilabel: 'email',: guilabel: 'call',"
+": guilabel: 'ประชุม' หรือ: guilabel: 'ทำมัน' ขึ้นอยู่กับอื่น ๆ"
+"หากติดตั้งแอปอาจมีตัวเลือกอื่น ๆ"
 
 #: ../../content/applications/essentials/activities.rst:139
 msgid ""
 ":guilabel:`Summary`: enter a short title for the activity, such as `Discuss "
 "Proposal`."
 msgstr ""
+": guilabel: "สรุป": ป้อนชื่อสั้น ๆ สำหรับกิจกรรมเช่น "การอภิปราย""
+"ข้อเสนอ"
 
 #: ../../content/applications/essentials/activities.rst:140
 msgid ""
 ":guilabel:`Due Date`: using the calendar popover, select the activity's "
 "deadline."
 msgstr ""
+": guilabel: "วันหมดอายุ": ใช้ป๊อปอัปปฏิทินและเลือกกิจกรรมที่ต้องการ"
+"กำหนดเวลา"
 
 #: ../../content/applications/essentials/activities.rst:141
 msgid ""
@@ -288,24 +331,33 @@ msgid ""
 "To assign a different user to the activity, select them from the drop-down "
 "menu."
 msgstr ""
+":guilabel:` กำหนดที่ ': โดยค่าเริ่มต้นผู้ใช้ปัจจุบันจะเติมฟิลด์นี้"
+"หากต้องการกำหนดผู้ใช้รายอื่นสำหรับแคมเปญ โปรดเลือกผู้ใช้จากรายการแบบเลื่อนลง"
+"เมนู"
 
 #: ../../content/applications/essentials/activities.rst:143
 msgid ""
 ":guilabel:`Notes`: add any additional information for the activity in this "
 "field."
 msgstr ""
+": guilabel: `หมายเหตุ': ข้อมูลเพิ่มเติมเกี่ยวกับกิจกรรมเพิ่มเติมที่นี่"
+"ภาคสนาม"
 
 #: ../../content/applications/essentials/activities.rst:145
 msgid ""
 "When the :guilabel:`Schedule Activity` pop-up window is completed, click one"
 " of the following buttons:"
 msgstr ""
+"เมื่อ: guilabel: "กิจกรรมการวางแผน" ป๊อปอัพเสร็จสมบูรณ์ให้คลิกที่หนึ่ง"
+"ปุ่มต่อไปนี้:"
 
 #: ../../content/applications/essentials/activities.rst:148
 msgid ""
 ":guilabel:`Open Calendar`: opens the user's calendar to add and schedule the"
 " activity."
 msgstr ""
+":guilabel:` เปิดปฏิทิน': เปิดปฏิทินของผู้ใช้เพื่อเพิ่มและกำหนดเวลา"
+"กิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:150
 msgid ""
@@ -313,6 +365,9 @@ msgid ""
 "Event` pop-up window appears. The summary from the *Schedule Activity* pop-"
 "up window populates the :guilabel:`Title` field."
 msgstr ""
+"คลิกที่วันและเวลาที่จำเป็นสำหรับกิจกรรมและ a:guilabel:` ใหม่"
+"หน้าต่างป๊อปอัพเหตุการณ์ปรากฏขึ้น * กิจกรรมตารางเวลา * สรุปของหน้าต่างป๊อปอัพ -"
+"เติมหน้าต่างขึ้น: guilabel: 'หัวข้อ' ฟิลด์"
 
 #: ../../content/applications/essentials/activities.rst:154
 msgid ""
@@ -320,9 +375,9 @@ msgid ""
 " :guilabel:`Save & Close` to schedule it. Once scheduled, the activity is "
 "added to the chatter under the :guilabel:`Planned Activities` section."
 msgstr ""
-"ป้อนข้อมูลในหน้าต่างป๊อปอัป :guilabel:`กิจกรรมใหม่` จากนั้นคลิก "
-":guilabel:`บันทึกและปิด` เพื่อกำหนดเวลา เมื่อกำหนดเวลาแล้ว "
-"กิจกรรมจะถูกเพิ่มในช่องแชทภายใต้ส่วน :guilabel:`กิจกรรมที่วางแผนไว้`"
+"ป้อนข้อมูลใน: guilabel: "กิจกรรมใหม่" ป๊อปอัพและคลิก"
+": guilabel: "Save & Close" เพื่อกำหนดการจัดงาน เมื่อกำหนดการจัดงานแล้ว"
+"เพิ่มการแชทต่อไปนี้ในส่วน วางแผนกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:159
 msgid ""
@@ -330,14 +385,17 @@ msgid ""
 ":guilabel:`Activity Type` is set to either :guilabel:`Call` or "
 ":guilabel:`Meeting`."
 msgstr ""
+": guilabel: ปุ่ม "เปิดปฏิทิน" ** ปรากฏเฉพาะในกรณีต่อไปนี้ **"
+": guilabel: "ประเภทที่ใช้งานอยู่" ตั้งค่าเป็น: guilabel: "โทร" หรือ"
+": guilabel: "การประชุม""
 
 #: ../../content/applications/essentials/activities.rst:162
 msgid ""
 ":guilabel:`Schedule`: schedules the activity, and adds the activity to the "
 "chatter under :guilabel:`Planned Activities`."
 msgstr ""
-":guilabel:`กำหนดเวลา`: กำหนดตารางเวลาการดำเนินกิจกรรม "
-"และเพิ่มกิจกรรมลงในช่องแชทภายใต้ :guilabel:`กิจกรรมที่วางแผนไว้`"
+":guilabel:`Schedule`:กำหนดตารางเวลากิจกรรมและเพิ่มกิจกรรมใน"
+"Chattering: Guilabel: "วางแผนกิจกรรม""
 
 #: ../../content/applications/essentials/activities.rst:164
 msgid ""
@@ -345,9 +403,9 @@ msgid ""
 " chatter under :guilabel:`Today`. The activity is not scheduled, and is "
 "automatically marked as done."
 msgstr ""
-":guilabel:`กำหนดเวลาและทำเครื่องหมายว่าเสร็จสิ้น`: "
-"เพิ่มรายละเอียดของกิจกรรมลงในช่องแชทภายใต้ :guilabel:`วันนี้` "
-"กิจกรรมนี้ไม่ได้กำหนดเวลาไว้ และจะถูกทำเครื่องหมายว่าเสร็จสิ้นโดยอัตโนมัติ"
+": guilabel: "กำหนดการและติดแท็กเสร็จสิ้น": เพิ่มรายละเอียดของกิจกรรมที่"
+"การสนทนา: จีปิ๋ว: "วันนี้" ไม่มีการจัดอีเวนต์"
+"ทำเครื่องหมายอัตโนมัติว่าเสร็จแล้ว"
 
 #: ../../content/applications/essentials/activities.rst:166
 msgid ""
@@ -356,36 +414,42 @@ msgid ""
 "automatically marked as done, and a new :guilabel:`Schedule Activity` pop-up"
 " window appears."
 msgstr ""
-":guilabel:`เสร็จสิ้นและกำหนดเวลาถัดไป`: "
-"เพิ่มรายละเอียดของกิจกรรมลงในช่องแชทภายใต้ :guilabel:`วันนี้` "
-"กิจกรรมไม่ได้ถูกกำหนดเวลาไว้ จะถูกทำเครื่องหมายว่าเสร็จสิ้นโดยอัตโนมัติ "
-"และหน้าต่างป๊อปอัป :guilabel:`กำหนดเวลากิจกรรม` ใหม่จะปรากฏขึ้น"
+": guilabel: "เสร็จสิ้นและกำหนดขั้นตอนต่อไป": เพิ่มรายละเอียดของกิจกรรมไปที่"
+"การสนทนา: จีปิ๋ว: "วันนี้" ไม่มีการจัดอีเวนต์ ใช่"
+"ทำเครื่องหมายโดยอัตโนมัติว่าเสร็จแล้วและปรากฏขึ้นใหม่: guilabel: "กิจกรรมการวางแผน" ป๊อปอัพ"
+"หน้าต่างปรากฏขึ้น"
 
 #: ../../content/applications/essentials/activities.rst:169
 msgid ""
 ":guilabel:`Cancel`: discards any changes made on the :guilabel:`Schedule "
 "Activity` pop-up window."
 msgstr ""
+": guilabel:` ยกเลิก': สละสิทธิ์ในการเปลี่ยนแปลงใด ๆ ที่ทำโดย: guilabel:` ตารางเวลา"
+"ป๊อปอัพที่ใช้งานอยู่"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid "View of CRM leads and the option to schedule an activity."
-msgstr ""
+msgstr "ดูโอกาสในการขาย CRM และตัวเลือกในการจัดแคมเปญของคุณ"
 
 #: ../../content/applications/essentials/activities.rst:178
 msgid "All scheduled activities"
-msgstr ""
+msgstr "กิจกรรมที่กำหนดไว้ทั้งหมด"
 
 #: ../../content/applications/essentials/activities.rst:180
 msgid ""
 "To view a consolidated list of activities, organized by application, click "
 "the |clock| in the header menu, located in the top-right corner."
 msgstr ""
+"หากต้องการดูรายการรวมของกิจกรรมที่จัดโดยแอปพลิเคชัน คลิก"
+"#clock#ในเมนูพาดหัวข่าวอยู่มุมขวาบน"
 
 #: ../../content/applications/essentials/activities.rst:183
 msgid ""
 "If any activities are scheduled, the number of activities appear in a red "
 "bubble on the |clock|."
 msgstr ""
+"หากมีกิจกรรมใดกำหนดจำนวนกิจกรรมจะปรากฏเป็นสีแดง"
+"ฟองอากาศบนนาฬิกา"
 
 #: ../../content/applications/essentials/activities.rst:186
 msgid ""
@@ -395,6 +459,11 @@ msgid ""
 ":guilabel:`Late`, due :guilabel:`Today`, and scheduled in the "
 ":guilabel:`Future`."
 msgstr ""
+"กิจกรรมทั้งหมดของแต่ละแอปพลิเคชันจะถูกแบ่งออกเป็นส่วนย่อยต่อไป,"
+"โดยระบุว่ากิจกรรมจะทำที่ไหนในแอปพลิเคชัน แต่ละ"
+"ส่วนย่อยระบุจำนวนกิจกรรมที่วางแผนไว้ด้านล่าง"
+": guilabel: "สาย", หมดอายุ: guilabel: "วันนี้" และวางแผนที่จะ"
+": guilabel: "อนาคต""
 
 #: ../../content/applications/essentials/activities.rst:192
 msgid ""
@@ -402,22 +471,29 @@ msgid ""
 "*All Time Off* requests dashboard, and six activities are scheduled to be "
 "done in the *Allocations* dashboard."
 msgstr ""
+"ในแอป *Time-Off * มีกำหนดการ"
+"* วันหยุดทั้งหมด * ขอแดชบอร์ดที่มีกิจกรรมหกแผน"
+"เสร็จสิ้นใน * การกำหนด * แดชบอร์ด"
 
 #: ../../content/applications/essentials/activities.rst:195
 msgid ""
 "These requests appear in two separate lists in the all activities drop-down "
 "menu: one labeled `Time Off` and one labeled `Time Off Allocation`."
 msgstr ""
+"คำขอเหล่านี้ปรากฏในสองรายการแยกต่างหากจากรายการแบบหล่นลงที่ใช้งานทั้งหมด"
+"เมนู: หนึ่งมีการทำเครื่องหมาย "วันหยุด" และอีกอันหนึ่งเป็น "การจัดสรรวันหยุด""
 
 #: ../../content/applications/essentials/activities.rst:0
 msgid ""
 "The list of activities that is accessed from the main menu bar. Two entries for the Time\n"
 "Off application are highlighted."
 msgstr ""
+"รายการกิจกรรมที่เข้าถึงได้จากแถบเมนูหลัก สองรายการของเวลา \# n"
+"การปิดแอปพลิเคชันจะถูกเน้น"
 
 #: ../../content/applications/essentials/activities.rst:204
 msgid "Request a document"
-msgstr ""
+msgstr "ขอเอกสาร"
 
 #: ../../content/applications/essentials/activities.rst:206
 msgid ""
@@ -426,17 +502,24 @@ msgid ""
 ":guilabel:`Request a Document` appears. Click :guilabel:`Request a "
 "Document`, and a :guilabel:`Request a file` pop-up window appears."
 msgstr ""
+"guilabel: ตัวเลือกสำหรับ "ขอเอกสาร" อยู่ด้านล่าง"
+"รายการ: อ้าง:` กิจกรรมที่วางแผนไว้ทั้งหมด <activies/all> ตัวเลือกคือ"
+": guilabel: ปรากฏ 'ขอเอกสาร' ฮิต: guilabel: `request"
+"หนึ่งจะปรากฏในเวลานี้: guilabel: "ร้องขอไฟล์" ป๊อปอัพ"
 
 #: ../../content/applications/essentials/activities.rst:212
 msgid ""
 ":guilabel:`Document Name`: enter a name for the document being requested."
 msgstr ""
+": guilabel: "ชื่อเอกสาร": ป้อนชื่อของเอกสารที่ร้องขอ"
 
 #: ../../content/applications/essentials/activities.rst:213
 msgid ""
 ":guilabel:`Request To`: select the user the document is being requested from"
 " using the drop-down menu."
 msgstr ""
+": guilabel: "request object": เลือกผู้ใช้ที่ต้องการเอกสาร"
+"ใช้เมนูแบบเลื่อนลง"
 
 #: ../../content/applications/essentials/activities.rst:215
 msgid ""
@@ -446,12 +529,19 @@ msgid ""
 "Select the desired time-frame option from the list. The options are "
 ":guilabel:`Days`, :guilabel:`Weeks`, or :guilabel:`Months`."
 msgstr ""
+": guilabel: "วันหมดอายุ": ป้อนค่าตัวเลขที่ระบุ"
+"เอกสารหมดอายุ ถัดจากฟิลด์นี้คุณสามารถดูฟิลด์ a: guilabel: "Days""
+"คลิกที่: guilabel: "วัน", ตัวเลือกเริ่มต้น, แสดงเมนูแบบเลื่อนลง"
+"เลือกตัวเลือกระยะเวลาที่ต้องการจากรายการ ตัวเลือกรวม"
+": guilabel: วัน,: guilabel: โจว,หรือ: guilabel: เดือน"
 
 #: ../../content/applications/essentials/activities.rst:219
 msgid ""
 ":guilabel:`Workspace`: using the drop-down menu, select the specific "
 ":ref:`Workspace <documents/workspaces>` the document is being uploaded to."
 msgstr ""
+":guilabel:` พื้นที่ทำงาน': ใช้เมนูแบบเลื่อนลงเลือกเมนูเฉพาะ"
+": อ้าง: "พื้นที่ทำงาน <เอกสาร / พื้นที่ทำงาน>" ที่เอกสารกำลังอัปโหลดไปยัง"
 
 #: ../../content/applications/essentials/activities.rst:221
 msgid ""
@@ -459,23 +549,31 @@ msgid ""
 "available tags displayed are based on the tags configured for the selected "
 ":guilabel:`Workspace`."
 msgstr ""
+": guilabel: `tag': เลือกแท็กที่คุณต้องการจากเมนูแบบเลื่อนลง นี่"
+"ป้ายกำกับที่ใช้แสดงจะขึ้นอยู่กับป้ายกำกับที่กำหนดค่าสำหรับป้ายกำกับที่เลือก"
+": guilabel: "พื้นที่ทำงาน""
 
 #: ../../content/applications/essentials/activities.rst:223
 msgid ""
 ":guilabel:`Message`: enter a message to clarify the document request in this"
 " field."
 msgstr ""
+":guilabel:`message`:ป้อนข้อความเพื่อชี้แจงคำขอเอกสารที่นี่"
+"ภาคสนาม"
 
 #: ../../content/applications/essentials/activities.rst:225
 msgid ""
 "When all the fields are completed, click :guilabel:`Request` to send the "
 "document request."
 msgstr ""
+"เมื่อกรอกข้อมูลทั้งหมดแล้วคลิก: guilabel: "Request" เพื่อส่ง"
+"ขอเอกสาร"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid ""
 "The Request a file form, with all fields filled out to request a contract."
 msgstr ""
+"ขอแบบฟอร์มเอกสารกรอกทุกช่องเพื่อขอสัญญา"
 
 #: ../../content/applications/essentials/activities.rst:234
 msgid "Activity types"
@@ -487,17 +585,23 @@ msgid ""
 "navigate to :menuselection:`Settings app --> Discuss section --> Activities "
 "setting --> Activity Types`."
 msgstr ""
+"เพื่อดูประเภทของกิจกรรมที่กำหนดค่าในฐานข้อมูลปัจจุบัน"
+"ไปที่: ส่วนเมนู: ตั้งค่าการใช้งาน -> ส่วนการสนทนา -> กิจกรรม"
+"การตั้งค่า --> ประเภทกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid ""
 "Activity Types button in the Settings application under the Discuss section."
 msgstr ""
+"ปุ่ม "ประเภทที่ใช้งานอยู่" ภายใต้ส่วน "การสนทนา" ในแอปพลิเคชัน "การตั้งค่า""
 
 #: ../../content/applications/essentials/activities.rst:243
 msgid ""
 "Doing so reveals the :guilabel:`Activity Types` page, where the existing "
 "activity types are found."
 msgstr ""
+"การทำเช่นนี้จะแสดง: guilabel: หน้า "ประเภทกิจกรรม" ที่มีอยู่"
+"ค้นหาประเภทกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:246
 msgid ""
@@ -506,23 +610,26 @@ msgid ""
 "*CRM* application, go to :menuselection:`CRM app --> Configuration --> "
 "Activity Types`."
 msgstr ""
-"แอปพลิเคชันแต่ละรายการจะมีรายการ *ประเภทกิจกรรม* เฉพาะสำหรับแอปพลิเคชันนั้นๆ"
-" ตัวอย่างเช่น หากต้องการดูและแก้ไขกิจกรรมที่มีให้สำหรับแอปพลิเคชัน *CRM* "
-"ให้ไปที่ :menuselection:`แอป CRM --> การกำหนดค่า --> ประเภทกิจกรรม`"
+"แต่ละแอปจะมี * ประเภทแคมเปญ * รายการพิเศษสำหรับสิ่งนี้"
+"ใบสมัคร ยกตัวอย่างเช่น เพื่อดูและแก้ไขกิจกรรมที่ใช้ได้"
+"* แอปพลิเคชัน CRM * ไปที่: ส่วนเมนู: `แอปพลิเคชัน CRM -> การกำหนดค่า ->"
+"ประเภทกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid "The list of activity types already configured and available."
-msgstr ""
+msgstr "รายการประเภทกิจกรรมที่กำหนดค่าและพร้อมใช้งาน"
 
 #: ../../content/applications/essentials/activities.rst:255
 msgid "Edit activity types"
-msgstr ""
+msgstr "แก้ไขประเภทกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:257
 msgid ""
 "To edit an existing :ref:`activity type <activities/types>`, click on the "
 "activity type, and the activity type form loads."
 msgstr ""
+"หากต้องการแก้ไขที่มีอยู่: อ้าง:`activity-type<activity/types>`, คลิก"
+"ประเภทกิจกรรมและประเภทกิจกรรมสร้างโหลด"
 
 #: ../../content/applications/essentials/activities.rst:260
 msgid ""
@@ -531,10 +638,14 @@ msgid ""
 ":guilabel:`Save Manually` option, represented by a :icon:`fa-cloud-upload` "
 ":guilabel:`(cloud upload)` icon, located in the top-left corner of the page."
 msgstr ""
+"ทำการเปลี่ยนแปลงใด ๆ ที่คุณต้องการในแบบฟอร์มประเภทกิจกรรม แบบฟอร์มโดยอัตโนมัติ"
+"บันทึก แต่สามารถบันทึกด้วยตนเองได้ตลอดเวลาด้วยการคลิก"
+": guilabel: "บันทึกด้วยตนเอง" ตัวเลือกด้วย: icon: "fa-cloud อัปโหลด" สำหรับ `"
+": guilabel: "(อัพโหลดบนคลาวด์)" ไอคอนที่มุมซ้ายบนของหน้า"
 
 #: ../../content/applications/essentials/activities.rst:265
 msgid "Create new activity types"
-msgstr ""
+msgstr "สร้างแคมเปญรูปแบบใหม่"
 
 #: ../../content/applications/essentials/activities.rst:267
 msgid ""
@@ -542,16 +653,21 @@ msgid ""
 ":guilabel:`New` from the :guilabel:`Activity Types` page, and a blank "
 "activity type form loads."
 msgstr ""
+"หากต้องการสร้างใหม่: อ้าง: `activity-type<activity-type>`, คลิก"
+": guilabel: สร้างใหม่ในหน้า "ประเภทกิจกรรม" และช่องว่าง"
+"ประเภทที่ใช้งานอยู่สร้างภาระ"
 
 #: ../../content/applications/essentials/activities.rst:270
 msgid ""
 "Enter a :guilabel:`Name` for the activity type at the top of the form, then "
 "enter the following information on the form."
 msgstr ""
+"ป้อนด้านบนของแบบฟอร์มสำหรับประเภทที่ใช้งานอยู่: guilabel: "ชื่อ" แล้ว"
+"กรอกข้อมูลต่อไปนี้ในแบบฟอร์ม"
 
 #: ../../content/applications/essentials/activities.rst:274
 msgid "Activity Settings section"
-msgstr ""
+msgstr "ส่วนการตั้งค่ากิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:276
 msgid ""
@@ -559,20 +675,25 @@ msgid ""
 "with this new activity type. Some actions trigger specific behaviors after "
 "an activity is scheduled, such as:"
 msgstr ""
+":guilabel:` การดำเนินการ': ใช้เมนูแบบเลื่อนลงเลือกการกระทำที่เกี่ยวข้อง"
+"สำหรับกิจกรรมรูปแบบใหม่นี้ การกระทำบางอย่างกระตุ้นพฤติกรรมเฉพาะเมื่อ"
+"การจัดกิจกรรมต่างๆ เช่น"
 
 #: ../../content/applications/essentials/activities.rst:279
 msgid ""
 ":guilabel:`Upload Document`: if selected, a link to upload a document is "
 "automatically added to the planned activity in the chatter."
 msgstr ""
-"หากเลือก :guilabel:`อัปโหลดเอกสาร`: "
-"ระบบจะเพิ่มลิงก์สำหรับอัปโหลดเอกสารไปยังกิจกรรมที่วางแผนไว้ในช่องแชทโดยอัตโนมัติ"
+":guilabel:` อัปโหลดเอกสาร': หากเลือกลิงก์ไปยังเอกสารที่อัปโหลดคือ"
+"เพิ่มไปยังกิจกรรมที่วางแผนไว้ในแชทโดยอัตโนมัติ"
 
 #: ../../content/applications/essentials/activities.rst:281
 msgid ""
 ":guilabel:`Call` or :guilabel:`Meeting`: if selected, users have the option "
 "to open their calendar to select a date and time for the activity."
 msgstr ""
+": guilabel:`call' หรือ: guilabel:`meeting': หากเลือกผู้ใช้สามารถเลือกได้"
+"เปิดปฏิทินและเลือกวันและเวลาสำหรับกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:283
 msgid ""
@@ -580,15 +701,17 @@ msgid ""
 "request pop-up window is automatically added to the planned activity in the "
 "chatter. This requires the Odoo *Sign* application to be installed."
 msgstr ""
-":guilabel:`ขอลายเซ็น`: หากเลือก "
-"ลิงก์เพื่อเปิดหน้าต่างป๊อปอัปขอลายเซ็นจะถูกเพิ่มลงในกิจกรรมที่วางแผนไว้ในช่องแชทโดยอัตโนมัติ"
-" ซึ่งต้องติดตั้งแอปพลิเคชัน Odoo *การเซ็น*"
+": guilabel: "ขอลายเซ็น": ลิงก์เพื่อเปิดลายเซ็นหากเลือก"
+"หน้าต่างป๊อปอัพคำขอจะถูกเพิ่มโดยอัตโนมัติไปยังกิจกรรมที่กำหนดไว้"
+"จู้จี้ จำเป็นต้องติดตั้งแอป Odoo * Sign *"
 
 #: ../../content/applications/essentials/activities.rst:288
 msgid ""
 "Available activity types vary based on the installed applications in the "
 "database."
 msgstr ""
+"ประเภทของกิจกรรมที่มีอยู่จะแตกต่างกันไปตามแอปที่ติดตั้งอยู่"
+"ฐานข้อมูล"
 
 #: ../../content/applications/essentials/activities.rst:290
 msgid ""
@@ -597,12 +720,18 @@ msgid ""
 "appears if :guilabel:`Upload Document` is selected for the "
 ":guilabel:`Action`."
 msgstr ""
+":guilabel:`folder`:เลือกเฉพาะ:อ้าง:`พื้นที่ทำงาน"
+"<documents/workspaces>`โฟลเดอร์สำหรับบันทึกเอกสาร ฟิลด์นี้เท่านั้น ****"
+"หากเลือกสำหรับ "อัปโหลดเอกสาร": guilabel:"
+": guilabel: "การกระทำ"."
 
 #: ../../content/applications/essentials/activities.rst:294
 msgid ""
 "Using the drop-down menu, select the :guilabel:`Folder` the document is "
 "saved to."
 msgstr ""
+"ใช้เมนูแบบเลื่อนลงเลือกว่าเอกสารอยู่ที่ไหน: guilabel:`folder'"
+"บันทึกถึง"
 
 #: ../../content/applications/essentials/activities.rst:296
 msgid ""
@@ -611,12 +740,18 @@ msgid ""
 "type is scheduled. If this field is left blank, the activity is assigned to "
 "the user who creates the activity."
 msgstr ""
+": guilabel: `ผู้ใช้เริ่มต้น': เลือกผู้ใช้จากเมนูแบบเลื่อนลง"
+"กำหนดกิจกรรมนี้ให้กับผู้ใช้ที่เลือกโดยอัตโนมัติเมื่อกิจกรรมนี้เกิดขึ้น"
+"จัดประเภทแล้ว หากฟิลด์นี้ว่างกิจกรรมจะถูกกำหนดให้"
+"ผู้ใช้ที่สร้างแคมเปญ"
 
 #: ../../content/applications/essentials/activities.rst:299
 msgid ""
 ":guilabel:`Default Summary`: enter a note to include whenever this activity "
 "type is created."
 msgstr ""
+": guilabel: `default summary': ป้อนความคิดเห็นเพื่อรวมไว้ในขณะที่ทำกิจกรรมนี้"
+"สร้างชนิดแล้ว"
 
 #: ../../content/applications/essentials/activities.rst:302
 msgid ""
@@ -624,29 +759,33 @@ msgid ""
 "Summary` fields are included when an activity is created. However, they can "
 "be altered before the activity is scheduled or saved."
 msgstr ""
-"ข้อมูลในฟิลด์ :guilabel:`ผู้ใช้เริ่มต้น` และ :guilabel:`สรุปเริ่มต้น` "
-"จะถูกรวมไว้เมื่อมีการสร้างกิจกรรม อย่างไรก็ตาม "
-"สามารถเปลี่ยนแปลงได้ก่อนที่จะกำหนดเวลาหรือบันทึกกิจกรรม"
+":guilabel: "default user" และ:guilabel: "default""
+"มีช่องสรุปเมื่อสร้างแคมเปญ อย่างไรก็ตามพวกเขาสามารถ"
+"ทำการเปลี่ยนแปลงก่อนกำหนดหรือบันทึกกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:306
 msgid ""
 ":guilabel:`Keep Done`: tick this checkbox to keep activities that have been "
 "marked as `Done` visible in the :ref:`activity view <activities/activity>`."
 msgstr ""
+": guilabel: "Keep Complete": ติ๊กที่ช่องนี้เพื่อเก็บกิจกรรมที่ทำ"
+"ทำเครื่องหมายว่า "เสร็จสิ้น" ซึ่งสามารถมองเห็นได้ใน: อ้าง: `activityview <activities/active>"
 
 #: ../../content/applications/essentials/activities.rst:308
 msgid ":guilabel:`Default Note`: enter any notes to appear with the activity."
-msgstr ""
+msgstr ":guilabel:` หมายเหตุเริ่มต้น': ป้อนความคิดเห็นใด ๆ ที่คุณต้องการแสดงพร้อมกับกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:311
 msgid "Next Activity section"
-msgstr ""
+msgstr "ส่วนกิจกรรมต่อไป"
 
 #: ../../content/applications/essentials/activities.rst:313
 msgid ""
 "It is possible to have another activity either suggested or triggered. To do"
 " so, configure the :guilabel:`Next Activity` section."
 msgstr ""
+"อาจแนะนำหรือเรียกกิจกรรมอื่นได้ ไปทำมัน"
+"ดังนั้นโปรดกำหนดค่า: guilabel: ส่วน "กิจกรรมต่อไป""
 
 #: ../../content/applications/essentials/activities.rst:316
 msgid ""
@@ -655,12 +794,18 @@ msgid ""
 "the selected option, either the :guilabel:`Suggest` or :guilabel:`Trigger` "
 "field is displayed."
 msgstr ""
+":guilabel:` ประเภทของลิงค์ `: เลือกหนึ่งในนั้น:guilabel:` แนะนำกิจกรรมถัดไป `"
+"หรือ: guilabel: เลือก "ทริกเกอร์กิจกรรมถัดไป" จากเมนูแบบเลื่อนลง ขึ้นอยู่กับ"
+"ตัวเลือกที่เลือกอาจเป็น: guilabel: "คำแนะนำ" หรือ: guilabel: "ทริกเกอร์""
+"แสดงฟิลด์"
 
 #: ../../content/applications/essentials/activities.rst:321
 msgid ""
 "The :guilabel:`Chaining Type` field does **not** appear if :guilabel:`Upload"
 " Document` is selected for the :guilabel:`Action`."
 msgstr ""
+"หาก: guilabel:` อัปโหลดแล้ว: guilabel:` ประเภทการเชื่อมโยง' ฟิลด์ ** ไม่ปรากฏ"
+"เลือก "เอกสาร" สำหรับ: guilabel: "การกระทำ""
 
 #: ../../content/applications/essentials/activities.rst:324
 msgid ""
@@ -669,18 +814,26 @@ msgid ""
 " :guilabel:`Trigger`. Using the drop-down menu, select the activity to "
 "recommend or schedule as a follow-up task to the activity type."
 msgstr ""
+": guilabel: `คำแนะนำ / ทริกเกอร์': ขึ้นอยู่กับ"
+": guilabel: "ประเภทลิงก์", ฟิลด์นี้แสดง: guilabel: "แนะนำ" หรือ"
+": guilabel: "ทริกเกอร์" ใช้เมนูแบบเลื่อนลงเลือกกิจกรรม"
+"แนะนำหรือจัดภารกิจติดตามเป็นประเภทของกิจกรรม"
 
 #: ../../content/applications/essentials/activities.rst:327
 msgid ""
 ":guilabel:`Schedule`: configure when the next activity is suggested or "
 "triggered."
 msgstr ""
+": guilabel: `Schedule`: กำหนดค่าเมื่อแนะนำกิจกรรมถัดไปหรือ"
+"ทริกเกอร์"
 
 #: ../../content/applications/essentials/activities.rst:329
 msgid ""
 "First, enter a numerical value indicating when the activity is suggested or "
 "triggered."
 msgstr ""
+"ขั้นแรกให้ป้อนค่าตัวเลขที่ระบุเมื่อแนะนำกิจกรรมหรือ"
+"ทริกเกอร์"
 
 #: ../../content/applications/essentials/activities.rst:331
 msgid ""
@@ -689,6 +842,10 @@ msgid ""
 " desired time-frame option from the list. The options are :guilabel:`Days`, "
 ":guilabel:`Weeks`, or :guilabel:`Months`."
 msgstr ""
+"ถัดจากฟิลด์นี้คุณสามารถดูฟิลด์ a: guilabel: "Days" คลิก"
+": guilabel: ตัวเลือกเริ่มต้น "วัน" แสดงเมนูแบบเลื่อนลง เลือก"
+"เลือกตัวเลือกระยะเวลาที่ต้องการจากรายการ ตัวเลือกคือ: guilabel: "วัน","
+": guilabel: "โจว" หรือ: guilabel: "เดือน""
 
 #: ../../content/applications/essentials/activities.rst:335
 msgid ""
@@ -696,26 +853,29 @@ msgid ""
 "or triggered either :guilabel:`after previous activity deadline` or "
 ":guilabel:`after completion date`."
 msgstr ""
+"สุดท้ายใช้เมนูแบบเลื่อนลงเลือกว่าจะกำหนดเวลากิจกรรมหรือไม่"
+"หรือทริกเกอร์: guilabel: "หลังจากกำหนดเวลากิจกรรมก่อนหน้านี้" หรือ"
+": guilabel: "หลังจากวันที่เสร็จสิ้น""
 
 #: ../../content/applications/essentials/activities.rst-1
 msgid "A new Activity form with all the fields filled out."
-msgstr ""
+msgstr "กรอกแบบฟอร์มกิจกรรมใหม่ในทุกช่อง"
 
 #: ../../content/applications/essentials/activities.rst:343
 msgid ":doc:`../productivity/discuss`"
-msgstr ":doc:`../productivity/discuss`"
+msgstr "：doc:`/ ผลผลิต / การสนทนา"
 
 #: ../../content/applications/essentials/activities.rst:344
 msgid ":doc:`../productivity/discuss/team_communication`"
-msgstr ""
+msgstr "：doc:`/ ผลผลิต / การสนทนา / การสื่อสารเป็นทีม"
 
 #: ../../content/applications/essentials/activities.rst:345
 msgid ":doc:`../sales/crm/optimize/utilize_activities`"
-msgstr ""
+msgstr "：doc:`/ การจัดการการขาย / ลูกค้าสัมพันธ์ / การเพิ่มประสิทธิภาพ / การใช้ประโยชน์จากแคมเปญ"
 
 #: ../../content/applications/essentials/contacts.rst:5
 msgid "Contacts"
-msgstr "การติดต่อ"
+msgstr "ติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:7
 msgid ""
@@ -724,10 +884,14 @@ msgid ""
 "contact is a repository of vital business information, facilitating "
 "communication and business transactions."
 msgstr ""
+"* ติดต่อ * แอปที่ติดตั้งในฐานข้อมูล Odoo ทั้งหมด ติดต่อ"
+"สร้างขึ้นสำหรับลูกค้าที่บริษัททำธุรกิจกับ Odoo A."
+"ติดต่อเป็นที่เก็บข้อมูลทางธุรกิจที่สำคัญเพื่ออำนวยความสะดวก"
+"การสื่อสารและการทำธุรกรรมทางธุรกิจ"
 
 #: ../../content/applications/essentials/contacts.rst:12
 msgid "Contact form"
-msgstr ""
+msgstr "รายละเอียดการติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:14
 msgid ""
@@ -735,10 +899,13 @@ msgid ""
 "click :guilabel:`Create`. A new form appears where various contact "
 "information can be added."
 msgstr ""
+"หากต้องการสร้างผู้ติดต่อใหม่ไปที่: menuse ส่วน: "แอปที่ติดต่อ" จากนั้น"
+"ฮิต: guilabel:`Create' แบบฟอร์มใหม่ปรากฏขึ้นพร้อมกับรายชื่อต่างๆ"
+"สามารถเพิ่มข้อมูลได้"
 
 #: ../../content/applications/essentials/contacts.rst:18
 msgid "Contact type"
-msgstr ""
+msgstr "ประเภทการติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:20
 msgid ""
@@ -746,10 +913,13 @@ msgid ""
 "contacts. Select either :guilabel:`Individual` or :guilabel:`Company`, "
 "depending on the type of contact that is being added."
 msgstr ""
+"Odoo อนุญาตให้: guilabel: "ส่วนบุคคล" และ: guilabel: "บริษัท""
+"การติดต่อ เลือก: guilabel: "ส่วนบุคคล" หรือ: guilabel: "บริษัท","
+"ขึ้นอยู่กับประเภทของการติดต่อที่เพิ่มเข้ามา"
 
 #: ../../content/applications/essentials/contacts.rst:24
 msgid "Name"
-msgstr "ชื่อ"
+msgstr "ชื่อ-นามสกุล"
 
 #: ../../content/applications/essentials/contacts.rst:26
 msgid ""
@@ -757,6 +927,9 @@ msgid ""
 ":guilabel:`Company`. This is how the name appears throughout the database. "
 "This field is **mandatory**."
 msgstr ""
+"ก่อนอื่นให้กรอกชื่อ: guilabel: "ส่วนบุคคล" หรือ"
+": guilabel: "บริษัท" นี่คือวิธีที่ชื่อจะปรากฏในฐานข้อมูลทั้งหมด"
+"ฟิลด์นี้ ** จำเป็น **"
 
 #: ../../content/applications/essentials/contacts.rst:30
 msgid ""
@@ -764,6 +937,9 @@ msgid ""
 "linked to it. After selecting :guilabel:`Individual`, a new "
 ":guilabel:`Company Name...` field appears below the first name field."
 msgstr ""
+": guilabel: "ส่วนบุคคล" ติดต่อได้: guilabel: "บริษัท" ติดต่อ"
+"หลังจากเลือก: guilabel: "ส่วนบุคคล", ใหม่"
+":guilabel:"ชื่อบริษัท..." ฟิลด์จะปรากฏด้านล่างฟิลด์ชื่อ"
 
 #: ../../content/applications/essentials/contacts.rst:35
 msgid "Address"
@@ -774,6 +950,8 @@ msgid ""
 "Next, enter the :guilabel:`Address` of the :guilabel:`Company` or "
 ":guilabel:`Individual`."
 msgstr ""
+"ต่อไปป้อน: guilabel: "บริษัท" ของ: guilabel: "ที่อยู่" หรือ"
+": guilabel: "ส่วนบุคคล""
 
 #: ../../content/applications/essentials/contacts.rst:40
 msgid ""
@@ -783,32 +961,43 @@ msgid ""
 ":guilabel:`Delivery Address`, :guilabel:`Other Address`, and "
 ":guilabel:`Private Address`."
 msgstr ""
+"หากเลือก: guilabel: "Individual" ตัวเลือกแล้วประเภทที่อยู่คือ **"
+"สามารถเลือกจากเมนูแบบเลื่อนลง ตัวเลือกสำหรับเมนูแบบเลื่อนลงนี้"
+"รวม:: guilabel:` ติดต่อ ',: guilabel:` ที่อยู่สำหรับใบแจ้งหนี้',"
+": guilabel: "ที่อยู่จัดส่ง", : guilabel: "ที่อยู่อื่น", และ"
+": guilabel: "ที่อยู่ส่วนตัว""
 
 #: ../../content/applications/essentials/contacts.rst:46
 msgid "Additional fields"
-msgstr ""
+msgstr "ฟิลด์อื่น ๆ"
 
 #: ../../content/applications/essentials/contacts.rst:48
 msgid ""
 "Additional details are included on the initial form. The following fields "
 "are available:"
 msgstr ""
+"มีรายละเอียดเพิ่มเติมในแบบฟอร์มเริ่มต้น"
+"ใช้ได้:"
 
 #: ../../content/applications/essentials/contacts.rst:50
 msgid ":guilabel:`VAT`: Value Added Tax number."
-msgstr ""
+msgstr ": guilabel: "VAT": หมายเลขภาษีมูลค่าเพิ่ม"
 
 #: ../../content/applications/essentials/contacts.rst:51
 msgid ""
 ":guilabel:`Citizen Identification`: citizen or government identification "
 "number (only available on :guilabel:`Individual`)."
 msgstr ""
+": guilabel: "สัญชาติ": สัญชาติหรือรัฐบาล"
+"หมายเลข (สำหรับ: guilabel: "ส่วนบุคคล")"
 
 #: ../../content/applications/essentials/contacts.rst:53
 msgid ""
 ":guilabel:`Job Position`: list the job position of the "
 ":guilabel:`Individual` (only available on :guilabel:`Individual`)."
 msgstr ""
+":: guilabel:` ตำแหน่งงาน': รายชื่อ"
+": guilabel: "ส่วนบุคคล" (เฉพาะใน: guilabel: "ส่วนบุคคล")"
 
 #: ../../content/applications/essentials/contacts.rst:55
 msgid ""
@@ -816,6 +1005,9 @@ msgid ""
 "an SMS, or WhatsApp message by hovering over the field on the saved form, "
 "and clicking the desired option."
 msgstr ""
+": guilabel: "โทรศัพท์": รายชื่อหมายเลขโทรศัพท์ (พร้อมรหัสประเทศ) โทรออก ส่ง"
+"โดยการเลื่อนเมาส์ไปที่ฟิลด์ในฟอร์มที่บันทึกไว้"
+"จากนั้นคลิกที่ตัวเลือกที่ต้องการ"
 
 #: ../../content/applications/essentials/contacts.rst:57
 msgid ""
@@ -823,16 +1015,21 @@ msgid ""
 "call, send an SMS, or WhatsApp message by hovering over the field on the "
 "saved form, and clicking on the desired option."
 msgstr ""
+": guilabel: "มือถือ": รายชื่อหมายเลขโทรศัพท์มือถือ (มีรหัสประเทศ) สร้างหนึ่ง"
+"เลื่อนเมาส์ไปที่ฟิลด์บนหน้าจอเพื่อโทรออก ส่งข้อความ SMS หรือ WhatsApp"
+"บันทึกแบบฟอร์มและคลิกที่ตัวเลือกที่ต้องการ"
 
 #: ../../content/applications/essentials/contacts.rst:59
 msgid ":guilabel:`Email`: enter the email address with the domain."
-msgstr ""
+msgstr ": guilabel: `email`: ป้อนที่อยู่อีเมลที่มีชื่อโดเมน"
 
 #: ../../content/applications/essentials/contacts.rst:60
 msgid ""
 ":guilabel:`Website`: enter the full website address, starting with `http` or"
 " `https`."
 msgstr ""
+": guilabel: `website`: ป้อนที่อยู่เว็บไซต์เต็มรูปแบบเริ่มต้นด้วย `http`, หรือ"
+"`https。"
 
 #: ../../content/applications/essentials/contacts.rst:61
 msgid ""
@@ -840,6 +1037,9 @@ msgid ""
 ":guilabel:`Miss`, :guilabel:`Mister`, :guilabel:`Professor`, or create a new"
 " one directly from this field."
 msgstr ""
+":guilabel:`ตำแหน่งงาน':เลือก:guilabel:`doctor',:guilabel:`มาดาม',"
+": guilabel: นางสาว,: guilabel: คุณครับ"
+"ตนมาจากภาคสนามโดยตรง"
 
 #: ../../content/applications/essentials/contacts.rst:63
 msgid ""
@@ -848,10 +1048,14 @@ msgid ""
 "the new tag in the field, and click :guilabel:`Create` from the resulting "
 "drop-down menu."
 msgstr ""
+": guilabel: `tags`: ป้อนเครื่องหมายที่กำหนดค่าไว้ล่วงหน้าลงในฟิลด์หรือ"
+"คลิกที่เมนูแบบเลื่อนลงและเลือกอย่างใดอย่างหนึ่ง หากต้องการสร้างใหม่พิมพ์"
+"เครื่องหมายใหม่ในฟิลด์และคลิกจากผลลัพธ์: guilabel: "สร้าง""
+"เมนูแบบเลื่อนลง"
 
 #: ../../content/applications/essentials/contacts.rst:68
 msgid "Contacts & Addresses tab"
-msgstr "แท็บข้อมูลติดต่อและที่อยู่"
+msgstr "แท็บ รายชื่อและที่อยู่"
 
 #: ../../content/applications/essentials/contacts.rst:70
 msgid ""
@@ -860,6 +1064,10 @@ msgid ""
 "associated with a :guilabel:`Company` and related addresses. For example, a "
 "specific contact person for the company can be listed here."
 msgstr ""
+"ด้านล่างของแบบฟอร์มการติดต่อมีแท็กหลายแท็ก บน"
+": guilabel: แท็บ "Contact & Address" สามารถเพิ่มรายชื่อผู้ติดต่อได้ต่อไปนี้"
+"เกี่ยวข้องกับ a: guilabel: "บริษัท" และที่อยู่ที่เกี่ยวข้อง ตัวอย่างเช่น a"
+"รายชื่อติดต่อเฉพาะของ บริษัท สามารถแสดงได้ที่นี่"
 
 #: ../../content/applications/essentials/contacts.rst:74
 msgid ""
@@ -868,10 +1076,14 @@ msgid ""
 ":guilabel:`Contacts & Addresses` tab. Doing so reveals a :guilabel:`Create "
 "Contact` pop-up form, in which additional addresses can be configured."
 msgstr ""
+"สามารถเพิ่มที่อยู่ได้มากกว่าสองที่อยู่: guilabel: "ส่วนบุคคล" และ"
+":guilabel:"บริษัท" ติดต่อ เมื่อต้องการทำเช่นนี้คลิกที่: guilabel: "เพิ่ม""
+": guilabel: แท็บ "รายชื่อและที่อยู่" การทำเช่นนี้จะแสดงหนึ่ง: guilabel: "สร้าง""
+"แบบฟอร์มป๊อปอัพที่ติดต่อซึ่งคุณสามารถกำหนดค่าที่อยู่เพิ่มเติมได้"
 
 #: ../../content/applications/essentials/contacts.rst-1
 msgid "Add a contact/address to the contact form."
-msgstr "เพิ่มข้อมูลติดต่อ/ที่อยู่ลงในแบบฟอร์มติดต่อ"
+msgstr "เพิ่มผู้ติดต่อ / ที่อยู่ลงในแบบฟอร์มการติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:82
 msgid ""
@@ -879,6 +1091,9 @@ msgid ""
 " :guilabel:`Other Address` field at the top to reveal a drop-down menu of "
 "address-related options."
 msgstr ""
+"ใน: guilabel: "สร้างรายชื่อติดต่อ" รูปแบบป๊อปอัพให้คลิกที่ค่าเริ่มต้นก่อน"
+": guilabel: ช่อง "ที่อยู่อื่น" ด้านบนแสดงเมนูแบบเลื่อนลง"
+"ตัวเลือกที่เกี่ยวข้องกับที่อยู่"
 
 #: ../../content/applications/essentials/contacts.rst:85
 msgid "Select any of the following options:"
@@ -888,53 +1103,59 @@ msgstr "เลือกตัวเลือกใดตัวเลือกห
 msgid ""
 ":guilabel:`Contact`: adds another contact to the existing contact form."
 msgstr ""
-":guilabel:`รายชื่อผู้ติดต่อ`: "
-"เพิ่มผู้ติดต่ออีกรายลงในแบบฟอร์มผู้ติดต่อที่มีอยู่"
+":guilabel:`Contact`: เพิ่มรายชื่ออื่นในแบบฟอร์มการติดต่อที่มีอยู่"
 
 #: ../../content/applications/essentials/contacts.rst:88
 msgid ""
 ":guilabel:`Invoice Address`: adds a specific invoice address to the existing"
 " contact form."
 msgstr ""
-":guilabel:`ที่อยู่ใบแจ้งหนี้`: "
-"เพิ่มที่อยู่ใบแจ้งหนี้ที่เฉพาะเจาะจงลงในแบบฟอร์มติดต่อที่มีอยู่"
+": guilabel: "ที่อยู่ใบแจ้งหนี้": เพิ่มที่อยู่เฉพาะสำหรับใบแจ้งหนี้ที่มีอยู่"
+"แบบฟอร์มการติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:89
 msgid ""
 ":guilabel:`Delivery Address`: adds a specific delivery address to the "
 "existing contact form."
 msgstr ""
-":guilabel:`ที่อยู่จัดส่ง`: "
-"เพิ่มที่อยู่จัดส่งที่เฉพาะเจาะจงลงในแบบฟอร์มติดต่อที่มีอยู่"
+": guilabel: "ที่อยู่จัดส่ง": เพิ่มที่อยู่จัดส่งเฉพาะ"
+"รายละเอียดการติดต่อที่มีอยู่"
 
 #: ../../content/applications/essentials/contacts.rst:90
 msgid ""
 ":guilabel:`Other Address`: adds an alternate address to the existing contact"
 " form."
-msgstr ":guilabel:`ที่อยู่อื่น`: เพิ่มที่อยู่สำรองลงในแบบฟอร์มติดต่อที่มีอยู่"
+msgstr ""
+": guilabel: "ที่อยู่อื่น": เพิ่มที่อยู่สำรองสำหรับรายชื่อที่มีอยู่"
+"แบบฟอร์ม"
 
 #: ../../content/applications/essentials/contacts.rst:91
 msgid ""
 ":guilabel:`Private Address`: adds a private address to the existing contact "
 "form."
 msgstr ""
-":guilabel:`ที่อยู่ส่วนตัว`: เพิ่มที่อยู่ส่วนตัวลงในแบบฟอร์มติดต่อที่มีอยู่"
+": guilabel: "ที่อยู่ส่วนตัว": เพิ่มที่อยู่ส่วนตัวไปยังผู้ติดต่อที่มีอยู่"
+"แบบฟอร์ม"
 
 #: ../../content/applications/essentials/contacts.rst-1
 msgid "Create a new contact/address on a contact form."
-msgstr "สร้างข้อมูลติดต่อ/ที่อยู่ใหม่บนแบบฟอร์มติดต่อ"
+msgstr "สร้างที่อยู่ติดต่อใหม่บนแบบฟอร์มการติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:97
 msgid ""
 "Once an option is selected, enter the corresponding contact information that"
 " should be used for the specified address type."
 msgstr ""
+"หลังจากเลือกตัวเลือกแล้วให้ป้อนข้อมูลการติดต่อที่เกี่ยวข้อง"
+"ใช้กับประเภทที่อยู่ที่ระบุ"
 
 #: ../../content/applications/essentials/contacts.rst:100
 msgid ""
 "Add the :guilabel:`Contact Name`, :guilabel:`Address`, :guilabel:`Email`, "
 "along with the :guilabel:`Phone` and/or :guilabel:`Mobile` numbers below."
 msgstr ""
+"เพิ่ม: guilabel: 'ชื่อผู้ติดต่อ',: guilabel: 'ที่อยู่',: gilabel: 'email',"
+"ต่อไปนี้เป็น: guilabel: "โทรศัพท์" และ / หรือ: guilabel: "โทรศัพท์มือถือ" หมายเลข"
 
 #: ../../content/applications/essentials/contacts.rst:103
 msgid ""
@@ -942,12 +1163,17 @@ msgid ""
 "address type has been selected. This is similar to the "
 ":guilabel:`Individual` contact."
 msgstr ""
+"การตั้งค่า: guilabel:`position', if:guilabel:`contacts`"
+"เลือกประเภทที่อยู่แล้ว มันคล้ายกับ"
+": guilabel: "ส่วนบุคคล" รายละเอียดการติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:106
 msgid ""
 "To add a note, click on the text field next to :guilabel:`Notes`, and write "
 "anything that is applicable to the customer or contact."
 msgstr ""
+"เพื่อเพิ่มความคิดเห็นคลิกที่: guilabel: ฟิลด์ข้อความถัดจาก "หมายเหตุ" และเขียน"
+"เนื้อหาใด ๆ ที่ใช้กับลูกค้าหรือผู้ติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:109
 msgid ""
@@ -955,16 +1181,21 @@ msgid ""
 ":guilabel:`Create Contact` window. Or, click :guilabel:`Save & New` to save "
 "the address, and immediately input another one."
 msgstr ""
+"จากนั้นคลิก: guilabel: 'บันทึกและปิด' เพื่อบันทึกที่อยู่และปิด"
+": guilabel: หน้าต่างสร้างผู้ติดต่อ หรือคลิก: guilabel: "บันทึกและสร้างใหม่" เพื่อบันทึก"
+"และป้อนที่อยู่อื่นทันที"
 
 #: ../../content/applications/essentials/contacts.rst:113
 msgid "Sales & Purchase tab"
-msgstr "แท็บการขายและการซื้อ"
+msgstr "แท็บ การขายและการจัดซื้อ"
 
 #: ../../content/applications/essentials/contacts.rst:115
 msgid ""
 "Next, is the :guilabel:`Sales & Purchases` tab, which only appears when the "
 "*Sales*, *Purchase*, **or** *Point of Sale* applications are installed."
 msgstr ""
+"ต่อไป: guilabel: แท็บ "ขายและจัดซื้อ" เฉพาะใน"
+"* ติดตั้งแอป Sale*, *Buy*, ** หรือ *** จุดขาย *"
 
 #: ../../content/applications/essentials/contacts.rst:118
 msgid ""
@@ -972,10 +1203,13 @@ msgid ""
 "Purchases` tab. Select a :guilabel:`Fiscal Position` from the drop-down "
 "menu."
 msgstr ""
+": guilabel: "ฐานะการเงิน" สามารถตั้งค่าได้ที่: guilabel: "ฝ่ายขาย" และ"
+"แท็บซื้อ เลือกจากรายการแบบหล่นลง: guilabel: "สถานะทางการเงิน""
+"เมนู"
 
 #: ../../content/applications/essentials/contacts.rst:122
 msgid "Sales section"
-msgstr "แผนกขาย"
+msgstr "ฝ่ายขาย"
 
 #: ../../content/applications/essentials/contacts.rst:124
 msgid ""
@@ -984,6 +1218,10 @@ msgid ""
 "drop-down field, and select one. Create a new :guilabel:`Salesperson` by "
 "typing the user's name, and making the appropriate selection."
 msgstr ""
+"ภายใต้หัวข้อ: guilabel: "ขาย" มีเฉพาะ: guilabel: "ขาย" สามารถ"
+"มอบหมายให้ผู้ติดต่อ สำหรับสิ่งนี้โปรดคลิก: guilabel: `พนักงานขาย`"
+"ดึงกล่องลงและเลือกอย่างใดอย่างหนึ่ง สร้างใหม่: guilabel: "พนักงานขาย" โดย"
+"ป้อนชื่อผู้ใช้และทำการเลือกที่เหมาะสม"
 
 #: ../../content/applications/essentials/contacts.rst:128
 msgid ""
@@ -993,16 +1231,23 @@ msgid ""
 "or :guilabel:`Create` a new one. Select the :guilabel:`Pricelist` drop-down "
 "menu to choose the appropriate :guilabel:`Pricelist`."
 msgstr ""
+"เฉพาะ: guilabel: "เงื่อนไขการชำระเงิน" หรือเฉพาะ: guilabel: "รายการราคา", สามารถ"
+"ถ้าต้องการก็สามารถตั้งได้ คลิกที่เมนูแบบเลื่อนลงด้านล่าง: guilabel:` การชำระเงิน"
+"ข้อตกลงและเปลี่ยนเป็นหนึ่งในตัวเลือกล่วงหน้า: guilabel: เงื่อนไขการชำระเงิน,"
+"หรือ: guilabel: สร้างใหม่ เลือก: guilabel: `pricelist 'รายการแบบหล่นลง"
+"เลือกเมนูที่เหมาะสม: guilabel: `pricelist '"
 
 #: ../../content/applications/essentials/contacts.rst:133
 msgid ""
 "Click into the :guilabel:`Delivery Method` field to select an option from "
 "the drop-down menu."
 msgstr ""
+"คลิกที่: guilabel: ฟิลด์ "วิธีการจัดส่ง" เลือกตัวเลือกจาก"
+"เมนูแบบเลื่อนลง"
 
 #: ../../content/applications/essentials/contacts.rst:136
 msgid "Point Of Sale section"
-msgstr ""
+msgstr "ส่วนจุดขาย"
 
 #: ../../content/applications/essentials/contacts.rst:138
 msgid ""
@@ -1010,10 +1255,13 @@ msgid ""
 "that can be used to identify the contact. Use the :guilabel:`Loyalty Points`"
 " field to track points the user won as part of a *Loyalty Program*."
 msgstr ""
+"ภายใต้: guilabel: "จุดขาย" หัวข้อป้อน: guilabel: "บาร์โค้ด""
+"ซึ่งสามารถใช้ระบุตัวผู้ติดต่อได้ ใช้: guilabel:` คะแนนสะสม"
+"ฟิลด์เพื่อติดตามคะแนนที่ผู้ใช้ได้รับเป็นส่วนหนึ่งของโปรแกรมความภักดี*"
 
 #: ../../content/applications/essentials/contacts.rst:143
 msgid "Purchase section"
-msgstr ""
+msgstr "ฝ่ายจัดซื้อ"
 
 #: ../../content/applications/essentials/contacts.rst:145
 msgid ""
@@ -1021,10 +1269,13 @@ msgid ""
 "preferred :guilabel:`Payment Method` here. A :guilabel:`Receipt Reminder` "
 "can be set here, as well."
 msgstr ""
+"ระบุ: guilabel: "เงื่อนไขการชำระเงิน", guilabel: "กล่อง 1099" ข้อมูล, และ"
+"ตัวเลือกแรก: guilabel: นี่คือ "วิธีการชำระเงิน" A: guilabel: `ใบเสร็จรับเงินเตือน `"
+"สามารถตั้งตรงนี้ได้ด้วย"
 
 #: ../../content/applications/essentials/contacts.rst:149
 msgid "Misc section"
-msgstr ""
+msgstr "ส่วนเบ็ดเตล็ด"
 
 #: ../../content/applications/essentials/contacts.rst:151
 msgid ""
@@ -1039,20 +1290,20 @@ msgid ""
 "from the drop-down menu. Use the :guilabel:`SLA Policies` field to assign a "
 "*Helpdesk* SLA policy to this contact."
 msgstr ""
-"ใต้หัวข้อ :guilabel:`เบ็ดเตล็ด` ให้ใช้ช่อง :guilabel:`อ้างอิง` "
-"เพื่อเพิ่มข้อมูลเพิ่มเติมสำหรับผู้ติดต่อรายนี้ "
-"หากผู้ติดต่อนี้ควรสามารถเข้าถึงได้สำหรับบริษัทเดียวในฐานข้อมูลหลายบริษัท "
-"ให้เลือกจากรายการแบบเลื่อนลงฟิลด์ :guilabel:`บริษัท` ใช้เมนูแบบเลื่อนลง "
-":guilabel:`เว็บไซต์` เพื่อจำกัดการเผยแพร่ข้อมูลติดต่อนี้ไปยังเว็บไซต์เดียว "
-"(หากทำงานในฐานข้อมูลที่มีหลายเว็บไซต์) เลือกอย่างน้อยหนึ่งรายการ "
-":guilabel:`แท็กเว็บไซต์` เพื่อช่วยในการกรองลูกค้าที่เผยแพร่บนหน้าเว็บไซต์ "
-"`/customers` เลือก :guilabel:`อุตสาหกรรม` "
-"สำหรับผู้ติดต่อนี้จากเมนูแบบเลื่อนลง ใช้ฟิลด์ :guilabel:`นโยบาย SLA` "
-"เพื่อกำหนดนโยบาย *Helpdesk* SLA ให้กับผู้ติดต่อรายนี้"
+"ด้านล่าง: guilabel: "เบ็ดเตล็ด" ชื่อเรื่อง, ใช้: guilabel: ฟิลด์ "การอ้างอิง" เพิ่ม"
+"ข้อมูลอื่น ๆ ของผู้ติดต่อนี้ หากผู้ติดต่อรายนี้ควร"
+"เข้าถึงหนึ่งใน บริษัท ในฐานข้อมูลหลายบริษัท กรุณาเลือก"
+": guilabel: ฟิลด์ "บริษัท" แบบเลื่อนลง ใช้: guilabel: "เว็บไซต์" เมนูแบบเลื่อนลง -"
+"เมนูแบบเลื่อนลง จำกัด ผู้ติดต่อนี้ให้เผยแพร่บนเว็บไซต์เดียว (ถ้า"
+"ทำงานบนฐานข้อมูลที่มีหลายเว็บไซต์) เลือกหนึ่งหรือมากกว่า"
+": guilabel: "แท็กเว็บไซต์" เพื่อช่วยกรองลูกค้าที่โพสต์"
+"`/ หน้าเว็บไซต์ของลูกค้า เลือกป้ายกำกับสำหรับติดต่อนี้: "อุตสาหกรรม""
+"เลือกจากเมนูแบบเลื่อนลง ใช้: guilabel: "นโยบาย SLA" การกำหนดฟิลด์"
+"* Helpdesk * นโยบาย SLA สำหรับติดต่อนี้"
 
 #: ../../content/applications/essentials/contacts.rst:161
 msgid "Accounting tab"
-msgstr "แท็บระบบบัญชี"
+msgstr "แท็บบัญชี"
 
 #: ../../content/applications/essentials/contacts.rst:163
 msgid ""
@@ -1060,16 +1311,21 @@ msgid ""
 "installed. Here, a user can add any related :guilabel:`Bank Accounts`, or "
 "set default :guilabel:`Accounting entries`."
 msgstr ""
+"เมื่อ * บัญชี * แอปพลิเคชันอยู่ในสถานะต่อไปนี้: guilabel: แท็บ "บัญชี" จะปรากฏขึ้น"
+"การติดตั้ง. ที่นี่ผู้ใช้สามารถเพิ่มอะไรที่เกี่ยวข้อง: guilabel: "บัญชีธนาคาร" หรือ"
+"ตั้งค่าเริ่มต้น: guilabel: "รายการบัญชี""
 
 #: ../../content/applications/essentials/contacts.rst:166
 msgid ""
 "Under the :guilabel:`Miscellaneous` heading, use the :guilabel:`LEI` field "
 "to enter a Legal Entity Identifier, if necessary."
 msgstr ""
+"ภายใต้: guilabel: "Misscellaneous" ชื่อเรื่อง, ใช้: guilabel: "LEI" ฟิลด์"
+"หากจำเป็นให้ป้อนตัวระบุนิติบุคคล"
 
 #: ../../content/applications/essentials/contacts.rst:170
 msgid "Internal Notes tab"
-msgstr "แท็บบันทึกภายใน"
+msgstr "แท็บความคิดเห็นภายใน"
 
 #: ../../content/applications/essentials/contacts.rst:172
 msgid ""
@@ -1077,10 +1333,13 @@ msgid ""
 "tab, where notes can be left on this contact form, just like on the contact "
 "form noted above."
 msgstr ""
+"หลังจาก: guilabel: `บัญชี ' แท็บตามด้วย: guilabel: ` บันทึกภายใน `"
+"แท็บที่สามารถออกความคิดเห็นในแบบฟอร์มการติดต่อนี้เช่นเดียวกับในการติดต่อ"
+"รูปแบบที่กล่าวมาข้างต้น"
 
 #: ../../content/applications/essentials/contacts.rst:176
 msgid "Partner Assignment tab"
-msgstr ""
+msgstr "แท็บการกำหนดพันธมิตร"
 
 #: ../../content/applications/essentials/contacts.rst:178
 msgid ""
@@ -1090,6 +1349,11 @@ msgid ""
 "configurations. These are **only** present when the *Resellers* module is "
 "installed."
 msgstr ""
+"ต่อไป: guilabel: แท็บ "การจัดสรรพันธมิตร" ซึ่งค่าเริ่มต้นประกอบด้วย"
+": guilabel: ส่วน "Geolocation" และตัวเลือกพันธมิตรอื่น ๆ รวมถึง"
+": guilabel: "การเปิดใช้งานพันธมิตร" และ: guilabel: "การตรวจสอบพันธมิตร""
+"การกำหนดค่า เมื่อ * ตัวแทนจำหน่าย * โมดูลคือ"
+"การติดตั้ง."
 
 #: ../../content/applications/essentials/contacts.rst:183
 msgid ""
@@ -1097,10 +1361,13 @@ msgid ""
 "<../sales/crm/track_leads/resellers>` for more information on publishing "
 "partners on the website."
 msgstr ""
+"ติดตาม: doc:` เอกสารตัวแทนจำหน่าย"
+"<../ sales/crm/track_leads/reseller>`ข้อมูลเพิ่มเติมเกี่ยวกับการเผยแพร่"
+"พันธมิตรบนเว็บไซต์"
 
 #: ../../content/applications/essentials/contacts.rst:187
 msgid "Membership tab"
-msgstr ""
+msgstr "แท็บสมาชิก"
 
 #: ../../content/applications/essentials/contacts.rst:189
 msgid ""
@@ -1109,10 +1376,14 @@ msgid ""
 "contact. It should be noted that this tab **only** appears when the "
 "*Members* application is installed."
 msgstr ""
+"สุดท้ายแบบฟอร์มการติดต่อมี: guilabel: แท็บ "สมาชิก" สามารถ"
+"ช่วยให้ผู้ใช้จัดการการเป็นสมาชิกใด ๆ ที่มีให้กับผู้ใช้นี้โดยเฉพาะ"
+"การติดต่อ ควรสังเกตว่าเมื่อ"
+"* สมาชิกติดตั้งแอป *"
 
 #: ../../content/applications/essentials/contacts.rst:194
 msgid "Activate membership"
-msgstr ""
+msgstr "เปิดใช้งานการเป็นสมาชิก"
 
 #: ../../content/applications/essentials/contacts.rst:196
 msgid ""
@@ -1122,30 +1393,39 @@ msgid ""
 "configure a :guilabel:`Member Price`. Click :guilabel:`Invoice Membership` "
 "when both fields are filled in."
 msgstr ""
+"เพื่อเปิดใช้งานการเป็นสมาชิกของผู้ติดต่อโปรดไปที่"
+":guilabel: แท็บ "สมาชิก" ในแบบฟอร์มการติดต่อ ในหน้าต่างป๊อปอัพ"
+"เมื่อปรากฏให้เลือกหนึ่งจากเมนูแบบเลื่อนลง: guilabel: `สมาชิก' จากนั้น"
+"การกำหนดค่า a: guilabel: `ราคาสมาชิก' ฮิต: แท็ก: `Invoice สมาชิก `"
+"เมื่อกรอกครบทั้ง 2 ช่องแล้ว"
 
 #: ../../content/applications/essentials/contacts.rst:201
 msgid ""
 "Alternatively, to offer a free membership, tick the :guilabel:`Free Member` "
 "checkbox, in the :guilabel:`Membership` tab of a contact form."
 msgstr ""
-"อีกวิธีหนึ่งในการเสนอให้เป็นสมาชิกฟรี ให้ทำเครื่องหมายที่ช่องทำเครื่องหมาย "
-":guilabel:`สมาชิกฟรี` ในแท็บ :guilabel:`สมาชิก` ของแบบฟอร์มติดต่อ"
+"หรือสำหรับการเป็นสมาชิกฟรีติ๊ก: guilabel: "สมาชิกฟรี""
+"ช่องทำเครื่องหมายที่อยู่ในแบบฟอร์มการติดต่อ: guilabel: "การเป็นสมาชิก" แท็บ"
 
 #: ../../content/applications/essentials/contacts.rst:205
 msgid ""
 "Follow the :doc:`Members documentation <../sales/members>` for more "
 "information on publishing members on the website."
 msgstr ""
+"ติดตาม: doc:` เอกสารสมาชิก </ ฝ่ายขาย / สมาชิก > ` เรียนรู้เพิ่มเติม"
+"มีการเผยแพร่ข้อมูลสมาชิกในเว็บไซต์"
 
 #: ../../content/applications/essentials/contacts.rst:209
 msgid "Smart buttons"
-msgstr ""
+msgstr "ปุ่มอัจฉริยะ"
 
 #: ../../content/applications/essentials/contacts.rst:211
 msgid ""
 "At the top of the contact form, there are some additional options available,"
 " known as *smart buttons*."
 msgstr ""
+"ที่ด้านบนของแบบฟอร์มการติดต่อมีตัวเลือกเพิ่มเติมให้เลือก"
+"เรียกว่า "ปุ่มอัจฉริยะ""
 
 #: ../../content/applications/essentials/contacts.rst:214
 msgid ""
@@ -1153,6 +1433,9 @@ msgid ""
 " created on other apps. Odoo integrates information from every single app, "
 "so there are many smart buttons."
 msgstr ""
+"ที่นี่ Odoo จะแสดงบันทึกต่างๆที่เกี่ยวข้องกับการติดต่อนี้ซึ่งเป็น"
+"สร้างขึ้นบนแอปพลิเคชันอื่น ๆ Odoo รวบรวมข้อมูลจากแต่ละแอปพลิเคชัน"
+"จึงมีปุ่มอัจฉริยะมากมาย"
 
 #: ../../content/applications/essentials/contacts.rst:218
 msgid ""
@@ -1160,12 +1443,17 @@ msgid ""
 "the opportunities related to this customer from the *CRM* app are "
 "accessible."
 msgstr ""
+"ตัวอย่างเช่นมีหนึ่ง: guilabel: "โอกาส" ปุ่มสมาร์ทซึ่งทั้งหมด"
+"* CRM * โอกาสที่เกี่ยวข้องกับลูกค้ารายนี้ในแอปมี"
+"เข้าถึงได้"
 
 #: ../../content/applications/essentials/contacts.rst:222
 msgid ""
 "If the corresponding applications are installed, their related smart buttons"
 " appear automatically on a contact form."
 msgstr ""
+"หากแอปพลิเคชันที่เกี่ยวข้องถูกติดตั้งปุ่มสมาร์ทที่เกี่ยวข้อง"
+"ปรากฏในแบบฟอร์มติดต่อโดยอัตโนมัติ"
 
 #: ../../content/applications/essentials/contacts.rst:225
 msgid ""
@@ -1177,6 +1465,13 @@ msgid ""
 ":guilabel:`Invoiced` information, :guilabel:`Vendor Bills`, and the "
 ":guilabel:`Partner Ledger` connected to this contact."
 msgstr ""
+"ผู้ใช้สามารถดูอะไรก็ได้: guilabel: `session',: guilabel: `sales',: gilabel: `POS"
+"สั่งซื้อ,: guilabel: สมัครสมาชิก,รายการ: guilabel: ภารกิจ,และ"
+": guilabel: ปุ่มสมาร์ท "More" แสดงตัวเลือกเพิ่มเติมผ่านเมนูแบบเลื่อนลง"
+"เมนู ผู้ใช้สามารถเข้าถึงได้อย่างรวดเร็ว: guilabel: "ซื้อ","
+": guilabel: ภารกิจ Helpdesk,: guilabel: ส่งมอบตรงเวลา,"
+": guilabel: ข้อมูล "ใบแจ้งหนี้" ,: guilabel: "ใบแจ้งหนี้ผู้จำหน่าย" และ"
+": guilabel: "Partner Ledger" เชื่อมต่อไปยังผู้ติดต่อนี้แล้ว"
 
 #: ../../content/applications/essentials/contacts.rst:231
 msgid ""
@@ -1184,16 +1479,21 @@ msgid ""
 " smart buttons, like this, should there be any outstanding/on-file for this "
 "contact."
 msgstr ""
+"การจัดส่งเอกสารบัตรสมาชิกและการหักบัญชีโดยตรงยังเชื่อมโยงกับ"
+"ปุ่มสมาร์ทเช่นนี้ควรจะมีอะไรที่ยังไม่เสร็จ / เก็บถาวร"
+"การติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:234
 msgid ""
 "If the contact is a partner, the user can visit their partner page on the "
 "Odoo-built website by clicking the :guilabel:`Go to Website` smart button."
 msgstr ""
+"หากผู้ติดต่อเป็นพันธมิตรผู้ใช้สามารถเยี่ยมชมหน้าพันธมิตรของพวกเขา"
+"Odoo สร้างเว็บไซต์โดยคลิกที่: guilabel: "ไปที่เว็บไซต์" ปุ่มอัจฉริยะ"
 
 #: ../../content/applications/essentials/contacts.rst:238
 msgid "Archive contacts"
-msgstr ""
+msgstr "เก็บรายชื่อผู้ติดต่อ"
 
 #: ../../content/applications/essentials/contacts.rst:240
 msgid ""
@@ -1202,12 +1502,18 @@ msgid ""
 ":guilabel:`Action` menu at the top of the contact form, and click "
 ":guilabel:`Archive`."
 msgstr ""
+"หากผู้ใช้ตัดสินใจไม่ให้ผู้ติดต่อนี้ใช้งานอีกต่อไป"
+"บันทึกสามารถยื่นได้ สำหรับสิ่งนี้โปรดไปที่: icon: `fa-cog`"
+": guilabel: เมนู "การกระทำ" ที่ด้านบนของแบบฟอร์มการติดต่อและคลิก"
+": guilabel: "จดหมายเหตุ""
 
 #: ../../content/applications/essentials/contacts.rst:244
 msgid ""
 "Then, click :guilabel:`OK` from the resulting :guilabel:`Confirmation` pop-"
 "up window."
 msgstr ""
+"จากนั้นคลิกจากผลลัพธ์: guilabel: "ยืนยัน" ในหน้าต่างป๊อปอัพ: guilabel: "ตกลง" -"
+"หน้าต่างบานบน"
 
 #: ../../content/applications/essentials/contacts.rst:246
 msgid ""
@@ -1215,6 +1521,9 @@ msgid ""
 "top, they do not show up in the main contacts page, but they can still be "
 "searched for with the :guilabel:`Archived` filter."
 msgstr ""
+"ตามที่แสดงแบนเนอร์รายชื่อนี้ถูกจัดเก็บเรียบร้อยแล้ว"
+"ด้านบนพวกเขาจะไม่แสดงในหน้าติดต่อหลัก แต่ยังคงสามารถแสดงได้"
+"ค้นหาโดยใช้: guilabel: ตัวกรอง "Archived""
 
 #: ../../content/applications/essentials/contacts.rst:250
 msgid ""
@@ -1224,22 +1533,31 @@ msgid ""
 "doing so, the :guilabel:`Archived` banner is removed, and the contact is "
 "restored."
 msgstr ""
+"หากผู้ใช้ตัดสินใจที่จะใช้รายชื่อผู้ติดต่ออีกครั้งผู้ติดต่อสามารถ "ไม่ได้เก็บถาวร""
+"สำหรับสิ่งนี้เพียงแค่คลิกอีกครั้ง: icon:`fa-cog`:guilabel:`action`menu"
+"ที่ด้านบนของแบบฟอร์มการติดต่อที่เก็บถาวรแล้วคลิก: guilabel: "ไม่เก็บถาวร" ใน"
+"ทำเช่นนี้,: guilabel: "เก็บถาวร" แบนเนอร์จะถูกลบออกและผู้ติดต่อคือ"
+"การกู้คืน"
 
 #: ../../content/applications/essentials/contacts.rst:256
 msgid ""
 ":doc:`Add different addresses in CRM "
 "<../sales/sales/send_quotations/different_addresses>`"
 msgstr ""
+":doc:` เพิ่มที่อยู่ต่างๆใน CRM"
+"<../ ขาย / ขาย / ส่ง _ ใบเสนอราคา / ที่อยู่ที่แตกต่างกัน > `"
 
 #: ../../content/applications/essentials/contacts.rst:257
 msgid ""
 "`Odoo's eLearning Contacts tutorial "
 "<https://www.odoo.com/slides/slide/contacts-2527?fullscreen=1>`_"
 msgstr ""
+"บทเรียนการติดต่อ e-learning ที่ Odoo"
+"< https://www.odoo.com/slides/slide/contacts-2527?fullscreen=1 >`_"
 
 #: ../../content/applications/essentials/contacts/merge.rst:3
 msgid "Merge contacts"
-msgstr ""
+msgstr "รวมผู้ติดต่อ"
 
 #: ../../content/applications/essentials/contacts/merge.rst:5
 msgid ""
@@ -1248,16 +1566,22 @@ msgid ""
 "organized, and prevents contacts from being contacted by more than one "
 "salesperson."
 msgstr ""
+"*รายชื่อผู้ติดต่อ* ของ Odoo ช่วยให้ผู้ใช้สามารถรวมรายชื่อที่ซ้ำกันได้"
+"โดยไม่สูญเสียข้อมูลใดๆ ในกระบวนการ ซึ่งจะเก็บฐานข้อมูลไว้"
+"จัดระเบียบและป้องกันการติดต่อจากผู้ติดต่อหลายราย"
+"พนักงานขาย"
 
 #: ../../content/applications/essentials/contacts/merge.rst:12
 msgid "Merge duplicate contacts"
-msgstr ""
+msgstr "รวมรายชื่อที่ซ้ำกัน"
 
 #: ../../content/applications/essentials/contacts/merge.rst:15
 msgid ""
 "Merging is an irreversible action. Do **not** merge contacts unless "
 "absolutely certain they should be combined."
 msgstr ""
+"การควบรวมกิจการเป็นการกระทำที่ไม่สามารถย้อนกลับได้ อย่ารวมผู้ติดต่อเว้นแต่จะเป็นไปตามเงื่อนไขต่อไปนี้"
+"แน่นอนว่าพวกมันควรรวมกัน"
 
 #: ../../content/applications/essentials/contacts/merge.rst:18
 msgid ""
@@ -1267,10 +1591,15 @@ msgid ""
 " should be merged. Then, click the :icon:`fa-cog` :guilabel:`Actions` icon, "
 "and select :guilabel:`Merge` from the resulting drop-down menu."
 msgstr ""
+"ไปที่: ส่วนเมนู: "แอปที่ติดต่อ" และเลือก: ไอคอน: "oi" -"
+"ดูรายการ: guilabel: (รายการ) ไอคอน. เลือกผู้ติดต่อที่ซ้ำกันสองคนหรือมากกว่า"
+"จากรายการติ๊กช่องทำเครื่องหมายที่ติดต่อทางด้านซ้ายสุด"
+"ควรควบรวมกิจการ จากนั้นคลิก: icon:`fa-cog':guilabel:`การกระทำไอคอน"
+"จากนั้นเลือกจากเมนูแบบหล่นลงผลลัพธ์: guilabel: "ผสาน""
 
 #: ../../content/applications/essentials/contacts/merge.rst-1
 msgid "The merge contacts option in the Contacts application."
-msgstr ""
+msgstr "รวมตัวเลือกการติดต่อในแอปพลิเคชันที่ติดต่อ"
 
 #: ../../content/applications/essentials/contacts/merge.rst:27
 msgid ""
@@ -1279,16 +1608,22 @@ msgid ""
 "contacts in the list should **not** be merged, click the :icon:`fa-times` "
 ":guilabel:`(delete)` icon at the far right of the contact."
 msgstr ""
+"นี้จะเปิด: guilabel: "Merge" ป๊อปอัพ. เริ่มต้นที่นี่,ดู"
+"โปรดระบุรายละเอียดของผู้ติดต่อก่อนที่จะยืนยันว่าผู้ติดต่อควรถูกรวมเข้าด้วยกัน ถ้ามี"
+"รายชื่อในรายการไม่ควรถูกรวมเข้าด้วยกัน คลิก: ไอคอน: `fa-times`"
+":guilabel:`(ลบ)`ไอคอนอยู่ด้านขวาสุด"
 
 #: ../../content/applications/essentials/contacts/merge.rst:32
 msgid ""
 "Click the individual contact to open the record for that contact, and view "
 "additional information."
 msgstr ""
+"คลิกที่รายชื่อเดียวเพื่อเปิดประวัติของผู้ติดต่อนั้นและดู"
+"ข้อมูลเพิ่มเติม."
 
 #: ../../content/applications/essentials/contacts/merge.rst-1
 msgid "The merge pop-up window in the Contacts application."
-msgstr ""
+msgstr "ผสานป๊อปอัพในแอปพลิเคชันที่ติดต่อ"
 
 #: ../../content/applications/essentials/contacts/merge.rst:39
 msgid ""
@@ -1296,16 +1631,21 @@ msgid ""
 "the drop-down list. This field defaults to the contact record that was "
 "created first in the system."
 msgstr ""
+"คลิกที่: guilabel: ฟิลด์ "ติดต่อปลายทาง" จากนั้นเลือกตัวเลือกจาก"
+"รายการแบบเลื่อนลง ฟิลด์นี้เป็นการบันทึกการติดต่อโดยปริยาย"
+"สร้างในระบบก่อน"
 
 #: ../../content/applications/essentials/contacts/merge.rst:42
 msgid ""
 "After confirming the information on the pop-up window, click "
 ":guilabel:`Merge Contacts`."
 msgstr ""
+"เมื่อยืนยันข้อมูลบนหน้าต่างป๊อปอัพแล้วคลิก"
+": guilabel: "รวมรายชื่อ""
 
 #: ../../content/applications/essentials/contacts/merge.rst:45
 msgid "Deduplicate contacts"
-msgstr ""
+msgstr "ลบรายชื่อที่ซ้ำกัน"
 
 #: ../../content/applications/essentials/contacts/merge.rst:47
 msgid ""
@@ -1315,44 +1655,55 @@ msgid ""
 "on selected criteria, and merges them automatically, or after manual "
 "approval."
 msgstr ""
+"เมื่อการควบรวมกิจการเสร็จสมบูรณ์หน้าต่างป๊อปอัพจะปรากฏขึ้นเพื่อยืนยันว่าการควบรวมกิจการประสบความสำเร็จ"
+"เรียบร้อย ป๊อปอัพนี้ยังมีหนึ่ง: guilabel:` คู่"
+"ปุ่มติดต่ออื่น ๆ คุณลักษณะนี้จะค้นหาระเบียนที่ซ้ำกันบนพื้นฐานของ"
+"รวมเข้าด้วยกันโดยอัตโนมัติหรือด้วยตนเองขึ้นอยู่กับเงื่อนไขที่เลือก"
+"การอนุมัติ"
 
 #: ../../content/applications/essentials/contacts/merge.rst:52
 msgid ""
 "Click the :guilabel:`Deduplicate the other Contacts` button to open the "
 ":guilabel:`Deduplicate Contacts` pop-up window."
 msgstr ""
+"คลิกที่: guilabel: "ลบผู้ติดต่ออื่น ๆ" ปุ่มเปิด"
+": guilabel: "ลบรายชื่อที่ซ้ำกัน" ป๊อปอัพ"
 
 #: ../../content/applications/essentials/contacts/merge.rst:55
 msgid ""
 "Select one or more fields to be used in the search for duplicated records. "
 "Duplicated contacts can be searched, based on the following criteria:"
 msgstr ""
+"เลือกหนึ่งหรือมากกว่าฟิลด์สำหรับการค้นหาระเบียนที่ซ้ำกัน"
+"ติดต่อซ้ำสามารถค้นหาตามเงื่อนไขต่อไปนี้:"
 
 #: ../../content/applications/essentials/contacts/merge.rst:58
 msgid ":guilabel:`Email`"
-msgstr ":guilabel:`อีเมล`"
+msgstr "อีเมล์: guilabel"
 
 #: ../../content/applications/essentials/contacts/merge.rst:59
 msgid ":guilabel:`Name`"
-msgstr ":guilabel:`ชื่อ`"
+msgstr ":guilabel:`ชื่อจริง"
 
 #: ../../content/applications/essentials/contacts/merge.rst:60
 msgid ":guilabel:`Is Company`"
-msgstr ""
+msgstr "Guilabel: มี บริษัท หรือไม่?"
 
 #: ../../content/applications/essentials/contacts/merge.rst:61
 msgid ":guilabel:`VAT`"
-msgstr ""
+msgstr ":guilabel:`ภาษีมูลค่าเพิ่ม`"
 
 #: ../../content/applications/essentials/contacts/merge.rst:62
 msgid ":guilabel:`Parent Company`"
-msgstr ""
+msgstr ":guilabel:`บริษัทแม่`"
 
 #: ../../content/applications/essentials/contacts/merge.rst:65
 msgid ""
 "If more than one field is selected, only records that have **all** fields in"
 " common are suggested as duplicates."
 msgstr ""
+"หากเลือกฟิลด์มากกว่าหนึ่งฟิลด์จะมีเพียงระเบียนที่มี ** ทั้งหมด ** เท่านั้น"
+"แนะนำให้ใช้รายการทั่วไปเป็นรายการที่ซ้ำกัน"
 
 #: ../../content/applications/essentials/contacts/merge.rst:68
 msgid ""
@@ -1360,14 +1711,17 @@ msgid ""
 "from the search. Potential duplicates can be excluded from the search, based"
 " on the following criteria:"
 msgstr ""
+"หากจำเป็นให้เลือกเกณฑ์สำหรับการยกเว้นรายการที่ซ้ำซ้อนที่อาจเกิดขึ้น"
+"จากการตรวจค้น รายการที่ซ้ำกันได้รับการยกเว้นจากการค้นหาขึ้นอยู่กับ"
+"ตามมาตรฐานต่อไปนี้:"
 
 #: ../../content/applications/essentials/contacts/merge.rst:71
 msgid ":guilabel:`A user associated to the contact`"
-msgstr ""
+msgstr ": guilabel: `ผู้ใช้ที่เกี่ยวข้องกับ รายชื่อผู้ติดต่อ ``"
 
 #: ../../content/applications/essentials/contacts/merge.rst:72
 msgid ":guilabel:`Journal Items associated to the contact`"
-msgstr ""
+msgstr ":guilabel:`สมุดไดอารี่ที่เกี่ยวข้องกับรายชื่อ"
 
 #: ../../content/applications/essentials/contacts/merge.rst:74
 msgid ""
@@ -1375,16 +1729,21 @@ msgid ""
 "Manual Check`, :guilabel:`Merge Automatically`, or :guilabel:`Merge "
 "Automatically all process`."
 msgstr ""
+"เมื่อยืนยันเงื่อนไขการค้นหาคลิกที่: guilabel:` รวม"
+"ตรวจสอบด้วยตนเอง,: guilabel:` รวมอัตโนมัติ 'หรือ: guilabel:` รวม"
+"ประมวลผลทั้งหมดโดยอัตโนมัติ"
 
 #: ../../content/applications/essentials/contacts/merge.rst:77
 msgid ""
 "If :guilabel:`Merge with Manual Check` is selected, complete the merge by "
 "following the :ref:`steps above <contacts/merge-duplicate>`."
 msgstr ""
+"หากเลือก: guilabel: "ตรวจสอบการรวมด้วยตนเอง" การรวมจะเสร็จสมบูรณ์โดย"
+"ทำตาม: อ้าง:` ขั้นตอนข้างต้น <ติดต่อ/merge duplicate>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:3
 msgid "Export and import data"
-msgstr ""
+msgstr "ส่งออกและนำเข้าข้อมูล"
 
 #: ../../content/applications/essentials/export_import_data.rst:8
 msgid ""
@@ -1392,6 +1751,9 @@ msgid ""
 "reports, or for data modification. This document covers the export and "
 "import of data into and out of Odoo."
 msgstr ""
+"ใน Odoo บางครั้งจำเป็นต้องส่งออกหรือนำเข้าข้อมูลเพื่อทำงาน"
+"การรายงานหรือการแก้ไขข้อมูล เอกสารนี้ครอบคลุมการส่งออกและ"
+"นำเข้าและส่งออกข้อมูล Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:12
 msgid ""
@@ -1400,10 +1762,14 @@ msgid ""
 "import file is too large. To circumvent this limitation surrounding the size"
 " of the records, process exports or imports in smaller batches."
 msgstr ""
+"บางครั้งผู้ใช้พบข้อผิดพลาด "หมดเวลา" หรือบันทึกไม่สามารถจัดการได้"
+"เนื่องจากขนาดของมัน ซึ่งอาจจะเกิดขึ้นในกรณีที่มีการส่งออกจำนวนมาก หรือ"
+"การนำเข้าแฟ้มมีขนาดใหญ่เกินไป เพื่อหลีกเลี่ยงข้อจำกัดเกี่ยวกับขนาด"
+"การบันทึก การจัดการกับการส่งออกหรือการนำเข้าในปริมาณน้อย"
 
 #: ../../content/applications/essentials/export_import_data.rst:19
 msgid "Export data from Odoo"
-msgstr ""
+msgstr "ส่งออกข้อมูลจาก Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:21
 msgid ""
@@ -1411,6 +1777,9 @@ msgid ""
 "distinct file. Doing so can aid in reporting on activities, although, Odoo "
 "provides a precise and easy reporting tool with each available application."
 msgstr ""
+"เมื่อใช้ฐานข้อมูลบางครั้งจำเป็นต้องส่งออกข้อมูลไปยัง"
+"คนละไฟล์ การทำเช่นนี้สามารถช่วยรายงานกิจกรรมได้แม้ว่าโอดู"
+"เครื่องมือรายงานที่แม่นยำและง่ายสำหรับแต่ละแอปพลิเคชันที่มีอยู่"
 
 #: ../../content/applications/essentials/export_import_data.rst:25
 msgid ""
@@ -1420,20 +1789,27 @@ msgid ""
 "the checkbox next to the corresponding record. Finally, click on |actions|, "
 "then :guilabel:`Export`."
 msgstr ""
+"ด้วย Odoo คุณสามารถส่งออกค่าจากฟิลด์ใด ๆ ในบันทึกใด ๆ ไปทำมัน"
+"ดังนั้นเปิดใช้งาน List View (#list#) ในรายการที่ต้องการส่งออก"
+"จากนั้นเลือกระเบียนที่คุณต้องการส่งออก เลือกบันทึก"
+"สอดคล้องกับช่องทำเครื่องหมายถัดจากบันทึก และสุดท้าย คลิก #actions#,"
+"จากนั้น: guilabel: "ทางออก""
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "View of the different things to enable/click to export data."
-msgstr ""
+msgstr "ดูเนื้อหาที่แตกต่างกันเพื่อเปิดใช้งาน / คลิกเพื่อส่งออกข้อมูล"
 
 #: ../../content/applications/essentials/export_import_data.rst:34
 msgid ""
 "When clicking on :guilabel:`Export`, an :guilabel:`Export Data` pop-over "
 "window appears, with several options for the data to export:"
 msgstr ""
+"เมื่อคลิกที่: guilabel: "ส่งออก" จะปรากฏขึ้น: guilabel: "ส่งออกข้อมูล""
+"หน้าต่างปรากฏขึ้นซึ่งมีหลายตัวเลือกสำหรับการส่งออกข้อมูล:"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Overview of options to consider when exporting data in Odoo.."
-msgstr ""
+msgstr "ภาพรวมของตัวเลือกที่ต้องพิจารณาเมื่อส่งออกข้อมูลใน Odoo.."
 
 #: ../../content/applications/essentials/export_import_data.rst:41
 msgid ""
@@ -1444,12 +1820,12 @@ msgid ""
 "unticked, gives many more field options because it shows all the fields, not"
 " just the ones that can be imported."
 msgstr ""
-"เมื่อเลือกตัวเลือก :guilabel:`ฉันต้องการอัปเดตข้อมูล (นำเข้า-ส่งออกได้)` "
-"ระบบจะแสดงเฉพาะฟิลด์ที่สามารถนำเข้าได้เท่านั้น ซึ่งมีประโยชน์ในกรณีที่ "
-":ref:`บันทึกที่มีอยู่ต้องได้รับการอัปเดต <essentials/update-data>` "
-"ซึ่งทำงานเหมือนตัวกรอง หากไม่เลือกตัวเลือกนี้ "
-"ระบบจะแสดงตัวเลือกฟิลด์เพิ่มเติมมากมาย เนื่องจากจะแสดงฟิลด์ทั้งหมด "
-"ไม่ใช่เฉพาะฟิลด์ที่สามารถนำเข้าได้"
+"ใช้: guilabel: `ฉันต้องการอัปเดตข้อมูล (นำเข้าและส่งออกที่เข้ากันได้) `ตัวเลือก"
+"เมื่อติ๊กแล้วระบบจะแสดงเฉพาะช่องที่สามารถนำเข้าได้ นี่คือ"
+"มีประโยชน์ในกรณีที่ต้องการการปรับปรุง: อ้าง: `ระเบียนที่มีอยู่"
+"<ประเด็นสำคัญ / ข้อมูลอัปเดต> มันเหมือนเป็นตัวกรอง ออกจากกล่อง"
+"ไม่มีเครื่องหมายมีตัวเลือกฟิลด์มากขึ้นเนื่องจากแสดงฟิลด์ทั้งหมดไม่ใช่"
+"เฉพาะผู้ที่สามารถนำเข้าได้"
 
 #: ../../content/applications/essentials/export_import_data.rst:46
 msgid ""
@@ -1458,6 +1834,10 @@ msgid ""
 "information about all the worksheets in a file, including both content and "
 "formatting."
 msgstr ""
+"เมื่อส่งออกคุณสามารถเลือกที่จะส่งออกในสองรูปแบบ: .csv และ .csv"
+"`.xls。 เมื่อใช้ .csv รายการจะถูกคั่นด้วยเครื่องหมายจุลภาคในขณะที่ .xls จะยังคงเหมือนเดิม"
+"ข้อมูลของแผ่นงานทั้งหมดในไฟล์รวมถึงเนื้อหาและ"
+"การจัดรูปแบบ"
 
 #: ../../content/applications/essentials/export_import_data.rst:49
 msgid ""
@@ -1467,12 +1847,19 @@ msgid ""
 "efficiently, click on all the :guilabel:`> (right arrows)` to display all "
 "fields."
 msgstr ""
+"เหล่านี้เป็นรายการที่สามารถส่งออกได้ ใช้: guilabel:`> (ขวา)"
+"ลูกศร) ไอคอนเพื่อแสดงตัวเลือกฟิลด์ย่อยเพิ่มเติม ใช้: guilabel: `search`"
+"แถบเพื่อค้นหาฟิลด์เฉพาะ วิธีใช้: guilabel: 'ค้นหา' ตัวเลือกเพิ่มเติม"
+"อย่างมีประสิทธิภาพคลิกที่ทั้งหมด: guilabel:`> (ลูกศรขวา) เพื่อแสดงทั้งหมด"
+"สนาม"
 
 #: ../../content/applications/essentials/export_import_data.rst:53
 msgid ""
 "The :guilabel:`+ (plus sign)` icon button is present to add fields to the "
 ":guilabel:`Fields to export` list."
 msgstr ""
+":guilabel:`+ (บวก)`ปุ่มไอคอนมีไว้สำหรับ"
+": guilabel: รายการฟิลด์ที่จะส่งออก"
 
 #: ../../content/applications/essentials/export_import_data.rst:55
 msgid ""
@@ -1481,12 +1868,18 @@ msgid ""
 "displayed in the exported file. Drag-and-drop using the :guilabel:`↕️ (up-"
 "down arrow)` icon."
 msgstr ""
+"อาชญากร:` ↕️  (ลูกศรขึ้นและลง) ด้านซ้ายของฟิลด์ที่เลือก OK"
+"ใช้สำหรับเลื่อนสนามขึ้นและลงเพื่อเปลี่ยนลำดับของพวกเขา"
+"แสดงในไฟล์ที่ส่งออก ใช้: guilabel ลากและวาง: ` ↕️  (ขึ้น) -"
+"ลูกศรลง) ไอคอน"
 
 #: ../../content/applications/essentials/export_import_data.rst:58
 msgid ""
 "The :guilabel:`🗑️ (trash can)` icon is used to remove fields. Click on the "
 ":guilabel:`🗑️ (trash can)` icon to remove the field."
 msgstr ""
+"อาชญากร:` 🗑️  (ถังขยะ) ไอคอนใช้เพื่อลบฟิลด์ คลิก"
+":Ji:` 🗑️  (ถังขยะ) ไอคอนลบฟิลด์"
 
 #: ../../content/applications/essentials/export_import_data.rst:60
 msgid ""
@@ -1497,13 +1890,12 @@ msgid ""
 "configuration. The next time the same list needs to be exported, select the "
 "related template that was previously saved from the drop-down menu."
 msgstr ""
-"สำหรับรายงานที่เกิดซ้ำ บันทึกการตั้งค่าล่วงหน้าสำหรับการส่งออกจะเป็นประโยชน์"
-" เลือกช่องที่จำเป็นทั้งหมด แล้วคลิกเมนูแบบเลื่อนลงเทมเพลต เมื่อไปถึงแล้ว "
-"ให้คลิก :guilabel:`เทมเพลตใหม่` "
-"และตั้งชื่อเฉพาะให้กับการส่งออกที่เพิ่งสร้างขึ้น คลิกที่ไอคอน :guilabel:`💾 "
-"(ฟล็อปปี้ดิสก์ไดรฟ์)` เพื่อบันทึกการกำหนดค่า "
-"ในครั้งถัดไปที่ต้องส่งออกรายการเดียวกัน "
-"ให้เลือกเทมเพลตที่เกี่ยวข้องซึ่งบันทึกไว้ก่อนหน้านี้จากเมนูแบบเลื่อนลง"
+"สำหรับการรายงานปกติจะเป็นประโยชน์ในการบันทึกค่าที่ตั้งไว้ล่วงหน้าสำหรับการส่งออก เลือกทั้งหมด"
+"ฟิลด์ที่ต้องการและคลิกที่เมนูแบบเลื่อนลงเทมเพลต เมื่อมาถึงแล้วคลิก"
+"on: guilabel: `แม่แบบใหม่' และระบุชื่อที่ไม่ซ้ำกันสำหรับการส่งออก"
+"การสร้าง ฮิต: แท็ก: ` 💾  (ฟลอปปี้ไดรฟ์) ไอคอนบันทึก"
+"การกำหนดค่า ครั้งต่อไปที่จำเป็นต้องส่งออกรายการเดียวกันเลือก"
+"แม่แบบที่เกี่ยวข้องที่บันทึกไว้ก่อนหน้านี้จากเมนูแบบเลื่อนลง"
 
 #: ../../content/applications/essentials/export_import_data.rst:67
 msgid ""
@@ -1512,10 +1904,14 @@ msgid ""
 "*parent_id* (external identifier). This is helpful because then, the only "
 "data exported is what should be modified and re-imported."
 msgstr ""
+"การรู้เกี่ยวกับตัวระบุภายนอกของสนามเป็นประโยชน์ ยกตัวอย่างเช่น"
+": guilabel: ส่งออก "พันธมิตร" ใน UI เท่ากับ"
+"* parent_id * (ตัวระบุภายนอก) มันช่วยได้เพราะมีเพียง"
+"ข้อมูลที่ส่งออกควรถูกแก้ไขและนำเข้าใหม่"
 
 #: ../../content/applications/essentials/export_import_data.rst:74
 msgid "Import data into Odoo"
-msgstr ""
+msgstr "นำเข้าข้อมูลไปยัง Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:76
 msgid ""
@@ -1524,6 +1920,10 @@ msgid ""
 "data>`. The following documentation covers how to import data into an Odoo "
 "database."
 msgstr ""
+"นำเข้าข้อมูลไปยัง Odoo ระหว่างการดำเนินการ หรือ"
+"เวลาที่ต้องการข้อมูล: อ้าง:` การอัปเดตแบทช์ <essentials/update -"
+"ข้อมูล > `. เอกสารต่อไปนี้จะอธิบายถึงวิธีการนำเข้าข้อมูลของ Odoo"
+"ฐานข้อมูล"
 
 #: ../../content/applications/essentials/export_import_data.rst:81
 msgid ""
@@ -1531,6 +1931,9 @@ msgid ""
 "use filters (`created on` or `last modified`) to identify records changed or"
 " created by the import."
 msgstr ""
+"การนำเข้าเป็นการถาวร,**ไม่สามารถยกเลิกได้ อย่างไรก็ตาม มีความเป็นไปได้"
+"ใช้ตัวกรอง ("สร้าง" หรือ "แก้ไขล่าสุด") เพื่อระบุการเปลี่ยนแปลงหรือ"
+"สร้างขึ้นโดยการนำเข้า"
 
 #: ../../content/applications/essentials/export_import_data.rst:85
 msgid ""
@@ -1539,10 +1942,14 @@ msgid ""
 "menu. Included in this advanced menu are two options: :guilabel:`Track "
 "history during import` and :guilabel:`Allow matching with subfields`."
 msgstr ""
+"เปิดใช้งาน: อ้าง: `developer mode <developer mode> `จะเปลี่ยนการนำเข้าที่มองเห็นได้"
+"การตั้งค่าในเมนูด้านซ้าย การทำเช่นนี้จะแสดงหนึ่ง: menuse ส่วน: `ขั้นสูง `"
+"เมนู มีสองตัวเลือกรวมอยู่ในเมนูขั้นสูงนี้:: guilabel:` การติดตาม"
+"ประวัติการนำเข้าและ: guilabel: อนุญาตให้ตรงกับฟิลด์ย่อย"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Advanced import options when developer mode is activated."
-msgstr ""
+msgstr "ตัวเลือกการนำเข้าขั้นสูงเมื่อเปิดใช้งานโหมดนักพัฒนา"
 
 #: ../../content/applications/essentials/export_import_data.rst:93
 msgid ""
@@ -1550,9 +1957,9 @@ msgid ""
 "option sets up subscriptions and sends notifications during the import, but "
 "leads to a slower import."
 msgstr ""
-"หากโมเดลใช้ openchatter ตัวเลือก :guilabel:`ติดตามประวัติระหว่างการนำเข้า` "
-"จะตั้งค่าการสมัครสมาชิกและส่งการแจ้งเตือนระหว่างการนำเข้า "
-"แต่จะทำให้การนำเข้านั้นช้าลง"
+"ถ้ารูปแบบใช้ openchatter แล้ว: guilabel:` ติดตามประวัติระหว่างการนำเข้า '"
+"ตัวเลือกการตั้งค่าการสมัครรับข้อมูลและส่งการแจ้งเตือนในระหว่างการนำเข้า แต่"
+"ทำให้การนำเข้าชะลอตัวลง"
 
 #: ../../content/applications/essentials/export_import_data.rst:96
 msgid ""
@@ -1560,10 +1967,13 @@ msgid ""
 "then all subfields within a field are used to match under the "
 ":guilabel:`Odoo Field` while importing."
 msgstr ""
+"หากเลือก: guilabel: "อนุญาตให้ตรงกับฟิลด์ย่อย" ตัวเลือก"
+"จากนั้นฟิลด์ย่อยทั้งหมดภายในสนามจะใช้สำหรับ"
+": guilabel: "ฟิลด์ Odoo" เมื่อนำเข้า"
 
 #: ../../content/applications/essentials/export_import_data.rst:100
 msgid "Get started"
-msgstr "เริ่มต้น"
+msgstr "เริ่มต้นใช้งาน"
 
 #: ../../content/applications/essentials/export_import_data.rst:102
 msgid ""
@@ -1571,16 +1981,21 @@ msgid ""
 "(`.xlsx`) or :abbr:`CSV (Comma-separated Values)` (`.csv`) formats. This "
 "includes: contacts, products, bank statements, journal entries, and orders."
 msgstr ""
+"สามารถใช้ Excel เพื่อนำเข้าข้อมูลบนวัตถุทางธุรกิจของ Odoo"
+"(.xlsx) หรือ: abbr: CSV (ค่าคั่นจุลภาค) (.CSV) รูปแบบ นี่"
+"รวม: รายชื่อ, ผลิตภัณฑ์, ใบแจ้งยอดธนาคาร, รายการบันทึกประจำวันและคำสั่งซื้อ"
 
 #: ../../content/applications/essentials/export_import_data.rst:106
 msgid ""
 "Open the view of the object to which the data should be imported/populated, "
 "and click on :menuselection:`⚙️ (Action) --> Import records`."
 msgstr ""
+"เปิดมุมมองของวัตถุที่ควรนำเข้า / เติมข้อมูล"
+"แล้วคลิก: menusesection:` ⚙️  (การดำเนินการ) --> บันทึกการนำเข้า"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Action menu revealed with the import records option highlighted."
-msgstr ""
+msgstr "แสดงเมนูการกระทำและเน้นตัวเลือกการบันทึกการนำเข้า"
 
 #: ../../content/applications/essentials/export_import_data.rst:113
 msgid ""
@@ -1590,6 +2005,11 @@ msgid ""
 "already done. To download a template click :guilabel:`Import Template for "
 "Customers` at the center of the page."
 msgstr ""
+"คลิกที่: guilabel: 'นำเข้าบันทึก' Odoo แสดงหน้าแยกต่างหาก"
+"แม่แบบที่สามารถดาวน์โหลดและกรอกข้อมูลของบริษัทเองได้"
+"แม่แบบดังกล่าวสามารถนำเข้าได้ด้วยคลิกเดียวเนื่องจากการทำแผนที่ข้อมูล"
+"เสร็จเรียบร้อยแล้ว หากต้องการดาวน์โหลดเทมเพลตให้คลิกที่: guilabel:` นำเข้าเทมเพลต"
+"ลูกค้าอยู่ตรงกลางของหน้า"
 
 #: ../../content/applications/essentials/export_import_data.rst:119
 msgid ""
@@ -1597,10 +2017,13 @@ msgid ""
 ":guilabel:`Formatting` options. These options do **not** appear when "
 "importing the proprietary Excel file type (`.xls`, `.xlsx`)."
 msgstr ""
+"เมื่อนำเข้า: abbr:`CSV (ค่าคั่นจุลภาค)`ไฟล์ Odoo ให้"
+": guilabel: ตัวเลือก "ฟอร์แมต" ตัวเลือกเหล่านี้จะไม่ปรากฏเมื่อ"
+"นำเข้าประเภทไฟล์ Excel ที่เป็นกรรมสิทธิ์ (.xls, .xlsx)"
 
 #: ../../content/applications/essentials/export_import_data.rst:0
 msgid "Formatting options presented when a CVS file is imported in Odoo."
-msgstr ""
+msgstr "ตัวเลือกฟอร์แมตที่จะแสดงเมื่อนำเข้าแฟ้ม CVS ใน Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:127
 msgid ""
@@ -1608,10 +2031,13 @@ msgid ""
 "columns in the :guilabel:`Odoo field` and :guilabel:`File Column` are free "
 "of errors. Finally, click :guilabel:`Import` to import the data."
 msgstr ""
+"ทำการปรับแต่งที่จำเป็นของตัวเลือก * การจัดรูปแบบ * และตรวจสอบให้แน่ใจว่าทั้งหมด"
+": guilabel: "ฟิลด์ Odoo" และ: guilabel: "คอลัมน์ไฟล์" คอลัมน์ฟรี"
+"ผิดพลาด สุดท้ายคลิกที่: guilabel:`นำเข้า' เพื่อนำเข้าข้อมูล"
 
 #: ../../content/applications/essentials/export_import_data.rst:132
 msgid "Adapt a template"
-msgstr ""
+msgstr "การปรับเทมเพลต"
 
 #: ../../content/applications/essentials/export_import_data.rst:134
 msgid ""
@@ -1620,32 +2046,42 @@ msgid ""
 "spreadsheet software (*Microsoft Office*, *OpenOffice*, *Google Drive*, "
 "etc.)."
 msgstr ""
+"เทมเพลตการนำเข้ามีอยู่ในเครื่องมือนำเข้าสำหรับข้อมูลที่พบมากที่สุด"
+"การนำเข้า (ติดต่อผลิตภัณฑ์บัญชีธนาคาร ฯลฯ ) เปิดมันด้วยอะไรก็ได้"
+"ซอฟต์แวร์สเปรดชีต (* ซอฟต์แวร์ Microsoft Office *, * OpenOffice *, * Google Cloud Drive *,"
+"เป็นต้น)"
 
 #: ../../content/applications/essentials/export_import_data.rst:138
 msgid "Once the template is downloaded, proceed to follow these steps:"
-msgstr ""
+msgstr "หลังจากดาวน์โหลดเทมเพลตแล้วให้ทำตามขั้นตอนต่อไปนี้:"
 
 #: ../../content/applications/essentials/export_import_data.rst:140
 msgid "Add, remove, and sort columns to best fit the data structure."
-msgstr ""
+msgstr "เพิ่ม ลบ และจัดเรียงคอลัมน์ให้เหมาะสมกับโครงสร้างข้อมูลมากที่สุด"
 
 #: ../../content/applications/essentials/export_import_data.rst:141
 msgid ""
 "It is strongly advised to **not** remove the :guilabel:`External ID` (ID) "
 "column (see why in the next section)."
 msgstr ""
+"ขอแนะนำ ** อย่า ** ลบ: guilabel: `รหัสภายนอก ' (ID)"
+"คอลัมน์ (ดูเหตุผลในส่วนถัดไป)"
 
 #: ../../content/applications/essentials/export_import_data.rst:143
 msgid ""
 "Set a unique ID to every record by dragging down the ID sequencing in the "
 ":guilabel:`External ID` (ID) column."
 msgstr ""
+"ตั้งค่า ID ที่ไม่ซ้ำกันสำหรับแต่ละระเบียนโดยการลากลำดับ ID ลง"
+": guilabel: คอลัมน์ "External ID" (ID)"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid ""
 "An animation of the mouse dragging down the ID column, so each record has a "
 "unique ID."
 msgstr ""
+"ภาพเคลื่อนไหวของคอลัมน์ ID ลากเมาส์เพื่อให้แต่ละบันทึกมีหนึ่ง"
+"รหัสเฉพาะ"
 
 #: ../../content/applications/essentials/export_import_data.rst:151
 msgid ""
@@ -1654,16 +2090,22 @@ msgid ""
 "mapped manually when the import is tested. Search the drop-down menu for the"
 " corresponding field."
 msgstr ""
+"เมื่อเพิ่มคอลัมน์ใหม่ Odoo อาจไม่สามารถทำแผนที่ได้โดยอัตโนมัติหาก"
+"ป้ายกำกับไม่เหมาะสมกับสนามใด ๆ ใน Odoo อย่างไรก็ตามคอลัมน์ใหม่สามารถ"
+"แผนที่ด้วยตนเองเมื่อทดสอบการนำเข้า ค้นหาในเมนูแบบเลื่อนลง"
+"ฟิลด์ที่สอดคล้องกัน"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Drop-down menu expanded in the initial import screen on Odoo."
-msgstr ""
+msgstr "ขยายเมนูแบบเลื่อนลงในหน้าจอนำเข้าครั้งแรกของ Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:159
 msgid ""
 "Then, use this field's label in the import file to ensure future imports are"
 " successful."
 msgstr ""
+"จากนั้นใช้แท็กของฟิลด์นี้ในแฟ้มนำเข้าเพื่อให้แน่ใจว่าการนำเข้าในอนาคต"
+"ประสบความสำเร็จ"
 
 #: ../../content/applications/essentials/export_import_data.rst:162
 msgid ""
@@ -1671,10 +2113,13 @@ msgid ""
 "export a sample file using the fields that should be imported. This way, if "
 "there is not a sample import template, the names are accurate."
 msgstr ""
+"อีกวิธีที่มีประโยชน์ในการหาชื่อคอลัมน์ที่ถูกต้องที่จะนำเข้าคือ"
+"ส่งออกไฟล์ตัวอย่างโดยใช้ฟิลด์ที่ควรนำเข้า ทางนี้ถ้า"
+"ไม่มีเทมเพลตนำเข้าตัวอย่างและชื่อก็ถูกต้อง"
 
 #: ../../content/applications/essentials/export_import_data.rst:170
 msgid "Import from another application"
-msgstr ""
+msgstr "นำเข้าจากแอปพลิเคชันอื่น"
 
 #: ../../content/applications/essentials/export_import_data.rst:172
 msgid ""
@@ -1682,21 +2127,27 @@ msgid ""
 "Feel free to use one from previous software to facilitate the transition to "
 "Odoo."
 msgstr ""
+": guilabel: "External ID" (ID) เป็นตัวระบุเฉพาะของรายการ LINE"
+"รู้สึกอิสระที่จะใช้หนึ่งในซอฟต์แวร์ก่อนหน้านี้เพื่ออำนวยความสะดวกในการเปลี่ยนไป"
+"โอดอร์"
 
 #: ../../content/applications/essentials/export_import_data.rst:175
 msgid ""
 "Setting an ID is not mandatory when importing, but it helps in many cases:"
 msgstr ""
+"การตั้งค่า ID เมื่อนำเข้าไม่ได้บังคับ แต่จะช่วยในหลายกรณี:"
 
 #: ../../content/applications/essentials/export_import_data.rst:177
 msgid ""
 ":ref:`Update imports <essentials/update-data>`: import the same file several"
 " times without creating duplicates."
 msgstr ""
+":ref:` นำเข้าการอัปเดต <essentials/Update-data>`: นำเข้าไฟล์เดียวกันไปยังหลายไฟล์"
+"ไม่จำเป็นต้องสร้างรายการซ้ำซ้อน"
 
 #: ../../content/applications/essentials/export_import_data.rst:179
 msgid ":ref:`Import relation fields <export_import_data/relation-fields>`."
-msgstr ""
+msgstr ": อ้าง:` นำเข้าฟิลด์ความสัมพันธ์ <export_import_data / ฟิลด์ความสัมพันธ์>"
 
 #: ../../content/applications/essentials/export_import_data.rst:181
 msgid ""
@@ -1704,6 +2155,9 @@ msgid ""
 "from the original application should be used to map it to the "
 ":guilabel:`External ID` (ID) column in Odoo."
 msgstr ""
+"ในการสร้างความสัมพันธ์ระหว่างบันทึกที่แตกต่างกันอีกครั้งใช้ตัวระบุที่ไม่ซ้ำกัน"
+"ควรใช้แผนที่จากแอปพลิเคชันเดิมมาโยงไปที่"
+": guilabel: คอลัมน์ "External ID" (ID) ใน Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:184
 msgid ""
@@ -1711,28 +2165,37 @@ msgid ""
 "(XXX/External ID) for the original unique identifier. This record can also "
 "be found using its name."
 msgstr ""
+"เมื่อนำเข้าระเบียนอื่นที่เชื่อมโยงกับรายการแรกใช้ **XXX / ID **"
+"(XXX/External ID) สำหรับตัวระบุที่ไม่ซ้ำกันเดิม บันทึกนี้ยังโอเค"
+"สามารถพบได้ด้วยชื่อของมัน"
 
 #: ../../content/applications/essentials/export_import_data.rst:188
 msgid ""
 "It should be noted that conflicts occur if two (or more) records have the "
 "same *External ID*."
 msgstr ""
+"ควรสังเกตว่าถ้าสอง (หรือมากกว่า) บันทึกมี"
+"เดียวกัน * รหัสภายนอก *"
 
 #: ../../content/applications/essentials/export_import_data.rst:191
 msgid "Field missing to map column"
-msgstr ""
+msgstr "เขตข้อมูลที่ขาดหายไปของคอลัมน์แผนที่"
 
 #: ../../content/applications/essentials/export_import_data.rst:193
 msgid ""
 "Odoo heuristically tries to find the type of field for each column inside "
 "the imported file, based on the first ten lines of the files."
 msgstr ""
+"Odoo พยายามค้นหาประเภทของฟิลด์สำหรับแต่ละคอลัมน์"
+"ไฟล์ที่นำเข้า 10 บรรทัดแรกของไฟล์"
 
 #: ../../content/applications/essentials/export_import_data.rst:196
 msgid ""
 "For example, if there is a column only containing numbers, only the fields "
 "with the *integer* type are presented as options."
 msgstr ""
+"ตัวอย่างเช่นถ้ามีคอลัมน์ที่มีเฉพาะตัวเลขเท่านั้นฟิลด์"
+"ตัวเลือกที่มี * integer * ประเภท"
 
 #: ../../content/applications/essentials/export_import_data.rst:199
 msgid ""
@@ -1740,6 +2203,9 @@ msgid ""
 "that it could fail, or the column may be mapped to a field that is not "
 "proposed by default."
 msgstr ""
+"แม้ว่าการกระทำดังกล่าวอาจเป็นประโยชน์ในกรณีส่วนใหญ่ แต่ก็เป็นไปได้"
+"มันอาจล้มเหลวหรือคอลัมน์นี้อาจถูกโยงไปยังฟิลด์ที่ไม่ตรงกัน"
+"มีการเสนอไปโดยปริยาย"
 
 #: ../../content/applications/essentials/export_import_data.rst:202
 msgid ""
@@ -1747,14 +2213,17 @@ msgid ""
 "(advanced) option`, then a complete list of fields becomes available for "
 "each column."
 msgstr ""
+"หากสิ่งนี้เกิดขึ้นโปรดตรวจสอบ: guilabel: `ฟิลด์ที่แสดงเขตข้อมูลความสัมพันธ์"
+"(ขั้นสูง) ตัวเลือก ' จากนั้นรายการฟิลด์ทั้งหมดสามารถใช้ได้"
+"ทุกคอลัมน์"
 
 #: ../../content/applications/essentials/export_import_data.rst-1
 msgid "Searching for the field to match the tax column."
-msgstr ""
+msgstr "กำลังค้นหาฟิลด์ที่ตรงกับคอลัมน์ภาษี"
 
 #: ../../content/applications/essentials/export_import_data.rst:210
 msgid "Change data import format"
-msgstr ""
+msgstr "เปลี่ยนรูปแบบการนำเข้าข้อมูล"
 
 #: ../../content/applications/essentials/export_import_data.rst:213
 msgid ""
@@ -1765,19 +2234,20 @@ msgid ""
 "difficult to guess which part of a date format is the day, and which part is"
 " the month, in a date, such as `01-03-2016`."
 msgstr ""
-"Odoo สามารถตรวจจับได้โดยอัตโนมัติว่าคอลัมน์เป็นวันที่หรือไม่ "
-"และพยายามคาดเดารูปแบบวันที่จากชุดรูปแบบวันที่ที่ใช้บ่อยที่สุด "
-"แม้ว่ากระบวนการนี้จะใช้ได้กับรูปแบบวันที่หลายรูปแบบ "
-"แต่รูปแบบวันที่บางรูปแบบก็ไม่สามารถจดจำได้ สิ่งนี้อาจทำให้เกิดความสับสน "
-"เนื่องจากการกลับกันของวันและเดือน "
-"ทำให้ยากที่จะเดาว่าส่วนใดของรูปแบบวันที่คือวัน และส่วนใดคือเดือนในวันที่ "
-"เช่น `01-03-2016`"
+"Odoo สามารถตรวจสอบโดยอัตโนมัติว่าคอลัมน์เป็นวันที่หรือไม่และพยายามที่จะคาดเดา"
+"รูปแบบวันที่มาจากชุดของรูปแบบวันที่ใช้กันมากที่สุด แม้ว่านี้"
+"กระบวนการทำงานในหลายรูปแบบวันที่, แต่บางรูปแบบวันที่ไม่สามารถใช้ได้"
+"ระบุได้ สิ่งนี้อาจทำให้เกิดความสับสนเนื่องจากดวงอาทิตย์และดวงจันทร์กลับหัว มันคือ"
+"มันยากที่จะคาดเดาว่าส่วนใดของรูปแบบวันที่คือวันที่และส่วนใดคือ"
+"เดือนในวันที่เช่น "3 มกราคม 2016""
 
 #: ../../content/applications/essentials/export_import_data.rst:219
 msgid ""
 "When importing a :abbr:`CSV (Comma-separated Values)` file, Odoo provides "
 ":guilabel:`Formatting` options."
 msgstr ""
+"เมื่อนำเข้า: abbr:`CSV (ค่าคั่นจุลภาค)`ไฟล์ Odoo ให้"
+": guilabel: ตัวเลือก "ฟอร์แมต""
 
 #: ../../content/applications/essentials/export_import_data.rst:222
 msgid ""
@@ -1786,6 +2256,10 @@ msgid ""
 "file selector. If this format is incorrect, change it to the preferred "
 "format using *ISO 8601* to define the format."
 msgstr ""
+"หากต้องการดูรูปแบบวันที่พบจากไฟล์ของ Odoo โปรดตรวจสอบ"
+": guilabel: "รูปแบบวันที่" ปรากฏเมื่อคลิกที่ตัวเลือกด้านล่าง"
+"ตัวเลือกแฟ้ม หากรูปแบบนี้ไม่ถูกต้องให้เปลี่ยนเป็นรูปแบบที่ต้องการ"
+"กำหนดรูปแบบด้วย * ISO 8601 *"
 
 #: ../../content/applications/essentials/export_import_data.rst:227
 msgid ""
@@ -1794,6 +2268,10 @@ msgid ""
 " date format should be `YYYY-MM-DD`. So, in the case of July 24th 1981, it "
 "should be written as `1981-07-24`."
 msgstr ""
+"* ISO 8601 * เป็นมาตรฐานสากล"
+"และการสื่อสารข้อมูลที่เกี่ยวข้องกับวันเวลา ตัวอย่างเช่น"
+"รูปแบบวันที่ควรเป็น "YYYY-MM-DD" ดังนั้น กรณีเมื่อวันที่ 24 ก.ค.2524"
+"น่าจะเขียนว่า 1981-07-24"
 
 #: ../../content/applications/essentials/export_import_data.rst:232
 msgid ""
@@ -1803,10 +2281,15 @@ msgid ""
 "separated Values)` file, use Odoo's :guilabel:`Formatting` section to select"
 " the date format columns to import."
 msgstr ""
+"โปรดพิจารณาใช้ * เซลล์วันที่ * เมื่อนำเข้าไฟล์ Excel (".xls", ".xlsx")"
+"วันที่ร้าน นี้จะรักษารูปแบบวันที่กำหนดพื้นที่ที่แสดงโดยไม่คำนึงถึง"
+"วิธีการฟอร์แมตวันที่ใน Odoo นำเข้า: abbr:`CSV (จุลภาค -"
+"แยกค่า) `ไฟล์โดยใช้ส่วนของ Odoo: guilabel: `format` เพื่อเลือก"
+"คอลัมน์รูปแบบวันที่จะนำเข้า"
 
 #: ../../content/applications/essentials/export_import_data.rst:238
 msgid "Import numbers with currency signs"
-msgstr ""
+msgstr "หมายเลขนำเข้าที่มีสัญลักษณ์สกุลเงิน"
 
 #: ../../content/applications/essentials/export_import_data.rst:240
 msgid ""
@@ -1816,6 +2299,11 @@ msgid ""
 "currency symbol unknown to Odoo is used, it might not be recognized as a "
 "number, and the import crashes."
 msgstr ""
+"Odoo สนับสนุนตัวเลขที่มีวงเล็บเพื่อแสดงเครื่องหมายลบอย่างเต็มที่ เช่น"
+"และตัวเลขที่มีสัญลักษณ์สกุลเงินติดอยู่ Odo ยัง"
+"การตรวจจับอัตโนมัติใช้ตัวคั่นหลักพัน / ทศนิยม ถ้า a"
+"ใช้สัญลักษณ์สกุลเงินที่ไม่รู้จักของ Odoo ซึ่งอาจไม่สามารถระบุได้ว่าเป็น"
+"ตัวเลข นำเข้าล่ม"
 
 #: ../../content/applications/essentials/export_import_data.rst:246
 msgid ""
@@ -1823,11 +2311,15 @@ msgid ""
 ":guilabel:`Formatting` menu appears on the left-hand column. Under these "
 "options, the :guilabel:`Thousands Separator` can be changed."
 msgstr ""
+"เมื่อนำเข้า: abbr: "CSV (ค่าคั่นจุลภาค)" ไฟล์"
+": guilabel: เมนู "ฟอร์แมต" จะปรากฏในคอลัมน์ด้านซ้าย ตามที่"
+"ในตัวเลือกสามารถเปลี่ยนแปลงได้: guilabel: "ตัวคั่นหลักพัน""
 
 #: ../../content/applications/essentials/export_import_data.rst:250
 msgid ""
 "Examples of supported numbers (using 'thirty-two thousand' as the figure):"
 msgstr ""
+"ตัวอย่างตัวเลขที่รองรับ (ใช้ "สามหมื่นสองพัน" เป็นตัวเลข):"
 
 #: ../../content/applications/essentials/export_import_data.rst:252
 msgid "32.000,00"
@@ -1835,7 +2327,7 @@ msgstr "32.000,00"
 
 #: ../../content/applications/essentials/export_import_data.rst:253
 msgid "32000,00"
-msgstr "32000,00"
+msgstr "32000, 00"
 
 #: ../../content/applications/essentials/export_import_data.rst:254
 msgid "32,000.00"
@@ -1851,23 +2343,23 @@ msgstr "(32000.00)"
 
 #: ../../content/applications/essentials/export_import_data.rst:257
 msgid "$ 32.000,00"
-msgstr ""
+msgstr "$ 32.000,00"
 
 #: ../../content/applications/essentials/export_import_data.rst:258
 msgid "(32000.00 €)"
-msgstr ""
+msgstr "(32000.00 €)"
 
 #: ../../content/applications/essentials/export_import_data.rst:260
 msgid "Example that will not work:"
-msgstr ""
+msgstr "ตัวอย่างที่ไม่ทำงาน:"
 
 #: ../../content/applications/essentials/export_import_data.rst:262
 msgid "ABC 32.000,00"
-msgstr ""
+msgstr "ABC 32.000,00"
 
 #: ../../content/applications/essentials/export_import_data.rst:263
 msgid "$ (32.000,00)"
-msgstr ""
+msgstr "$ (32.000,00)"
 
 #: ../../content/applications/essentials/export_import_data.rst:266
 msgid ""
@@ -1875,10 +2367,13 @@ msgid ""
 "is a negative value. The currency symbol **must** be placed within the "
 "parenthesis for Odoo to recognize it as a negative currency value."
 msgstr ""
+"A: guilabel: `() (วงเล็บ) `หมายถึงตัวเลข"
+"เป็นค่าลบ สัญลักษณ์สกุลเงิน ** ต้อง ** ใส่ใน"
+"วงเล็บเพื่อให้ Odoo ระบุว่าเป็นค่าเงินลบ"
 
 #: ../../content/applications/essentials/export_import_data.rst:271
 msgid "Import preview table not displayed correctly"
-msgstr ""
+msgstr "แสดงตัวอย่างการนำเข้าไม่ถูกต้อง"
 
 #: ../../content/applications/essentials/export_import_data.rst:273
 msgid ""
@@ -1889,6 +2384,12 @@ msgid ""
 ":abbr:`CSV (Comma-separated Values)` file bar after selecting the :abbr:`CSV"
 " (Comma-separated Values)` file)."
 msgstr ""
+"โดยค่าเริ่มต้น Import Preview จะถูกตั้งค่าเป็นเครื่องหมายจุลภาคเป็นตัวคั่นฟิลด์ และ"
+"เครื่องหมายคำพูดเป็นตัวคั่นข้อความ หาก: abbr: `CSV (คั่นด้วยเครื่องหมายจุลภาค)"
+"Values) `ไฟล์ไม่มีการตั้งค่าเหล่านี้โปรดแก้ไข"
+": guilabel: ตัวเลือก "format" (แสดงใน: guilabel: "import""
+"เลือก: abbr: แถบไฟล์หลังจาก "CSV (ค่าคั่นจุลภาค)""
+"(ค่าคั่นจุลภาค) `ไฟล์)"
 
 #: ../../content/applications/essentials/export_import_data.rst:279
 msgid ""
@@ -1897,10 +2398,14 @@ msgid ""
 " need to be modified in the spreadsheet application. See the following "
 ":ref:`Change CSV file format <export_import_data/change-csv>` section."
 msgstr ""
+"หาก: abbr: "CSV (ค่าคั่นจุลภาค)" ไฟล์มีตารางเป็น"
+"ตัวแยก Odoo ไม่สามารถตรวจจับการแยกได้ ตัวเลือกรูปแบบไฟล์"
+"ต้องมีการแก้ไขในแอปพลิเคชันสเปรดชีต โปรดดูด้านล่าง"
+":อ้าง:"เปลี่ยนรูปแบบไฟล์ CSV <export_import_data/Change-CSV>" ส่วน"
 
 #: ../../content/applications/essentials/export_import_data.rst:287
 msgid "Change CSV file format in spreadsheet application"
-msgstr ""
+msgstr "เปลี่ยนรูปแบบไฟล์ CSV ในแอปพลิเคชันสเปรดชีต"
 
 #: ../../content/applications/essentials/export_import_data.rst:289
 msgid ""
@@ -1911,16 +2416,24 @@ msgid ""
 " (from *LibreOffice* application, go to :menuselection:`'Save As' dialog box"
 " --> Check the box 'Edit filter settings' --> Save`)."
 msgstr ""
+"เมื่อแก้ไขและบันทึก: ตัวย่อ: "CSV (ค่าคั่นจุลภาค)" ไฟล์"
+"แอปพลิเคชันสเปรดชีตการตั้งค่าพื้นที่ของคอมพิวเตอร์เหมาะสำหรับ"
+"ตัวคั่นและตัวกำหนด Odoo แนะนำให้ใช้ *OpenOffice* หรือ"
+"* LibreOffice * เนื่องจากทั้งสองโปรแกรมช่วยให้การปรับเปลี่ยนทั้งสามตัวเลือก"
+"(จาก * LibreOffice * แอปไปที่: ส่วนเมนู: บันทึกเป็นกล่องโต้ตอบ"
+"--> เลือกกล่อง แก้ไขการตั้งค่าตัวกรอง --> บันทึก)"
 
 #: ../../content/applications/essentials/export_import_data.rst:295
 msgid ""
 "Microsoft Excel can modify the encoding when saving (:menuselection:`'Save "
 "As' dialog box --> 'Tools' drop-down menu --> Encoding tab`)."
 msgstr ""
+"Microsoft Excel สามารถแก้ไขการเข้ารหัสเมื่อบันทึก (: ส่วน menuse: "บันทึก""
+"เช่น กล่องโต้ตอบ -> เครื่องมือ เมนูแบบเลื่อนลง -> แท็บการเข้ารหัส)"
 
 #: ../../content/applications/essentials/export_import_data.rst:299
 msgid "Difference between Database ID and External ID"
-msgstr ""
+msgstr "ความแตกต่างระหว่าง ID ฐานข้อมูลและ ID ภายนอก"
 
 #: ../../content/applications/essentials/export_import_data.rst:301
 msgid ""
@@ -1929,50 +2442,62 @@ msgid ""
 "such fields are imported, Odoo has to recreate links between the different "
 "records. To help import such fields, Odoo provides three mechanisms."
 msgstr ""
+"บางฟิลด์กำหนดความสัมพันธ์กับวัตถุอื่น ตัวอย่างเช่น"
+"ประเทศที่ติดต่อคือลิงก์ไปยังบันทึกของวัตถุ "ประเทศ" เมื่อไหร่?"
+"Odoo ต้องสร้างการเชื่อมโยงระหว่างฟิลด์ที่แตกต่างกันใหม่หากมีการนำเข้าฟิลด์เหล่านี้"
+"บันทึกไว้ เพื่อช่วยในการนำเข้าฟิลด์เหล่านี้ Odoo มีกลไกสามประการ"
 
 #: ../../content/applications/essentials/export_import_data.rst:306
 msgid "**Only one** mechanism should be used per field that is imported."
-msgstr ""
+msgstr "** ควรใช้กลไก ** เพียงหนึ่งช่องที่นำเข้า"
 
 #: ../../content/applications/essentials/export_import_data.rst:308
 msgid ""
 "For example, to reference the country of a contact, Odoo proposes three "
 "different fields to import:"
 msgstr ""
+"เพื่ออ้างอิงถึงประเทศที่มีการติดต่อตัวอย่างเช่นโอโดเสนอสาม"
+"ช่องข้อมูลที่แตกต่างกันเพื่อนำเข้า:"
 
 #: ../../content/applications/essentials/export_import_data.rst:310
 msgid ":guilabel:`Country`: the name or code of the country"
-msgstr ""
+msgstr ": guilabel: "ประเทศ": ชื่อหรือรหัสของประเทศ"
 
 #: ../../content/applications/essentials/export_import_data.rst:311
 msgid ""
 ":guilabel:`Country/Database ID`: the unique Odoo ID for a record, defined by"
 " the ID PostgreSQL column"
 msgstr ""
+": guilabel: "National / Database ID": รหัส Odoo ที่ไม่ซ้ำกันสำหรับการบันทึกที่กำหนดไว้ด้านล่าง"
+"คอลัมน์ ID สำหรับ PostgreSQL"
 
 #: ../../content/applications/essentials/export_import_data.rst:313
 msgid ""
 ":guilabel:`Country/External ID`: the ID of this record referenced in another"
 " application (or the `.XML` file that imported it)"
 msgstr ""
+": guilabel: "รหัสประเทศ / ภายนอก": ID ของบันทึกนี้ที่อ้างถึงในบันทึกอื่น"
+"แอปพลิเคชัน (หรือนำเข้าไฟล์ ".XML" ของมัน)"
 
 #: ../../content/applications/essentials/export_import_data.rst:316
 msgid ""
 "For the country of Belgium, for example, use one of these three ways to "
 "import:"
 msgstr ""
+"ตัวอย่างเช่นสำหรับเบลเยียมใช้หนึ่งในสามวิธีต่อไปนี้"
+"นำเข้า:"
 
 #: ../../content/applications/essentials/export_import_data.rst:318
 msgid ":guilabel:`Country`: `Belgium`"
-msgstr ""
+msgstr ":guilabel:` ประเทศ `:` เบลเยียม `"
 
 #: ../../content/applications/essentials/export_import_data.rst:319
 msgid ":guilabel:`Country/Database ID`: `21`"
-msgstr ""
+msgstr ":guilabel:` ประเทศ / ฐานข้อมูล ID`:` 21`"
 
 #: ../../content/applications/essentials/export_import_data.rst:320
 msgid ":guilabel:`Country/External ID`: `base.be`"
-msgstr ""
+msgstr ":guilabel:` รหัสประเทศ / ภายนอก `:`base.be`"
 
 #: ../../content/applications/essentials/export_import_data.rst:322
 msgid ""
@@ -1980,12 +2505,17 @@ msgid ""
 "records in relations. Here is an example when one or the other should be "
 "used, according to the need:"
 msgstr ""
+"อ้างอิงโดยใช้หนึ่งในสามวิธีต่อไปนี้ขึ้นอยู่กับความต้องการของ บริษัท"
+"บันทึกความสัมพันธ์ นี่คือตัวอย่างหนึ่งที่ควรจะ"
+"ใช้ตามความต้องการ:"
 
 #: ../../content/applications/essentials/export_import_data.rst:325
 msgid ""
 "Use :guilabel:`Country`: this is the easiest way when data comes from "
 ":abbr:`CSV (Comma-separated Values)` files that have been created manually."
 msgstr ""
+"ใช้: guilabel: "ประเทศ": เมื่อข้อมูลมาจาก"
+":abbr: ไฟล์ CSV (ค่าคั่นจุลภาค) ที่สร้างขึ้นด้วยตนเอง"
 
 #: ../../content/applications/essentials/export_import_data.rst:327
 msgid ""
@@ -1994,12 +2524,18 @@ msgid ""
 "(there may be several records with the same name, but they always have a "
 "unique Database ID)"
 msgstr ""
+"ใช้: guilabel: "National / Database ID": นี้ควรใช้ไม่ค่อย. มันคือ"
+"ข้อดีหลักที่นักพัฒนาใช้กันมากที่สุดคือไม่มีความขัดแย้ง"
+"(อาจมีหลายบันทึกที่มีชื่อเดียวกัน แต่พวกเขามักจะมีหนึ่ง"
+"ID ฐานข้อมูลที่ไม่ซ้ำกัน)"
 
 #: ../../content/applications/essentials/export_import_data.rst:330
 msgid ""
 "Use :guilabel:`Country/External ID`: use *External ID* when importing data "
 "from a third-party application."
 msgstr ""
+"ใช้: guilabel: ` ประเทศ / รหัสภายนอก `: ใช้เมื่อนำเข้าข้อมูล * รหัสภายนอก *"
+"จากแอปพลิเคชันของบุคคลที่สาม"
 
 #: ../../content/applications/essentials/export_import_data.rst:333
 msgid ""
@@ -2010,22 +2546,32 @@ msgid ""
 "(Comma-separated Values)` files provide an example for products and their "
 "categories."
 msgstr ""
+"เมื่อใช้ * ID ภายนอก * นำเข้า: abbr: `CSV (ค่าคั่นจุลภาค) `"
+"ไฟล์ที่มี: guilabel: `External ID` (ID) คำจำกัดความคอลัมน์ * External"
+"ID ของแต่ละระเบียนที่นำเข้า * แล้วสามารถอ้างอิง"
+"บันทึกที่มีคอลัมน์เช่น "ฟิลด์ / รหัสภายนอก" ดังต่อไปนี้๒ อักษรย่อ CSV"
+"(ค่าคั่นจุลภาค) ไฟล์เป็นผลิตภัณฑ์และ"
+"หมวด"
 
 #: ../../content/applications/essentials/export_import_data.rst:338
 msgid ""
 ":download:`CSV file for categories "
 "<export_import_data/External_id_3rd_party_application_product_categories.csv>`"
 msgstr ""
+":download:`ไฟล์ CSV สำหรับหมวดหมู่"
+"<export_import_data/export_id_3rd_party_application_product_classies.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:340
 msgid ""
 ":download:`CSV file for Products "
 "<export_import_data/External_id_3rd_party_application_products.csv>`"
 msgstr ""
+":download:` สินค้า CSV ไฟล์"
+"<export_import_data/export_id_3rd_party_application_products.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:346
 msgid "Import relation fields"
-msgstr ""
+msgstr "นำเข้าฟิลด์ความสัมพันธ์"
 
 #: ../../content/applications/essentials/export_import_data.rst:348
 msgid ""
@@ -2034,6 +2580,10 @@ msgid ""
 "relations, the records of the related object need to be imported first, from"
 " their own list menu."
 msgstr ""
+"Odoo Objects เกี่ยวข้องกับวัตถุอื่น ๆ อีกมากมาย (เช่น ผลิตภัณฑ์"
+"เชื่อมโยงไปยังหมวดหมู่สินค้า คุณสมบัติ ซัพพลายเออร์ ฯลฯ) เพื่อนำเข้าเหล่านี้"
+"ความสัมพันธ์จำเป็นต้องนำเข้าบันทึกของวัตถุที่เกี่ยวข้องก่อนจาก"
+"รายการเมนูของพวกเขาเอง"
 
 #: ../../content/applications/essentials/export_import_data.rst:352
 msgid ""
@@ -2042,10 +2592,14 @@ msgid ""
 " the same name. In such a case add `/ ID` at the end of the column title "
 "(e.g. for product attributes: `Product Attributes / Attribute / ID`)."
 msgstr ""
+"ซึ่งสามารถทำได้โดยใช้ชื่อของบันทึกที่เกี่ยวข้องหรือมัน"
+"ไอดี แล้วแต่กรณี เมื่อทั้งสองบันทึกมี"
+"ชื่อเดียวกัน ในกรณีนี้เพิ่ม "/ ID" ในตอนท้ายของส่วนหัวของคอลัมน์"
+"(ตัวอย่างเช่นสำหรับคุณสมบัติของผลิตภัณฑ์: "คุณสมบัติของผลิตภัณฑ์ / คุณสมบัติ / ID")"
 
 #: ../../content/applications/essentials/export_import_data.rst:357
 msgid "Options for multiple matches on fields"
-msgstr ""
+msgstr "หลายตัวเลือกการจับคู่ในฟิลด์"
 
 #: ../../content/applications/essentials/export_import_data.rst:359
 msgid ""
@@ -2057,12 +2611,13 @@ msgid ""
 "Products/Sellable`). Odoo, instead, recommends modifying one of the "
 "duplicate's values, or the product category hierarchy."
 msgstr ""
-"ตัวอย่างเช่น หากมีหมวดหมู่ผลิตภัณฑ์สองหมวดหมู่ที่มีชื่อย่อยว่า `ขายได้` "
-"(เช่น `ผลิตภัณฑ์เบ็ดเตล็ด/ขายได้` และ `ผลิตภัณฑ์อื่นๆ/ขายได้`) "
-"การตรวจสอบความถูกต้องจะหยุดลง แต่ข้อมูลอาจยังคงนำเข้าอยู่ อย่างไรก็ตาม Odoo "
-"ขอแนะนำว่าอย่านำเข้าข้อมูล เนื่องจากข้อมูลทั้งหมดจะเชื่อมโยงกับหมวดหมู่ "
-"`ขายได้` แรกที่พบในรายการ *หมวดหมู่ผลิตภัณฑ์* (`ผลิตภัณฑ์เบ็ดเตล็ด/ขายได้`) "
-"Odoo แนะนำให้แก้ไขค่าใดค่าหนึ่งที่ซ้ำกัน หรือลำดับชั้นหมวดหมู่ผลิตภัณฑ์แทน"
+"ตัวอย่างเช่น หากมีชื่อย่อยของสินค้า 2 ประเภท"
+""สามารถขายได้" (เช่น "สินค้าเบ็ดเตล็ด/สามารถขายได้" และ "สินค้าอื่นๆ/สามารถขายได้")"
+"ยุติการตรวจสอบแล้ว แต่ยังสามารถนำเข้าข้อมูลได้ อย่างไรก็ตาม Odo"
+"ขอแนะนำให้ไม่นำเข้าข้อมูลเพราะจะเชื่อมโยงทั้งหมดไปยัง"
+"* หมวดหมู่สินค้า * หมวดหมู่แรกที่ "ขายได้" ในรายการ ("เบ็ดเตล็ด""
+"สินค้า/จำหน่าย"). แต่ Odoo แนะนำให้แก้ไขอย่างใดอย่างหนึ่ง"
+"ลำดับชั้นของค่าซ้ำหรือหมวดหมู่สินค้า"
 
 #: ../../content/applications/essentials/export_import_data.rst:366
 msgid ""
@@ -2070,10 +2625,13 @@ msgid ""
 " categories, Odoo recommends making use of the *External ID* for this field,"
 " 'Category'."
 msgstr ""
+"อย่างไรก็ตาม หากบริษัทไม่ประสงค์จะเปลี่ยนแปลงการกำหนดค่าผลิตภัณฑ์"
+"หมวดหมู่ Odoo แนะนำให้ใช้ *External ID* ในช่องนี้"
+""หมวดหมู่""
 
 #: ../../content/applications/essentials/export_import_data.rst:370
 msgid "Import many2many relationship fields"
-msgstr ""
+msgstr "นำเข้าหลายฟิลด์ความสัมพันธ์ 2many"
 
 #: ../../content/applications/essentials/export_import_data.rst:372
 msgid ""
@@ -2082,16 +2640,22 @@ msgid ""
 " then 'Manufacturer,Retailer' needs to be encoded in the same column of the "
 ":abbr:`CSV (Comma-separated Values)` file."
 msgstr ""
+"ควรคั่นระหว่างแท็กด้วยเครื่องหมายจุลภาคโดยไม่มีช่องว่าง ยกตัวอย่างเช่น"
+"หากลูกค้าต้องการเชื่อมโยงกับสองแท็ก: "ผู้ผลิต" และ "ร้านค้าปลีก""
+"แล้ว "ผู้ผลิต, ร้านค้าปลีก" จำเป็นต้องเข้ารหัสใน"
+":abbr:`CSV (ค่าคั่นจุลภาค)`ไฟล์"
 
 #: ../../content/applications/essentials/export_import_data.rst:376
 msgid ""
 ":download:`CSV file for Manufacturer, Retailer "
 "<export_import_data/m2m_customers_tags.csv>`"
 msgstr ""
+":download:` ไฟล์ CSV สำหรับผู้ผลิต ผู้ค้าปลีก"
+"<export_import_data/m2m_customers_tags.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:379
 msgid "Import one2many relationships"
-msgstr ""
+msgstr "นำเข้าความสัมพันธ์ 2many"
 
 #: ../../content/applications/essentials/export_import_data.rst:381
 msgid ""
@@ -2102,52 +2666,64 @@ msgid ""
 "additional row that does not have any information in the fields relative to "
 "the order."
 msgstr ""
-"หากบริษัทต้องการนำเข้าใบสั่งขายที่มีบรรทัดคำสั่งซื้อหลายรายการ แถวเฉพาะจะ "
-"**ต้อง** ถูกจองไว้ในไฟล์ :abbr:`CSV (ค่าที่คั่นด้วยเครื่องหมายจุลภาค)` "
-"สำหรับแต่ละบรรทัดคำสั่งซื้อ "
-"รายการคำสั่งซื้อแรกจะถูกนำเข้าในแถวเดียวกันกับข้อมูลที่สัมพันธ์กับคำสั่งซื้อ"
-" บรรทัดเพิ่มเติมจำเป็นต้องมีแถวเพิ่มเติมที่ไม่มีข้อมูลใดๆ "
-"ในฟิลด์ที่เกี่ยวข้องกับคำสั่งซื้อ"
+"หากบริษัทต้องการนำเข้าออเดอร์ขายที่มีหลายออเดอร์ไลน์"
+"แถวเฉพาะต้องเก็บไว้ใน CSV (คั่นด้วยเครื่องหมายจุลภาค) **"
+"ค่าของแต่ละบรรทัดคำสั่ง) ไฟล์ บรรทัดแรกของการสั่งซื้อที่"
+"บรรทัดเดียวกันกับข้อมูลที่เกี่ยวข้องกับการสั่งซื้อ บรรทัดเพิ่มเติมใด ๆ ที่จำเป็น"
+"บรรทัดเพิ่มเติมที่ไม่มีข้อมูลในฟิลด์ที่เกี่ยวข้อง"
+"คำสั่ง"
 
 #: ../../content/applications/essentials/export_import_data.rst:386
 msgid ""
 "As an example, here is a :abbr:`CSV (Comma-separated Values)` file of some "
 "quotations that can be imported, based on demo data:"
 msgstr ""
+"ตัวอย่างเช่นนี่คือหนึ่ง: abbr: "CSV (ค่าคั่นจุลภาค)" ไฟล์"
+"อ้างอิงจากข้อมูลการสาธิตที่สามารถนำเข้าได้:"
 
 #: ../../content/applications/essentials/export_import_data.rst:389
 msgid ""
 ":download:`File for some Quotations "
 "<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`"
 msgstr ""
+":download:`เอกสารใบเสนอราคาบางส่วน"
+"<export_import_data/purchase.order_functional_error_line_cant_adpat.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:392
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "purchase orders with their respective purchase order lines:"
 msgstr ""
+"สิ่งต่อไปนี้: ตัวย่อ: ไฟล์ "CSV (ค่าคั่นจุลภาค)" แสดงวิธีการนำเข้า"
+"ใบสั่งซื้อและบรรทัดใบสั่งซื้อที่เกี่ยวข้อง:"
 
 #: ../../content/applications/essentials/export_import_data.rst:395
 msgid ""
 ":download:`Purchase orders with their respective purchase order lines "
 "<export_import_data/o2m_purchase_order_lines.csv>`"
 msgstr ""
+":download:` ใบสั่งซื้อและบรรทัดใบสั่งซื้อที่เกี่ยวข้อง"
+"<export_import_data/o2m_purchase_order_lines.csv>`"
 
 #: ../../content/applications/essentials/export_import_data.rst:398
 msgid ""
 "The following :abbr:`CSV (Comma-separated Values)` file shows how to import "
 "customers and their respective contacts:"
 msgstr ""
+"สิ่งต่อไปนี้: ตัวย่อ: ไฟล์ "CSV (ค่าคั่นจุลภาค)" แสดงวิธีการนำเข้า"
+"ลูกค้าและผู้ติดต่อที่เกี่ยวข้อง:"
 
 #: ../../content/applications/essentials/export_import_data.rst:401
 msgid ""
 ":download:`Customers and their respective contacts "
 "<export_import_data/o2m_customers_contacts.csv>`"
 msgstr ""
+":download:` ลูกค้าและผู้ติดต่อที่เกี่ยวข้อง"
+"<ส่งออก _ นำเข้า _ ข้อมูล / o2m _ ลูกค้า _ ติดต่อ .csv>"
 
 #: ../../content/applications/essentials/export_import_data.rst:405
 msgid "Import records several times"
-msgstr ""
+msgstr "บันทึกการนำเข้าหลายครั้ง"
 
 #: ../../content/applications/essentials/export_import_data.rst:407
 msgid ""
@@ -2157,22 +2733,31 @@ msgid ""
 "users to import the same :abbr:`CSV (Comma-separated Values)` file several "
 "times, while having made some changes in between two imports."
 msgstr ""
+"หากไฟล์ที่นำเข้ามีหนึ่งในคอลัมน์ต่อไปนี้: guilabel: "External ID" หรือ"
+":guilabel:`Database ID`, บันทึกที่นำเข้า"
+"ปรับเปลี่ยน ไม่ใช่สร้าง มีประโยชน์มากเพราะช่วยให้"
+"ผู้ใช้นำเข้าเดียวกัน: ย่อ: `CSV (ค่าคั่นจุลภาค) `ไฟล์"
+"มีการเปลี่ยนแปลงบางอย่างระหว่างการนำเข้า"
 
 #: ../../content/applications/essentials/export_import_data.rst:412
 msgid ""
 "Odoo takes care of creating or modifying each record, depending if it is new"
 " or not."
 msgstr ""
+"Odoo มีหน้าที่รับผิดชอบในการสร้างหรือแก้ไขระเบียนแต่ละรายการ ขึ้นอยู่กับว่าใหม่หรือไม่"
+"หรือไม่."
 
 #: ../../content/applications/essentials/export_import_data.rst:414
 msgid ""
 "This feature allows a company to use the *Import/Export tool* in Odoo to "
 "modify a batch of records in a spreadsheet application."
 msgstr ""
+"คุณลักษณะนี้ช่วยให้บริษัทใช้เครื่องมือนำเข้า/ส่งออก* ใน Odoo"
+"แก้ไขชุดของระเบียนในแอปพลิเคชันสเปรดชีต"
 
 #: ../../content/applications/essentials/export_import_data.rst:418
 msgid "Value not provided for a specific field"
-msgstr ""
+msgstr "ไม่มีค่าสำหรับฟิลด์เฉพาะ"
 
 #: ../../content/applications/essentials/export_import_data.rst:420
 msgid ""
@@ -2181,10 +2766,14 @@ msgid ""
 " :abbr:`CSV (Comma-separated Values)` file, Odoo sets the empty value in the"
 " field, instead of assigning the default value."
 msgstr ""
+"หากไม่ได้ตั้งค่าฟิลด์ทั้งหมดในแฟ้ม CSV Odoo จะกำหนดค่าปริยายให้"
+"สำหรับแต่ละสนามที่ไม่ได้กำหนดไว้ อย่างไรก็ตาม หากสนามแข่งขันอยู่ใน"
+":abbr:`CSV (ค่าคั่นจุลภาค)`ไฟล์, Odoo ใน"
+"ฟิลด์แทนที่จะระบุค่าเริ่มต้น"
 
 #: ../../content/applications/essentials/export_import_data.rst:425
 msgid "Export/import different tables from an SQL application to Odoo"
-msgstr ""
+msgstr "ส่งออก / นำเข้าตารางต่างๆจากแอปพลิเคชัน SQL ไปยัง Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:427
 msgid ""
@@ -2193,6 +2782,10 @@ msgid ""
 "companies and people are imported, the link between each person and the "
 "company they work for needs to be recreated."
 msgstr ""
+"หากคุณต้องการนำเข้าข้อมูลจากตารางอื่นคุณจะต้อง"
+"สร้างขึ้นใหม่ระหว่างบันทึกที่เป็นของตารางที่แตกต่างกัน ยกตัวอย่างเช่น หาก"
+"บริษัท และผู้คนนำเข้าทุกคนเชื่อมโยง"
+"บริษัทที่พวกเขาทำงานอยู่ก็ต้องสร้างใหม่"
 
 #: ../../content/applications/essentials/export_import_data.rst:431
 msgid ""
@@ -2203,12 +2796,12 @@ msgid ""
 "name of the application or table. (like, 'company_1', 'person_1' - instead "
 "of '1')"
 msgstr ""
-"หากต้องการจัดการความสัมพันธ์ระหว่างตาราง ให้ใช้เครื่องมือ `รหัสภายนอก` ของ "
-"Odoo `รหัสภายนอก` ของบันทึกคือตัวระบุเฉพาะของบันทึกนี้ในแอปพลิเคชันอื่น "
-"`รหัสภายนอก` จะต้องไม่ซ้ำกันในบันทึกทั้งหมดของออบเจ็กต์ทั้งหมด "
-"แนวทางปฏิบัติที่ดีคือเติมคำนำหน้า `รหัสภายนอก` "
-"ด้วยชื่อของแอปพลิเคชันหรือตาราง (เช่น 'company_1', 'person_1' - แทนที่จะเป็น"
-" '1')"
+"เพื่อจัดการความสัมพันธ์ระหว่างตารางให้ใช้ฟังก์ชัน "External ID" ด้านล่าง"
+"โอดอร์ "External ID" ของบันทึกเป็นตัวระบุเฉพาะสำหรับบันทึกนั้น"
+"ในแอปพลิเคชันอื่น "External ID" ต้องเป็นเอกลักษณ์ในทุกระเบียน"
+"วัตถุทั้งหมด นำหน้า "External ID" นี้"
+"ชื่อแอปพลิเคชันหรือตาราง (เช่น "company_1", "person_1" - ไม่ใช่"
+"“1”）"
 
 #: ../../content/applications/essentials/export_import_data.rst:436
 msgid ""
@@ -2216,34 +2809,45 @@ msgid ""
 "be imported: companies and people. Each person belongs to one company, so "
 "the link between a person and the company they work for must be recreated."
 msgstr ""
+"ตัวอย่างเช่นสมมติว่ามีฐานข้อมูล SQL ที่มีตารางสองตาราง"
+"การนำเข้า: บริษัท และบุคคลทั่วไป ทุกคนเป็นของบริษัท"
+"ต้องสร้างความเชื่อมโยงระหว่างบุคคลและบริษัทที่ตนทำงานอยู่ใหม่"
 
 #: ../../content/applications/essentials/export_import_data.rst:440
 msgid ""
 "Test this example, with a :download:`sample of a PostgreSQL database "
 "<export_import_data/database_import_test.sql>`."
 msgstr ""
+"ทดสอบตัวอย่างนี้ด้วย: download:` ตัวอย่างฐานข้อมูล PostgreSQL"
+"<export_import_data/database_import_test.sql>`。"
 
 #: ../../content/applications/essentials/export_import_data.rst:443
 msgid ""
 "First, export all companies and their *External ID*. In PSQL, write the "
 "following command:"
 msgstr ""
+"ขั้นแรกให้ส่งออก บริษัท และ ID ภายนอกทั้งหมด * ใน PSQL, เขียน"
+"คำสั่งต่อไปนี้:"
 
 #: ../../content/applications/essentials/export_import_data.rst:449
 msgid ""
 "This SQL command creates the following :abbr:`CSV (Comma-separated Values)` "
 "file:"
 msgstr ""
+"คำสั่ง SQL นี้สร้างสิ่งต่อไปนี้: ย่อ: `CSV (ค่าคั่นจุลภาค)`"
+"ไฟล์:"
 
 #: ../../content/applications/essentials/export_import_data.rst:458
 msgid ""
 "To create the :abbr:`CSV (Comma-separated Values)` file for people linked to"
 " companies, use the following SQL command in PSQL:"
 msgstr ""
+"สร้างสำหรับคนที่เชื่อมโยง: abbr: ไฟล์ "CSV (ค่าคั่นจุลภาค)""
+"บริษัท ใช้คำสั่ง SQL ต่อไปนี้ใน PSQL:"
 
 #: ../../content/applications/essentials/export_import_data.rst:465
 msgid "It produces the following :abbr:`CSV (Comma-separated Values)` file:"
-msgstr ""
+msgstr "มันจะสร้างสิ่งต่อไปนี้: ตัวย่อ: "CSV (ค่าคั่นจุลภาค)" ไฟล์:"
 
 #: ../../content/applications/essentials/export_import_data.rst:475
 msgid ""
@@ -2254,12 +2858,12 @@ msgid ""
 " conflict of ID between people and companies (`person_1` and `company_1`, "
 "who shared the same ID 1 in the original database)."
 msgstr ""
-"ในไฟล์นี้ Fabien และ Laurence กำลังทำงานให้กับบริษัท Bigees (`company_1`) "
-"และ Eric กำลังทำงานให้กับบริษัท Organi "
-"ความสัมพันธ์ระหว่างบุคคลและบริษัทเสร็จสิ้นโดยใช้ *ID ภายนอก* ของบริษัท "
-"*รหัสภายนอก* "
-"นำหน้าด้วยชื่อของตารางเพื่อหลีกเลี่ยงความขัดแย้งของรหัสระหว่างบุคคลและบริษัท"
-" (`person_1` และ `company_1` ซึ่งใช้ ID 1 เดียวกันในฐานข้อมูลดั้งเดิม)"
+"ในเอกสารนี้ฟาเบียนและลอเรนซ์ทำงานให้กับบริษัท Bigees"
+"("company_1") อีริคทำงานที่ออร์กานี่ ความสัมพันธ์"
+"การสื่อสารระหว่างบุคคลและบริษัททำได้โดยใช้*รหัสภายนอก*"
+"บริษัท * รหัสภายนอก * ใช้ชื่อตารางเป็นคำนำหน้าเพื่อหลีกเลี่ยง"
+"ID ขัดแย้งระหว่างบุคคลและ บริษัท ("person_1" และ "company_1","
+"คนที่แชร์ ID 1 เดียวกันในฐานข้อมูลเดิม)"
 
 #: ../../content/applications/essentials/export_import_data.rst:481
 msgid ""
@@ -2269,20 +2873,27 @@ msgid ""
 "contacts are linked to the first company). Keep in mind to first import the "
 "companies, and then the people."
 msgstr ""
+"สองไฟล์ที่สร้างขึ้นพร้อมที่จะนำเข้า Odoo โดยไม่ต้องใด ๆ"
+"การดัดแปลง นำเข้าทั้งสอง: abbr:`CSV (การแยกจุลภาค"
+"Values) เอกสารที่มีสี่รายชื่อและสาม บริษัท (สองคนแรก"
+"ติดต่อเชื่อมโยงไปยังบริษัทแรก) โปรดจำไว้ว่าการนำเข้าครั้งแรก"
+"บริษัท แล้วก็ประชาชน"
 
 #: ../../content/applications/essentials/export_import_data.rst:489
 msgid "Update data in Odoo"
-msgstr ""
+msgstr "อัปเดตข้อมูลใน Odoo"
 
 #: ../../content/applications/essentials/export_import_data.rst:491
 msgid ""
 "Existing data can be updated in bulk through a data import, as long as the "
 ":ref:`External ID <essentials/external-id>` remains consistent."
 msgstr ""
+"ข้อมูลที่มีอยู่สามารถอัปเดตเป็นชุดโดยการนำเข้าข้อมูลเท่าที่เป็นไปตามเงื่อนไขต่อไปนี้"
+":ref:`External ID<essentials/External ID>`สอดคล้องกัน"
 
 #: ../../content/applications/essentials/export_import_data.rst:495
 msgid "Prepare data export"
-msgstr ""
+msgstr "การเตรียมการส่งออกข้อมูล"
 
 #: ../../content/applications/essentials/export_import_data.rst:497
 msgid ""
@@ -2291,6 +2902,10 @@ msgid ""
 "list, tick the checkbox for any record to be updated. Then, click |actions|,"
 " and select :icon:`fa-upload` :guilabel:`Export` from the drop-down menu."
 msgstr ""
+"หากต้องการอัปเดตข้อมูลโดยการนำเข้าก่อนอื่นให้ไปที่ข้อมูลที่คุณต้องการอัปเดต"
+"และเลือก #list #เพื่อเปิดใช้งานมุมมองรายการ ด้านซ้ายสุด"
+"ในรายการติ๊กช่องทำเครื่องหมายสำหรับบันทึกใด ๆ ที่คุณต้องการอัปเดต จากนั้น ,คลิก ,#การดำเนินการ ,#"
+"จากนั้นเลือกจากเมนูแบบเลื่อนลง: icon:`fa-upload`:guilabel:`Export`."
 
 #: ../../content/applications/essentials/export_import_data.rst:502
 msgid ""
@@ -2300,6 +2915,11 @@ msgid ""
 "limits the :guilabel:`Fields to export` list to **only** include fields that"
 " are able to be imported."
 msgstr ""
+"ในหน้าต่าง "guilabel: Export Data" ปรากฏขึ้นให้ทำเครื่องหมายที่ช่อง"
+"taged,: guilabel:` ฉันต้องการอัปเดตข้อมูล (นำเข้าและส่งออกที่เข้ากันได้) ` นี่"
+"รวม * ID ภายนอก * โดยอัตโนมัติในการส่งออก ยิ่งไปกว่านั้น มัน"
+"จำกัด รายการ: guilabel: "ฟิลด์ที่จะส่งออก" เป็น ** เท่านั้น ** รวมฟิลด์ต่อไปนี้"
+"สามารถนำเข้าได้"
 
 #: ../../content/applications/essentials/export_import_data.rst:508
 msgid ""
@@ -2309,6 +2929,11 @@ msgid ""
 "data (import-compatible export)` checkbox is ticked, it is included in the "
 "export."
 msgstr ""
+":guilabel:` ฟิลด์ ID ภายนอก ' ** จะไม่ปรากฏบน"
+": guilabel: "ฟิลด์ที่จะส่งออก" รายการยกเว้นการเพิ่มด้วยตนเอง แต่เป็น"
+"ยังรวมอยู่ในการส่งออก แต่ถ้า: guilabel: `ฉันต้องการที่จะปรับปรุง"
+"ติ๊กที่ช่องทำเครื่องหมาย "ข้อมูล (นำเข้าและส่งออกที่เข้ากันได้)" และจะรวมอยู่ใน"
+"ทางออก"
 
 #: ../../content/applications/essentials/export_import_data.rst:512
 msgid ""
@@ -2316,10 +2941,13 @@ msgid ""
 ":ref:`options <export-data>` on the pop-up window, then click "
 ":guilabel:`Export`."
 msgstr ""
+"ใช้เลือกช่องที่ต้องการที่จะรวมไว้ในการส่งออก"
+":ref:`options<export data>`ในหน้าต่างป๊อปอัพแล้วคลิก"
+": guilabel: "ทางออก""
 
 #: ../../content/applications/essentials/export_import_data.rst:516
 msgid "Import updated data"
-msgstr ""
+msgstr "นำเข้าข้อมูลอัปเดต"
 
 #: ../../content/applications/essentials/export_import_data.rst:518
 msgid ""
@@ -2327,6 +2955,9 @@ msgid ""
 "is ready, it can be :ref:`imported <import-data>` by following the same "
 "process as a normal data import."
 msgstr ""
+"เมื่อส่งออกแล้วทำการเปลี่ยนแปลงที่จำเป็นในไฟล์ข้อมูล เมื่อไฟล์"
+"พร้อมที่จะเป็น: อ้าง: `นำเข้า <ข้อมูลนำเข้า> `, วิธีการดังต่อไปนี้"
+"มองว่ากระบวนการนี้เป็นการนำเข้าข้อมูลตามปกติ"
 
 #: ../../content/applications/essentials/export_import_data.rst:522
 msgid ""
@@ -2335,10 +2966,14 @@ msgid ""
 "altered, or removed, the system may add a duplicate record, instead of "
 "updating the existing one."
 msgstr ""
+"การเก็บรักษา * รหัสภายนอก * เป็นสิ่งสำคัญเมื่ออัปเดตข้อมูล"
+"ความสอดคล้อง เพราะนี่คือวิธีที่ระบบจดจำบันทึก หาก ID เป็น"
+"หลังจากการเปลี่ยนแปลงหรือลบระบบอาจเพิ่มระเบียนที่ซ้ำกันไม่ใช่"
+"อัปเดตที่มีอยู่"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:3
 msgid "In-app purchases (IAP)"
-msgstr ""
+msgstr "ซื้อในแอป (IAP)"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:7
 msgid ""
@@ -2347,10 +2982,14 @@ msgid ""
 "list of services is available on the `Odoo IAP Catalog "
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
+"การซื้อในแอป (IAP) เป็นบริการเสริมเพื่อปรับปรุงฐานข้อมูลของ Odoo"
+"แต่ละบริการนำเสนอคุณสมบัติและฟังก์ชั่นเฉพาะของตนเอง A เต็ม"
+"สามารถดูรายการบริการได้ที่ "แคตตาล็อก IAP ของ Odoo""
+"< https://iap.odoo.com/iap/all-in-app-services >`_."
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid "The IAP catalog with various services available on IAP.Odoo.com."
-msgstr ""
+msgstr "ไดเรกทอรี IAP ประกอบด้วยบริการต่างๆที่มีอยู่ใน IAP เว็บไซต์โอดู"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:16
 msgid ""
@@ -2359,6 +2998,10 @@ msgid ""
 "scanned or PDF vendor bills, expenses, and resumes with optical character "
 "recognition (OCR) and artificial intelligence (AI)."
 msgstr ""
+":guilabel:"SMS" บริการส่ง SMS ไปยังผู้ติดต่อโดยตรงจากที่อยู่ต่อไปนี้"
+"ฐานข้อมูลและ: guilabel: "เอกสารดิจิทัล" บริการแปลงเป็นดิจิทัล"
+"การเรียกเก็บเงินค่าธรรมเนียมและประวัติย่อของผู้ให้บริการในรูปแบบสแกนหรือ PDF ด้วยตัวอักษรออปติคอล"
+"บัตรประจำตัว (OCR) และปัญญาประดิษฐ์ (AI)"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:20
 msgid ""
@@ -2367,6 +3010,10 @@ msgid ""
 "each service requires its own prepaid credits, and when they run out, users "
 "**must** :ref:`buy more <iap/buying_credits>` in order to keep using it."
 msgstr ""
+"› IAP › บริการไม่จำเป็นต้องมีการกำหนดค่าหรือการตั้งค่าก่อนที่จะใช้ โอโด"
+"ผู้ใช้สามารถเปิดใช้งานได้โดยการคลิกที่บริการในแอปพลิเคชันเท่านั้น อย่างไรก็ตาม"
+"แต่ละบริการจะต้องมีวงเงินสินเชื่อแบบเติมเงินของตนเองและเมื่อวงเงินหมดผู้ใช้บริการ"
+"** ต้อง **: อ้าง: `ซื้อเพิ่มเติม <iap/buying_credits>` เพื่อให้สามารถใช้งานได้ต่อไป"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:25
 msgid ""
@@ -2375,50 +3022,66 @@ msgid ""
 "includes demo/training databases, educational databases, and one-app-free "
 "databases."
 msgstr ""
+"ผู้ใช้ Enterprise Odoo ที่มีการสมัครสมาชิกที่ถูกต้องจะได้รับเครดิตฟรีเพื่อทดสอบ IAP"
+"ก่อนจะตัดสินใจซื้อเครดิตพอยท์เพิ่มสำหรับฐานข้อมูล นี่"
+"รวมถึงฐานข้อมูลการสาธิต / การฝึกอบรมฐานข้อมูลการศึกษาและแอปฟรี"
+"ฐานข้อมูล"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:32
 msgid "IAP services"
-msgstr ""
+msgstr "บริการ IAP"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:34
 msgid ""
 "|IAP| services are provided by Odoo, as well as third-parties, and have a "
 "wide range of uses."
 msgstr ""
+"_IAP ________________________________________________________________"
+"ใช้กันอย่างแพร่หลาย"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:36
 msgid "The following |IAP| services are offered by Odoo:"
-msgstr ""
+msgstr "Odoo มีบริการดังต่อไปนี้"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:38
 msgid ""
 ":guilabel:`Documents Digitization`: digitizes scanned or PDF vendor bills, "
 "expenses, and resumes with OCR and AI."
 msgstr ""
+": guilabel: "documents digitized": แปลงบิลผู้ขายในรูปแบบ Scan หรือ PDF,"
+"แสดงประวัติผ่าน OCR และ AI"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:40
 msgid ""
 ":guilabel:`Partner Autocomplete`: automatically populates contact records "
 "with corporate data."
 msgstr ""
+":guilabel:` Partner Auto Refill': กรอกข้อมูลการติดต่ออัตโนมัติ"
+"ข้อมูลบริษัท"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:41
 msgid ""
 ":guilabel:`SMS`: sends SMS text messages to contacts directly from the "
 "database."
 msgstr ""
+":guilabel:`SMS`:โดยตรงจาก"
+"ฐานข้อมูล"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:42
 msgid ""
 ":guilabel:`Lead Generation`: generates leads based on a set of criteria, and"
 " converts web visitors into quality leads and opportunities."
 msgstr ""
+": guilabel: "การสร้างโอกาสในการขาย": สร้างโอกาสในการขายตามกลุ่มเกณฑ์และ"
+"เปลี่ยนผู้เข้าชมเว็บให้กลายเป็นโอกาสในการขายและโอกาสที่มีคุณภาพสูง"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:44
 msgid ""
 ":guilabel:`Snailmail`: sends customer invoices and follow-up reports by "
 "post, worldwide."
 msgstr ""
+": guilabel: "Snailmail": ส่งใบแจ้งหนี้ของลูกค้าและรายงานติดตามผลทาง"
+"โพสต์ทั่วโลก"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:45
 msgid ""
@@ -2426,6 +3089,9 @@ msgid ""
 "Odoo *Sign* to provide their identity using the *itsme®* identity platform, "
 "which is available in Belgium and the Netherlands."
 msgstr ""
+":guilabel:` ลายเซ็นโลโก้ที่ใช้ itsme® `: ถามลายเซ็นเอกสาร"
+"Odoo*Sign*แสดงตัวตนด้วย*itsme®*Identity Platform"
+"สินค้ามีจำหน่ายในเบลเยียมและเนเธอร์แลนด์"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:49
 msgid ""
@@ -2433,10 +3099,13 @@ msgid ""
 "developers other than Odoo), visit the `Odoo IAP Catalog "
 "<https://iap.odoo.com/iap/all-in-app-services>`_."
 msgstr ""
+"ข้อมูลเพิ่มเติมเกี่ยวกับแต่ละบริการที่มีอยู่ในปัจจุบัน (จาก"
+"นักพัฒนานอกเหนือจาก Odoo) ไปที่ "แคตตาล็อก IAP ของ Odoo""
+"< https://iap.odoo.com/iap/all-in-app-services >`_."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:53
 msgid "Use IAP services"
-msgstr ""
+msgstr "การใช้บริการ IAP"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:55
 msgid ""
@@ -2444,29 +3113,39 @@ msgid ""
 "require users to configure any settings. To use a service, simply interact "
 "with it wherever it appears in the database."
 msgstr ""
+"\#IAP \#บริการจะถูกรวมเข้ากับ Odoo โดยอัตโนมัติ, ** ไม่ **"
+"ขอให้ผู้ใช้กำหนดค่าการตั้งค่าใด ๆ ในการใช้บริการเพียงแค่โต้ตอบ"
+"ไม่ว่าจะปรากฏในตำแหน่งใดในฐานข้อมูล"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:59
 msgid ""
 "The following flow focuses on the *SMS* |IAP| service being used from a "
 "contact's record."
 msgstr ""
+"ขั้นตอนต่อไปนี้มุ่งเน้นไปที่บริการ *SMS*_IAP________________________________________________________"
+"บันทึกการติดต่อ"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:61
 msgid ""
 "This can be done by clicking the :guilabel:`📱 SMS` icon within the database."
 msgstr ""
+"สามารถทำได้โดยคลิกที่: guilabel:` 📱  ไอคอน SMS ในฐานข้อมูล"
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The SMS icon on a typical contact information form located within an Odoo "
 "database."
 msgstr ""
+"ไอคอน SMS ในแบบฟอร์มข้อมูลการติดต่อทั่วไปใน Odoo"
+"ฐานข้อมูล"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:67
 msgid ""
 "One way to utilize the *SMS* |IAP| service with Odoo is showcased in the "
 "following steps:"
 msgstr ""
+"วิธีหนึ่งในการใช้บริการ *SMS*_______________________________________________________ ของ Odoo"
+"ขั้นตอนต่อไปนี้:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:69
 msgid ""
@@ -2474,6 +3153,9 @@ msgid ""
 " contact with a mobile phone number entered in either the :guilabel:`Phone` "
 "or :guilabel:`Mobile` field of the contact form."
 msgstr ""
+"ก่อนอื่น, ไปที่: ส่วน menuse: "แอปที่ติดต่อ" และคลิก"
+"ติดต่อกับหมายเลขโทรศัพท์มือถือที่คุณป้อนในรายการใดรายการหนึ่งต่อไปนี้: guilabel:`phone`"
+"หรือ: guilabel: ฟิลด์ "มือถือ" ของแบบฟอร์มการติดต่อ"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:73
 msgid ""
@@ -2481,6 +3163,9 @@ msgid ""
 ":guilabel:`Phone` or :guilabel:`Mobile` fields. Click the :guilabel:`📱 SMS` "
 "icon, and a :guilabel:`Send SMS Text Message` pop-up window appears."
 msgstr ""
+"ถัดไปค้นหา: guilabel:` 📱  ไอคอน SMS ปรากฏขึ้นทางด้านขวา"
+": guilabel: "โทรศัพท์" หรือ: guilabel: "โทรศัพท์" ฟิลด์ ฮิต: แท็ก: ` 📱  ข้อความ`"
+"ไอคอนแล้วปรากฏขึ้น: guilabel: "ส่ง SMS" ป๊อปอัพ"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:77
 msgid ""
@@ -2489,9 +3174,10 @@ msgid ""
 " to the contact, and logs what was sent in the *chatter* of the contact's "
 "form."
 msgstr ""
-"พิมพ์ข้อความในช่อง :guilabel:`ข้อความ` ของหน้าต่างป๊อปอัป จากนั้นคลิกปุ่ม "
-":guilabel:`ส่ง SMS` จากนั้น Odoo จะส่งข้อความผ่าน SMS ไปยังผู้ติดต่อ "
-"และบันทึกข้อความที่ส่งไปใน *ช่องแชท* ของแบบฟอร์มของผู้ติดต่อ"
+"พิมพ์ข้อความในฟิลด์: guilabel: "ข้อความ" ในหน้าต่างป๊อปอัพ จากนั้น"
+"คลิกที่: guilabel: "ส่ง SMS" ปุ่ม จากนั้น Odoo ส่งข้อความทาง SMS"
+"และบันทึกข้อความที่ส่งมาในแชตของผู้ติดต่อ"
+"แบบฟอร์ม"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:81
 msgid ""
@@ -2500,6 +3186,10 @@ msgid ""
 "not enough credits to send the message, Odoo prompts the user to purchase "
 "more."
 msgstr ""
+"หลังจากส่ง SMS,*SMS*,เครดิตเติมเงินของ IAP"
+"บริการจะถูกหักออกจากคะแนนที่มีอยู่โดยอัตโนมัติ ถ้ามี"
+"ไม่มีคะแนนมากพอที่จะส่งข้อความ Odoo จึงแจ้งให้ผู้ใช้ซื้อ"
+"มากกว่า"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:86
 msgid ""
@@ -2507,24 +3197,29 @@ msgid ""
 "depth instructions related to SMS functionality in Odoo, review the "
 "documentation below:"
 msgstr ""
+"สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการใช้บริการต่างๆ › IAP › โปรดดูที่ -"
+"สำหรับคำแนะนำเชิงลึกเกี่ยวกับฟังก์ชั่น SMS ใน Odoo โปรดดูที่"
+"เอกสารต่อไปนี้:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:89
 msgid ":doc:`Lead mining <../sales/crm/acquire_leads/lead_mining>`"
-msgstr ""
+msgstr ":doc:`เหมืองแร่ตะกั่ว</ การขาย / การจัดการลูกค้าสัมพันธ์ / การได้มาซึ่ง _ ความเป็นผู้นำ / ความเป็นผู้นำ _ การขุด > `"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:90
 msgid ""
 ":doc:`Enrich your contacts base with Partner Autocomplete "
 "<../sales/crm/optimize/partner_autocomplete>`"
 msgstr ""
+": doc:` เพิ่มไลบรารีผู้ติดต่อของคุณด้วย Partner Autocomplete"
+"<../ การจัดการฝ่ายขาย / ลูกค้าสัมพันธ์ / การเพิ่มประสิทธิภาพ / คู่ค้า _ Automatic Complete > `"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:92
 msgid ":doc:`SMS Marketing <../marketing/sms_marketing>`"
-msgstr ""
+msgstr ":doc:` การตลาด SMS</ การตลาด`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:97
 msgid "IAP credits"
-msgstr ""
+msgstr "คะแนน IAP"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:99
 msgid ""
@@ -2533,6 +3228,10 @@ msgid ""
 "enough credits left to continue using a service. Email alerts can also be "
 "set up for when :ref:`credits are low <in_app_purchase/low-credits>`."
 msgstr ""
+"คะแนนสะสม Prepaid Point สำหรับบริการนี้ทุกครั้งที่ใช้บริการ #IAP#"
+"หมดเลย เมื่อไม่มีคะแนน Odoo จะแจ้งให้ซื้อคะแนนเพิ่มเติม"
+"วงเงินที่เหลือเพียงพอต่อการใช้บริการต่อไป อีเมลแจ้งเตือนก็โอเค"
+"การตั้งค่าเวลา: อ้าง: `เครดิตต่ำ <in.app_purchase / lowcredits> `."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:103
 msgid ""
@@ -2540,54 +3239,65 @@ msgid ""
 "<https://iap.odoo.com/iap/all-in-app-services>`_, and pricing is specific to"
 " each service."
 msgstr ""
+"ซื้อคะแนนจากแคตตาล็อก IAP ของ Odoo ในรูปแบบ *Packs*"
+"< https://iap.odoo.com/iap/all-in-app-services > `_, ราคาเฉพาะ"
+"ทุกบริการ"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:107
 msgid ""
 "The `SMS service <https://iap.odoo.com/iap/in-app-services/1>`_ has four "
 "packs available, in denominations of:"
 msgstr ""
+"บริการ SMS< https://iap.odoo.com/iap/in-app-services/1 > ` _ มีสี่"
+"แพคเกจที่มีจำหน่ายในนิกาย:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:110
 msgid ":guilabel:`Starter Pack`: 10 credits"
-msgstr ""
+msgstr ": guilabel: "ชุดเริ่มต้น": 10 เครดิต"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:111
 msgid ":guilabel:`Standard Pack`: 100 credits"
-msgstr ""
+msgstr ": guilabel: "แพ็คเกจมาตรฐาน": 100 เครดิต"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:112
 msgid ":guilabel:`Advanced Pack`: 500 credits"
-msgstr ""
+msgstr ": guilabel: "แพ็คเกจพรีเมี่ยม": 500 เครดิต"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:113
 msgid ":guilabel:`Expert Pack`: 1,000 credits"
-msgstr ""
+msgstr ": guilabel: "แพ็คเกจผู้เชี่ยวชาญ": 1,000 เครดิต"
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid "Four different packs of credits for the SMS IAP service."
-msgstr ""
+msgstr "สี่แพคเกจคะแนนที่แตกต่างกันสำหรับบริการ SMS IAP"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:119
 msgid ""
 "The number of credits consumed depends on the length of the SMS and the "
 "country of destination."
 msgstr ""
+"คะแนนเครดิตที่ใช้จ่ายจะขึ้นอยู่กับความยาวของ SMS และ"
+"ประเทศปลายทาง"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:121
 msgid ""
 "For more information, refer to the :doc:`SMS Pricing and FAQ "
 "<../marketing/sms_marketing/pricing_and_faq>` documentation."
 msgstr ""
+"สำหรับข้อมูลเพิ่มเติมโปรดดูที่: doc:` การกำหนดราคา SMS และคำถามที่พบบ่อย"
+"<../ การตลาด/sms_marketing/price_and_faq>`เอกสาร"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:127
 msgid "Buy credits"
-msgstr "ซื้อเครดิต"
+msgstr "ซื้อคะแนน"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:129
 msgid ""
 "If there are not enough credits to perform a task, the database "
 "automatically prompts the purchase of more credits."
 msgstr ""
+"หากไม่มีหน่วยกิตเพียงพอต่อการปฏิบัติหน้าที่ฐานข้อมูล"
+"ออโต้พรอมต์ บายมอร์ พอยท์"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:132
 msgid ""
@@ -2596,6 +3306,10 @@ msgid ""
 ":menuselection:`Settings app --> Contacts section`, and beneath the "
 ":guilabel:`Odoo IAP` setting, click :guilabel:`View My Services`."
 msgstr ""
+"ผู้ใช้บริการสามารถตรวจสอบยอดเครดิตปัจจุบันของแต่ละบริการ และ"
+"โดยการนำทางไปยัง"
+":menusesection:` ตั้งค่าการใช้งาน -> ส่วนติดต่อ ', ใน"
+": guilabel: การตั้งค่า "Odoo IAP" คลิก: guilabel: "ดูบริการของฉัน""
 
 #: ../../content/applications/essentials/in_app_purchase.rst:136
 msgid ""
@@ -2604,14 +3318,18 @@ msgid ""
 ":guilabel:`Account Information` page, where additional credits can be "
 "purchased."
 msgstr ""
+"การทำเช่นนี้จะแสดงหนึ่ง: guilabel: "บริการ IAP" หน้าซึ่งมีรายการต่างๆ › IAP ›"
+"บริการในฐานข้อมูล จากที่นี่คลิก \#IAP \#Service เพื่อเปิด"
+": guilabel: หน้า "ข้อมูลบัญชี" ซึ่งสามารถเพิ่มคะแนนพิเศษได้"
+"ซื้อ"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:141
 msgid "Manually buy credits"
-msgstr ""
+msgstr "ซื้อคะแนนด้วยตนเอง"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:143
 msgid "To manually buy credits in Odoo, follow these steps:"
-msgstr ""
+msgstr "การซื้อคะแนนด้วยตนเองใน Odoo ทำตามขั้นตอนต่อไปนี้:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:145
 msgid ""
@@ -2620,11 +3338,16 @@ msgid ""
 ":guilabel:`Contacts` section. Under the :guilabel:`Contacts` section, where "
 "it says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
 msgstr ""
+"ขั้นแรกไปที่: menuse ส่วน: "แอ็พพลิเคชันการตั้งค่า" จากนั้นไปที่"
+":guilabel:"ค้นหา..." บาร์ หรือผู้ใช้สามารถเลื่อนลงไปที่"
+": guilabel: ส่วน "ติดต่อ" ใน: guilabel: "ติดต่อ" ส่วนที่"
+"มันบอกว่า: guilabel: `Odoo IAP`, คลิก: guilabel: `ดูบริการของฉัน`"
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The Settings app showing the Odoo IAP heading and View My Services button."
 msgstr ""
+"ตั้งค่าแอปเพื่อแสดงส่วนหัว IAP ของ Odoo และปุ่ม View My Service"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:154
 msgid ""
@@ -2633,6 +3356,10 @@ msgid ""
 ":guilabel:`Account Information` page, where additional credits can be "
 "purchased."
 msgstr ""
+"การทำเช่นนี้จะแสดงหนึ่ง: guilabel: หน้า "บัญชี IAP" ซึ่งมีรายการต่างๆ › IAP ›"
+"บริการในฐานข้อมูล จากที่นี่คลิก \#IAP \#Service เพื่อเปิด"
+": guilabel: หน้า "ข้อมูลบัญชี" ซึ่งสามารถเพิ่มคะแนนพิเศษได้"
+"ซื้อ"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:158
 msgid ""
@@ -2642,22 +3369,31 @@ msgid ""
 "credits. Then, follow the prompts to enter payment details, and confirm the "
 "order."
 msgstr ""
+"ในหน้า: guilabel: "ข้อมูลบัญชี" คลิก: guilabel: "ซื้อ""
+"ปุ่มเครดิต การทำเช่นนี้โหลด a: guilabel: `ซื้อเครดิตสำหรับ (บัญชี IAP) `"
+"ในหน้าในแท็บใหม่ จากที่นี่คลิก: guilabel: ซื้อในแพคเกจที่ต้องการ"
+"เครดิต จากนั้นทำตามคำแนะนำเพื่อป้อนรายละเอียดการชำระเงินและยืนยัน"
+"ใบสั่ง"
 
 #: ../../content/applications/essentials/in_app_purchase.rst-1
 msgid ""
 "The SMS service page on IAP.Odoo.com with four packs of credits available "
 "for purchase."
 msgstr ""
+"หน้าบริการ SMS บน IAP Odoo.com มี 4 แพ็คเครดิต"
+"ซื้อ"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:167
 msgid ""
 "Once the transaction is complete, the credits are available for use in the "
 "database."
 msgstr ""
+"เมื่อธุรกรรมเสร็จสิ้น สามารถใช้คะแนนสะสมได้"
+"ฐานข้อมูล"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:172
 msgid "Low-credit notification"
-msgstr ""
+msgstr "ประกาศเครดิตต่ำ"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:174
 msgid ""
@@ -2665,6 +3401,9 @@ msgid ""
 "running out of credits, while using an |IAP| service. To do that, follow "
 "this process:"
 msgstr ""
+"เมื่อเครดิตต่ำอาจได้รับการแจ้งเตือนเพื่อหลีกเลี่ยง"
+"เมื่อใช้บริการ #IAP #คะแนนหมด การทำเช่นนี้ทำตามขั้นตอน"
+"กระบวนการ:"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:177
 msgid ""
@@ -2672,6 +3411,9 @@ msgid ""
 ":guilabel:`Search...` bar. Under the :guilabel:`Contacts` section, where it "
 "says :guilabel:`Odoo IAP`, click :guilabel:`View My Services`."
 msgstr ""
+"ไปที่: ส่วน menuse: "การตั้งค่าโปรแกรมประยุกต์" และจากนั้นใน"
+":guilabel:"ค้นหา..." บาร์ ภายใต้: guilabel: "ติดต่อ" ส่วน, มัน"
+"Say: guilabel: "Odoo IAP", คลิก: guilabel: "ดูบริการของฉัน"."
 
 #: ../../content/applications/essentials/in_app_purchase.rst:181
 msgid ""
@@ -2679,6 +3421,9 @@ msgid ""
 "Account` page. From here, click on the desired |IAP| account to view that "
 "service's :guilabel:`Account Information` page."
 msgstr ""
+"Available › IAP › บัญชีแสดงในมุมมองรายการของ: guilabel: `IAP"
+"หน้าบัญชี จากที่นี่ คลิกที่ สิ่งที่คุณต้องการ › IAP › บัญชีเพื่อดู"
+"บริการโดย: guilabel: หน้า "ข้อมูลบัญชี""
 
 #: ../../content/applications/essentials/in_app_purchase.rst:184
 msgid ""
@@ -2686,6 +3431,9 @@ msgid ""
 "checkbox. Doing so reveals two fields on the form: :guilabel:`Threshold` and"
 " :guilabel:`Warning Email`."
 msgstr ""
+"ในหน้า: guilabel: "ข้อมูลบัญชี" ติ๊ก: guilabel: "เตือนฉัน""
+"ช่องทำเครื่องหมาย การทำเช่นนี้จะแสดงสองช่องในแบบฟอร์ม:: guilabel: "Threshold" และ"
+":guilabel:` อีเมลแจ้งเตือน"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:187
 msgid ""
@@ -2693,6 +3441,9 @@ msgid ""
 "use as the minimum threshold for this service. In the :guilabel:`Warning "
 "Email` field, enter the email address that receives the notification."
 msgstr ""
+"ในช่อง: guilabel: "Threshold" ป้อนจำนวนเครดิตที่ Odoo ควรได้รับ"
+"ใช้เป็นเกณฑ์ขั้นต่ำในการให้บริการนี้ ใน: guilabel: "คำเตือน"
+"ฟิลด์ "อีเมล" ป้อนที่อยู่อีเมลเพื่อรับการแจ้งเตือน"
 
 #: ../../content/applications/essentials/in_app_purchase.rst:191
 msgid ""
@@ -2700,26 +3451,33 @@ msgid ""
 "balance of credits falls below the amount listed as the "
 ":guilabel:`Threshold`."
 msgstr ""
+"Odoo จะส่งการแจ้งเตือนเครดิตต่ำไปยัง: guilabel: "อีเมลเตือน" เมื่อเกิดเหตุการณ์ต่อไปนี้"
+"ยอดคงเหลือเครดิตต่ำกว่าจำนวนที่ระบุไว้"
+": guilabel: "เกณฑ์""
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:3
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "แป้นพิมพ์ลัด"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:5
 msgid ""
 "Users in Odoo can utilize several keyboard shortcuts to navigate through "
 "modules, execute actions, and manage data."
 msgstr ""
+"ผู้ใช้ใน Odoo สามารถนำทางด้วยแป้นพิมพ์ลัดหลายแป้น"
+"โมดูล การดำเนินการ และการจัดการข้อมูล"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:9
 msgid ""
 "Hold :kbd:`Ctrl` to view the keyboard shortcuts assigned to each element on "
 "the interface."
 msgstr ""
+"กดค้างไว้: kbd: "Ctrl" เพื่อดูแป้นพิมพ์ลัดที่กำหนดให้แต่ละองค์ประกอบบน"
+"อินเตอร์เฟซ"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "A selection of keyboard shortcuts in Odoo."
-msgstr ""
+msgstr "ชุดของปุ่มลัดใน Odoo"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:16
 msgid ""
@@ -2727,64 +3485,69 @@ msgid ""
 "or effective depending on browsers, extensions, or other individual "
 "settings."
 msgstr ""
+"แป้นพิมพ์ลัดบางปุ่มอาจไม่สามารถใช้กับ Odoo เวอร์ชันอื่นได้"
+"หรือมีประสิทธิภาพตามเบราว์เซอร์ส่วนขยายหรือบุคคลอื่น ๆ"
+"ตั้ง"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:20
 msgid "Keyboard shortcuts by operating system"
-msgstr ""
+msgstr "ระบบปฏิบัติการ แป้นพิมพ์ลัด"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:22
 msgid ""
 "Below is a list of some of the most commonly used keyboard shortcuts within "
 "Odoo, listed by operating system."
 msgstr ""
+"นี่คือรายการของแป้นพิมพ์ลัดที่ใช้มากที่สุด"
+"Odoo รายชื่อตามระบบปฏิบัติการ"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:29
 msgid "Description"
-msgstr "คำอธิบาย"
+msgstr "คำแนะนำ"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:30
 msgid "Windows / Linux"
-msgstr ""
+msgstr "Windows/Linux"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:31
 msgid "macOS"
-msgstr ""
+msgstr "macOS"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:32
 msgid "Previous breadcrumb"
-msgstr ""
+msgstr "หน้าก่อนหน้า Crumbs"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:33
 msgid ":kbd:`Alt` + :kbd:`B`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` B`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:34
 msgid ":kbd:`Ctrl` + :kbd:`B`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:`B`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:35
 msgid "Create new record"
-msgstr ""
+msgstr "สร้างระเบียนใหม่"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:36
 msgid ":kbd:`Alt` + :kbd:`C`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` C`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:37
 msgid ":kbd:`Ctrl` + :kbd:`C`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:` C`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:38
 msgid "Odoo Home Page"
-msgstr ""
+msgstr "หน้าแรก Odoo"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:39
 msgid ":kbd:`Alt` + :kbd:`H`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` H`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:40
 msgid ":kbd:`Ctrl` + :kbd:`H`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:` H`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:41
 msgid "Discard changes"
@@ -2792,11 +3555,11 @@ msgstr "ยกเลิกการเปลี่ยนแปลง"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:42
 msgid ":kbd:`Alt` + :kbd:`J`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` J`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:43
 msgid ":kbd:`Ctrl` + :kbd:`J`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:` J`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:44
 msgid "Save changes"
@@ -2804,11 +3567,11 @@ msgstr "บันทึกการเปลี่ยนแปลง"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:45
 msgid ":kbd:`Alt` + :kbd:`S`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:46
 msgid ":kbd:`Ctrl` + :kbd:`S`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:47
 msgid "Next page"
@@ -2816,11 +3579,11 @@ msgstr "หน้าถัดไป"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:48
 msgid ":kbd:`Alt` + :kbd:`N`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` N`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:49
 msgid ":kbd:`Ctrl` + :kbd:`N`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:`N`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:50
 msgid "Previous page"
@@ -2828,11 +3591,11 @@ msgstr "หน้าก่อนหน้า"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:51
 msgid ":kbd:`Alt` + :kbd:`P`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` P`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:52
 msgid ":kbd:`Ctrl` + :kbd:`P`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:` P`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:53
 msgid "Search"
@@ -2840,93 +3603,95 @@ msgstr "ค้นหา"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:54
 msgid ":kbd:`Alt` + :kbd:`Q`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` Q`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:55
 msgid ":kbd:`Ctrl` + :kbd:`Q`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:` Q`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:56
 msgid "Select menus"
-msgstr ""
+msgstr "เลือกเมนู"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:57
 msgid ":kbd:`Alt` + :kbd:`1-9`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` 1-9`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:58
 msgid ":kbd:`Ctrl` + :kbd:`1-9`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:` 1-9`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:59
 msgid "Create a new To-Do"
-msgstr ""
+msgstr "สร้างสิ่งที่จะทำใหม่"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:60
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`T`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` Shift`+：kbd:`T`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:61
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`T`"
-msgstr ""
+msgstr "：kbd:“Ctrl”+：kbd:“Shift”+：kbd:“T”`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:62
 msgid "Search a Knowledge article"
-msgstr ""
+msgstr "ค้นหาบทความความรู้"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:63
 msgid ":kbd:`Alt` + :kbd:`F`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` F`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:64
 msgid ":kbd:`Ctrl` + :kbd:`F`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:` F`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:65
 msgid "Share a Knowledge article"
-msgstr ""
+msgstr "แชร์บทความความรู้"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:66
 msgid ":kbd:`Alt` + :kbd:`Shift` + :kbd:`S`"
-msgstr ""
+msgstr "：kbd:`Alt`+：kbd:` Shift`+：kbd:`S`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:67
 msgid ":kbd:`Ctrl` + :kbd:`Shift` + :kbd:`S`"
-msgstr ""
+msgstr "：kbd:“Ctrl”+：kbd:“Shift”+：kbd:“S”`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:68
 msgid "Open command palette"
-msgstr ""
+msgstr "เปิดแผงคำสั่ง"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:69
 msgid ":kbd:`Ctrl` + :kbd:`K`"
-msgstr ""
+msgstr "：kbd:`Ctrl`+：kbd:` K`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:70
 msgid ":kbd:`Command` + :kbd:`K`"
-msgstr ""
+msgstr ":kbd:`command`+:kbd:`k`"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:73
 msgid ""
 "After opening the command palette, search using the following keyboard "
 "shortcuts:"
 msgstr ""
+"เมื่อเปิดแผงคำสั่งแล้วให้ใช้แป้นพิมพ์ต่อไปนี้เพื่อค้นหา"
+"ทางลัด:"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:75
 msgid ":kbd:`/`: search for menus, applications, and modules."
-msgstr ""
+msgstr ": kbd: "/": เมนูค้นหาแอปและโมดูล"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:76
 msgid ":kbd:`@`: search for users."
-msgstr ""
+msgstr ": kbd: "@": ค้นหาผู้ใช้"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:77
 msgid ":kbd:`#`: search for **Discuss** channels."
-msgstr ""
+msgstr ": kbd: "#": ค้นหา ** สนทนา ** ช่องทาง."
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:78
 msgid ":kbd:`?`: search for **Knowledge** articles."
-msgstr ""
+msgstr "：kbd：`？`： ค้นหา ** ความรู้ ** บทความ"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:80
 msgid ""
@@ -2934,24 +3699,29 @@ msgid ""
 "through the available options. Then, click :kbd:`Ctrl` + :kbd:`Enter` to "
 "open the selected app, module, or menu in a new tab."
 msgstr ""
+"ป้อนชื่อ (หรือคำศัพท์) ในแถบค้นหาหรือใช้ปุ่มลูกศรเพื่อเลื่อน"
+"โดยตัวเลือกที่มีอยู่ แล้ว, คลิกที่: kbd: "Ctrl" +: kbd: "Enter" เพื่อ"
+"เปิดแอปพลิเคชันโมดูลหรือเมนูที่เลือกในแท็บใหม่"
 
 #: ../../content/applications/essentials/keyboard_shortcuts.rst:0
 msgid "The command palette in Odoo, with the menu search option selected."
-msgstr ""
+msgstr "แผงควบคุมคำสั่งใน Odoo เลือกตัวเลือกการค้นหาเมนู"
 
 #: ../../content/applications/essentials/reporting.rst:3
 msgid "Reporting"
-msgstr "การรายงาน"
+msgstr "รายงาน"
 
 #: ../../content/applications/essentials/reporting.rst:5
 msgid ""
 "You can find several reports under the :guilabel:`Reporting` menu of most "
 "apps that let you analyze and visualize the data of your records."
 msgstr ""
+"คุณสามารถค้นหารายงานหลายฉบับภายใต้เมนู "รายงาน" ของเว็บไซต์ส่วนใหญ่"
+"แอปพลิเคชันที่ให้คุณวิเคราะห์และแสดงภาพที่บันทึกข้อมูล"
 
 #: ../../content/applications/essentials/reporting.rst:11
 msgid "Selecting a view"
-msgstr ""
+msgstr "เลือกมุมมอง"
 
 #: ../../content/applications/essentials/reporting.rst:13
 msgid ""
@@ -2960,10 +3730,14 @@ msgid ""
 "several views are available for others. However, two generic views are "
 "dedicated to reporting: the graph and pivot views."
 msgstr ""
+"จากรายงาน Odoo สามารถแสดงข้อมูลได้หลากหลายรูปแบบ"
+"บางครั้งมุมมองที่ไม่เหมือนใครซึ่งสามารถปรับแต่งให้เหมาะสมกับรายงานได้อย่างเต็มที่ขณะที่"
+"คนอื่น ๆ สามารถใช้มุมมองได้หลายแบบ อย่างไรก็ตาม มีความคิดเห็นทั่วไป 2 ประการ"
+"มุ่งเน้นไปที่การรายงาน: แผนภูมิและ Pivot"
 
 #: ../../content/applications/essentials/reporting.rst:20
 msgid "Graph view"
-msgstr "มุมมองกราฟ"
+msgstr "มุมมองกราฟิก"
 
 #: ../../content/applications/essentials/reporting.rst:22
 msgid ""
@@ -2973,14 +3747,19 @@ msgid ""
 "elsewhere. Click the **graph view button** located at the top right to "
 "access it."
 msgstr ""
+":ref:`graph view <reporting / usinggraph> `ใช้เพื่อสร้างภาพของคุณ"
+"บันทึกข้อมูลเพื่อช่วยให้คุณระบุรูปแบบและแนวโน้ม มุมมองมักจะเป็น"
+"สามารถพบได้ในแอปพลิเคชัน: guilabel: "รายงาน" เมนู แต่สามารถพบได้"
+"ที่อื่น คลิกที่ปุ่ม **Graphic View ที่มุมขวาบน **"
+"เข้าถึงได้"
 
 #: ../../content/applications/essentials/reporting.rst-1
 msgid "Selecting the graph view"
-msgstr ""
+msgstr "เลือกมุมมองกราฟิก"
 
 #: ../../content/applications/essentials/reporting.rst:33
 msgid "Pivot view"
-msgstr "มุมมองสรุป"
+msgstr "มุมมอง Pivot"
 
 #: ../../content/applications/essentials/reporting.rst:35
 msgid ""
@@ -2989,14 +3768,18 @@ msgid ""
 "the :guilabel:`Reporting` menu of apps but can be found elsewhere. Click the"
 " **pivot view button** located at the top right to access it."
 msgstr ""
+":ref:`pivot ดู <reporting / usince pivot> `สำหรับการรวมของคุณ"
+"บันทึกข้อมูลและแยกย่อยเพื่อนำมาวิเคราะห์ มุมมองนี้มักจะอยู่ใน"
+"สำหรับแอปพลิเคชัน: guilabel: เมนู "รายงาน" แต่สามารถพบได้ที่อื่น คลิก"
+"** ปุ่ม Pivot View ที่ด้านบนขวา ** สามารถเข้าถึงได้"
 
 #: ../../content/applications/essentials/reporting.rst-1
 msgid "Selecting the pivot view"
-msgstr ""
+msgstr "เลือกมุมมอง Pivot"
 
 #: ../../content/applications/essentials/reporting.rst:45
 msgid "Choosing measures"
-msgstr ""
+msgstr "เลือกมาตรการ"
 
 #: ../../content/applications/essentials/reporting.rst:47
 msgid ""
@@ -3005,6 +3788,10 @@ msgid ""
 "default, a measure is always selected. If you wish to edit it, click "
 ":guilabel:`Measures` and choose one or, only for pivots, multiple measures."
 msgstr ""
+"หลังจากเลือกมุมมองคุณควรตรวจสอบให้แน่ใจว่ามีเพียงบันทึกที่เกี่ยวข้องเท่านั้น"
+"：doc:`filtered<search>`。 ต่อไปควรเลือกว่าจะวัดจากอะไร By"
+"โดยค่าเริ่มต้นให้เลือกตัวชี้วัดเสมอ หากต้องการแก้ไขให้คลิก"
+": guilabel: `metric' จากนั้นเลือกหนึ่งตัวชี้วัดหรือเลือกหลายตัวสำหรับจุดหมุนเท่านั้น"
 
 #: ../../content/applications/essentials/reporting.rst:52
 msgid ""
@@ -3015,6 +3802,12 @@ msgid ""
 "can be measured. In addition, the :guilabel:`Count` option is used to count "
 "the total number of filtered records."
 msgstr ""
+"เมื่อคุณเลือกตัวชี้วัด Odoo จะรวมค่าที่บันทึกไว้ในฟิลด์นั้น"
+"สำหรับบันทึกหลังการกรอง เขตข้อมูลตัวเลขเท่านั้น (:ref:`integer"
+"<studio/fields/simple fields/integer>`，：ref:`decimal<studio/ffields/simple-"
+"ฟิลด์ / ข้อมูล> `,: อ้าง:` สกุลเงิน <สตูดิโอ / ฟิลด์ / ฟิลด์ที่เรียบง่าย / เงิน>)"
+"วัดได้ นอกจากนี้: guilabel: ตัวเลือก `Count` สำหรับการนับ"
+"จำนวนสถิติทั้งหมดที่ได้รับการคัดกรอง"
 
 #: ../../content/applications/essentials/reporting.rst:58
 msgid ""
@@ -3023,20 +3816,26 @@ msgid ""
 "analyze. By default, the data is often grouped by *Date > Month*, which is "
 "used to analyze the evolution of a measure over the months."
 msgstr ""
+"หลังจากเลือกสิ่งที่คุณต้องการวัดแล้วคุณสามารถกำหนดได้ว่าข้อมูลควรวัดอย่างไร"
+"be:ref:`กลุ่ม <ค้นหา / กลุ่ม> `ขึ้นอยู่กับขนาดที่คุณต้องการ"
+"วิเคราะห์ โดยค่าเริ่มต้นข้อมูลมักจะถูกจัดกลุ่มโดย * วันที่ > เดือน * นั่นคือ"
+"สำหรับการวิเคราะห์วิวัฒนาการของตัวชี้วัดในระยะเวลาไม่กี่เดือน"
 
 #: ../../content/applications/essentials/reporting.rst:63
 msgid ""
 "When you filter a single time period, the option to compare it against "
 "another one appears."
 msgstr ""
+"เมื่อคุณกรองช่วงเวลาเดียวคุณสามารถเลือกที่จะใช้มันกับ"
+"อีกคนโผล่มา"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Using the comparison option"
-msgstr ""
+msgstr "ใช้ตัวเลือกการเปรียบเทียบ"
 
 #: ../../content/applications/essentials/reporting.rst:72
 msgid "Select measures"
-msgstr ""
+msgstr "เลือกมาตรการ"
 
 #: ../../content/applications/essentials/reporting.rst:74
 msgid ""
@@ -3044,31 +3843,33 @@ msgid ""
 ":guilabel:`Count` measures to the Sales Analysis report. By default, the "
 ":guilabel:`Untaxed Amount` measure is selected."
 msgstr ""
-"นอกจากหน่วยวัดอื่นๆ แล้ว คุณสามารถเพิ่มหน่วยวัด :guilabel:`มาร์จิ้น` และ "
-":guilabel:`จำนวน` ลงในรายงานการวิเคราะห์การขายได้ โดยค่าเริ่มต้น การวัด "
-":guilabel:`จำนวนที่ยังไม่ได้หักภาษี` จะถูกเลือก"
+"นอกเหนือจากมาตรการอื่น ๆ คุณสามารถเพิ่ม: guilabel: "Margin" และ"
+": guilabel: เพิ่มตัวชี้วัด "นับ" ลงในรายงานการวิเคราะห์การขาย โดยปริยาย"
+": guilabel: เลือกตัวชี้วัด "ยังไม่รวมภาษี""
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Selecting different measures on the Sales Analysis report"
-msgstr ""
+msgstr "เลือกตัวชี้วัดที่แตกต่างกันในรายงานการวิเคราะห์การขาย"
 
 #: ../../content/applications/essentials/reporting.rst:81
 msgid "Group measures"
-msgstr ""
+msgstr "มาตรการกลุ่ม"
 
 #: ../../content/applications/essentials/reporting.rst:83
 msgid ""
 "You could group the measures by :guilabel:`Product Category` at the level of"
 " rows on the previous Sales Analysis report example."
 msgstr ""
+"คุณสามารถจัดกลุ่มเมตริกในระดับต่อไปนี้: guilabel: "หมวดหมู่ผลิตภัณฑ์""
+"บรรทัดในตัวอย่างรายงานการวิเคราะห์การขายก่อนหน้านี้"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Adding a group on the Sales Analysis report"
-msgstr ""
+msgstr "เพิ่มกลุ่มในรายงานการวิเคราะห์การขาย"
 
 #: ../../content/applications/essentials/reporting.rst:92
 msgid "Using the pivot view"
-msgstr ""
+msgstr "ใช้ Pivot View"
 
 #: ../../content/applications/essentials/reporting.rst:94
 msgid ""
@@ -3080,20 +3881,21 @@ msgid ""
 " one of the **preconfigured groups**. To remove one, click the minus button "
 "(:guilabel:`➖`)."
 msgstr ""
-"การจัดกลุ่มข้อมูลถือเป็นสิ่งสำคัญสำหรับมุมมองสรุป "
-"ช่วยให้สามารถเจาะลึกข้อมูลเพื่อให้ได้ข้อมูลเชิงลึกที่ลึกซึ้งยิ่งขึ้น "
-"แม้ว่าคุณสามารถใช้ตัวเลือก :guilabel:`จัดกลุ่มโดย` "
-"เพื่อเพิ่มกลุ่มที่ระดับแถวได้อย่างรวดเร็ว ดังที่แสดงในตัวอย่างด้านบน "
-"คุณยังสามารถคลิกปุ่มบวก (:guilabel:`➕`) ถัดจาก : guilabel: ส่วนหัว `ทั้งหมด`"
-" ที่ระดับแถว *และ* คอลัมน์ จากนั้นเลือกหนึ่งใน "
-"**กลุ่มที่กำหนดค่าไว้ล่วงหน้า** หากต้องการลบออก ให้คลิกปุ่มลบ "
-"(:guilabel:`➖`)"
+"ข้อมูลกลุ่มเป็นสาระสำคัญของ Pivot Chart มันสามารถเจาะลง"
+"ข้อมูลเพื่อให้ได้ข้อมูลเชิงลึกมากขึ้น และคุณสามารถใช้: guilabel: `จัดกลุ่มวิธี `"
+"ตัวเลือกสำหรับการเพิ่มกลุ่มอย่างรวดเร็วในระดับแถวเช่นตัวอย่าง"
+"ด้านบนคุณยังสามารถคลิกที่ปุ่มบวก (: guilabel:` ➕`)  ข้างๆ"
+": guilabel: บรรทัด * และ * ระดับคอลัมน์ "รวม" ส่วนหัวและเลือก"
+"** กลุ่มที่กำหนดไว้ล่วงหน้า ** หนึ่ง หากต้องการลบหนึ่งคลิกปุ่มลบ"
+"(:ความผิด:` ➖`)."
 
 #: ../../content/applications/essentials/reporting.rst:100
 msgid ""
 "Once you have added a group, you can add new ones on the opposite axis or "
 "the newly created subgroups."
 msgstr ""
+"หลังจากเพิ่มกลุ่มแล้วคุณสามารถเพิ่มกลุ่มใหม่บนแกนตรงข้ามหรือ"
+"กลุ่มย่อยที่สร้างขึ้นใหม่"
 
 #: ../../content/applications/essentials/reporting.rst:104
 msgid ""
@@ -3102,36 +3904,46 @@ msgid ""
 "the :guilabel:`Order Date > Month` group on the :guilabel:`All / Saleable / "
 "Office Furniture` product category."
 msgstr ""
+"คุณสามารถแบ่งเมตริกจากรายงานการวิเคราะห์การขายก่อนหน้า"
+"ตัวอย่างผ่าน: guilabel: "salesman" กลุ่มในระดับคอลัมน์และผ่าน"
+": guilabel: "วันที่สั่งซื้อ> เดือน" บนกลุ่ม: guilabel: "All / Sale"/"
+"หมวดหมู่สินค้า เฟอร์นิเจอร์สำนักงาน"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Adding multiple groups on the Sales Analysis report"
-msgstr ""
+msgstr "เพิ่มหลายกลุ่มในรายงานการวิเคราะห์การขาย"
 
 #: ../../content/applications/essentials/reporting.rst:112
 msgid ""
 "Switch the rows and columns' groups by clicking the flip axis button "
 "(:guilabel:`⇄`)."
 msgstr ""
+"สลับกลุ่มของแถวและคอลัมน์โดยคลิกที่ปุ่มแกนพลิก"
+"(:ความผิด:` ⇄`)."
 
 #: ../../content/applications/essentials/reporting.rst:113
 msgid ""
 "Click on a measure's label to sort the values by ascending (⏶) or descending"
 " (⏷) order."
 msgstr ""
+"คลิกที่แท็กของเมตริกและจัดเรียงค่าตามลำดับจากน้อยไปมาก (⏶) หรือมากไปน้อย"
+"(⏷) คำสั่ง"
 
 #: ../../content/applications/essentials/reporting.rst:114
 msgid ""
 "Download a `.xlsx` version of the pivot by clicking the download button "
 "(:guilabel:`⭳`)."
 msgstr ""
+"คลิกที่ปุ่มดาวน์โหลดและดาวน์โหลด pivot ในรุ่น `.xlsx`"
+"（：guilabel：“⭳”）。"
 
 #: ../../content/applications/essentials/reporting.rst:119
 msgid "Using the graph view"
-msgstr ""
+msgstr "การใช้มุมมองแบบกราฟิก"
 
 #: ../../content/applications/essentials/reporting.rst:121
 msgid "Three graphs are available: the bar, line, and pie charts."
-msgstr ""
+msgstr "มีสามแผนภูมิให้เลือก: บาร์, เส้นและวงกลม"
 
 #: ../../content/applications/essentials/reporting.rst:123
 msgid ""
@@ -3139,42 +3951,49 @@ msgid ""
 "categories. They are especially useful as they can deal with larger data "
 "sets."
 msgstr ""
+"** แผนภูมิแท่ง ** ใช้เพื่อแสดงการกระจายหรือการเปรียบเทียบของตัวแปรหลาย"
+"หมวด พวกเขามีประโยชน์อย่างยิ่งเพราะพวกเขาสามารถประมวลผลข้อมูลขนาดใหญ่ได้"
+"ตอน"
 
 #: ../../content/applications/essentials/reporting.rst:126
 msgid ""
 "**Line charts** are useful to show changing time series and trends over "
 "time."
 msgstr ""
+"** แผนภูมิเส้น ** สามารถใช้เพื่อแสดงลำดับเวลาและแนวโน้มของการเปลี่ยนแปลง"
+"เวลา"
 
 #: ../../content/applications/essentials/reporting.rst:128
 msgid ""
 "**Pie charts** are used to show the distribution or a comparison of a small "
 "number of categories when they form a meaningful whole."
 msgstr ""
+"** แผนภูมิวงกลม ** เพื่อแสดงการกระจายหรือการเปรียบเทียบของตัวอย่างขนาดเล็ก"
+"และเมื่อพวกมันก่อตัวเป็นองค์รวมที่มีความหมาย จำนวนของหมวด"
 
 #: ../../content/applications/essentials/reporting.rst:133
 msgid "Bar chart"
-msgstr "แผนภูมิแท่ง"
+msgstr "แผนภูมิคอลัมน์"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Viewing the Sales Analysis report as a bar chart"
-msgstr ""
+msgstr "ดูรายงานการวิเคราะห์การขายในรูปแบบกราฟแท่ง"
 
 #: ../../content/applications/essentials/reporting.rst:138
 msgid "Line chart"
-msgstr "แผนภูมิเส้น"
+msgstr "แผนที่เส้น"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Viewing the Sales Analysis report as a line chart"
-msgstr ""
+msgstr "ดูรายงานการวิเคราะห์การขายในรูปแบบกราฟเส้น"
 
 #: ../../content/applications/essentials/reporting.rst:143
 msgid "Pie chart"
-msgstr "แผนภูมิวงกลม"
+msgstr "แผนที่วงกลม"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Viewing the Sales Analysis report as a pie chart"
-msgstr ""
+msgstr "ดูรายงานการวิเคราะห์การขายในรูปแบบแผนภูมิวงกลม"
 
 #: ../../content/applications/essentials/reporting.rst:149
 msgid ""
@@ -3182,61 +4001,66 @@ msgid ""
 "have at least two groups, which then appear on top of each other instead of "
 "next to each other."
 msgstr ""
+"สำหรับ ** แผนภูมิแท่ง ** และ ** แผนภูมิเส้น ** คุณสามารถใช้ตัวเลือกการซ้อนได้เมื่อ"
+"มีอย่างน้อย 2 กลุ่ม แล้วค่อยมาอยู่ด้านบนของกันและกันไม่ใช่"
+"อยู่ติดกัน"
 
 #: ../../content/applications/essentials/reporting.rst:154
 msgid "Stacked bar chart"
-msgstr ""
+msgstr "แผนภูมิแท่งซ้อน"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Stacked bar chart example"
-msgstr ""
+msgstr "ตัวอย่างแผนภูมิแท่งซ้อน"
 
 #: ../../content/applications/essentials/reporting.rst:159
 msgid "Regular bar chart"
-msgstr ""
+msgstr "แผนภูมิคอลัมน์ปกติ"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Non-stacked bar chart example"
-msgstr ""
+msgstr "ตัวอย่างแผนภูมิแท่งที่ไม่ซ้อนกัน"
 
 #: ../../content/applications/essentials/reporting.rst:164
 msgid "Stacked line chart"
-msgstr ""
+msgstr "แผนภูมิเส้นซ้อน"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Stacked line chart example"
-msgstr ""
+msgstr "ตัวอย่างแผนภูมิเส้นซ้อน"
 
 #: ../../content/applications/essentials/reporting.rst:169
 #: ../../content/applications/essentials/reporting.rst:184
 msgid "Regular line chart"
-msgstr ""
+msgstr "แผนภาพเส้นปกติ"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Non-stacked line chart example"
-msgstr ""
+msgstr "ตัวอย่างกราฟเส้นที่ไม่ซ้อนกัน"
 
 #: ../../content/applications/essentials/reporting.rst:174
 msgid ""
 "For **line** charts, you can use the cumulative option to sum values, which "
 "is especially useful to show the change in growth over a time period."
 msgstr ""
+"สำหรับ ** แผนภูมิเส้นคุณสามารถใช้ตัวเลือกการสะสมเพื่อรวมค่านี้"
+"มีประโยชน์อย่างยิ่งสำหรับการแสดงการเปลี่ยนแปลงการเติบโตในช่วงเวลาหนึ่ง"
 
 #: ../../content/applications/essentials/reporting.rst:179
 msgid "Cumulative line chart"
-msgstr ""
+msgstr "แผนภูมิเส้นสะสม"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Cumulative line chart example"
-msgstr ""
+msgstr "ตัวอย่างกราฟเส้นสะสม"
 
 #: ../../content/applications/essentials/reporting.rst:0
 msgid "Regular line chart example"
-msgstr ""
+msgstr "ตัวอย่างกราฟเส้นปกติ"
 
 #: ../../content/applications/essentials/search.rst:3
 msgid "Search, filter, and group records"
-msgstr ""
+msgstr "ค้นหา คัดกรอง และบันทึกกลุ่ม"
 
 #: ../../content/applications/essentials/search.rst:5
 msgid ""
@@ -3247,16 +4071,16 @@ msgid ""
 "<search/filters>`, :ref:`Group By <search/group>`, and :ref:`Favorites "
 "<search/favorites>` drop-down menus."
 msgstr ""
-"Odoo อนุญาตให้ค้นหา กรอง "
-"และจัดกลุ่มบันทึกในมุมมองเพื่อแสดงเฉพาะบันทึกที่เกี่ยวข้องมากที่สุด "
-"แถบค้นหาจะอยู่ที่ด้านบนของมุมมอง เริ่มพิมพ์ :ref:`ค้นหาค่า "
-"​​<search/values>` หรือคลิกไอคอน :guilabel:`🔽 (ลูกศรลง)` "
-"เพื่อเข้าถึงเมนูแบบเลื่อนลง :ref:`ตัวกรอง <search/filters>`, "
-":ref:`จัดกลุ่มตาม <search/group>` และ :ref:`รายการโปรด <search/favorites>`"
+"Odoo ช่วยให้สามารถค้นหา กรอง และจัดกลุ่มบันทึกในมุมมอง"
+"แสดงเฉพาะบันทึกที่เกี่ยวข้องมากที่สุด แถบค้นหาตั้งอยู่ที่"
+"ที่ด้านบนของมุมมองเริ่มพิมพ์: อ้าง:` ค้นหาค่า <search/values>`,"
+"หรือคลิก: guilabel:` 🔽  (ลูกศรลง)` การเข้าถึงไอคอน: อ้าง:` กรอง"
+"<search/filters>`,: ref:` จัดกลุ่มทาง <search/filters>, และ: ref:`favorites"
+"<ค้นหา / รายการโปรด> เมนูแบบเลื่อนลง"
 
 #: ../../content/applications/essentials/search.rst:14
 msgid "Search for values"
-msgstr ""
+msgstr "ค้นหาค่า"
 
 #: ../../content/applications/essentials/search.rst:16
 msgid ""
@@ -3264,6 +4088,9 @@ msgid ""
 "filter. Type the value to search for, and select the desired option from the"
 " drop-down menu to apply the search filter."
 msgstr ""
+"ใช้ช่องค้นหาเพื่อค้นหาค่าที่เฉพาะเจาะจงได้อย่างรวดเร็วและเพิ่มเป็น"
+"ฟิลเตอร์ พิมพ์ค่าที่คุณต้องการค้นหาและเลือกตัวเลือกที่คุณต้องการ"
+"เมนูแบบเลื่อนลงใช้ตัวกรองการค้นหา"
 
 #: ../../content/applications/essentials/search.rst:20
 msgid ""
@@ -3273,10 +4100,15 @@ msgid ""
 "`Mitch`, and click the :guilabel:`⏵ (right arrow)` next to :guilabel:`Search"
 " Salesperson for: Mitch`, and select :guilabel:`Mitchell Admin`."
 msgstr ""
+"อย่าเพิ่ม: อ้าง: `ตัวกรองที่กำหนดเอง <ค้นหา / ตัวกรองที่กำหนดเอง> `เพื่อเลือก"
+"* ผู้ดูแลระบบ Mitchell * ใช่ * บันทึกของพนักงานขายในการวิเคราะห์การขาย *"
+"รายงาน(:menusesection:` แอปพลิเคชันการขาย -> รายงาน -> การขาย '), ค้นหา"
+"`Mitch และคลิก: guilabel:` ⏵ (right arrow)` next to :guilabel:`Search"
+"พนักงานขาย: Mitch จากนั้นเลือก: guilabel: "Mitchell Admin""
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Searching for a specific value on the Sales Analysis report"
-msgstr ""
+msgstr "ค้นหาค่าเฉพาะในรายงานการวิเคราะห์การขาย"
 
 #: ../../content/applications/essentials/search.rst:30
 msgid ""
@@ -3286,6 +4118,11 @@ msgid ""
 ":guilabel:`⏵ (right arrow)`), *all* records containing the typed characters "
 "for the selected field are included."
 msgstr ""
+"ในกรณีต่อไปนี้การใช้ช่องค้นหาจะเทียบเท่ากับการใช้ * เนื้อหา * ผู้ประกอบการ"
+"เพิ่มหนึ่ง: อ้าง:` ตัวกรองที่กำหนดเอง <ค้นหา / ตัวกรองที่กำหนดเอง> หากมูลค่าส่วนหนึ่งเป็น"
+"หลังจากป้อนข้อมูลให้เลือกฟิลด์ที่ต้องการโดยตรง (ไม่เลือก"
+": guilabel: `9205` (ลูกศรขวา)`),* ทั้งหมด * มีบันทึกของการพิมพ์ตัวอักษร"
+"เพราะทุกสนามที่เลือกมารวมอยู่ด้วย"
 
 #: ../../content/applications/essentials/search.rst:38
 msgid "Filters"
@@ -3299,10 +4136,15 @@ msgid ""
 "<search/preconfigured-filters>`, or by adding a :ref:`custom filter "
 "<search/custom-filters>`."
 msgstr ""
+"ตัวกรองจะใช้เพื่อเลือกระเบียนที่ตรงตามเงื่อนไขที่กำหนด default"
+"การเลือกระเบียนจะเฉพาะเจาะจงกับแต่ละมุมมอง แต่สามารถแก้ไขได้โดย"
+"เลือกหนึ่ง (หรือมากกว่า): อ้าง:`ตัวกรองที่กำหนดค่าไว้ล่วงหน้า"
+"<ค้นหา / ตัวกรองที่กำหนดค่าล่วงหน้า> `หรือปรับแต่งตัวกรองโดยการเพิ่ม: อ้าง:`"
+"<ค้นหา / ตัวกรองที่กำหนดเอง>"
 
 #: ../../content/applications/essentials/search.rst:47
 msgid "Preconfigured filters"
-msgstr ""
+msgstr "ตัวกรองที่กำหนดค่าไว้ล่วงหน้า"
 
 #: ../../content/applications/essentials/search.rst:49
 msgid ""
@@ -3310,6 +4152,9 @@ msgid ""
 "arrow)` icon from the search bar, and selecting one (or several) "
 "*preconfigured filters* from the :guilabel:`Filters` drop-down menu."
 msgstr ""
+"แก้ไขการเลือกระเบียนเริ่มต้นโดยคลิกที่: guilabel: ` 🔽  ( ลง"
+"เลือกไอคอน (หรือมากกว่า) จากแถบค้นหา"
+"* ตัวกรองที่กำหนดไว้ล่วงหน้าจาก: guilabel: "ตัวกรอง" เมนูแบบเลื่อนลง *"
 
 #: ../../content/applications/essentials/search.rst:54
 msgid ""
@@ -3317,12 +4162,17 @@ msgid ""
 "Sales`), only records that are at the *sales order* stage, with an *order "
 "date* within the last 365 days, are selected by default."
 msgstr ""
+"ใน * การวิเคราะห์การขาย * รายงาน (: ส่วนเมนู: `แอพขาย -> รายงาน ->"
+"Sales`) เฉพาะบันทึกในขั้นตอน * คำสั่งซื้อขาย * ด้วย * คำสั่งซื้อ"
+"โดยค่าเริ่มต้นให้เลือกวันที่ภายใน 365 วันที่ผ่านมา*"
 
 #: ../../content/applications/essentials/search.rst:58
 msgid ""
 "To also include records at the *quotation* stage, select "
 ":guilabel:`Quotations` from the :guilabel:`Filters`."
 msgstr ""
+"หากต้องการรวมบันทึกในขั้นตอน * ใบเสนอราคา * โปรดเลือก"
+":guilabel:quote จาก:guilabel:filter"
 
 #: ../../content/applications/essentials/search.rst:61
 msgid ""
@@ -3331,10 +4181,14 @@ msgid ""
 "Date: Last 365 Days` filter, by clicking the :guilabel:`❌ (remove)` icon, "
 "then select :menuselection:`Order Date --> 2024`."
 msgstr ""
+"นอกเหนือจาก * รวมบันทึกการสั่งซื้อขายและใบเสนอราคาจากซัพพลายเออร์บางรายเท่านั้น"
+"ตัวอย่างเช่นในปีเฉพาะเช่นปี 2024 ลบ "คำสั่งซื้อ" ที่มีอยู่ก่อน"
+"วันที่: 365 วันที่ผ่านมา ' กรองโดยคลิกที่: guilabel:` ❌  (ลบ) ไอคอน,"
+"จากนั้นเลือก: ส่วนเมนู: "วันที่สั่งซื้อ -> 2024""
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Using preconfigured filters on the Sales Analysis report"
-msgstr ""
+msgstr "ใช้ตัวกรองที่กำหนดค่าไว้ล่วงหน้าในรายงานการวิเคราะห์การขาย"
 
 #: ../../content/applications/essentials/search.rst:70
 msgid ""
@@ -3344,10 +4198,15 @@ msgid ""
 " selecting filters from different groups requires records to match *all* of "
 "the applied conditions."
 msgstr ""
+"กำหนดค่าล่วงหน้า: guilabel: "ฟิลเตอร์" จัดกลุ่มแต่ละกลุ่ม"
+"คั่นด้วยเส้นแนวนอน เลือกตัวกรองที่กำหนดค่าไว้ล่วงหน้าจาก"
+"กลุ่มเดียวกันอนุญาตให้บันทึกตรงกับเงื่อนไขการสมัครใด ๆ อย่างไรก็ตาม"
+"เลือกตัวกรองจากกลุ่มต่าง ๆ ต้องบันทึกการจับคู่ทั้งหมด"
+"เงื่อนไขการสมัคร"
 
 #: ../../content/applications/essentials/search.rst:78
 msgid "Custom filters"
-msgstr ""
+msgstr "ตัวกรองที่กำหนดเอง"
 
 #: ../../content/applications/essentials/search.rst:80
 msgid ""
@@ -3356,16 +4215,22 @@ msgid ""
 " arrow)` icon in the search bar, then select :menuselection:`Filters --> Add"
 " Custom Filter`."
 msgstr ""
+"หาก: อ้าง: "ตัวกรองที่กำหนดค่าไว้ล่วงหน้า <ค้นหา / ตัวกรองที่กำหนดค่าไว้ล่วงหน้า>" ไม่ใช่"
+"เฉพาะเจาะจงพอที่จะเพิ่มตัวกรองที่กำหนดเอง สำหรับสิ่งนี้คลิกที่: guilabel:` 🔽  ( ลง"
+"ลูกศร) ไอคอนแล้วเลือก: menusesection:`filter -> เพิ่ม"
+"ตัวกรองที่กำหนดเอง"
 
 #: ../../content/applications/essentials/search.rst:84
 msgid ""
 "The :guilabel:`Add Custom Filter` pop-up window displays the matching "
 "option, filter rule, and a toggle to :guilabel:`Include archived` records."
 msgstr ""
+": guilabel: "เพิ่มตัวกรองที่กำหนดเอง" ป๊อปอัพแสดงการจับคู่"
+"ตัวเลือกกฎการกรองและสวิทช์ไปที่: guilabel: "รวมที่เก็บถาวร" บันทึก"
 
 #: ../../content/applications/essentials/search.rst-1
 msgid "The Add Custom Filter pop-up window."
-msgstr ""
+msgstr "ป๊อปอัพ "เพิ่มตัวกรองที่กำหนดเอง""
 
 #: ../../content/applications/essentials/search.rst:91
 msgid ""
@@ -3375,24 +4240,35 @@ msgid ""
 "following rules`, at least two filter rules must be added to the custom "
 "filter."
 msgstr ""
+"การตั้งค่าการจับคู่เริ่มต้นคือ: guilabel: `ตรงกับใด ๆ"
+"ทำตามกฎที่ระบุว่ากฎการกรองแต่ละข้อถูกนำมาใช้อย่างอิสระ"
+"หากต้องการเปลี่ยนการกำหนดค่าการจับคู่เป็น: guilabel:` จับคู่ทั้งหมด"
+"ปฏิบัติตามกฎและต้องเพิ่มกฎการคัดกรองอย่างน้อยสองข้อลงในการปรับแต่ง"
+"ฟิลเตอร์"
 
 #: ../../content/applications/essentials/search.rst:96
 msgid ""
 ":guilabel:`Match all 🔽 of the following rules`: **all** of the filter rules "
 "must be met. Logically, this is an *AND* (`&`) operation."
 msgstr ""
+":guilabel:"จับคู่ทั้งหมด 🔽  กฎต่อไปนี้: **ทั้งหมด ** กฎการกรอง"
+"ต้องพอใจ ตามหลักตรรกะนี่คือการดำเนินการ * AND * (`&`)"
 
 #: ../../content/applications/essentials/search.rst:98
 msgid ""
 ":guilabel:`Match any 🔽 of the following rules`: **any** of the filter rules "
 "can be met. Logically, this is an *OR* (`|`) operation."
 msgstr ""
+":guilabel:"ตรงกับอะไรก็ได้ 🔽  กฎต่อไปนี้: ** ใด ๆ ** กฎการกรอง"
+"พอใจได้ ตามหลักตรรกะนี่คือการดำเนินการ * OR * (" #")"
 
 #: ../../content/applications/essentials/search.rst:101
 msgid ""
 "By default, a single filter rule is added to the custom filter. The "
 "following describes the structure of a filter rule:"
 msgstr ""
+"โดยค่าเริ่มต้นกฎการกรองเดียวจะถูกเพิ่มลงในตัวกรองที่กำหนดเอง นี่"
+"โครงสร้างของกฎการกรองอธิบายไว้ด้านล่าง:"
 
 #: ../../content/applications/essentials/search.rst:104
 msgid ""
@@ -3401,6 +4277,10 @@ msgid ""
 "an :guilabel:`> (arrow)` icon beside them, which can be selected to reveal "
 "the nested fields."
 msgstr ""
+"ฟิลด์อินไลน์แรกคือการกรอง * ชื่อฟิลด์ * บางฟิลด์มี"
+"พารามิเตอร์การกลั่นที่รังในสนามอื่น ฟิลด์เหล่านี้มี"
+"ถัดไปมีหนึ่ง: guilabel:`> (ลูกศร)`ไอคอนสามารถเลือกเพื่อแสดง"
+"ช่องทำรัง"
 
 #: ../../content/applications/essentials/search.rst:107
 msgid ""
@@ -3408,6 +4288,9 @@ msgid ""
 "field name to the value. The :ref:`available conditional operators "
 "<reference/orm/domains>` are specific to the field's data type."
 msgstr ""
+"ฟิลด์อินไลน์ที่สองเป็นเงื่อนไข * ผู้ประกอบการ * สำหรับการเปรียบเทียบ"
+"ชื่อฟิลด์คือค่า :ref:` ผู้ประกอบการตามเงื่อนไขที่มีอยู่"
+"<อ้างอิง / orm / domain> `ประเภทข้อมูลที่เฉพาะเจาะจงสำหรับฟิลด์"
 
 #: ../../content/applications/essentials/search.rst:110
 msgid ""
@@ -3416,16 +4299,22 @@ msgid ""
 "date/time input, a boolean selector, or it may be blank, depending on the "
 "operator used and the field's data type."
 msgstr ""
+"ฟิลด์อินไลน์ที่สามคือตัวแปร * value * ของชื่อฟิลด์ ความคุ้มค่า"
+"อินพุตสามารถแสดงเป็นเมนูแบบเลื่อนลง, ป้อนข้อความ, ป้อนตัวเลข,"
+"ป้อนวันที่ / เวลาตัวเลือกบูลีนยังสามารถว่างเปล่าขึ้นอยู่กับ"
+"ประเภทของข้อมูลของผู้ประกอบการและฟิลด์ที่ใช้"
 
 #: ../../content/applications/essentials/search.rst:114
 msgid ""
 "Three inline buttons are also available to the right of the rule's filter "
 "criteria:"
 msgstr ""
+"นอกจากนี้ยังมีปุ่มอินไลน์สามปุ่มทางด้านขวาของตัวกรองปกติ"
+"มาตรฐาน:"
 
 #: ../../content/applications/essentials/search.rst:116
 msgid ":guilabel:`➕ (plus sign)`: adds a new rule below the existing rule."
-msgstr ""
+msgstr ":Ji:` ➕  (บวก) `: เพิ่มกฎใหม่ภายใต้กฎที่มีอยู่"
 
 #: ../../content/applications/essentials/search.rst:117
 msgid ""
@@ -3435,6 +4324,11 @@ msgid ""
 "matching option is set to the same as the parent group, the fields are moved"
 " to join the parent group."
 msgstr ""
+":guilabel:` (สาขาเพิ่ม)`: เพิ่มชุดกฎใหม่ภายใต้กฎที่มีอยู่,"
+"ใช้: guilabel: `any` และ: guilabel: `all` ตัวเลือกการจับคู่"
+"กำหนดวิธีการใช้กฎแต่ละข้อในสาขานี้กับตัวกรอง หาก"
+"ตัวเลือกการจับคู่ถูกตั้งค่าให้เหมือนกับกลุ่มแม่และฟิลด์จะถูกย้าย"
+"เข้าร่วมกลุ่มแม่"
 
 #: ../../content/applications/essentials/search.rst:123
 msgid ""
@@ -3443,24 +4337,34 @@ msgid ""
 ":guilabel:`any 🔽 of` to :guilabel:`all 🔽 of`, the newly-added branch "
 "disappears, and its group of rules are moved to the parent group."
 msgstr ""
+"ถ้าตัวเลือกการจับคู่ถูกตั้งค่าเป็น: guilabel: `จับคู่ทั้งหมด 🔽  เนื้อหาต่อไปนี้"
+"rules และเพิ่มสาขาใหม่ที่มีตัวเลือกการจับคู่ตั้งแต่"
+"Ji: ใด ๆ 🔽  Togibel: ทั้งหมด 🔽  สาขาที่เพิ่มเข้ามาใหม่"
+"หายไปและกลุ่มกฎของมันถูกย้ายไปยังกลุ่มแม่"
 
 #: ../../content/applications/essentials/search.rst:128
 msgid ""
 ":guilabel:`🗑️ (garbage can)`: deletes the node. If a branch node is deleted,"
 " all children of that node are deleted, as well."
 msgstr ""
+":Ji:` 🗑️  (ถังขยะ) `: ลบโหนด หากตัดปมสาขาออกไป"
+"โหนดย่อยทั้งหมดของโหนดจะถูกลบออกเช่นกัน"
 
 #: ../../content/applications/essentials/search.rst:131
 msgid ""
 "A new filter rule can be added to the custom filter by clicking the "
 ":guilabel:`New Rule` button."
 msgstr ""
+"กฎการกรองใหม่สามารถเพิ่มลงในการกรองที่กำหนดเองได้โดยคลิกที่ปุ่มต่อไปนี้"
+": guilabel: ปุ่ม "กฎใหม่""
 
 #: ../../content/applications/essentials/search.rst:133
 msgid ""
 "Once the filter criteria are defined, click :guilabel:`Add` to add the "
 "custom filter to the view."
 msgstr ""
+"หลังจากกำหนดเงื่อนไขการกรองแล้วคลิก: guilabel: `Add` เพิ่ม"
+"ตัวกรองมุมมองที่กำหนดเอง"
 
 #: ../../content/applications/essentials/search.rst:136
 msgid ""
@@ -3468,34 +4372,37 @@ msgid ""
 " are in the *Won* stage, and have an expected revenue greater than $1,000, "
 "the following should be entered:"
 msgstr ""
+"ค้นหาโอกาสในการขายและโอกาสทั้งหมดจากส่วนเมนูต่อไปนี้: แอปพลิเคชัน "CRM""
+"ในระยะ *ชนะ* คาดว่าจะมีรายได้มากกว่า $1,000"
+"ควรป้อนข้อมูลต่อไปนี้"
 
 #: ../../content/applications/essentials/search.rst:139
 msgid ":guilabel:`Match all 🔽 (down arrow) of the following rules:`"
-msgstr ""
+msgstr ":guilabel:"จับคู่ทั้งหมด 🔽  (ลูกศรลง) กฎต่อไปนี้: `"
 
 #: ../../content/applications/essentials/search.rst:141
 msgid ":guilabel:`Stage` :guilabel:`is in` :guilabel:`Won`"
-msgstr ""
+msgstr ": Guilabel: "เวที": Guilabel: "กำลัง": Guilabel: "ชนะ""
 
 #: ../../content/applications/essentials/search.rst:142
 msgid ":guilabel:`Expected Revenue` :guilabel:`>` `1,000`"
-msgstr ":guilabel:`รายได้ที่คาดหวัง` :guilabel:`>` `1,000`"
+msgstr ": guilabel: "รายได้ที่คาดหวัง": guilabel: `> `1000`"
 
 #: ../../content/applications/essentials/search.rst:143
 msgid ":guilabel:`any 🔽 (down arrow)` :guilabel:`of:`"
-msgstr ":guilabel:`any 🔽 (ลูกศรลง)` :guilabel:`of:`"
+msgstr "Ji: ใด ๆ 🔽  (ลูกศรลง): guilabel: `"
 
 #: ../../content/applications/essentials/search.rst:145
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Lead`"
-msgstr ":guilabel:`ประเภท` :guilabel:`=` :guilabel:`ลูกค้าเป้าหมาย`"
+msgstr ": guilabel: "ประเภท": guilabel: "=": guilabel: "ตะกั่ว""
 
 #: ../../content/applications/essentials/search.rst:146
 msgid ":guilabel:`Type` :guilabel:`=` :guilabel:`Opportunity`"
-msgstr ":guilabel:`ประเภท` :guilabel:`=` :guilabel:`ผู้มีโอกาสเป็นลูกค้า`"
+msgstr ": Guilabel: "ประเภท": Guilabel: "=": Guilabel: "โอกาส""
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Adding a custom filter to filter specific records in CRM."
-msgstr ""
+msgstr "เพิ่มตัวกรองที่กำหนดเองเพื่อกรองระเบียนเฉพาะใน CRM ของคุณ"
 
 #: ../../content/applications/essentials/search.rst:153
 msgid ""
@@ -3503,13 +4410,13 @@ msgid ""
 "data type, as well as the :guilabel:`# Code editor` text area below the "
 "filter rules, to view and edit the domain manually."
 msgstr ""
-"เปิดใช้งาน :ref:`โหมดนักพัฒนา` "
-"เพื่อเปิดเผยชื่อทางเทคนิคและประเภทข้อมูลของแต่ละช่อง รวมถึงพื้นที่ข้อความ "
-":guilabel:`# โปรแกรมแก้ไขโค้ด` ใต้กฎตัวกรอง เพื่อดูและแก้ไขโดเมนด้วยตนเอง"
+"เปิดใช้งาน: อ้าง: "โหมดนักพัฒนา" เพื่อแสดงชื่อทางเทคนิคของแต่ละพื้นที่และ"
+"ประเภทข้อมูลและด้านล่าง: guilabel: "#แก้ไขรหัส" พื้นที่ข้อความ"
+"กรองกฎดูและแก้ไขโดเมนด้วยตนเอง"
 
 #: ../../content/applications/essentials/search.rst:160
 msgid "Group records"
-msgstr ""
+msgstr "บันทึกกลุ่ม"
 
 #: ../../content/applications/essentials/search.rst:162
 msgid ""
@@ -3518,6 +4425,10 @@ msgid ""
 "arrow)` icon in the search bar, then select one of the :guilabel:`Group By` "
 "options from the drop-down menu."
 msgstr ""
+"ตามตัวอย่างที่แสดงการบันทึกในมุมมองสามารถรวมกันได้"
+"* กลุ่มที่กำหนดไว้ล่วงหน้า * สำหรับสิ่งนี้คลิกที่: guilabel:` 🔽  ( ลง"
+"ลูกศร) ไอคอนแล้วเลือกหนึ่งในตัวเลือกต่อไปนี้: guilabel: จัดกลุ่มทาง"
+"ตัวเลือกในเมนูแบบเลื่อนลง"
 
 #: ../../content/applications/essentials/search.rst:167
 msgid ""
@@ -3527,10 +4438,15 @@ msgid ""
 " The view changes to group the records by salesperson, without filtering out"
 " any records."
 msgstr ""
+"จัดกลุ่มบันทึกโดยพนักงานขายใน * การวิเคราะห์การขาย * รายงาน"
+"(:menusesection:` แอพพลิเคชั่นการขาย -> รายงาน -> การขาย '), คลิก"
+": guilabel: ตัวเลือก "พนักงานขาย" ในเมนูแบบเลื่อนลง "พื้นฐานกลุ่ม""
+"มุมมองจะเปลี่ยนเป็นการจัดกลุ่มบันทึกโดยพนักงานขายโดยไม่ต้องกรอง"
+"บันทึกอะไรก็ได้"
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "Grouping records on the Sales Analysis report"
-msgstr ""
+msgstr "จัดกลุ่มบันทึกในรายงานการวิเคราะห์การขาย"
 
 #: ../../content/applications/essentials/search.rst:176
 msgid ""
@@ -3538,6 +4454,9 @@ msgid ""
 "To do so, click :menuselection:`Add Custom Group`, and select a field from "
 "the drop-down menu."
 msgstr ""
+"กลุ่มที่กำหนดเองสามารถใช้ฟิลด์ * ในโมเดล *"
+"เมื่อต้องการทำเช่นนี้คลิกที่: menuselection: "เพิ่มกลุ่มที่กำหนดเอง" และเลือกฟิลด์จาก"
+"เมนูแบบเลื่อนลง"
 
 #: ../../content/applications/essentials/search.rst:180
 msgid ""
@@ -3546,10 +4465,14 @@ msgid ""
 " main group's categories, and so on. Furthermore, filters and groups can be "
 "used together to refine the view even more."
 msgstr ""
+"ใช้หลายกลุ่มพร้อมกันได้ กลุ่มแรกคือ"
+"กลุ่มที่ได้รับเลือกเป็นคลัสเตอร์หลักและคลัสเตอร์ถัดไปที่เพิ่มเข้ามาจะถูกแบ่งต่อไป"
+"หมวดหมู่ของกลุ่มหลัก ฯลฯ นอกจากนี้ตัวกรองและกลุ่มสามารถ"
+"การใช้ร่วมกันสามารถปรับมุมมองให้เหมาะสมยิ่งขึ้น"
 
 #: ../../content/applications/essentials/search.rst:187
 msgid "Comparison"
-msgstr "การเปรียบเทียบ"
+msgstr "เปรียบเทียบ"
 
 #: ../../content/applications/essentials/search.rst:189
 msgid ""
@@ -3561,6 +4484,13 @@ msgid ""
 "<../inventory_and_mrp/purchase/advanced/analyze>` report for the *Purchase* "
 "app, among others."
 msgstr ""
+"แดชบอร์ดการรายงานบางอย่างแสดงใน"
+"เมนูแบบเลื่อนลงของพวกเขา: guilabel: "ค้นหา ... " บาร์ ซึ่งรวมถึง"
+":doc:`ประสิทธิภาพของอุปกรณ์โดยรวม"
+"<../ investory_and_mrp / Manufacturing / รายงานสถานการณ์ / oee > `Report"
+"* การผลิต * App และ: doc:`ซื้อ"
+"<../ investory_and_mrp / จัดซื้อจัดจ้าง / ขั้นสูง / วิเคราะห์ > ` รายงานการจัดซื้อจัดจ้าง *"
+"แอปพลิเคชัน ฯลฯ"
 
 #: ../../content/applications/essentials/search.rst:195
 msgid ""
@@ -3569,6 +4499,10 @@ msgid ""
 "options to choose from: :guilabel:`(Time Filter): Previous Period` and "
 ":guilabel:`(Time Filter): Previous Year`."
 msgstr ""
+"ใช้: icon: "fa adjust": guilabel: ตัวเลือกในส่วน "Comparison""
+"เปรียบเทียบข้อมูลจากสองช่วงเวลาที่แตกต่างกัน มีการเปรียบเทียบสองแบบ"
+"ตัวเลือกที่มีอยู่:: guilabel:` (ตัวกรองเวลา): ช่วงก่อนหน้า ` และ"
+":guilabel:` (ตัวกรองเวลา): ปีก่อน`"
 
 #: ../../content/applications/essentials/search.rst:200
 msgid ""
@@ -3577,6 +4511,10 @@ msgid ""
 " been selected in the :guilabel:`Filters` column. This is because, if no "
 "time period is specified, there is nothing to compare."
 msgstr ""
+"สำหรับบางรายงาน,: guilabel: ส่วน "เปรียบเทียบ" ** เท่านั้น ** ปรากฏบน"
+":guilabel:"ค้นหา..." หากช่วงเวลาหนึ่ง (หรือมากกว่า) มี"
+"ถูกเลือกแล้วใน: guilabel: "ตัวกรอง" คอลัมน์ ทั้งนี้เพราะหากไม่มี"
+"กำหนดเวลาไว้ไม่มีอะไรมาเปรียบเทียบ"
 
 #: ../../content/applications/essentials/search.rst:205
 msgid ""
@@ -3587,10 +4525,16 @@ msgid ""
 "enabled, but doing so does **not** change the way data is displayed on the "
 "report."
 msgstr ""
+"นอกจากนี้รายงานบางฉบับอนุญาตให้ใช้เท่านั้น: guilabel: `เปรียบเทียบ`"
+"เมื่อคุณสมบัติคือ: icon: "แผนภูมิวงกลม fa": guilabel: "(แผนภูมิวงกลม)" ประเภทกราฟิกหรือ"
+"เลือก: icon: "oi View Pivot": guilabel: "(pivot)" ดู A."
+": guilabel: เลือกตัวเลือก "เปรียบเทียบ" แม้ว่าจะมีมุมมองอื่น"
+"เปิดใช้งาน แต่ทำเช่นนั้น ** ไม่ ** เปลี่ยนข้อมูลใน"
+"รายงานมา"
 
 #: ../../content/applications/essentials/search.rst-1
 msgid "The Search... bar for the production analysis report."
-msgstr ""
+msgstr "ค้นหา... กราฟแท่งสำหรับรายงานการวิเคราะห์การผลิต"
 
 #: ../../content/applications/essentials/search.rst:215
 msgid ""
@@ -3600,6 +4544,11 @@ msgid ""
 "Period` or :guilabel:`(Time Filter): Previous Year` in the "
 ":guilabel:`Comparison` section."
 msgstr ""
+"หากต้องการใช้หนึ่งในสองการเปรียบเทียบเพื่อดูข้อมูลให้เลือกเวลาก่อน"
+"ใน: guilabel: "ค้นหา..." ของ: guilabel: "ตัวกรอง" คอลัมน์ บาร์"
+"เมนูแบบเลื่อนลง จากนั้นเลือก: guilabel:` (ตัวกรองเวลา): ก่อนหน้า"
+"ช่วงเวลาหรือ: guilabel: (ตัวกรองเวลา): ปีที่แล้ว"
+": guilabel: ส่วน "เปรียบเทียบ""
 
 #: ../../content/applications/essentials/search.rst:220
 msgid ""
@@ -3608,6 +4557,10 @@ msgid ""
 "(month, quarter, year), one period or year prior. The way the data is "
 "displayed depends on the selected view:"
 msgstr ""
+"เมื่อเปิดใช้งานตัวเลือกใดตัวเลือกหนึ่งต่อไปนี้รายงานจะถูกเปรียบเทียบ"
+"ข้อมูลของช่วงเวลาที่เลือกและข้อมูลของหน่วยเวลาเดียวกัน"
+"(เดือน ไตรมาส ปี) ช่วงเวลาหรือปีที่ผ่านมา วิธีข้อมูล"
+"การแสดงผลขึ้นอยู่กับมุมมองที่เลือก:"
 
 #: ../../content/applications/essentials/search.rst:224
 msgid ""
@@ -3616,6 +4569,10 @@ msgid ""
 "represents the selected time period, while the right bar represents the "
 "previous time period."
 msgstr ""
+":icon:`fa bar`:guilabel:`(แผนภูมิบาร์)`แสดงสองแถบเคียงข้างกัน -"
+"สำหรับแต่ละหน่วยเวลาของช่วงเวลาที่เลือก บาร์ด้านซ้าย"
+"ระบุช่วงเวลาที่เลือก ในขณะที่แถบด้านขวาระบุ"
+"ช่วงก่อนหน้านี้"
 
 #: ../../content/applications/essentials/search.rst:227
 msgid ""
@@ -3623,6 +4580,9 @@ msgid ""
 "lines, one representing the selected time period, and the other representing"
 " the previous time period."
 msgstr ""
+": icon: "fa line chart": guilabel: "(แผนภูมิเส้น)" แสดงเป็นสอง"
+"เส้นหนึ่งแสดงถึงช่วงเวลาที่เลือกและอีกอันหมายถึง"
+"ช่วงก่อนหน้านี้"
 
 #: ../../content/applications/essentials/search.rst:229
 msgid ""
@@ -3630,6 +4590,9 @@ msgid ""
 "with a smaller circle inside. The larger circle represents the selected time"
 " period, while the smaller circle represents the previous time period."
 msgstr ""
+": icon: "fa cake chart": guilabel: "(แผนภูมิวงกลม)" แสดงเป็นวงกลมขนาดใหญ่"
+"มีวงกลมเล็กๆอยู่ข้างใน วงกลมขนาดใหญ่หมายถึงเวลาที่เลือก"
+"ช่วงเวลาในขณะที่วงกลมที่เล็กกว่าหมายถึงช่วงเวลาก่อนหน้า"
 
 #: ../../content/applications/essentials/search.rst:232
 msgid ""
@@ -3638,6 +4601,10 @@ msgid ""
 "selected time period, while the left column represents the previous time "
 "period."
 msgstr ""
+"แต่ละมุมมองจะแสดง: icon: "oi-view pivot": guilabel: "(ตาราง pivot)""
+"คอลัมน์นี้ถูกแบ่งออกเป็นสองส่วน แสดงคอลัมน์ด้านขวา"
+"ระยะเวลาที่เลือกในขณะที่คอลัมน์ด้านซ้ายหมายถึงเวลาที่ผ่านมา"
+"ช่วงเวลา"
 
 #: ../../content/applications/essentials/search.rst:237
 msgid ""
@@ -3648,6 +4615,12 @@ msgid ""
 "drop-down menu. In the :guilabel:`Comparison` section, :guilabel:`End Date: "
 "Previous Year` is selected."
 msgstr ""
+"ใน: guilabel: รายงานการวิเคราะห์การผลิต"
+": menuselection: แอปพลิเคชัน "manufacturing" ซึ่งข้อมูลในไตรมาสที่ 2 ของปี 2024 คือ"
+"เมื่อเปรียบเทียบกับข้อมูลในไตรมาส 2 ปี 2566: guilabel: เลือก "Q2""
+"ใน: guilabel: "ค้นหา..." ของ: guilabel: "วันสิ้นสุด" ตัวกรองส่วน บาร์"
+"เมนูแบบเลื่อนลง ใน: guilabel: "เปรียบเทียบ" ส่วน: guilabel: "วันสิ้นสุด:"
+"เลือก "ปีก่อน""
 
 #: ../../content/applications/essentials/search.rst:242
 msgid ""
@@ -3655,6 +4628,9 @@ msgid ""
 "quarter (Q2) of 2024. The smaller circle shows data for the second quarter "
 "(Q2) of 2023, which is the same time period, but one *year* prior."
 msgstr ""
+"ปีปัจจุบันคือ 2024 ดังนั้นวงกลมขนาดใหญ่แสดงข้อมูลของปีที่สอง"
+"ไตรมาสที่ 2 ปี 2024 วงกลมขนาดเล็กแสดงข้อมูลในไตรมาสที่สอง"
+"ในไตรมาส 2 ปี 2566 ซึ่งเป็นช่วงเวลาเดียวกัน แต่เร็วกว่าปี"
 
 #: ../../content/applications/essentials/search.rst:246
 msgid ""
@@ -3662,20 +4638,25 @@ msgid ""
 "circle shows data for the first quarter (Q1) of 2024, which is the same time"
 " period, but one *period* prior."
 msgstr ""
+"หากเลือก: guilabel: "วันสิ้นสุด: ช่วงก่อนหน้า" ให้ใช้ค่าน้อยลง"
+"วงกลมแสดงข้อมูลไตรมาสที่ 1 ปี 2567 (Q1) ซึ่งเป็นช่วงเวลาเดียวกัน"
+"ระยะเวลา แต่ก่อนหน้านี้ * ระยะเวลา *"
 
 #: ../../content/applications/essentials/search.rst:0
 msgid "The comparison view of the Production Analysis report."
-msgstr ""
+msgstr "มุมมองเปรียบเทียบของรายงานการวิเคราะห์การผลิต"
 
 #: ../../content/applications/essentials/search.rst:256
 msgid "Favorites"
-msgstr "รายการโปรด"
+msgstr "คอลเลกชัน"
 
 #: ../../content/applications/essentials/search.rst:258
 msgid ""
 "Favorites are a way to save a specific search for future use, or as the new "
 "default filter for the view."
 msgstr ""
+"รายการโปรด เป็นวิธีการบันทึกการค้นหาเฉพาะเพื่อใช้ในอนาคตหรือเป็นการค้นหาใหม่"
+"ตัวกรองปริยายสำหรับมุมมอง"
 
 #: ../../content/applications/essentials/search.rst:261
 msgid ""
@@ -3683,32 +4664,41 @@ msgid ""
 " icon in the search bar, then select the :guilabel:`Save current search` "
 "drop-down menu to display the following options:"
 msgstr ""
+"หากต้องการบันทึกมุมมองปัจจุบันเป็นรายการโปรดคลิกที่: guilabel:` 🔽  (ลูกศรลง)"
+"คลิกที่ไอคอนในแถบค้นหาและเลือก: guilabel:` บันทึกการค้นหาปัจจุบัน"
+"เมนูแบบเลื่อนลงแสดงตัวเลือกต่อไปนี้:"
 
 #: ../../content/applications/essentials/search.rst:265
 msgid "Filter name: name of the favorited search."
-msgstr ""
+msgstr "ชื่อตัวกรอง: ชื่อที่ค้นหาในรายการโปรด"
 
 #: ../../content/applications/essentials/search.rst:266
 msgid ""
 ":guilabel:`Default filter`: sets the favorited search as the default filter "
 "for the view."
 msgstr ""
+":guilabel:`Defaultfilter`:ตั้งค่าการค้นหาของคอลเลกชันเป็นตัวกรองเริ่มต้น"
+"สำหรับภูมิทัศน์"
 
 #: ../../content/applications/essentials/search.rst:267
 msgid ""
 ":guilabel:`Shared`: makes the favorited search available to all users. By "
 "default, the favorited search is only available to the user who created it."
 msgstr ""
+": guilabel: `Shared`: ทำให้ผู้ใช้ทุกคนสามารถค้นหารายการโปรดได้ By"
+"โดยค่าเริ่มต้นการค้นหารายการโปรดมีให้บริการเฉพาะกับผู้ที่สร้างเท่านั้น"
 
 #: ../../content/applications/essentials/search.rst:270
 msgid ""
 "Once the options are set, click :guilabel:`Save` to save the favorited "
 "search."
 msgstr ""
+"เมื่อตั้งค่าตัวเลือกคลิกที่: guilabel: "บันทึก" เพื่อบันทึกรายการโปรด"
+"ค้นหา"
 
 #: ../../content/applications/essentials/search.rst-1
 msgid "Saving a favorite search on the Sales Analysis report"
-msgstr ""
+msgstr "บันทึกการค้นหารายการโปรดไว้ในรายงานการวิเคราะห์การขาย"
 
 #: ../../content/applications/essentials/search.rst:276
 msgid ""
@@ -3717,6 +4707,10 @@ msgid ""
 ":guilabel:`Favorites` drop-down menu. To remove a saved favorite, click the "
 ":guilabel:`🗑️ (garbage can)` icon next to the favorited search."
 msgstr ""
+"รายการโปรดที่บันทึกไว้สามารถเข้าถึงได้โดยคลิกที่: guilabel:` 🔽  (ลูกศรลง)"
+"เลือกไอคอนในแถบค้นหาจากนั้นไปที่"
+": guilabel: เมนู "รายการโปรด" แบบเลื่อนลง หากต้องการลบรายการโปรดที่บันทึกไว้ คลิก"
+":Ji:` 🗑️  ค้นหารายการโปรดถัดจากไอคอน"
 
 #: ../../content/applications/essentials/search.rst:281
 msgid ""
@@ -3725,3 +4719,8 @@ msgid ""
 "User-defined Filters`. From here, all favorited searches can be viewed, "
 "edited, archived, or deleted."
 msgstr ""
+"หากต้องการดู * ทั้งหมด * การค้นหารายการโปรดโปรดเปิดใช้งานครั้งแรก: อ้าง: "โหมดนักพัฒนา" แล้ว"
+"ไปที่: menusesection:` ตั้งค่าแอป -> เทคโนโลยี -> UI:"
+"ตัวกรองที่ผู้ใช้กำหนด คุณสามารถดูการค้นหาทั้งหมดที่ชอบได้จากที่นี่"
+"แก้ไข จัดเก็บ หรือลบ"
+
